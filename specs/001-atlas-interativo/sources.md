@@ -45,3 +45,11 @@ As cinco páginas apresentam marcações de domínio público com condições e 
 Cobertura técnica inicial: 195/195 entradas com nome-base, capital, ponto de foco e join; 5/195 bandeiras locais; 5/195 candidatos a hino com revisão documental; 0/195 hinos liberados e testados para reprodução. A revisão editorial completa das 195 entradas e a expansão de bandeiras/hinos pertencem a T12.
 
 T11 deverá obter as gravações, preservar créditos e notas, resolver as condições de distribuição, escolher formatos compatíveis com Android/iPhone e verificar áudio real. Não prometer cobertura mundial dos hinos a partir desta amostra. D02 fica definido para o catálogo inicial; D03 fica encaminhado com candidatos e lacunas explícitas.
+
+## Atualização da fase 2 — T05–T07
+
+Os 195 SVGs de bandeiras foram preparados localmente para os cartões; origem e hashes estão em data-sources/phase-2-flags.json. A checagem técnica não equivale à revisão editorial completa de T12. Os cinco hinos continuam somente como candidatos.
+
+Foi corrigida a correspondência da Austrália para AUS. O join inicial também incluía IOA e ATC pelo campo ISO alternativo da fonte; essas geometrias pertencem ao contexto de territórios dependentes e não devem selecionar a Austrália. O manifesto registra o novo hash do catálogo derivado, sem mudar o hash da captura original.
+
+O runtime usa 242 geometrias, sendo 195 selecionáveis e 47 de contexto. TopoJSON mantém os contornos e as ilhas com arcos compartilhados e quantização, sem simplificação que remova pequenos países. Marcadores e a lista nativa da ajuda oferecem alternativa aos polígonos pequenos. Ramallah é apresentada como sede administrativa no cartão de Palestina; notas internas de revisão do fornecedor não são exibidas.

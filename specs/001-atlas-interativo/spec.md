@@ -1,6 +1,6 @@
 # Especificação — Atlas interativo
 
-Status: escopo das fases 0 e 1 consolidado e executado por solicitação do usuário. Requisitos das fases seguintes permanecem como alvo de implementação. Data: 2026-11-02.
+Status: fases 0 a 3 e T10 da fase 4 executadas por solicitação do usuário. Hinos, cobertura editorial final e PWA permanecem nas próximas tarefas. Data: 2026-11-03.
 
 ## Objetivo
 
@@ -9,7 +9,7 @@ Permitir que uma criança de até 5 anos explore o mundo em uma única página: 
 ## Decisões confirmadas com o usuário
 
 - React com Vite, Tailwind CSS e GSAP.
-- Mapa plano, estilo atlas, com interface clara, simples e cores chamativas para uma criança de até 5 anos.
+- Mapa plano, estilo atlas, com interface clara e simples para uma criança de até 5 anos; países em cores pastel mais definidas por continente e cor chamativa somente no país selecionado.
 - Atomic Design em toda a interface, com componentes bem separados e responsabilidades documentadas.
 - PWA instalável, com experiência mobile como prioridade e validação em Android e iPhone.
 - Mapa ocupa toda a tela; scroll aproxima/afasta e arraste desloca.
@@ -20,9 +20,9 @@ Permitir que uma criança de até 5 anos explore o mundo em uma única página: 
 
 ## Experiência proposta
 
-Ao abrir, a criança vê o mapa colorido e a barra de pesquisa flutuante, com microfone em evidência. Controles grandes de zoom e de retorno à visão mundial ficam sobre o mapa. Não há seções adicionais abaixo da tela.
+Ao abrir, a criança vê o mapa em cores pastel mais definidas por continente e a barra de pesquisa flutuante, com microfone em evidência. Controles grandes de zoom e de retorno à visão mundial ficam sobre o mapa. Não há seções adicionais abaixo da tela nem cartão de boas-vindas sobre o mapa.
 
-Selecionar um país destaca seu território e enquadra a região sem esconder o conteúdo atrás do cartão. O cartão flutua sobre o mapa no desktop; no celular, será um painel inferior que deixa parte do mapa visível. Bandeira, nome, capital, botão de pronúncia e controles do hino aparecem apenas após a seleção. Fechar o painel sempre tem botão visível; arrastar não é obrigatório para fechá-lo.
+Selecionar um país destaca seu território e enquadra a região sem esconder o conteúdo atrás do cartão. O cartão flutua sobre o mapa no desktop; no celular, será um painel inferior que deixa parte do mapa visível. Bandeira, nome, capital, botão de pronúncia e controles do hino aparecem apenas após a seleção. Fechar o painel sempre tem botão visível; arrastar não é obrigatório para fechá-lo. Clicar/tocar no oceano ou no fundo do mapa sem país selecionável também limpa a seleção e fecha o painel; clicar no país atual mantém a seleção e clicar em outro país a substitui. Arraste/pinça/zoom não fecham o cartão.
 
 A busca mostra sugestões. Texto digitado e transcrição de voz passam pela mesma busca; escolher um resultado produz a mesma seleção que clicar no mapa. Nenhum áudio toca automaticamente.
 
@@ -36,10 +36,24 @@ Proposta offline inicial: depois de uma visita online com preparação completa 
 
 Atualizações são oferecidas discretamente ao responsável e aplicadas em momento escolhido, sem recarregar automaticamente durante exploração, reprodução ou captura de voz.
 
+## Comportamento implementado até T10
+
+Mapa SVG retangular com projeção equiretangular fixa com 195 países selecionáveis; toque/clique destaca e abre o cartão. Scroll, pinça, arraste e botões compartilham a câmera, com máximo de 32 e mínimo responsivo para preencher a tela sem espaço vazio além das bordas. O arraste para nos limites; scroll, pinça e botões respeitam o mesmo zoom mínimo. Arraste e pinça não disparam seleção. Fechar o cartão, clicar no fundo sem país selecionável ou usar “Ver o mundo” limpa a seleção e restaura a visão inicial no zoom mínimo. No celular em pé, a criança arrasta para explorar as regiões fora da tela.
+
+A ajuda oferece escolha por lista nativa para teclado e países pequenos; polígonos também aceitam Enter/espaço. Pequenos países recebem marcadores. Os nomes são centralizados em uma área interna do território principal, em caixa alta, cinza escuro e sem contorno, com até duas linhas. A fonte aparente varia de 14 a 18 px conforme o zoom; o nome só aparece quando o texto e uma margem de respiro cabem dentro do território. Omitir um rótulo não afeta seleção, busca ou cartão. Países com ilhas nos dois lados da borda focam a ilha principal, mantendo o mapa fixo; territórios distantes mantêm destaque, com enquadramento na região principal. A área livre é medida considerando busca, navegação e painel inferior/lateral. Não há alteração de fronteiras para ampliar alvos.
+
+A busca textual normaliza acentos, caixa e pontuação, consulta nome/aliases e ordena correspondências exatas antes de prefixos e trechos. São exibidas até três sugestões com bandeira/nome, botões Anteriores/Próximos, setas/Enter e Escape. A seleção passa pelo mesmo fluxo do mapa e, ao fechar o cartão, devolve foco à busca. Consulta vazia não abre sugestões.
+
+A voz usa uma sessão explícita pt-BR, apresenta a transcrição para escolha e encerra após resultado, cancelamento, falha ou 20 segundos sem conclusão. Seleção, digitação, ajuda, retorno ao mundo, saída/segundo plano e desmontagem encerram a captura. O navegador pode usar um serviço online; o atlas não persiste áudio/transcrições. Sem suporte, a ação do microfone explica a limitação e a busca textual continua disponível.
+
+A pronúncia é acionada no cartão por Ouvir nome e interrompida por Parar nome. Usa exclusivamente uma voz identificada como pt-BR, priorizando voz local, sem fila acumulada. A lista de vozes pode carregar depois; até 3 segundos de lista vazia exibem carregamento, depois indisponibilidade, com recuperação por voiceschanged. Eventos antigos não alteram uma operação nova. Uma operação sem conclusão é cancelada após 15 segundos.
+
+useAtlasAudio coordena fala e escuta: iniciar uma interrompe a outra; selecionar/fechar país, restaurar visão, abrir ajuda, sair/ocultar página ou desmontar encerra operações. Hino permanece desabilitado e será integrado a esse coordenador em T11. Instalação e cache PWA ficam em T16/T17.
+
 ## Diretrizes para até 5 anos
 
 - Exploração direta por toque e busca por voz; digitação continua disponível. Nenhuma ação essencial depende de hover, atalho ou instrução longa.
-- Fundo claro, oceano azul e países com cores vivas e contornos legíveis. As cores do mapa são decorativas, sem significado político; seleção também usa contorno para se distinguir da paleta.
+- Fundo claro, oceano azul e países em uma cor pastel mais definida por continente e contornos legíveis. O país selecionado recebe verde vivo e contorno escuro; hover e marcadores comuns usam um tom neutro suave. As cores do mapa são decorativas, sem significado político.
 - Ícones familiares acompanhados de rótulos curtos: “Falar”, “Ouvir nome”, “Ouvir hino”, “Pausar” e “Ver o mundo”. O desenho do ícone precisa permitir reconhecer a ação sem ler o rótulo.
 - Botões e linhas de resultado com área de toque mínima de 56×56 CSS px e pelo menos 8 px entre ações independentes. Essa é uma meta do produto; os polígonos geográficos mantêm sua forma, com busca e zoom como alternativas para países pequenos.
 - Texto de interface com tamanho-base de pelo menos 18 CSS px, títulos maiores e contraste mínimo de 4,5:1 para os textos. Bandeiras mantêm suas cores originais.
@@ -51,10 +65,10 @@ Atualizações são oferecidas discretamente ao responsável e aplicadas em mome
 
 | ID | Requisito |
 | --- | --- |
-| RF01 | Exibir mapa-múndi plano interativo ocupando a área útil da tela. |
-| RF02 | Permitir zoom por scroll, gesto de pinça e botões; permitir deslocamento por arraste e retorno à visão mundial. Limitar zoom e deslocamento para não perder o mapa. |
+| RF01 | Exibir mapa-múndi plano interativo ocupando a área útil da tela, com nomes no interior dos países quando houver espaço legível no zoom atual. |
+| RF02 | Permitir zoom por scroll, gesto de pinça e botões; permitir deslocamento por arraste e retorno à visão mundial. Limitar o afastamento para o mapa preencher a tela e o deslocamento às bordas, sem revelar espaço vazio. |
 | RF03 | Selecionar um país por clique/toque, destacando-o com preenchimento e contorno. Manter apenas um país selecionado e distinguir hover de seleção. |
-| RF04 | Mostrar cartão com bandeira, nome em português, capital ou capitais e controles de áudio. Permitir fechar, limpar o destaque e selecionar outro país. |
+| RF04 | Mostrar cartão com bandeira, nome em português, capital ou capitais e controles de áudio. Permitir fechar pelo botão ou pelo fundo do mapa sem país selecionável, limpar o destaque e selecionar outro país. |
 | RF05 | Enquadrar o país selecionado com transição suave, considerando o espaço do cartão, regiões descontínuas e países próximos à borda do mapa. |
 | RF06 | Buscar países por nome em português e aliases definidos no catálogo, ignorando acentos e maiúsculas. Mostrar sugestões e estado sem resultados. |
 | RF07 | Acionar busca por voz explicitamente pelo microfone, no idioma pt-BR; mostrar escuta, transcrição e erros. Após transcrever, apresentar os resultados para escolha. |
@@ -80,7 +94,7 @@ Atualizações são oferecidas discretamente ao responsável e aplicadas em mome
 | RNF07 | Usar identificadores estáveis para ligar geometrias, países e mídias. Registrar fonte e data de revisão; validar integridade do catálogo antes da entrega. |
 | RNF08 | Desmontagem e troca de seleção cancelam listeners, animações e operações pendentes, evitando efeitos duplicados e respostas de áudio de um país anterior. |
 | RNF09 | Interface apropriada a até 5 anos: fluxo principal por toque/ícones/voz, linguagem curta, controles e tipografia conforme as diretrizes infantis, sem depender de leitura autônoma. |
-| RNF10 | Usar paleta viva sobre base clara, contornos legíveis e contraste dos textos de pelo menos 4,5:1. Seleção e estados não podem depender somente da cor. |
+| RNF10 | Usar países em cores pastel mais definidas por continente sobre base clara, seleção em cor viva, contornos legíveis e contraste dos textos de pelo menos 4,5:1. Seleção e estados não podem depender somente da cor. |
 | RNF11 | Toda a interface deve seguir Atomic Design: átomos, moléculas, organismos, templates e páginas; regras de domínio, dados e APIs ficam em módulos próprios. Contratos e dependências seguem components.md. |
 | RNF12 | Componentes com responsabilidade única, props tipadas, estados explícitos e tokens compartilhados de cor, tipografia, espaçamento e movimento. Documentar variantes e exemplos dos componentes reutilizáveis. |
 | RNF13 | PWA com manifest, ícones adequados, service worker e publicação por HTTPS. Tratar diferenças de instalação entre plataformas e validar o build de produção. |
@@ -94,8 +108,8 @@ Atualizações são oferecidas discretamente ao responsável e aplicadas em mome
 | ID | Cenário verificável | Requisitos |
 | --- | --- | --- |
 | CA01 | Ao abrir em desktop ou celular, mapa e busca estão disponíveis, sem conteúdo abaixo nem overflow horizontal da página. | RF01, RNF01 |
-| CA02 | Scroll, arraste, pinça e botões alteram a visão dentro dos limites; arrastar não seleciona um país por engano; restaurar mostra o mundo. | RF02 |
-| CA03 | Selecionar Brasil destaca seu território, abre o cartão com bandeira e Brasília e enquadra a região; selecionar Japão substitui cartão e destaque. | RF03–RF05 |
+| CA02 | Scroll, arraste, pinça e botões alteram a visão dentro dos limites; arrastar não seleciona um país por engano; restaurar retorna à visão inicial no zoom mínimo que preenche a tela; regiões fora da tela continuam acessíveis por arraste. | RF02 |
+| CA03 | Selecionar Brasil destaca seu território, abre o cartão com bandeira e Brasília e enquadra a região; selecionar Japão substitui cartão e destaque. Clicar no oceano limpa seleção/cartão; arrastar ou dar zoom preserva a seleção. | RF03–RF05 |
 | CA04 | Buscar “japao” encontra Japão; aliases cadastrados funcionam; texto inexistente mostra ausência de resultados; setas e Enter permitem escolher, Escape fecha as sugestões. | RF06, RNF02 |
 | CA05 | Em navegador compatível, acionar microfone e falar “Brasil” apresenta resultado selecionável. Negação de permissão, silêncio, cancelamento, erro e ausência de suporte têm feedback e preservam a busca textual. | RF07, RNF05–RNF06 |
 | CA06 | Acionar pronúncia fala o nome em pt-BR quando há voz adequada; sem voz adequada, apresenta indisponibilidade. Cliques repetidos não acumulam uma fila de falas. | RF08, RF10 |
