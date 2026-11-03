@@ -97,7 +97,24 @@ test('pronuncia o nome em pt-BR, interrompe e alterna com o microfone', async ({
   ).toBeNull()
 
   await page.getByRole('button', { name: 'Ouvir nome', exact: true }).click()
+  await page.getByRole('button', { name: 'Ouvir hino', exact: true }).click()
+  await expect(
+    page.getByRole('button', { name: 'Ouvir nome', exact: true }),
+  ).toBeVisible()
+  expect(
+    await page.evaluate(
+      () => (window.speechSynthesis as MockSynthesis).current,
+    ),
+  ).toBeNull()
+  await expect
+    .poll(async () =>
+      Number(await page.getByRole('progressbar').getAttribute('value')),
+    )
+    .toBeGreaterThan(0.2)
   await page.getByRole('button', { name: 'Falar o nome de um país' }).click()
+  await expect(
+    page.getByRole('button', { name: 'Ouvir hino', exact: true }),
+  ).toBeVisible()
   await expect(
     page.getByRole('button', { name: 'Cancelar busca por voz' }),
   ).toBeVisible()
