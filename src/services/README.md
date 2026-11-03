@@ -1,3 +1,5 @@
 # Serviços
 
-APIs de áudio, voz e carregamento entram aqui nas fases seguintes. Não há serviço de reprodução, captura ou chamada externa no runtime da fase 1. Componentes visuais recebem estados e callbacks; AtlasPage conectará os adaptadores React aos serviços.
+loadAtlas carrega os dois arquivos locais de dados, recebe AbortSignal, verifica HTTP e encaminha unknown ao contrato de domínio parseAtlas. O hook useAtlasData coordena estados e tentativas; componentes não fazem fetch.
+
+speechRecognition detecta SpeechRecognition/webkitSpeechRecognition em contexto seguro e traduz erros para mensagens simples. useVoiceSearch adapta a API a uma única sessão explícita pt-BR, com cancelamento, limite de 20 segundos e proteção contra eventos de sessões anteriores. O navegador pode usar um serviço online; o atlas não persiste áudio/transcrições. speechSynthesis encapsula detecção, escolha exclusiva de pt-BR com preferência por voz local, criação da utterance e mensagens de erro. usePronunciation trata carregamento tardio, início/fim, cancelamento e limite de 15 segundos. useAtlasAudio compõe fala e escuta na página, interrompendo uma antes de iniciar a outra e expondo stopAll. Hinos entram em T11.

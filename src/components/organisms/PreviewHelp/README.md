@@ -1,21 +1,23 @@
 # PreviewHelp
 
-Ajuda secundária sobre escopo e fontes.
+Ajuda do atlas, fontes e explicação sobre permissão/processamento remoto de voz e disponibilidade de pronúncia pt-BR, com slot para a escolha acessível de país.
 
 ## Contrato
 
-onClose().
+onClose(); children?: ReactNode.
 
-## Estados e variantes
+## Estados
 
-aberto/fechado pela página; conteúdo com rolagem.
+Aberta/fechada pela página, conteúdo rolável.
+
+## Responsabilidade e acessibilidade
+
+Recebe foco sem rolar a página; botão para fechar e Escape pelo template. CountryPicker é composto pela página no slot.
 
 ## Exemplo
 
 ```tsx
-<PreviewHelp onClose={onClose} />
+<PreviewHelp onClose={closeHelp}>
+  <CountryPicker {...pickerProps} />
+</PreviewHelp>
 ```
-
-## Acessibilidade e responsabilidade
-
-Região nomeada e botão de fechar; não prende foco nem se apresenta como diálogo modal.

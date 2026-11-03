@@ -10,6 +10,8 @@ ComponentProps<button>, tone: primary | purple | soft | plain, children. Encamin
 
 padrão, foco, pressionado, disabled; aria-pressed pode representar alternância.
 
+Botões com disabled ou aria-disabled="true" usam opacidade de 20% e não recebem efeitos de hover/pressionamento. aria-disabled mantém a possibilidade de foco; quem fornece esse atributo também deve impedir a ação no callback.
+
 ## Exemplo
 
 ```tsx

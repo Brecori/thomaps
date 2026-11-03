@@ -1,21 +1,28 @@
 # ZoomControls
 
-Composição visual dos controles de navegação.
+Ações do controlador único do mapa.
 
 ## Contrato
 
-Sem props nesta etapa.
+disabled; canZoomIn; canZoomOut; onZoomIn(); onZoomOut(); onReset().
 
-## Estados e variantes
+## Estados
 
-indisponível na fase 1; integração fica em T06.
+Carregamento/erro desabilitam todos; limites desabilitam apenas a direção correspondente.
+
+## Responsabilidade e acessibilidade
+
+Não importa D3 ou decide transformação. Botões com nome acessível e alvo de 56 px; Ver o mundo também limpa a seleção pela página.
 
 ## Exemplo
 
 ```tsx
-<ZoomControls />
+<ZoomControls
+  disabled={!ready}
+  canZoomIn={canZoomIn}
+  canZoomOut={canZoomOut}
+  onZoomIn={zoomIn}
+  onZoomOut={zoomOut}
+  onReset={reset}
+/>
 ```
-
-## Acessibilidade e responsabilidade
-
-Grupo com nome e botões com aria-label; disabled comunica a ausência de funcionalidade.

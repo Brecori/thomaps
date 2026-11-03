@@ -1,17 +1,26 @@
+import type { InputHTMLAttributes, RefObject } from 'react'
 import { Button } from '@/components/atoms/Button'
 import { Icon } from '@/components/atoms/Icon'
 import { TextInput } from '@/components/atoms/TextInput'
 
 type SearchFieldProps = {
-  value: string
-  onChange: (value: string) => void
-  onUnavailable: () => void
+  inputRef: RefObject<HTMLInputElement | null>
+  inputProps: InputHTMLAttributes<HTMLInputElement>
+  disabled: boolean
+  voiceActive: boolean
+  voiceUnavailable: boolean
+  onVoiceToggle: () => void
+  onSubmit: () => void
 }
 
 export function SearchField({
-  value,
-  onChange,
-  onUnavailable,
+  inputRef,
+  inputProps,
+  disabled,
+  voiceActive,
+  voiceUnavailable,
+  onVoiceToggle,
+  onSubmit,
 }: SearchFieldProps) {
   return (
     <form
@@ -19,31 +28,38 @@ export function SearchField({
       role="search"
       onSubmit={(event) => {
         event.preventDefault()
-        onUnavailable()
+        onSubmit()
       }}
     >
-      <label htmlFor="country-search" className="sr-only">
+      <label htmlFor={inputProps.id} className="sr-only">
         Qual país vamos conhecer?
       </label>
       <Icon name="search" className="search-field__icon" />
       <TextInput
-        id="country-search"
+        {...inputProps}
+        ref={inputRef}
         type="search"
-        value={value}
-        onChange={(event) => onChange(event.target.value)}
+        disabled={disabled}
         placeholder="Qual país vamos conhecer?"
         autoComplete="off"
         enterKeyHint="search"
-        aria-describedby="preview-search-note"
       />
       <Button
         tone="purple"
-        className="search-field__voice"
-        aria-label="Falar o nome de um país"
-        onClick={onUnavailable}
+        className={`search-field__voice ${voiceActive ? 'is-listening' : ''}`}
+        disabled={disabled}
+        aria-label={
+          voiceActive
+            ? 'Cancelar busca por voz'
+            : voiceUnavailable
+              ? 'Busca por voz indisponível'
+              : 'Falar o nome de um país'
+        }
+        aria-pressed={voiceActive}
+        onClick={onVoiceToggle}
       >
-        <Icon name="mic" />
-        <span>Falar</span>
+        <Icon name={voiceActive ? 'close' : 'mic'} />
+        <span>{voiceActive ? 'Parar' : 'Falar'}</span>
       </Button>
     </form>
   )

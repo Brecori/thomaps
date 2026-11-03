@@ -10,10 +10,10 @@ export function CountryHeading({
 }: CountryHeadingProps) {
   return (
     <div className="country-heading">
-      <FlagImage src={flagSrc} alt={`Bandeira do ${name}`} />
+      <FlagImage key={flagSrc} src={flagSrc} alt={`Bandeira: ${name}`} />
       <div>
         <Text variant="label" className="eyebrow">
-          NOSSO PAÍS DE EXEMPLO
+          VAMOS CONHECER
         </Text>
         <Text as="h2" variant="heading" id={headingId}>
           {name}

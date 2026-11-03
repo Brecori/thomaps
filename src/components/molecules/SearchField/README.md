@@ -1,21 +1,29 @@
 # SearchField
 
-Campo e microfone da prévia visual.
+Campo e microfone, apresentados por CountrySearch.
 
 ## Contrato
 
-value: string; onChange(value); onUnavailable().
+inputRef, inputProps (valor, IDs, atributos ARIA e eventos), disabled, voiceActive, voiceUnavailable, onVoiceToggle() e onSubmit().
 
-## Estados e variantes
+## Estados e responsabilidade
 
-edição e envio por Enter; envio/microfone comunicam que a busca será implementada depois.
+Vazio/preenchido, indisponível durante carregamento, microfone ocioso, escutando/processando e voz sem suporte. Durante a operação, o botão troca o microfone por um X e recebe o nome “Cancelar busca por voz”. O componente recebe estado e callbacks; não consulta o catálogo nem cria captura.
+
+## Acessibilidade
+
+Form com role=search e label associado ao input. CountrySearch fornece a semântica de combobox e coordena o listbox. O botão de voz usa aria-pressed e nome conforme o estado; quando sem suporte, continua acionável para explicar a indisponibilidade.
 
 ## Exemplo
 
 ```tsx
-<SearchField value={query} onChange={setQuery} onUnavailable={showNotice} />
+<SearchField
+  inputRef={input}
+  inputProps={comboboxProps}
+  disabled={!ready}
+  voiceActive={voice.active}
+  voiceUnavailable={voice.status === 'unavailable'}
+  onVoiceToggle={toggleVoice}
+  onSubmit={submit}
+/>
 ```
-
-## Acessibilidade e responsabilidade
-
-Form com role=search e label; ainda não é combobox e não simula resultados ou captura. Conectar APIs apenas em T08/T09.

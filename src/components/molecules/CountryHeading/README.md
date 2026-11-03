@@ -1,14 +1,18 @@
 # CountryHeading
 
-Bandeira e nome no cabeçalho do cartão.
+Bandeira e nome do país selecionado.
 
 ## Contrato
 
-name: string; flagSrc: string; headingId: string.
+name; flagSrc; headingId.
 
-## Estados e variantes
+## Estados
 
-conteúdo de exemplo e falha de bandeira tratada pelo átomo.
+Conteúdo real do catálogo; fallback de imagem tratado por FlagImage.
+
+## Responsabilidade e acessibilidade
+
+Título h2 e bandeira com alt. Bandeira inteira com object-fit contain: 160×108 px no desktop amplo, 128×88 px em telas intermediárias e 112×76 px no celular (incluindo paisagem compacta). Novo src reinicia a tentativa de carregar; nenhum texto de país de exemplo permanece.
 
 ## Exemplo
 
@@ -19,7 +23,3 @@ conteúdo de exemplo e falha de bandeira tratada pelo átomo.
   headingId="country-title"
 />
 ```
-
-## Acessibilidade e responsabilidade
-
-Título h2 identificado pelo pai; bandeira com alt.

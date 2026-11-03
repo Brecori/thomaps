@@ -1,21 +1,26 @@
 # AudioControls
 
-Ações visuais de pronúncia e hino.
+Ações de pronúncia e hino apresentadas no cartão.
 
 ## Contrato
 
-Sem props na prévia; o contrato de reprodução entra em T10/T11.
+pronunciationActive, pronunciationAvailable, descriptionId e onPronunciationToggle(). O callback inicia ou interrompe a pronúncia na página; o componente não cria utterance nem captura.
 
 ## Estados e variantes
 
-indisponível na fase 1.
+Ouvir nome quando ocioso; Parar nome com ícone de X e aria-pressed durante preparação/reprodução. Sem voz adequada ou durante carregamento, a ação fica disabled e a nota do cartão explica o estado. Ouvir hino permanece disabled até T11.
 
 ## Exemplo
 
 ```tsx
-<AudioControls />
+<AudioControls
+  pronunciationActive={pronunciation.active}
+  pronunciationAvailable={pronunciation.available}
+  descriptionId={noteId}
+  onPronunciationToggle={togglePronunciation}
+/>
 ```
 
 ## Acessibilidade e responsabilidade
 
-Texto e ícone; botões disabled não iniciam áudio nem anunciam reprodução fictícia.
+Grupo Sons do país, rótulos curtos e ícones decorativos. A descrição do nome aponta para o status do cartão. Estados recebidos por props; coordenação entre fala/escuta fica em useAtlasAudio, composto pela página.

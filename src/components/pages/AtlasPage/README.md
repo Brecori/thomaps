@@ -1,21 +1,17 @@
 # AtlasPage
 
-Composição concreta da prévia da fase 1.
+Composição concreta até T10, início da fase 4.
 
-## Contrato
+## Contrato e estados
 
-Sem props externas; dados de exemplo locais.
+Sem props externas. Loading/error/ready, seleção, ajuda, consulta/sugestões e voz (idle, starting, listening, processing, error, unavailable).
 
-## Estados e variantes
+## Responsabilidade e acessibilidade
 
-consulta editável, aviso, cartão de exemplo e ajuda abertos/fechados.
+Coordena useAtlasData, useAtlasLayout, busca textual, pronúncia/escuta exclusivas via useAtlasAudio e comandos de câmera. Mapa, ajuda e busca abrem o mesmo cartão. Clique no fundo do mapa sem país selecionável usa reset para limpar seleção e áudio, voltar à visão inicial e evitar foco programático na busca; botão de fechar/Escape mantêm o retorno de foco ao acionador. Restaura foco ao acionador, trata Escape e preserva seleção ao mudar viewport. Selecionar, digitar, abrir ajuda ou restaurar a visão encerra a captura. O cartão de boas-vindas foi removido para deixar o mapa livre. Selecionar/fechar país, restaurar a visão e abrir ajuda também interrompem a pronúncia. O player e o service worker ficam para as próximas tarefas.
 
 ## Exemplo
 
 ```tsx
 <AtlasPage />
 ```
-
-## Acessibilidade e responsabilidade
-
-Coordena foco ao fechar regiões e anuncia avisos por role=status. useViewportHeight acompanha altura visível. Sem serviços de voz, busca real ou seleção geográfica.

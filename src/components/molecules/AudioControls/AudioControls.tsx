@@ -1,15 +1,30 @@
 import { Button } from '@/components/atoms/Button'
 import { Icon } from '@/components/atoms/Icon'
 
-export function AudioControls() {
+type AudioControlsProps = {
+  pronunciationActive: boolean
+  pronunciationAvailable: boolean
+  descriptionId: string
+  onPronunciationToggle: () => void
+}
+
+export function AudioControls({
+  pronunciationActive,
+  pronunciationAvailable,
+  descriptionId,
+  onPronunciationToggle,
+}: AudioControlsProps) {
   return (
-    <div
-      className="audio-controls"
-      aria-label="Áudios disponíveis em uma próxima fase"
-    >
-      <Button disabled tone="soft">
-        <Icon name="volume" />
-        <span>Ouvir nome</span>
+    <div className="audio-controls" role="group" aria-label="Sons do país">
+      <Button
+        disabled={!pronunciationActive && !pronunciationAvailable}
+        tone="soft"
+        aria-pressed={pronunciationActive}
+        aria-describedby={descriptionId}
+        onClick={onPronunciationToggle}
+      >
+        <Icon name={pronunciationActive ? 'close' : 'volume'} />
+        <span>{pronunciationActive ? 'Parar nome' : 'Ouvir nome'}</span>
       </Button>
       <Button disabled tone="primary">
         <Icon name="music" />
