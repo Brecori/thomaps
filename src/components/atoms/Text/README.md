@@ -21,3 +21,5 @@ variantes tipográficas e foco apenas quando necessário ao conteúdo.
 ## Acessibilidade e responsabilidade
 
 Escolher hierarquia semântica; a aparência não determina o nível do título.
+
+Aceita também `as="h3"` para subtítulos de regiões dentro da ajuda, preservando a hierarquia do documento.

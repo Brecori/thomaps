@@ -1089,3 +1089,70 @@ input {
     color: var(--color-muted);
   }
 }
+
+.app-options {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e2eaed;
+}
+.app-options .text--heading {
+  font-size: 22px;
+}
+.app-options .text {
+  color: var(--color-muted);
+}
+.app-options__actions {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+.app-options__note {
+  font-size: 15px;
+}
+.app-options__update {
+  padding: 16px;
+  background: #f4f1fa;
+  border-radius: 18px;
+}
+.connection-status {
+  margin: 0;
+  color: var(--color-muted);
+}
+.connection-status--ready {
+  color: #286348;
+}
+.has-update {
+  position: relative;
+}
+.has-update::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #286952;
+  box-shadow: 0 0 0 2px white;
+}
+.atlas-shell--with-details .phase-note--offline {
+  display: inline;
+}
+.app-options__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.preview-help__close {
+  position: sticky;
+  float: right;
+  top: 8px;
+  margin: -8px -8px -48px 8px;
+  z-index: 1;
+}
+.preview-help > .preview-help__title {
+  margin-top: 0;
+  padding-right: 48px;
+}

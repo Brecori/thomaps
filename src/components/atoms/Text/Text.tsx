@@ -1,7 +1,7 @@
 import { createElement, type HTMLAttributes } from 'react'
 
 type TextProps = HTMLAttributes<HTMLElement> & {
-  as?: 'p' | 'span' | 'h1' | 'h2'
+  as?: 'p' | 'span' | 'h1' | 'h2' | 'h3'
   variant?: 'body' | 'heading' | 'label'
 }
 

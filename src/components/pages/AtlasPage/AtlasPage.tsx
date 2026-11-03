@@ -15,6 +15,8 @@ import { useAtlasLayout } from '@/hooks/useAtlasLayout'
 import { useViewportHeight } from '@/hooks/useViewportHeight'
 import { useCountrySearch } from '@/hooks/useCountrySearch'
 import { useAtlasAudio } from '@/hooks/useAtlasAudio'
+import { usePwa } from '@/hooks/usePwa'
+import { AppOptions } from '@/components/organisms/AppOptions'
 import type { Country } from '@/domain/atlas/schema'
 import type {
   NavigationRequest,
@@ -31,6 +33,7 @@ const emptyCountries: Country[] = []
 
 export function AtlasPage() {
   useViewportHeight()
+  const pwa = usePwa()
   const container = useRef<HTMLElement>(null)
   const { state, retry } = useAtlasData()
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -166,10 +169,12 @@ export function AtlasPage() {
           <span className="preview-badge">EXPLORAR</span>
           <Button
             ref={helpButton}
+            className={pwa.needUpdate ? 'has-update' : ''}
             onClick={() => {
               audio.stopAll()
               search.clear()
               setHelpOpen(true)
+              if (pwa.available) void pwa.auditOffline()
             }}
             aria-label="Ajuda do mapa"
             aria-expanded={helpOpen}
@@ -192,6 +197,20 @@ export function AtlasPage() {
       help={
         helpOpen ? (
           <PreviewHelp onClose={closeHelp}>
+            <AppOptions
+              pwa={pwa}
+              onDeferUpdate={closeHelp}
+              busy={
+                voice.active ||
+                audio.pronunciation.active ||
+                audio.anthem.active ||
+                navigation.moving
+              }
+              onApplyUpdate={() => {
+                audio.stopAll()
+                void pwa.applyUpdate()
+              }}
+            />
             {state.status === 'ready' && (
               <CountryPicker
                 countries={state.data.countries}
@@ -204,8 +223,18 @@ export function AtlasPage() {
       }
       status={
         <>
-          <span className="phase-note" id="preview-search-note">
-            Arraste para passear. Toque para descobrir.
+          <span
+            className={`phase-note ${!pwa.online ? 'phase-note--offline' : ''}`}
+            id="preview-search-note"
+            role={!pwa.online || pwa.needUpdate ? 'status' : undefined}
+          >
+            {!pwa.online
+              ? pwa.readiness === 'ready'
+                ? 'Sem internet · mapa disponível'
+                : 'Sem internet · confira o modo offline na ajuda'
+              : pwa.needUpdate
+                ? 'Nova versão disponível na ajuda'
+                : 'Arraste para passear. Toque para descobrir.'}
           </span>
           <span className="made-with">
             <Icon name="heart" size={18} />

@@ -20,14 +20,16 @@ export function PreviewHelp({
       className="preview-help"
       aria-label="Sobre esta prévia"
     >
-      <div className="flex items-center justify-between gap-2">
-        <Text as="h2" variant="heading">
-          Vamos explorar o mundo
-        </Text>
-        <Button onClick={onClose} aria-label="Fechar ajuda">
-          <Icon name="close" />
-        </Button>
-      </div>
+      <Button
+        className="preview-help__close"
+        onClick={onClose}
+        aria-label="Fechar ajuda"
+      >
+        <Icon name="close" />
+      </Button>
+      <Text as="h2" variant="heading" className="preview-help__title">
+        Vamos explorar o mundo
+      </Text>
       <Text>
         Toque em um país para conhecê-lo. Arraste o mapa para passear e use os
         botões ou a pinça para chegar mais perto.
@@ -36,7 +38,7 @@ export function PreviewHelp({
         Digite ou fale o nome de um país na busca e escolha uma bandeira. Você
         também pode usar a lista aqui embaixo. No cartão, toque em Ouvir nome
         para escutar em português. Em Ouvir hino você pode ouvir, pausar e
-        reiniciar a música do país. A instalação chega em outra etapa.
+        reiniciar a música do país.
       </Text>
       <Text>
         A pronúncia precisa de uma voz em português do Brasil no aparelho.
