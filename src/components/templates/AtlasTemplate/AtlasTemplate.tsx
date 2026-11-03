@@ -1,4 +1,5 @@
 import type { ReactNode, Ref } from 'react'
+import { AnimatedPanel } from '@/components/atoms/AnimatedPanel'
 
 type AtlasTemplateProps = {
   map: ReactNode
@@ -6,6 +7,7 @@ type AtlasTemplateProps = {
   search: ReactNode
   navigation: ReactNode
   details?: ReactNode
+  detailsKey?: string
   utility: ReactNode
   help?: ReactNode
   status: ReactNode
@@ -19,6 +21,7 @@ export function AtlasTemplate({
   search,
   navigation,
   details,
+  detailsKey,
   utility,
   help,
   status,
@@ -39,7 +42,9 @@ export function AtlasTemplate({
       <div className="atlas-shell__search">{search}</div>
       <div className="atlas-shell__utility">{utility}</div>
       <div className="atlas-shell__navigation">{navigation}</div>
-      {details && <div className="atlas-shell__details">{details}</div>}
+      <AnimatedPanel className="atlas-shell__details" contentKey={detailsKey}>
+        {details}
+      </AnimatedPanel>
       {help && <div className="atlas-shell__help">{help}</div>}
       <div className="atlas-shell__status">{status}</div>
     </main>

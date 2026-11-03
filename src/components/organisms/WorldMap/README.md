@@ -30,6 +30,8 @@ O domínio calcula projeção/enquadramento; useMapNavigation controla a transfo
 
 ## Contornos
 
+useCountryHighlight aplica um destaque único de 280 ms ao contorno/marcador selecionado com `useGSAP`: opacidade e espessura retornam ao estilo final, sem deformar o país nem alterar a área de toque. Troca de seleção reverte o efeito antigo; movimento reduzido mantém o estado final sem animação.
+
 Seleção, hover e foco usam cópias de contorno sem preenchimento, desenhadas depois de todos os polígonos. Assim as bordas dos vizinhos não encobrem o traço. A camada é decorativa (aria-hidden e pointer-events: none), preserva espessura com vector-effect e mantém os marcadores acima dela. Hover só atualiza o país sob o mouse, não coordenadas por frame; é limpo ao iniciar gestos e ao sair do mapa.
 
 ## Nomes dos países
@@ -39,3 +41,9 @@ A camada de nomes é decorativa (aria-hidden e pointer-events: none), depois dos
 domain/atlas/labels escolhe uma área interna no território principal, usando a geometria já recortada pela projeção e respeitando buracos/ilhas. useMapLabels mede a caixa real de cada texto após renderizar e após carregar as fontes. Durante zoom, o controlador atualiza somente atributos/estilos SVG: fonte aparente de 10–18 px. A medição considera a caixa alta e uma margem de respiro. Se o texto não couber na área interna, o nome fica oculto, inclusive em países pequenos. Ao ampliar, nomes passam a aparecer conforme o espaço disponível.
 
 Não há medição de layout nem atualização React por frame. Nomes não interceptam clique/toque e não repetem o nome acessível já presente no polígono.
+
+## Transições da câmera
+
+useMapNavigation usa `useGSAP` para interpolar comandos em 440 ms, sempre aplicando coordenadas por `behavior.transform` do D3. A interpolação é excluída do revert automático com `context.ignore` e encerrada explicitamente no cleanup do hook: reverter o objeto de coordenadas não deve mover o mapa para uma posição antiga. Novos comandos partem da posição atual; arraste/pinça/scroll interrompem o tween.
+
+Depois de um gesto, alterações no tamanho do player/mensagem não recuperam um enquadramento antigo. Um novo comando ou mudança da viewport pode reenquadrar. Resize aplica o destino sem transição; ativar movimento reduzido conclui apenas um tween ainda ativo. A desmontagem remove listeners D3 e cancela efeitos.

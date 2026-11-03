@@ -120,6 +120,7 @@ export function AtlasPage() {
   return (
     <AtlasTemplate
       containerRef={container}
+      detailsKey={selected?.id}
       onEscape={() => {
         if (voice.active || voice.message) voice.cancel()
         else if (search.open) search.setOpen(false)

@@ -12,6 +12,7 @@ import {
 import { useMapGestureGuard } from '@/hooks/useMapGestureGuard'
 import { countryLabels } from '@/domain/atlas/labels'
 import { useMapLabels } from '@/hooks/useMapLabels'
+import { useCountryHighlight } from '@/hooks/useCountryHighlight'
 
 type WorldMapProps = {
   data: AtlasData
@@ -99,6 +100,7 @@ export function WorldMap({
     [data.countries, data.features, projection],
   )
   const updateLabels = useMapLabels(labelLayer, labels)
+  useCountryHighlight(svg, selectedId)
   useMapNavigation(svg, layer, {
     ...layout,
     viewport,

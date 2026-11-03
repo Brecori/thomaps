@@ -1,7 +1,8 @@
-import { useEffect, useLayoutEffect, useRef, type RefObject } from 'react'
+import { useLayoutEffect, useRef, type RefObject } from 'react'
 import { select } from 'd3-selection'
 import { zoom, zoomIdentity, zoomTransform, type ZoomBehavior } from 'd3-zoom'
 import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
 import {
   constrainView,
   MAX_ZOOM,
@@ -28,7 +29,7 @@ type NavigationOptions = {
   onZoom: (k: number, minimum: number) => void
 }
 
-/** D3 owns every camera update; GSAP only interpolates commands through zoom.transform. */
+/** D3 owns the transform. GSAP React owns the lifecycle of command interpolation. */
 export function useMapNavigation(
   svgRef: RefObject<SVGSVGElement | null>,
   layerRef: RefObject<SVGGElement | null>,
@@ -41,20 +42,57 @@ export function useMapNavigation(
   const behaviorRef = useRef<ZoomBehavior<SVGSVGElement, unknown> | null>(null)
   const animation = useRef<gsap.core.Tween | null>(null)
   const generation = useRef(0)
+  const reduced = useRef(false)
+  const manualView = useRef(false)
+  const gesturing = useRef(false)
+  const previousSize = useRef({ width: 0, height: 0 })
+
+  useGSAP(
+    () => {
+      const media = gsap.matchMedia()
+      media.add('(prefers-reduced-motion: reduce)', () => {
+        reduced.current = true
+        // Finish only an active command, never an old target after a manual gesture.
+        animation.current?.progress(1)
+        return () => {
+          reduced.current = false
+        }
+      })
+      return () => media.revert()
+    },
+    { scope: svgRef },
+  )
 
   useLayoutEffect(() => {
     const svg = svgRef.current,
       layer = layerRef.current
     if (!svg || !layer) return
-    const selection = select(svg)
     const behavior = zoom<SVGSVGElement, unknown>()
       .scaleExtent([MIN_ZOOM, MAX_ZOOM])
       .touchable(() => true)
       .clickDistance(7)
       .tapDistance(12)
-      .filter(
-        (event) => !event.button && (!event.ctrlKey || event.type === 'wheel'),
-      )
+      .filter((event) => {
+        const accepted =
+          !event.button && (!event.ctrlKey || event.type === 'wheel')
+        // At a zoom limit D3 may skip start/end; the gesture still cancels motion.
+        if (accepted && animation.current) {
+          manualView.current = true
+          animation.current.kill()
+          animation.current = null
+          svg.dataset.animating = 'false'
+          svg.classList.remove('is-moving')
+          latest.current.onStatus({
+            k: zoomTransform(svg).k,
+            minZoom: minimumZoom(
+              latest.current.worldBounds,
+              latest.current.viewport,
+            ),
+            moving: false,
+          })
+        }
+        return accepted
+      })
       .extent(() => [
         [0, 0],
         [latest.current.width, latest.current.height],
@@ -70,8 +108,19 @@ export function useMapNavigation(
       })
       .on('start.atlas', (event) => {
         if (event.sourceEvent) {
+          manualView.current = true
+          gesturing.current = true
           animation.current?.kill()
+          animation.current = null
           svg.dataset.animating = 'false'
+          latest.current.onStatus({
+            k: event.transform.k,
+            minZoom: minimumZoom(
+              latest.current.worldBounds,
+              latest.current.viewport,
+            ),
+            moving: true,
+          })
         }
         svg.classList.add('is-moving')
       })
@@ -92,24 +141,37 @@ export function useMapNavigation(
           )
       })
       .on('end.atlas', (event) => {
+        if (event.sourceEvent) gesturing.current = false
+        if (animation.current?.isActive()) return
         svg.classList.remove('is-moving')
-        if (!animation.current?.isActive())
-          latest.current.onStatus({
-            k: event.transform.k,
-            minZoom: minimumZoom(
-              latest.current.worldBounds,
-              latest.current.viewport,
-            ),
-            moving: false,
-          })
+        latest.current.onStatus({
+          k: event.transform.k,
+          minZoom: minimumZoom(
+            latest.current.worldBounds,
+            latest.current.viewport,
+          ),
+          moving: false,
+        })
       })
     behaviorRef.current = behavior
+    const selection = select(svg)
     selection.call(behavior).on('dblclick.zoom', null)
     return () => {
       animation.current?.kill()
+      animation.current = null
+      gesturing.current = false
+      svg.classList.remove('is-moving')
+      svg.dataset.animating = 'false'
+      latest.current.onStatus({
+        k: zoomTransform(svg).k,
+        minZoom: minimumZoom(
+          latest.current.worldBounds,
+          latest.current.viewport,
+        ),
+        moving: false,
+      })
       behaviorRef.current = null
       selection.on('.zoom', null)
-      // D3 temporarily listens on the window while dragging; cancel on unmount too.
       select(svg.ownerDocument.defaultView).on(
         'mousemove.zoom mouseup.zoom',
         null,
@@ -117,96 +179,112 @@ export function useMapNavigation(
     }
   }, [svgRef, layerRef])
 
-  const moveTo = (target: ViewTransform, animate = true) => {
-    const svg = svgRef.current,
-      behavior = behaviorRef.current
-    if (!svg || !behavior) return
-    animation.current?.kill()
-    const current = latest.current
-    const next = constrainView(target, current.worldBounds, current.viewport)
-    const apply = (value: ViewTransform) =>
-      select(svg).call(
-        behavior.transform,
-        zoomIdentity.translate(value.x, value.y).scale(value.k),
-      )
-    const start = zoomTransform(svg)
-    if (
-      !animate ||
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    ) {
-      svg.dataset.animating = 'false'
-      apply(next)
-      return
-    }
-    const tweened = { x: start.x, y: start.y, k: start.k }
-    svg.dataset.animating = 'true'
-    animation.current = gsap.to(tweened, {
-      ...next,
-      duration: 0.55,
-      ease: 'power2.out',
-      onUpdate: () => apply(tweened),
-      onComplete: () => {
-        animation.current = null
-        svg.dataset.animating = 'false'
-        latest.current.onStatus({
-          k: next.k,
-          minZoom: minimumZoom(
-            latest.current.worldBounds,
-            latest.current.viewport,
-          ),
-          moving: false,
-        })
-      },
-    })
-  }
-  const moveRef = useRef(moveTo)
-  useLayoutEffect(() => {
-    moveRef.current = moveTo
-  })
-
-  const previousSize = useRef({ width: 0, height: 0 })
   useLayoutEffect(() => {
     behaviorRef.current?.scaleExtent([
       minimumZoom(options.worldBounds, options.viewport),
       MAX_ZOOM,
     ])
   }, [options.worldBounds, options.viewport])
-  useLayoutEffect(() => {
-    const current = latest.current
-    const animate =
-      previousSize.current.width === current.width &&
-      previousSize.current.height === current.height
-    previousSize.current = { width: current.width, height: current.height }
-    moveRef.current(current.target, animate)
-  }, [options.target])
 
-  useEffect(() => {
-    if (options.request.id === generation.current) return
-    generation.current = options.request.id
-    const svg = svgRef.current
-    if (!svg) return
-    if (
-      options.request.action === 'world' ||
-      options.request.action === 'focus'
-    ) {
-      moveRef.current(latest.current.target)
-      return
-    }
-    const current = zoomTransform(svg),
-      frame = latest.current.frame
-    const k = Math.max(
-      minimumZoom(latest.current.worldBounds, latest.current.viewport),
-      Math.min(
-        MAX_ZOOM,
-        current.k * (options.request.action === 'in' ? 1.6 : 1 / 1.6),
-      ),
-    )
-    const cx = frame.x + frame.width / 2,
-      cy = frame.y + frame.height / 2
-    moveRef.current({
-      k,
-      x: cx - ((cx - current.x) / current.k) * k,
-      y: cy - ((cy - current.y) / current.k) * k,
-    })
-  }, [options.request, svgRef])
+  useGSAP(
+    (context) => {
+      const svg = svgRef.current,
+        behavior = behaviorRef.current
+      if (!svg || !behavior) return
+      const current = latest.current
+      const start = zoomTransform(svg)
+      const resized =
+        previousSize.current.width !== current.width ||
+        previousSize.current.height !== current.height
+      previousSize.current = { width: current.width, height: current.height }
+      const newCommand = generation.current !== current.request.id
+      generation.current = current.request.id
+      if (newCommand || resized) manualView.current = false
+      else if (manualView.current) return
+      let destination = current.target
+      if (
+        newCommand &&
+        (current.request.action === 'in' || current.request.action === 'out')
+      ) {
+        const k = Math.max(
+          minimumZoom(current.worldBounds, current.viewport),
+          Math.min(
+            MAX_ZOOM,
+            start.k * (current.request.action === 'in' ? 1.6 : 1 / 1.6),
+          ),
+        )
+        const cx = current.frame.x + current.frame.width / 2,
+          cy = current.frame.y + current.frame.height / 2
+        destination = {
+          k,
+          x: cx - ((cx - start.x) / start.k) * k,
+          y: cy - ((cy - start.y) / start.k) * k,
+        }
+      }
+      const next = constrainView(
+        destination,
+        current.worldBounds,
+        current.viewport,
+      )
+      const apply = (value: ViewTransform) =>
+        select(svg).call(
+          behavior.transform,
+          zoomIdentity.translate(value.x, value.y).scale(value.k),
+        )
+      const finish = () => {
+        animation.current = null
+        svg.dataset.animating = 'false'
+        svg.classList.remove('is-moving')
+        const actual = zoomTransform(svg)
+        latest.current.onStatus({
+          k: actual.k,
+          minZoom: minimumZoom(
+            latest.current.worldBounds,
+            latest.current.viewport,
+          ),
+          moving: false,
+        })
+      }
+      if (
+        resized ||
+        reduced.current ||
+        (Math.abs(start.k - next.k) < 0.0001 &&
+          Math.abs(start.x - next.x) < 0.1 &&
+          Math.abs(start.y - next.y) < 0.1)
+      ) {
+        svg.dataset.animating = 'false'
+        apply(next)
+        return
+      }
+      const tweened = { x: start.x, y: start.y, k: start.k }
+      svg.dataset.animating = 'true'
+      current.onStatus({
+        k: next.k,
+        minZoom: minimumZoom(current.worldBounds, current.viewport),
+        moving: true,
+      })
+      // D3 owns the live camera: cleanup must kill interpolation without
+      // reverting the proxy and replaying its old coordinates through onUpdate.
+      context.ignore(() => {
+        animation.current = gsap.to(tweened, {
+          ...next,
+          duration: 0.44,
+          ease: 'power2.out',
+          onUpdate: () => apply(tweened),
+          onComplete: finish,
+        })
+      })
+      return () => {
+        animation.current?.kill()
+        animation.current = null
+        svg.dataset.animating = 'false'
+        if (!gesturing.current) finish()
+      }
+    },
+    {
+      scope: svgRef,
+      dependencies: [options.target, options.request.id],
+      revertOnUpdate: true,
+    },
+  )
 }

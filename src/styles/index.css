@@ -1156,3 +1156,7 @@ input {
   margin-top: 0;
   padding-right: 48px;
 }
+
+.atlas-shell__details[data-exiting] {
+  pointer-events: none;
+}
