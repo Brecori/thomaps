@@ -68,3 +68,11 @@ Reprodução nativa/decodificação automática não equivale a escuta humana. A
 O [relatório de cobertura](coverage.md) lista cada país, capital, fonte, bandeira, geometria e estado/licença do hino. A especificação exige decisão explícita para exceções de cobertura. Em 2026-11-03, o usuário respondeu “Aceitar essas 12 exceções temporárias” para a lista exata de países do relatório. A decisão está registrada em coverageDecision de data-sources/anthems.json; T12 foi concluída com 183 gravações e essas 12 exceções, sem alterar o estado real das mídias. PWA, polimento final, teste físico e publicação continuam fora desta entrega.
 
 Referências desta implementação: [HTMLMediaElement.play() — MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play), [Imageinfo — MediaWiki](https://www.mediawiki.org/wiki/API:Imageinfo), [TimedMediaHandler — MediaWiki](https://www.mediawiki.org/wiki/Extension:TimedMediaHandler) e páginas individuais ligadas no relatório de cobertura.
+
+## Refinamento visual mobile — 2026-11-03
+
+Cabeçalho compacto com marca de 22 px/ícone de 28 px, sem selo Explorar no celular. Busca com placeholder curto e microfone neutro, realçado ao escutar; a área até o fim da busca passou de 156 para 122 px em retrato, sem safe area. O rótulo acessível da busca continua igual. Áudio usa fundos suaves e realce de atividade; bandeiras mobile mantêm 112×76 px. Removidos do mobile o eyebrow e o rodapé decorativos do cartão; capital fica sem caixa de fundo. Status de erro/indisponibilidade e créditos permanecem disponíveis.
+
+Conferência visual em 360×800, 390×844, 844×390, 768×1024 e 1440×900. Na checagem final de retrato/paisagem, microfone, fechar, pausar e reiniciar mediram pelo menos 56×56 px e ficaram dentro da viewport; fechamento sticky também em paisagem, inclusive após rolar o cartão. Estado ativo do hino permanece destacado durante hover. Conferência em navegador emulado, sem nova alegação de aparelho físico.
+
+Build/tipos, lint, format:check e diff --check passaram. Os 12 testes existentes passaram em 27,9 s; não foram acrescentados testes para este ajuste visual. Servidores temporários encerrados, preservando o servidor de desenvolvimento do usuário.

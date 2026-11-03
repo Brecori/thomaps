@@ -1,6 +1,6 @@
 # SearchField
 
-Campo e microfone, apresentados por CountrySearch.
+Campo e microfone, apresentados por CountrySearch. Placeholder curto “Buscar um país”; o rótulo acessível permanece “Qual país vamos conhecer?”. No mobile, o microfone usa fundo neutro com área de 56 px e realce durante a escuta.
 
 ## Contrato
 

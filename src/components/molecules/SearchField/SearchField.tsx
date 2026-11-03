@@ -40,7 +40,7 @@ export function SearchField({
         ref={inputRef}
         type="search"
         disabled={disabled}
-        placeholder="Qual país vamos conhecer?"
+        placeholder="Buscar um país"
         autoComplete="off"
         enterKeyHint="search"
       />

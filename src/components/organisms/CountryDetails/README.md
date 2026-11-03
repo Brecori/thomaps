@@ -25,3 +25,5 @@ Foco na região ao abrir/trocar país; preventScroll evita deslocar a página. P
   onClose={closeCountry}
 />
 ```
+
+No mobile, o cartão usa capital sem caixa de fundo, botões de áudio suaves e omite eyebrow/rodapé decorativos. Bandeiras mantêm 112×76 px e controles de pelo menos 56 px. O fechamento permanece sticky em retrato e paisagem; status e créditos continuam acessíveis.

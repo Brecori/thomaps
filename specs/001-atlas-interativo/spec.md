@@ -20,13 +20,15 @@ Permitir que uma criança de até 5 anos explore o mundo em uma única página: 
 
 ## Experiência proposta
 
-Ao abrir, a criança vê o mapa em cores pastel mais definidas por continente e a barra de pesquisa flutuante, com microfone em evidência. Controles grandes de zoom e de retorno à visão mundial ficam sobre o mapa. Não há seções adicionais abaixo da tela nem cartão de boas-vindas sobre o mapa.
+Ao abrir, a criança vê o mapa em cores pastel mais definidas por continente e a barra de pesquisa flutuante, com microfone visível e realce ao iniciar a escuta. Controles grandes de zoom e de retorno à visão mundial ficam sobre o mapa. Não há seções adicionais abaixo da tela nem cartão de boas-vindas sobre o mapa.
 
 Selecionar um país destaca seu território e enquadra a região sem esconder o conteúdo atrás do cartão. O cartão flutua sobre o mapa no desktop; no celular, será um painel inferior que deixa parte do mapa visível. Bandeira, nome, capital, botão de pronúncia e controles do hino aparecem apenas após a seleção. Fechar o painel sempre tem botão visível; arrastar não é obrigatório para fechá-lo. Clicar/tocar no oceano ou no fundo do mapa sem país selecionável também limpa a seleção e fecha o painel; clicar no país atual mantém a seleção e clicar em outro país a substitui. Arraste/pinça/zoom não fecham o cartão.
 
 A busca mostra sugestões. Texto digitado e transcrição de voz passam pela mesma busca; escolher um resultado produz a mesma seleção que clicar no mapa. Nenhum áudio toca automaticamente.
 
 ## Experiência mobile e PWA
+
+No celular, manter o cabeçalho compacto: marca menor, sem selo “Explorar”, busca com texto curto e microfone sem bloco de cor forte. Botões de áudio usam fundos suaves e realçam a atividade, preservando ícones/rótulos, foco e alvos de 56 px. O cartão dispensa o texto “Vamos conhecer” e o rodapé decorativo no mobile; bandeira, nome, capital, controles e feedback continuam visíveis. O fechamento fica alcançável durante o scroll também em paisagem.
 
 Projetar primeiro para celular em retrato, preservando uso em paisagem, tablet e desktop. Busca e controles respeitam recortes, barras do sistema e teclado virtual. O mapa mantém pan com um dedo e zoom com pinça; botões oferecem alternativa aos gestos. A interação com o mapa não impede rolagem do cartão nem ampliação acessível do restante da interface.
 
