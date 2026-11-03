@@ -1,10 +1,10 @@
 # Plano técnico — Atlas interativo
 
-Status: fases 0 a 3 e T10/T11 da fase 4 implementadas. T12 concluída com catálogo revisado, 183 hinos e 12 exceções temporárias aceitas pelo usuário em 2026-11-03. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). Demais fases permanecem abertas.
+Status: fases 0 a 3 e T10/T11 da fase 4 implementadas. T12 concluída com catálogo revisado, 183 hinos e 12 exceções temporárias aceitas pelo usuário em 2026-11-03. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). T16/T17 implementadas; T13–T15 continuam abertas.
 
 ## Arquitetura proposta
 
-SPA estática e PWA mobile-first em React + TypeScript com Vite, Tailwind CSS pelo plugin oficial do Vite e GSAP com `@gsap/react`. Toda a interface segue Atomic Design conforme [arquitetura de componentes](components.md). Propor `vite-plugin-pwa` para manifest e service worker com Workbox. Fixar versões compatíveis e requisito de Node ao iniciar o projeto, registrando o lockfile.
+SPA estática e PWA mobile-first em React + TypeScript com Vite, Tailwind CSS pelo plugin oficial do Vite e GSAP com `@gsap/react`. Toda a interface segue Atomic Design conforme [arquitetura de componentes](components.md). VitePWA 2.0.0 com injectManifest/Workbox 7.4.1 gera manifest e SW; registro manual por usePwa. Fixar versões compatíveis e requisito de Node ao iniciar o projeto, registrando o lockfile.
 
 Mapa plano implementado em SVG com `d3-geo`, projeção equiretangular retangular e fixa, `d3-selection` e `d3-zoom`. Dados locais em TopoJSON são decodificados por `topojson-client` e validados com Zod antes de renderizar. Dispensa provedor de tiles e preserva as geometrias de origem. D01 consolidada na fase 2.
 
@@ -102,11 +102,11 @@ Ao ir para segundo plano, encerrar escuta e pausar reprodução; ao voltar, sinc
 
 Manifest com id estável, name/short_name, lang pt-BR, start_url/scope coerentes com a hospedagem, display standalone, cores de tema/fundo e ícones 192/512, incluindo variante maskable. Incluir Apple touch icon e testar o resultado instalado. Não travar a orientação.
 
-Propor `vite-plugin-pwa` com registro do tipo `prompt` e integração React. O responsável acessa instalação/ajuda em uma área secundária. Usar evento de instalação quando disponível; caso contrário, oferecer instruções adequadas à plataforma, sem prometer prompt em todo navegador. Ocultar ação redundante no modo instalado.
+Implementado com vite-plugin-pwa injectManifest, registro manual na página via usePwa e política de atualização prompt. O responsável acessa instalação/ajuda em uma área secundária. Usar evento de instalação quando disponível; caso contrário, oferecer instruções adequadas à plataforma, sem prometer prompt em todo navegador. Ocultar ação redundante no modo instalado.
 
 O service worker novo aguarda aplicação explícita; não usar recarga automática durante exploração. Antes de aplicar atualização, interromper operações de voz/áudio de forma coordenada. Adiar mantém a versão atual consistente. Validar duas versões reais de produção, limpeza de caches antigos após ativação e fallback de navegação restrito ao escopo da aplicação, sem devolver HTML em requisições de mídia/dados.
 
-### Política offline inicial proposta
+### Política offline implementada
 
 | Recurso | Estratégia e limite de disponibilidade |
 | --- | --- |
@@ -119,7 +119,7 @@ O service worker novo aguarda aplicação explícita; não usar recarga automát
 
 Indicar prontidão offline apenas após verificar o conjunto essencial completo, não somente pela presença do service worker. Tratar falha de instalação, falta de espaço e perda/remoção do cache; não prometer persistência permanente do armazenamento. Não colocar gravações ou transcrições no cache.
 
-T16 define orçamento mensurável de transferência/cache após medir a amostra e estimar o catálogo final; T17 aplica a política e T14 verifica o catálogo completo. Pacotes opcionais de hinos offline ficam fora desta versão e podem ser especificados depois.
+T16/T17 mediram 213 arquivos essenciais: cerca de 4,21 MiB em cache e 1,52 MiB de transferência gzip incluindo SW. Limites bloqueantes do build: 6 MiB por versão em CacheStorage e 3 MiB gzip; pico planejado de 16 MiB para duas versões e overhead. O build emite pwa-audit.json e check:pwa verifica cobertura/integridade/ícones/orçamento. Simulação a 1,5 Mbps/150 ms preparou o conjunto em 46,471 s; meta planejada de até 60 s nesse perfil. Referências de aparelho para T14: Galaxy A54 com Chrome e iPhone 12 com Safari, ainda não usados fisicamente. Pacotes opcionais de hinos offline ficam fora desta versão e podem ser especificados depois.
 
 Publicação precisa de HTTPS e configuração de cache HTTP compatível com atualização do manifest/service worker e assets versionados. Testes locais de service worker usam ambiente permitido pelo navegador; validação de instalação em aparelhos reais exige build acessível por HTTPS. O destino ainda será definido, sem iniciar deploy nesta etapa de planejamento.
 
@@ -143,7 +143,7 @@ Manter uma suíte pequena, proporcional à aplicação:
 | D04 | Mídias locais definidas; destino de publicação pendente | public/audio no mesmo domínio; 177,13 MiB sob demanda, sem precache. Publicação HTTPS e cache HTTP dependem do destino, na T15; nenhum deploy executado. |
 | D05 | Base visual definida em T04 | Cartão lateral desktop, painel inferior mobile e scroll interno, conferidos nos cinco tamanhos. Teclado real e áreas seguras em aparelhos ficam em T14. |
 | D06 | Tokens definidos em T04; uso infantil pendente | Oceano claro, países em cores pastel por continente, seleção em verde vivo, texto escuro, ações laranja/roxo e ícones Lucide. Contraste medido; descoberta das ações com responsável fica em T14. |
-| D07 | Orçamento PWA e dispositivos de referência | Medir recursos essenciais e fixar orçamento de transferência/cache na T16; registrar Android/iPhone de referência para a T14. |
+| D07 | Orçamento definido em T16; referências físicas planejadas | 6 MiB/cache, 3 MiB gzip incluindo SW e pico planejado 16 MiB; medidos 4,21/1,52 MiB. Meta de preparo até 60 s em 1,5 Mbps/150 ms; medidos 46,471 s. Galaxy A54/Chrome e iPhone 12/Safari são referências para T14; sem validação física ainda. |
 
 Uma decisão pendente impede apenas as tarefas que dependem dela. Não declarar cobertura completa nem publicação enquanto esses resultados não existirem.
 
@@ -163,3 +163,11 @@ Uma decisão pendente impede apenas as tarefas que dependem dela. Não declarar 
 - [MDN — instalação PWA e diferenças entre plataformas](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable)
 - [Apple — adicionar app web à tela inicial do iPhone](https://support.apple.com/en-lamr/guide/iphone/iphea86e5236/ios)
 - [MDN — unidades de viewport dinâmica](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/length)
+
+## Implementação T16/T17
+
+usePwa registra apenas no build seguro (HTTPS/localhost), recebe beforeinstallprompt/appinstalled e detecta modo standalone/iOS. AppOptions fica na ajuda, com instalar/manual, prontidão, reparar, verificar, aplicar e Agora não. A interface principal recebe somente estado offline/aviso discreto de versão; não há nova barra permanente.
+
+O SW usa PrecacheController/PrecacheRoute. Versão deriva do conteúdo do manifesto; nome de cache inclui o escopo. SRI SHA-256 protege cada arquivo no install e no reparo; CHECK_OFFLINE confere todas as chaves reais. Perda/remoção do cache muda o estado para incompleto; reparo trata rede e quota sem alegar prontidão. Conferência ocorre na ajuda, retorno, mudança de rede e a cada minuto visível. Navegação fallback só na raiz/index do escopo; sem HTML para mídia/dados. Hinos não entram em cache pelo SW.
+
+Atualização fica waiting enquanto há uso da versão atual. Agora não fecha ajuda e mantém seleção. Aplicar é desabilitado durante áudio/voz/gesto, chama stopAll e só então solicita ativação. Mais de uma janela no escopo adia a ativação até fechar as outras; a janela solicitante recarrega em controllerchange. A primeira instalação não recarrega. Limpeza remove somente caches antigos do mesmo app/escopo. Testes reais A/B e hospedagem /atlas/ passaram; instalação física/fluidez em aparelho ficam em T14.

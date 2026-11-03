@@ -1,6 +1,6 @@
 # Especificação — Atlas interativo
 
-Status: fases 0 a 3 e T10/T11 executadas. T12 tem 195 países revisados e 183 hinos; 12 exceções temporárias foram aceitas explicitamente pelo usuário em 2026-11-03. PWA e verificações finais continuam nas próximas tarefas. Data: 2026-11-03.
+Status: fases 0 a 3 e T10/T11 executadas. T12 tem 195 países revisados e 183 hinos; 12 exceções temporárias foram aceitas explicitamente pelo usuário em 2026-11-03. T16/T17 de PWA estão implementadas; instalação em aparelhos reais e verificações finais permanecem na T14/T15. Data: 2026-11-03.
 
 ## Objetivo
 
@@ -34,7 +34,7 @@ Projetar primeiro para celular em retrato, preservando uso em paisagem, tablet e
 
 O responsável pode instalar o app na tela inicial por um acesso secundário, sem interromper a exploração da criança. O fluxo respeita as opções do navegador e orienta a instalação manual quando necessário. A versão instalada usa janela própria onde houver suporte.
 
-Proposta offline inicial: depois de uma visita online com preparação completa do cache, abrir o app, explorar o mapa, selecionar países, ver bandeiras/capitais e pesquisar por texto funciona sem internet. Não prometer primeira abertura offline, permanência ilimitada do cache nem hinos/voz sempre disponíveis offline. Hinos exigem conexão nesta versão; pronúncia usa voz local quando disponível, e busca por voz depende do reconhecimento do navegador. Essas limitações terão mensagens simples e alternativa funcional.
+Política offline implementada em T16/T17: depois de uma visita online com preparação completa do cache, abrir o app, explorar o mapa, selecionar países, ver bandeiras/capitais e pesquisar por texto funciona sem internet. Não prometer primeira abertura offline, permanência ilimitada do cache nem hinos/voz sempre disponíveis offline. Hinos exigem conexão nesta versão; pronúncia usa voz local quando disponível, e busca por voz depende do reconhecimento do navegador. Essas limitações terão mensagens simples e alternativa funcional.
 
 Atualizações são oferecidas discretamente ao responsável e aplicadas em momento escolhido, sem recarregar automaticamente durante exploração, reprodução ou captura de voz.
 
@@ -50,7 +50,7 @@ A voz usa uma sessão explícita pt-BR, apresenta a transcrição para escolha e
 
 A pronúncia é acionada no cartão por Ouvir nome e interrompida por Parar nome. Usa exclusivamente uma voz identificada como pt-BR, priorizando voz local, sem fila acumulada. A lista de vozes pode carregar depois; até 3 segundos de lista vazia exibem carregamento, depois indisponibilidade, com recuperação por voiceschanged. Eventos antigos não alteram uma operação nova. Uma operação sem conclusão é cancelada após 15 segundos.
 
-useAtlasAudio coordena fala e escuta: iniciar uma interrompe a outra; selecionar/fechar país, restaurar visão, abrir ajuda, sair/ocultar página ou desmontar encerra operações. Hino permanece desabilitado e será integrado a esse coordenador em T11. Instalação e cache PWA ficam em T16/T17.
+useAtlasAudio coordena fala e escuta: iniciar uma interrompe a outra; selecionar/fechar país, restaurar visão, abrir ajuda, sair/ocultar página ou desmontar encerra operações. O hino integra o mesmo coordenador em T11. T16/T17 implementam instalação/cache/atualização por escolha: AppOptions fica na ajuda, o mapa só é declarado offline após conferir todos os essenciais e a versão nova aguarda ação do responsável.
 
 ## Diretrizes para até 5 anos
 

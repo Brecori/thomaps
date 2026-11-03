@@ -1,18 +1,18 @@
 # Thomaps
 
-Aplicação web de página única, com PWA previsto e prioridade para mobile, para uma criança de até 5 anos explorar países em um mapa-múndi interativo.
+Aplicação web de página única, com PWA e prioridade para mobile, para uma criança de até 5 anos explorar países em um mapa-múndi interativo.
 
 ## Estado atual
 
-Fases 0 a 3 e T10/T11 da fase 4 implementadas: especificação, auditoria inicial, base React/Vite/TypeScript, Tailwind, GSAP, Atomic Design, mapa interativo com seleção de países e busca por texto/voz. O cartão inicial “pequeno explorador” foi removido para liberar o mapa.
+Fases 0 a 4 e T16/T17 da fase 5 implementadas: especificação, auditoria inicial, base React/Vite/TypeScript, Tailwind, GSAP, Atomic Design, mapa interativo com seleção de países e busca por texto/voz. O cartão inicial “pequeno explorador” foi removido para liberar o mapa.
 
 O mapa é retangular e fixo, com projeção equiretangular. O zoom mínimo é calculado pelo tamanho da tela para o mapa sempre preenchê-la, e o arraste para nas bordas. No celular em pé, arraste para explorar as regiões fora da tela. O atlas permite selecionar os 195 países por clique/toque, navegar com scroll, pinça, arraste e botões, destacar e enquadrar o país e abrir seu cartão com bandeira e capital/capitais. A ajuda oferece uma lista nativa para escolher pelo nome ou teclado; pequenos países também têm marcadores. Nomes em caixa alta, cinza médio e sem contorno aparecem no interior do território principal quando cabem, em até duas linhas e com fonte aparente de 10–18 px conforme o zoom; rótulos sem espaço suficiente ficam ocultos. Fechar o cartão, clicar no oceano/fundo sem país selecionável ou usar “Ver o mundo” limpa a seleção e restaura a visão inicial no zoom mínimo. Arraste e zoom preservam a seleção; clicar em outro país troca o cartão.
 
-Mapa, catálogo e 195 bandeiras são locais. Carregamento e falhas de dados têm feedback e nova tentativa. A busca no topo ignora acentos/maiúsculas, aceita aliases e mostra até três sugestões com bandeiras, paginação e teclado. O microfone transcreve em pt-BR quando há suporte, sem selecionar automaticamente; silêncio, falhas, cancelamento e indisponibilidade preservam a digitação. O cartão permite ouvir/parar o nome com uma voz pt-BR do navegador, priorizando voz local. O hino, a pronúncia e o microfone se interrompem mutuamente. Carregamento e ausência de voz adequada têm feedback; não há reprodução automática. O hino tem ouvir/pausar, reinício, andamento e créditos, com carregamento só ao tocar e nova tentativa após erro. A revisão da T12 cobre os 195 países e 183 hinos locais; 12 exceções temporárias de hino foram aceitas pelo usuário em 2026-11-03. O PWA permanece nas próximas tarefas.
+Mapa, catálogo e 195 bandeiras são locais. Carregamento e falhas de dados têm feedback e nova tentativa. A busca no topo ignora acentos/maiúsculas, aceita aliases e mostra até três sugestões com bandeiras, paginação e teclado. O microfone transcreve em pt-BR quando há suporte, sem selecionar automaticamente; silêncio, falhas, cancelamento e indisponibilidade preservam a digitação. O cartão permite ouvir/parar o nome com uma voz pt-BR do navegador, priorizando voz local. O hino, a pronúncia e o microfone se interrompem mutuamente. Carregamento e ausência de voz adequada têm feedback; não há reprodução automática. O hino tem ouvir/pausar, reinício, andamento e créditos, com carregamento só ao tocar e nova tentativa após erro. A revisão da T12 cobre os 195 países e 183 hinos locais; 12 exceções temporárias de hino foram aceitas pelo usuário em 2026-11-03. Instalação, prontidão offline e atualização por escolha estão disponíveis na ajuda do responsável.
 
 Decisões confirmadas: React/Vite, Tailwind CSS, GSAP, Atomic Design e PWA; experiência mobile como prioridade; mapa plano em estilo atlas claro, com países em cores pastel mais definidas por continente, seleção em cor chamativa e interface simples para uma criança de até 5 anos; mapa em tela inteira, scroll para zoom, arraste para mover e pronúncia dos nomes em português do Brasil.
 
-Proposta offline para a fase PWA: mapa, catálogo, bandeiras e busca por texto disponíveis após preparação do cache. Hinos dependem de conexão na primeira versão; voz depende das capacidades do dispositivo/navegador. Ainda não há service worker, instalação ou garantia offline nesta entrega.
+PWA implementado em T16/T17: mapa, catálogo, fontes e as 195 bandeiras ficam disponíveis offline após conferir o cache completo. Hinos ficam fora do precache; voz depende do aparelho/navegador. Atualizações aguardam escolha do responsável; adiar preserva a sessão. O sistema pode liberar espaço guardado, e a ajuda permite conferir/preparar novamente. Instalação real em Android/iPhone continua na T14.
 
 ## Executar localmente
 
@@ -41,13 +41,25 @@ npm run build
 npm run test:layout
 ```
 
-A suíte tem 12 testes simples de navegador, em três arquivos: seleção/fechamento, clique no oceano para limpar seleção, zoom/retorno, recuperação de erro, busca por texto/alias/teclado e paginação, voz simulada com erro/cancelamento/transcrição, alternativa sem suporte de voz, seleção por toque no celular, pronúncia/cancelamento/exclusão com o microfone e ausência/carregamento tardio de pt-BR, hino real com pausa/reinício/créditos, erro recuperável e indisponibilidade. Usa seletores acessíveis, sem verificar detalhes internos do SVG ou cálculos geográficos. Gestos, hover, enquadramento e ajustes visuais ficam para conferência manual.
+A suíte tem 14 testes simples de navegador, em quatro arquivos: seleção/fechamento, clique no oceano para limpar seleção, zoom/retorno, recuperação de erro, busca por texto/alias/teclado e paginação, voz simulada com erro/cancelamento/transcrição, alternativa sem suporte de voz, seleção por toque no celular, pronúncia/cancelamento/exclusão com o microfone e ausência/carregamento tardio de pt-BR, hino real com pausa/reinício/créditos, erro recuperável e indisponibilidade, cache PWA completo/incompleto/reparo/reabertura offline e instalação por escolha (evento simulado). Usa seletores acessíveis, sem verificar detalhes internos do SVG ou cálculos geográficos. Apenas os dois testes PWA habilitam o service worker real; os demais bloqueiam SW para manter as simulações de rede determinísticas. Gestos, hover, enquadramento e ajustes visuais ficam para conferência manual.
 
 O Playwright usa o build de produção e Chrome do sistema quando disponível em Linux. Em outros ambientes, instale Chromium com `npx playwright install chromium` ou configure `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`. O caso mobile é emulado. Reconhecimento e síntese são simulados na suíte para conferir a integração; o MP3 do hino usa reprodução nativa real, com avanço de tempo verificado. O Chrome headless deste ambiente não ofereceu vozes nativas; validação auditiva, reconhecimento real, permissão nativa e uso em aparelho físico continuam na T14.
 
 `npm run assets:map` gera `public/data/countries.json`, `world.topo.json` e o manifesto de hashes a partir dos snapshots auditados. Os contornos usam TopoJSON com arcos compartilhados e quantização; não são removidas ilhas ou geometrias. O mapa usa SVG/D3 e um único controlador para gestos, comandos e enquadramento com GSAP. Movimento reduzido aplica a câmera imediatamente.
 
-A instalação manteve os 12 avisos moderados conhecidos na cadeia de desenvolvimento do lint/minimatch. `npm audit --omit=dev` foi executado na fase 2 e retornou zero avisos nas dependências de produção. Não foram aplicados overrides de versões principais nem correções forçadas.
+A auditoria desta entrega retornou zero avisos com `npm audit --omit=dev`. Permanecem 21 avisos nas ferramentas de desenvolvimento (2 baixos e 19 moderados, incluindo cadeias de lint/Workbox); a correção sugerida exige trocas de versões principais/regressões. Sharp foi atualizado para 0.35.5, corrigindo o aviso alto inicialmente encontrado. Não foram aplicados overrides principais ou correções forçadas.
+
+## Instalar e usar offline
+
+Gere o build com `npm run build` e sirva com `npm run preview`. O PWA funciona no contexto seguro de `http://localhost:4173` para conferência local; no celular, precisa da versão de produção em **HTTPS**. O endereço de rede local em HTTP e `npm run dev` continuam úteis para desenvolver, mas não habilitam instalação/offline. Nenhum deploy foi executado nesta tarefa.
+
+Na ajuda do mapa, a área “Para o responsável” oferece instalar (quando o navegador permite), instruções manuais para Android/iPhone, conferir/reparar o mapa offline e verificar/aplicar/adiar atualizações. Não há instalação ou recarga automáticas. Para aplicar uma atualização, áudio/voz/gestos precisam estar inativos; se houver outras janelas do app abertas no mesmo escopo, feche-as antes de aplicar. Fechar a ajuda/“Agora não” mantém a versão e seleção atuais.
+
+Espere a mensagem de mapa pronto antes de desligar a rede. Depois, mapa, seleção, capitais, bandeiras e busca escrita funcionam na reabertura. Hinos não são guardados pelo SW; a fala só funciona offline se houver voz local adequada, e a busca por voz pode precisar de rede. Não há garantia de primeira abertura offline ou de armazenamento permanente.
+
+O build audita **213 arquivos essenciais**, incluindo as 195 bandeiras: aproximadamente **4,21 MiB de cache e 1,52 MiB com gzip incluindo o SW**, dentro dos limites de 6/3 MiB. O tamanho comprimido exige compressão HTTP no servidor; medições detalhadas ficam em `dist/pwa-audit.json`. O pico planejado para atualização é 16 MiB com duas versões/overhead. Cada essencial tem versão e integridade SHA-256; uma reparação não mistura arquivos de publicações incompatíveis.
+
+`npm run assets:icons` gera os ícones a partir do favicon; `npm run check:pwa` confere manifest, tamanhos de ícones, cobertura, integridade e orçamento do build. Mantenha `sw.js` e HTML com revalidação (`Cache-Control: no-cache`); assets com hash podem ser immutable, e dados/bandeiras de URL fixa devem revalidar. Sirva gzip/Brotli e 404 reais para mídia/dados ausentes, sem fallback HTML nesses caminhos. O worker só usa fallback de navegação na raiz/index do escopo. Subdiretório `/atlas/` foi validado; configure `base` no Vite para o destino real antes da publicação.
 
 ## Dados e gravações
 
@@ -70,6 +82,7 @@ As 12 lacunas e as fontes por país estão no [relatório de cobertura](specs/00
 7. [Verificação da fase 2](specs/001-atlas-interativo/phase-2-validation.md): mapa, gestos, seleção, enquadramento e limitações.
 8. [Verificação da fase 3](specs/001-atlas-interativo/phase-3-validation.md): busca textual, voz, acessibilidade e limitações.
 9. [Verificação da fase 4 — T10/T11](specs/001-atlas-interativo/phase-4-validation.md): pronúncia, player real, coordenação com microfone e limites da validação.
+10. [Verificação da fase 5 — T16/T17](specs/001-atlas-interativo/phase-5-validation.md): instalação, cache, orçamento e atualização entre versões.
 
 ## Fluxo de trabalho
 

@@ -1,6 +1,6 @@
 # Tarefas — Atlas interativo
 
-Status: fases 0 a 4 concluídas. T12 tem 195 países revisados, 183 hinos e 12 exceções temporárias aceitas explicitamente pelo usuário em 2026-11-03. PWA e validações finais permanecem nas próximas tarefas.
+Status: fases 0 a 4 concluídas. T12 tem 195 países revisados, 183 hinos e 12 exceções temporárias aceitas explicitamente pelo usuário em 2026-11-03. T16/T17 do PWA estão implementadas; movimento, validação física e entrega final continuam pendentes.
 
 Marcar uma tarefa apenas após verificar sua entrega; registrar evidência no final deste arquivo. As dependências indicam a ordem necessária, não uma obrigação de concluir toda a fase anterior. Os IDs permanecem estáveis: T16/T17 foram acrescentadas para PWA e aparecem na fase correspondente, antes da verificação final.
 
@@ -33,8 +33,8 @@ Marcar uma tarefa apenas após verificar sua entrega; registrar evidência no fi
 
 ## Fase 5 — PWA
 
-- [ ] **T16 — Configurar PWA e instalação.** Integrar vite-plugin-pwa, manifest com identidade/escopo, ícones 192/512/maskable e Apple touch icon; criar fluxo secundário de instalação/ajuda para o responsável, com detecção de suporte e modo instalado. Medir recursos essenciais, definir orçamento de transferência/cache e aparelhos de referência (D07). Dependências: T03, T04, T05. Entrega: build com manifest/service worker inspecionáveis, orientação de instalação por plataforma e orçamento registrado. Requisitos: RF13, RNF13, RNF17. Aceite: CA15, CA19 (configuração; instalação real na T14).
-- [ ] **T17 — Implementar offline e atualizações.** Preparar cache versionado do shell, fontes locais, geometrias, catálogo e bandeiras; excluir hinos/transcrições/gravações do precache. Mostrar prontidão apenas após cache completo, tratar falha de espaço/cache removido e funções dependentes de rede. Implementar atualização por escolha, sem recarga automática, coordenada com voz/áudio. Dependências: T05, T11, T12, T16. Entrega: reabertura offline e atualização entre duas versões verificadas no build de produção, dentro do orçamento definido. Requisitos: RF14–RF15, RNF16–RNF17. Aceite: CA16–CA17, CA19.
+- [x] **T16 — Configurar PWA e instalação.** Integrar vite-plugin-pwa, manifest com identidade/escopo, ícones 192/512/maskable e Apple touch icon; criar fluxo secundário de instalação/ajuda para o responsável, com detecção de suporte e modo instalado. Medir recursos essenciais, definir orçamento de transferência/cache e aparelhos de referência (D07). Dependências: T03, T04, T05. Entrega: build com manifest/service worker inspecionáveis, orientação de instalação por plataforma e orçamento registrado. Requisitos: RF13, RNF13, RNF17. Aceite: CA15, CA19 (configuração; instalação real na T14).
+- [x] **T17 — Implementar offline e atualizações.** Preparar cache versionado do shell, fontes locais, geometrias, catálogo e bandeiras; excluir hinos/transcrições/gravações do precache. Mostrar prontidão apenas após cache completo, tratar falha de espaço/cache removido e funções dependentes de rede. Implementar atualização por escolha, sem recarga automática, coordenada com voz/áudio. Dependências: T05, T11, T12, T16. Entrega: reabertura offline e atualização entre duas versões verificadas no build de produção, dentro do orçamento definido. Requisitos: RF14–RF15, RNF16–RNF17. Aceite: CA16–CA17, CA19.
 
 ## Fase 6 — Movimento, verificação e entrega
 
@@ -56,7 +56,7 @@ Marcar uma tarefa apenas após verificar sua entrega; registrar evidência no fi
 
 ## Evidências
 
-Revisão: 2026-11-03. Relatórios em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md).
+Revisão: 2026-11-03. Relatórios em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md), [phase-4-validation.md](phase-4-validation.md) e [phase-5-validation.md](phase-5-validation.md).
 
 | Tarefa | Entrega e evidência |
 | --- | --- |
@@ -73,4 +73,7 @@ Revisão: 2026-11-03. Relatórios em [phase-1-validation.md](phase-1-validation.
 | T11 | Player lazy MP3 com ouvir/pausar, reinício, andamento, limite de carregamento, erro recuperável, créditos e licença individual. useAtlasAudio exclui hino/fala/microfone e encerra em troca/fechamento/ajuda/ocultação. Amostra BRA/JPN/ZAF/MCO/FJI reproduzida no motor nativo do Chrome; fim/replay e eventos antigos conferidos. Dois testes essenciais novos, total de 12 passando; visual desktop/mobile revisado. D03/D04 definem MP3 local no mesmo domínio; destino de publicação continua em T15. Ver phase-4-validation.md. |
 | T12 | 195 nomes/capitais revisados em pt-BR, aliases preservados, 195 bandeiras conferidas visualmente e joins íntegros. 183 MP3s auditados e decodificados integralmente sem erros; 12 estados de indisponibilidade documentados, incluindo fontes restritas/sem confirmação de reuso. Relatório por país em coverage.md; fonte, hashes e créditos em data-sources/anthems.json. Em 2026-11-03, o usuário aceitou explicitamente as 12 exceções temporárias listadas em coverage.md e coverageDecision.unavailableCountryIds; T12 concluída nesse escopo. Novas exceções exigem nova decisão. |
 
-T11 e T12 estão concluídas no escopo aceito. Os 12 países sem hino preservam mapa, bandeira, capital e pronúncia; buscar novas gravações continua possível. PWA e validações finais seguem nas próximas tarefas.
+| T16 | VitePWA 2.0.0/Workbox 7.4.1, manifest standalone/pt-BR com escopo relativo, ícones 192/512/maskable/Apple derivados do favicon e instalação apenas por gesto/ajuda por plataforma. AppOptions e ConnectionStatus mantêm Atomic Design. D07 define 6 MiB por cache / 3 MiB gzip / pico planejado de 16 MiB e referências Galaxy A54/iPhone 12 para T14. Build auditável em dist/pwa-audit.json, cerca de 4,21/1,52 MiB. Instalação nativa em aparelhos não foi declarada concluída. |
+| T17 | Precache por versão/escopo com 195 bandeiras e integridade SHA-256, sem hinos. Prontidão confere o conjunto real; cache parcial/ausente e quota simulada foram recuperados sem prontidão falsa. Reabertura offline e atualização real A→B verificadas, inclusive adiar, preservar áudio antes da escolha, aplicar por gesto, limpeza do cache anterior e subdiretório. Duas janelas impedem ativação para manter consistência. Ver phase-5-validation.md; testes PWA usam SW nativo, instalação por evento é simulada. |
+
+T11 e T12 estão concluídas no escopo aceito. Os 12 países sem hino preservam mapa, bandeira, capital e pronúncia; buscar novas gravações continua possível. T16/T17 estão implementadas; T13–T15 seguem pendentes, incluindo instalação/uso em aparelhos físicos e publicação.
