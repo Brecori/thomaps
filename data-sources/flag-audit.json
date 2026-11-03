@@ -1,0 +1,57 @@
+[
+  {
+    "countryId": "BRA",
+    "sourceUrl": "https://flagcdn.com/br.svg",
+    "license": "public domain (declared by Flagpedia)",
+    "licenseSourceUrl": "https://flagpedia.net/download",
+    "attribution": "Flagpedia.net / Wikimedia Commons",
+    "path": "public/flags/br.svg",
+    "bytes": 4160,
+    "sha256": "e0215eff9f53b0236db885963ac45d6baea52e10ce33ceafdbe0eb1820d21160",
+    "reviewedAt": "2026-11-02"
+  },
+  {
+    "countryId": "FJI",
+    "sourceUrl": "https://flagcdn.com/fj.svg",
+    "license": "public domain (declared by Flagpedia)",
+    "licenseSourceUrl": "https://flagpedia.net/download",
+    "attribution": "Flagpedia.net / Wikimedia Commons",
+    "path": "public/flags/fj.svg",
+    "bytes": 40121,
+    "sha256": "e2c0c872c02b315510c6923a7913d1783accabab0ea1eef103a3f23165af320f",
+    "reviewedAt": "2026-11-02"
+  },
+  {
+    "countryId": "JPN",
+    "sourceUrl": "https://flagcdn.com/jp.svg",
+    "license": "public domain (declared by Flagpedia)",
+    "licenseSourceUrl": "https://flagpedia.net/download",
+    "attribution": "Flagpedia.net / Wikimedia Commons",
+    "path": "public/flags/jp.svg",
+    "bytes": 160,
+    "sha256": "e8e6f6e75bc02eeb35e5904edc13df9b5990da70ac1ff1daa7a9fcc61c709a03",
+    "reviewedAt": "2026-11-02"
+  },
+  {
+    "countryId": "MCO",
+    "sourceUrl": "https://flagcdn.com/mc.svg",
+    "license": "public domain (declared by Flagpedia)",
+    "licenseSourceUrl": "https://flagpedia.net/download",
+    "attribution": "Flagpedia.net / Wikimedia Commons",
+    "path": "public/flags/mc.svg",
+    "bytes": 155,
+    "sha256": "bb97fd4d27f655e164f59612ad1dfd6d25a2663369ecc38b3777dd88b9c2752b",
+    "reviewedAt": "2026-11-02"
+  },
+  {
+    "countryId": "ZAF",
+    "sourceUrl": "https://flagcdn.com/za.svg",
+    "license": "public domain (declared by Flagpedia)",
+    "licenseSourceUrl": "https://flagpedia.net/download",
+    "attribution": "Flagpedia.net / Wikimedia Commons",
+    "path": "public/flags/za.svg",
+    "bytes": 566,
+    "sha256": "6fbf0b68db7024ac996c92b1bbc62efe9a3bf12e469efaa29ae4fe0fa5c6da39",
+    "reviewedAt": "2026-11-02"
+  }
+]

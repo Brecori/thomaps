@@ -1,0 +1,5288 @@
+[
+  {
+    "id": "AFG",
+    "iso2": "AF",
+    "iso3": "AFG",
+    "namePtBr": "Afeganistão",
+    "aliases": [
+      "Afghanistan",
+      "Afeganistão",
+      "AF",
+      "Afġānistān"
+    ],
+    "capitals": [
+      "Kabul"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      65,
+      33
+    ],
+    "mapFeatureIds": [
+      "AFG"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/af.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "AGO",
+    "iso2": "AO",
+    "iso3": "AGO",
+    "namePtBr": "Angola",
+    "aliases": [
+      "Angola",
+      "AO",
+      "República de Angola",
+      "ʁɛpublika de an'ɡɔla"
+    ],
+    "capitals": [
+      "Luanda"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      18.5,
+      -12.5
+    ],
+    "mapFeatureIds": [
+      "AGO"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ao.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ALB",
+    "iso2": "AL",
+    "iso3": "ALB",
+    "namePtBr": "Albânia",
+    "aliases": [
+      "Albania",
+      "Albânia",
+      "AL",
+      "Shqipëri",
+      "Shqipëria",
+      "Shqipnia"
+    ],
+    "capitals": [
+      "Tirana"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      20,
+      41
+    ],
+    "mapFeatureIds": [
+      "ALB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/al.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "AND",
+    "iso2": "AD",
+    "iso3": "AND",
+    "namePtBr": "Andorra",
+    "aliases": [
+      "Andorra",
+      "AD",
+      "Principality of Andorra",
+      "Principat d'Andorra"
+    ],
+    "capitals": [
+      "Andorra la Vella"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      1.5,
+      42.5
+    ],
+    "mapFeatureIds": [
+      "AND"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ad.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ARE",
+    "iso2": "AE",
+    "iso3": "ARE",
+    "namePtBr": "Emirados Árabes Unidos",
+    "aliases": [
+      "United Arab Emirates",
+      "Emirados Árabes Unidos",
+      "AE",
+      "UAE",
+      "Emirates"
+    ],
+    "capitals": [
+      "Abu Dhabi"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      54,
+      24
+    ],
+    "mapFeatureIds": [
+      "ARE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ae.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ARG",
+    "iso2": "AR",
+    "iso3": "ARG",
+    "namePtBr": "Argentina",
+    "aliases": [
+      "Argentina",
+      "AR",
+      "Argentine Republic",
+      "República Argentina"
+    ],
+    "capitals": [
+      "Buenos Aires"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -64,
+      -34
+    ],
+    "mapFeatureIds": [
+      "ARG"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ar.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ARM",
+    "iso2": "AM",
+    "iso3": "ARM",
+    "namePtBr": "Arménia",
+    "aliases": [
+      "Armenia",
+      "Arménia",
+      "AM",
+      "Hayastan",
+      "Republic of Armenia",
+      "Հայաստանի Հանրապետություն"
+    ],
+    "capitals": [
+      "Yerevan"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      45,
+      40
+    ],
+    "mapFeatureIds": [
+      "ARM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/am.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ATG",
+    "iso2": "AG",
+    "iso3": "ATG",
+    "namePtBr": "Antígua e Barbuda",
+    "aliases": [
+      "Antigua and Barbuda",
+      "Antígua e Barbuda",
+      "AG"
+    ],
+    "capitals": [
+      "Saint John's"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -61.8,
+      17.05
+    ],
+    "mapFeatureIds": [
+      "ATG"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ag.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "AUS",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "namePtBr": "Austrália",
+    "aliases": [
+      "Australia",
+      "Austrália",
+      "AU"
+    ],
+    "capitals": [
+      "Canberra"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      133,
+      -27
+    ],
+    "mapFeatureIds": [
+      "AUS",
+      "IOA",
+      "ATC"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/au.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "AUT",
+    "iso2": "AT",
+    "iso3": "AUT",
+    "namePtBr": "Áustria",
+    "aliases": [
+      "Austria",
+      "Áustria",
+      "AT",
+      "Osterreich",
+      "Oesterreich"
+    ],
+    "capitals": [
+      "Vienna"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      13.33333333,
+      47.33333333
+    ],
+    "mapFeatureIds": [
+      "AUT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/at.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "AZE",
+    "iso2": "AZ",
+    "iso3": "AZE",
+    "namePtBr": "Azerbeijão",
+    "aliases": [
+      "Azerbaijan",
+      "Azerbeijão",
+      "AZ",
+      "Republic of Azerbaijan",
+      "Azərbaycan Respublikası"
+    ],
+    "capitals": [
+      "Baku"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      47.5,
+      40.5
+    ],
+    "mapFeatureIds": [
+      "AZE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/az.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BDI",
+    "iso2": "BI",
+    "iso3": "BDI",
+    "namePtBr": "Burundi",
+    "aliases": [
+      "Burundi",
+      "BI",
+      "Republic of Burundi",
+      "Republika y'Uburundi",
+      "République du Burundi"
+    ],
+    "capitals": [
+      "Gitega"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      30,
+      -3.5
+    ],
+    "mapFeatureIds": [
+      "BDI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bi.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BEL",
+    "iso2": "BE",
+    "iso3": "BEL",
+    "namePtBr": "Bélgica",
+    "aliases": [
+      "Belgium",
+      "Bélgica",
+      "BE",
+      "België",
+      "Belgie",
+      "Belgien",
+      "Belgique",
+      "Kingdom of Belgium",
+      "Koninkrijk België",
+      "Royaume de Belgique",
+      "Königreich Belgien"
+    ],
+    "capitals": [
+      "Brussels"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      4,
+      50.83333333
+    ],
+    "mapFeatureIds": [
+      "BEL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/be.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BEN",
+    "iso2": "BJ",
+    "iso3": "BEN",
+    "namePtBr": "Benin",
+    "aliases": [
+      "Benin",
+      "BJ",
+      "Republic of Benin",
+      "République du Bénin"
+    ],
+    "capitals": [
+      "Porto-Novo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      2.25,
+      9.5
+    ],
+    "mapFeatureIds": [
+      "BEN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bj.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BFA",
+    "iso2": "BF",
+    "iso3": "BFA",
+    "namePtBr": "Burkina Faso",
+    "aliases": [
+      "Burkina Faso",
+      "BF"
+    ],
+    "capitals": [
+      "Ouagadougou"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -2,
+      13
+    ],
+    "mapFeatureIds": [
+      "BFA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bf.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BGD",
+    "iso2": "BD",
+    "iso3": "BGD",
+    "namePtBr": "Bangladesh",
+    "aliases": [
+      "Bangladesh",
+      "BD",
+      "People's Republic of Bangladesh",
+      "Gônôprôjatôntri Bangladesh"
+    ],
+    "capitals": [
+      "Dhaka"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      90,
+      24
+    ],
+    "mapFeatureIds": [
+      "BGD"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bd.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BGR",
+    "iso2": "BG",
+    "iso3": "BGR",
+    "namePtBr": "Bulgária",
+    "aliases": [
+      "Bulgaria",
+      "Bulgária",
+      "BG",
+      "Republic of Bulgaria",
+      "Република България"
+    ],
+    "capitals": [
+      "Sofia"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      25,
+      43
+    ],
+    "mapFeatureIds": [
+      "BGR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BHR",
+    "iso2": "BH",
+    "iso3": "BHR",
+    "namePtBr": "Bahrein",
+    "aliases": [
+      "Bahrain",
+      "Bahrein",
+      "BH",
+      "Kingdom of Bahrain",
+      "Mamlakat al-Baḥrayn"
+    ],
+    "capitals": [
+      "Manama"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      50.55,
+      26
+    ],
+    "mapFeatureIds": [
+      "BHR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bh.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BHS",
+    "iso2": "BS",
+    "iso3": "BHS",
+    "namePtBr": "Bahamas",
+    "aliases": [
+      "Bahamas",
+      "BS",
+      "Commonwealth of the Bahamas"
+    ],
+    "capitals": [
+      "Nassau"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -76,
+      24.25
+    ],
+    "mapFeatureIds": [
+      "BHS"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bs.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BIH",
+    "iso2": "BA",
+    "iso3": "BIH",
+    "namePtBr": "Bósnia e Herzegovina",
+    "aliases": [
+      "Bosnia and Herzegovina",
+      "Bósnia e Herzegovina",
+      "BA",
+      "Bosnia-Herzegovina",
+      "Босна и Херцеговина"
+    ],
+    "capitals": [
+      "Sarajevo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      18,
+      44
+    ],
+    "mapFeatureIds": [
+      "BIH"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ba.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BLR",
+    "iso2": "BY",
+    "iso3": "BLR",
+    "namePtBr": "Bielorússia",
+    "aliases": [
+      "Belarus",
+      "Bielorússia",
+      "BY",
+      "Bielaruś",
+      "Republic of Belarus",
+      "Белоруссия",
+      "Республика Белоруссия"
+    ],
+    "capitals": [
+      "Minsk"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      28,
+      53
+    ],
+    "mapFeatureIds": [
+      "BLR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/by.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BLZ",
+    "iso2": "BZ",
+    "iso3": "BLZ",
+    "namePtBr": "Belize",
+    "aliases": [
+      "Belize",
+      "BZ"
+    ],
+    "capitals": [
+      "Belmopan"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -88.75,
+      17.25
+    ],
+    "mapFeatureIds": [
+      "BLZ"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BOL",
+    "iso2": "BO",
+    "iso3": "BOL",
+    "namePtBr": "Bolívia",
+    "aliases": [
+      "Bolivia",
+      "Bolívia",
+      "BO",
+      "Buliwya",
+      "Wuliwya",
+      "Bolivia, Plurinational State of",
+      "Plurinational State of Bolivia",
+      "Estado Plurinacional de Bolivia",
+      "Buliwya Mamallaqta",
+      "Wuliwya Suyu",
+      "Tetã Volívia"
+    ],
+    "capitals": [
+      "Sucre"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -65,
+      -17
+    ],
+    "mapFeatureIds": [
+      "BOL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bo.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BRA",
+    "iso2": "BR",
+    "iso3": "BRA",
+    "namePtBr": "Brasil",
+    "aliases": [
+      "Brazil",
+      "Brasil",
+      "BR",
+      "Federative Republic of Brazil",
+      "República Federativa do Brasil"
+    ],
+    "capitals": [
+      "Brasília"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -55,
+      -10
+    ],
+    "mapFeatureIds": [
+      "BRA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/br.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "sample-reviewed"
+  },
+  {
+    "id": "BRB",
+    "iso2": "BB",
+    "iso3": "BRB",
+    "namePtBr": "Barbados",
+    "aliases": [
+      "Barbados",
+      "BB"
+    ],
+    "capitals": [
+      "Bridgetown"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -59.53333333,
+      13.16666666
+    ],
+    "mapFeatureIds": [
+      "BRB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bb.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BRN",
+    "iso2": "BN",
+    "iso3": "BRN",
+    "namePtBr": "Brunei",
+    "aliases": [
+      "Brunei",
+      "BN",
+      "Brunei Darussalam",
+      "Nation of Brunei",
+      "the Abode of Peace"
+    ],
+    "capitals": [
+      "Bandar Seri Begawan"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      114.66666666,
+      4.5
+    ],
+    "mapFeatureIds": [
+      "BRN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BTN",
+    "iso2": "BT",
+    "iso3": "BTN",
+    "namePtBr": "Butão",
+    "aliases": [
+      "Bhutan",
+      "Butão",
+      "BT",
+      "Kingdom of Bhutan"
+    ],
+    "capitals": [
+      "Thimphu"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      90.5,
+      27.5
+    ],
+    "mapFeatureIds": [
+      "BTN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bt.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "BWA",
+    "iso2": "BW",
+    "iso3": "BWA",
+    "namePtBr": "Botswana",
+    "aliases": [
+      "Botswana",
+      "BW",
+      "Republic of Botswana",
+      "Lefatshe la Botswana"
+    ],
+    "capitals": [
+      "Gaborone"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      24,
+      -22
+    ],
+    "mapFeatureIds": [
+      "BWA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/bw.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CAF",
+    "iso2": "CF",
+    "iso3": "CAF",
+    "namePtBr": "República Centro-Africana",
+    "aliases": [
+      "Central African Republic",
+      "República Centro-Africana",
+      "CF",
+      "République centrafricaine"
+    ],
+    "capitals": [
+      "Bangui"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      21,
+      7
+    ],
+    "mapFeatureIds": [
+      "CAF"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cf.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CAN",
+    "iso2": "CA",
+    "iso3": "CAN",
+    "namePtBr": "Canadá",
+    "aliases": [
+      "Canada",
+      "Canadá",
+      "CA"
+    ],
+    "capitals": [
+      "Ottawa"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -95,
+      60
+    ],
+    "mapFeatureIds": [
+      "CAN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ca.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CHE",
+    "iso2": "CH",
+    "iso3": "CHE",
+    "namePtBr": "Suíça",
+    "aliases": [
+      "Switzerland",
+      "Suíça",
+      "CH",
+      "Swiss Confederation",
+      "Schweiz",
+      "Suisse",
+      "Svizzera",
+      "Svizra"
+    ],
+    "capitals": [
+      "Bern"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      8,
+      47
+    ],
+    "mapFeatureIds": [
+      "CHE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ch.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CHL",
+    "iso2": "CL",
+    "iso3": "CHL",
+    "namePtBr": "Chile",
+    "aliases": [
+      "Chile",
+      "CL",
+      "Republic of Chile",
+      "República de Chile"
+    ],
+    "capitals": [
+      "Santiago"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -71,
+      -30
+    ],
+    "mapFeatureIds": [
+      "CHL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cl.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CHN",
+    "iso2": "CN",
+    "iso3": "CHN",
+    "namePtBr": "China",
+    "aliases": [
+      "China",
+      "CN",
+      "Zhōngguó",
+      "Zhongguo",
+      "Zhonghua",
+      "People's Republic of China",
+      "中华人民共和国",
+      "Zhōnghuá Rénmín Gònghéguó"
+    ],
+    "capitals": [
+      "Beijing"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      105,
+      35
+    ],
+    "mapFeatureIds": [
+      "CHN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CIV",
+    "iso2": "CI",
+    "iso3": "CIV",
+    "namePtBr": "Costa do Marfim",
+    "aliases": [
+      "Ivory Coast",
+      "Costa do Marfim",
+      "CI",
+      "Côte d'Ivoire",
+      "Cote d'Ivoire",
+      "Republic of Côte d'Ivoire",
+      "République de Côte d'Ivoire"
+    ],
+    "capitals": [
+      "Yamoussoukro"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -5,
+      8
+    ],
+    "mapFeatureIds": [
+      "CIV"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ci.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CMR",
+    "iso2": "CM",
+    "iso3": "CMR",
+    "namePtBr": "Camarões",
+    "aliases": [
+      "Cameroon",
+      "Camarões",
+      "CM",
+      "Republic of Cameroon",
+      "République du Cameroun"
+    ],
+    "capitals": [
+      "Yaoundé"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      12,
+      6
+    ],
+    "mapFeatureIds": [
+      "CMR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "COD",
+    "iso2": "CD",
+    "iso3": "COD",
+    "namePtBr": "República Democrática do Congo",
+    "aliases": [
+      "DR Congo",
+      "República Democrática do Congo",
+      "CD",
+      "Congo-Kinshasa",
+      "Congo, the Democratic Republic of the",
+      "Democratic Republic of Congo",
+      "DRC"
+    ],
+    "capitals": [
+      "Kinshasa"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      25,
+      0
+    ],
+    "mapFeatureIds": [
+      "COD"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cd.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "COG",
+    "iso2": "CG",
+    "iso3": "COG",
+    "namePtBr": "Congo",
+    "aliases": [
+      "Congo",
+      "CG",
+      "Congo-Brazzaville"
+    ],
+    "capitals": [
+      "Brazzaville"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      15,
+      -1
+    ],
+    "mapFeatureIds": [
+      "COG"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "COL",
+    "iso2": "CO",
+    "iso3": "COL",
+    "namePtBr": "Colômbia",
+    "aliases": [
+      "Colombia",
+      "Colômbia",
+      "CO",
+      "Republic of Colombia",
+      "República de Colombia"
+    ],
+    "capitals": [
+      "Bogotá"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -72,
+      4
+    ],
+    "mapFeatureIds": [
+      "COL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/co.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "COM",
+    "iso2": "KM",
+    "iso3": "COM",
+    "namePtBr": "Comores",
+    "aliases": [
+      "Comoros",
+      "Comores",
+      "KM",
+      "Union of the Comoros",
+      "Union des Comores",
+      "Udzima wa Komori",
+      "al-Ittiḥād al-Qumurī"
+    ],
+    "capitals": [
+      "Moroni"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      44.25,
+      -12.16666666
+    ],
+    "mapFeatureIds": [
+      "COM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/km.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CPV",
+    "iso2": "CV",
+    "iso3": "CPV",
+    "namePtBr": "Cabo Verde",
+    "aliases": [
+      "Cape Verde",
+      "Cabo Verde",
+      "CV",
+      "Republic of Cabo Verde",
+      "República de Cabo Verde"
+    ],
+    "capitals": [
+      "Praia"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -24,
+      16
+    ],
+    "mapFeatureIds": [
+      "CPV"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cv.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CRI",
+    "iso2": "CR",
+    "iso3": "CRI",
+    "namePtBr": "Costa Rica",
+    "aliases": [
+      "Costa Rica",
+      "CR",
+      "Republic of Costa Rica",
+      "República de Costa Rica"
+    ],
+    "capitals": [
+      "San José"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -84,
+      10
+    ],
+    "mapFeatureIds": [
+      "CRI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CUB",
+    "iso2": "CU",
+    "iso3": "CUB",
+    "namePtBr": "Cuba",
+    "aliases": [
+      "Cuba",
+      "CU",
+      "Republic of Cuba",
+      "República de Cuba"
+    ],
+    "capitals": [
+      "Havana"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -80,
+      21.5
+    ],
+    "mapFeatureIds": [
+      "CUB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cu.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CYP",
+    "iso2": "CY",
+    "iso3": "CYP",
+    "namePtBr": "Chipre",
+    "aliases": [
+      "Cyprus",
+      "Chipre",
+      "CY",
+      "Kýpros",
+      "Kıbrıs",
+      "Republic of Cyprus",
+      "Κυπριακή Δημοκρατία",
+      "Kıbrıs Cumhuriyeti"
+    ],
+    "capitals": [
+      "Nicosia"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      33,
+      35
+    ],
+    "mapFeatureIds": [
+      "CYP"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cy.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "CZE",
+    "iso2": "CZ",
+    "iso3": "CZE",
+    "namePtBr": "Chéquia",
+    "aliases": [
+      "Czechia",
+      "Chéquia",
+      "CZ",
+      "Česká republika",
+      "Česko"
+    ],
+    "capitals": [
+      "Prague"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      15.5,
+      49.75
+    ],
+    "mapFeatureIds": [
+      "CZE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/cz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "DEU",
+    "iso2": "DE",
+    "iso3": "DEU",
+    "namePtBr": "Alemanha",
+    "aliases": [
+      "Germany",
+      "Alemanha",
+      "DE",
+      "Federal Republic of Germany",
+      "Bundesrepublik Deutschland"
+    ],
+    "capitals": [
+      "Berlin"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      9,
+      51
+    ],
+    "mapFeatureIds": [
+      "DEU"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/de.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "DJI",
+    "iso2": "DJ",
+    "iso3": "DJI",
+    "namePtBr": "Djibouti",
+    "aliases": [
+      "Djibouti",
+      "DJ",
+      "Jabuuti",
+      "Gabuuti",
+      "Republic of Djibouti",
+      "République de Djibouti",
+      "Gabuutih Ummuuno",
+      "Jamhuuriyadda Jabuuti"
+    ],
+    "capitals": [
+      "Djibouti"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      43,
+      11.5
+    ],
+    "mapFeatureIds": [
+      "DJI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/dj.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "DMA",
+    "iso2": "DM",
+    "iso3": "DMA",
+    "namePtBr": "Dominica",
+    "aliases": [
+      "Dominica",
+      "DM",
+      "Dominique",
+      "Wai‘tu kubuli",
+      "Commonwealth of Dominica"
+    ],
+    "capitals": [
+      "Roseau"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -61.33333333,
+      15.41666666
+    ],
+    "mapFeatureIds": [
+      "DMA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/dm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "DNK",
+    "iso2": "DK",
+    "iso3": "DNK",
+    "namePtBr": "Dinamarca",
+    "aliases": [
+      "Denmark",
+      "Dinamarca",
+      "DK",
+      "Danmark",
+      "Kingdom of Denmark",
+      "Kongeriget Danmark"
+    ],
+    "capitals": [
+      "Copenhagen"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      10,
+      56
+    ],
+    "mapFeatureIds": [
+      "DNK"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/dk.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "DOM",
+    "iso2": "DO",
+    "iso3": "DOM",
+    "namePtBr": "República Dominicana",
+    "aliases": [
+      "Dominican Republic",
+      "República Dominicana",
+      "DO"
+    ],
+    "capitals": [
+      "Santo Domingo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -70.66666666,
+      19
+    ],
+    "mapFeatureIds": [
+      "DOM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/do.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "DZA",
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "namePtBr": "Argélia",
+    "aliases": [
+      "Algeria",
+      "Argélia",
+      "DZ",
+      "Dzayer",
+      "Algérie"
+    ],
+    "capitals": [
+      "Algiers"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      3,
+      28
+    ],
+    "mapFeatureIds": [
+      "DZA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/dz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ECU",
+    "iso2": "EC",
+    "iso3": "ECU",
+    "namePtBr": "Equador",
+    "aliases": [
+      "Ecuador",
+      "Equador",
+      "EC",
+      "Republic of Ecuador",
+      "República del Ecuador"
+    ],
+    "capitals": [
+      "Quito"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -77.5,
+      -2
+    ],
+    "mapFeatureIds": [
+      "ECU"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ec.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "EGY",
+    "iso2": "EG",
+    "iso3": "EGY",
+    "namePtBr": "Egito",
+    "aliases": [
+      "Egypt",
+      "Egito",
+      "EG",
+      "Arab Republic of Egypt"
+    ],
+    "capitals": [
+      "Cairo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      30,
+      27
+    ],
+    "mapFeatureIds": [
+      "EGY"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/eg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ERI",
+    "iso2": "ER",
+    "iso3": "ERI",
+    "namePtBr": "Eritreia",
+    "aliases": [
+      "Eritrea",
+      "Eritreia",
+      "ER",
+      "State of Eritrea",
+      "ሃገረ ኤርትራ",
+      "Dawlat Iritriyá",
+      "ʾErtrā",
+      "Iritriyā"
+    ],
+    "capitals": [
+      "Asmara"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      39,
+      15
+    ],
+    "mapFeatureIds": [
+      "ERI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/er.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ESP",
+    "iso2": "ES",
+    "iso3": "ESP",
+    "namePtBr": "Espanha",
+    "aliases": [
+      "Spain",
+      "Espanha",
+      "ES",
+      "Kingdom of Spain",
+      "Reino de España"
+    ],
+    "capitals": [
+      "Madrid"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -4,
+      40
+    ],
+    "mapFeatureIds": [
+      "ESP"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/es.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "EST",
+    "iso2": "EE",
+    "iso3": "EST",
+    "namePtBr": "Estónia",
+    "aliases": [
+      "Estonia",
+      "Estónia",
+      "EE",
+      "Eesti",
+      "Republic of Estonia",
+      "Eesti Vabariik"
+    ],
+    "capitals": [
+      "Tallinn"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      26,
+      59
+    ],
+    "mapFeatureIds": [
+      "EST"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ee.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ETH",
+    "iso2": "ET",
+    "iso3": "ETH",
+    "namePtBr": "Etiópia",
+    "aliases": [
+      "Ethiopia",
+      "Etiópia",
+      "ET",
+      "ʾĪtyōṗṗyā",
+      "Federal Democratic Republic of Ethiopia",
+      "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+    ],
+    "capitals": [
+      "Addis Ababa"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      38,
+      8
+    ],
+    "mapFeatureIds": [
+      "ETH"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/et.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "FIN",
+    "iso2": "FI",
+    "iso3": "FIN",
+    "namePtBr": "Finlândia",
+    "aliases": [
+      "Finland",
+      "Finlândia",
+      "FI",
+      "Suomi",
+      "Republic of Finland",
+      "Suomen tasavalta",
+      "Republiken Finland"
+    ],
+    "capitals": [
+      "Helsinki"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      26,
+      64
+    ],
+    "mapFeatureIds": [
+      "FIN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/fi.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "FJI",
+    "iso2": "FJ",
+    "iso3": "FJI",
+    "namePtBr": "Fiji",
+    "aliases": [
+      "Fiji",
+      "FJ",
+      "Viti",
+      "Republic of Fiji",
+      "Matanitu ko Viti",
+      "Fijī Gaṇarājya"
+    ],
+    "capitals": [
+      "Suva"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      175,
+      -18
+    ],
+    "mapFeatureIds": [
+      "FJI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/fj.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "sample-reviewed"
+  },
+  {
+    "id": "FRA",
+    "iso2": "FR",
+    "iso3": "FRA",
+    "namePtBr": "França",
+    "aliases": [
+      "France",
+      "França",
+      "FR",
+      "French Republic",
+      "République française"
+    ],
+    "capitals": [
+      "Paris"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      2,
+      46
+    ],
+    "mapFeatureIds": [
+      "FRA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/fr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "FSM",
+    "iso2": "FM",
+    "iso3": "FSM",
+    "namePtBr": "Micronésia",
+    "aliases": [
+      "Micronesia",
+      "Micronésia",
+      "FM",
+      "Federated States of Micronesia",
+      "Micronesia, Federated States of"
+    ],
+    "capitals": [
+      "Palikir"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      158.25,
+      6.91666666
+    ],
+    "mapFeatureIds": [
+      "FSM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/fm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GAB",
+    "iso2": "GA",
+    "iso3": "GAB",
+    "namePtBr": "Gabão",
+    "aliases": [
+      "Gabon",
+      "Gabão",
+      "GA",
+      "Gabonese Republic",
+      "République Gabonaise"
+    ],
+    "capitals": [
+      "Libreville"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      11.75,
+      -1
+    ],
+    "mapFeatureIds": [
+      "GAB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ga.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GBR",
+    "iso2": "GB",
+    "iso3": "GBR",
+    "namePtBr": "Reino Unido",
+    "aliases": [
+      "United Kingdom",
+      "Reino Unido",
+      "GB",
+      "UK",
+      "Great Britain"
+    ],
+    "capitals": [
+      "London"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -2,
+      54
+    ],
+    "mapFeatureIds": [
+      "GBR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gb.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GEO",
+    "iso2": "GE",
+    "iso3": "GEO",
+    "namePtBr": "Geórgia",
+    "aliases": [
+      "Georgia",
+      "Geórgia",
+      "GE",
+      "Sakartvelo"
+    ],
+    "capitals": [
+      "Tbilisi"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      43.5,
+      42
+    ],
+    "mapFeatureIds": [
+      "GEO"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ge.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GHA",
+    "iso2": "GH",
+    "iso3": "GHA",
+    "namePtBr": "Gana",
+    "aliases": [
+      "Ghana",
+      "Gana",
+      "GH"
+    ],
+    "capitals": [
+      "Accra"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -2,
+      8
+    ],
+    "mapFeatureIds": [
+      "GHA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gh.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GIN",
+    "iso2": "GN",
+    "iso3": "GIN",
+    "namePtBr": "Guiné",
+    "aliases": [
+      "Guinea",
+      "Guiné",
+      "GN",
+      "Republic of Guinea",
+      "République de Guinée"
+    ],
+    "capitals": [
+      "Conakry"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -10,
+      11
+    ],
+    "mapFeatureIds": [
+      "GIN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GMB",
+    "iso2": "GM",
+    "iso3": "GMB",
+    "namePtBr": "Gâmbia",
+    "aliases": [
+      "Gambia",
+      "Gâmbia",
+      "GM",
+      "Republic of the Gambia"
+    ],
+    "capitals": [
+      "Banjul"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -16.56666666,
+      13.46666666
+    ],
+    "mapFeatureIds": [
+      "GMB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GNB",
+    "iso2": "GW",
+    "iso3": "GNB",
+    "namePtBr": "Guiné-Bissau",
+    "aliases": [
+      "Guinea-Bissau",
+      "Guiné-Bissau",
+      "GW",
+      "Republic of Guinea-Bissau",
+      "República da Guiné-Bissau"
+    ],
+    "capitals": [
+      "Bissau"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -15,
+      12
+    ],
+    "mapFeatureIds": [
+      "GNB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gw.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GNQ",
+    "iso2": "GQ",
+    "iso3": "GNQ",
+    "namePtBr": "Guiné Equatorial",
+    "aliases": [
+      "Equatorial Guinea",
+      "Guiné Equatorial",
+      "GQ",
+      "Republic of Equatorial Guinea",
+      "República de Guinea Ecuatorial",
+      "République de Guinée équatoriale",
+      "República da Guiné Equatorial"
+    ],
+    "capitals": [
+      "Ciudad de la Paz"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      10,
+      2
+    ],
+    "mapFeatureIds": [
+      "GNQ"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gq.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GRC",
+    "iso2": "GR",
+    "iso3": "GRC",
+    "namePtBr": "Grécia",
+    "aliases": [
+      "Greece",
+      "Grécia",
+      "GR",
+      "Elláda",
+      "Hellenic Republic",
+      "Ελληνική Δημοκρατία"
+    ],
+    "capitals": [
+      "Athens"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      22,
+      39
+    ],
+    "mapFeatureIds": [
+      "GRC"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GRD",
+    "iso2": "GD",
+    "iso3": "GRD",
+    "namePtBr": "Granada",
+    "aliases": [
+      "Grenada",
+      "Granada",
+      "GD"
+    ],
+    "capitals": [
+      "St. George's"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -61.66666666,
+      12.11666666
+    ],
+    "mapFeatureIds": [
+      "GRD"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gd.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GTM",
+    "iso2": "GT",
+    "iso3": "GTM",
+    "namePtBr": "Guatemala",
+    "aliases": [
+      "Guatemala",
+      "GT"
+    ],
+    "capitals": [
+      "Guatemala City"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -90.25,
+      15.5
+    ],
+    "mapFeatureIds": [
+      "GTM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gt.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "GUY",
+    "iso2": "GY",
+    "iso3": "GUY",
+    "namePtBr": "Guiana",
+    "aliases": [
+      "Guyana",
+      "Guiana",
+      "GY",
+      "Co-operative Republic of Guyana"
+    ],
+    "capitals": [
+      "Georgetown"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -59,
+      5
+    ],
+    "mapFeatureIds": [
+      "GUY"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/gy.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "HND",
+    "iso2": "HN",
+    "iso3": "HND",
+    "namePtBr": "Honduras",
+    "aliases": [
+      "Honduras",
+      "HN",
+      "Republic of Honduras",
+      "República de Honduras"
+    ],
+    "capitals": [
+      "Tegucigalpa"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -86.5,
+      15
+    ],
+    "mapFeatureIds": [
+      "HND"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/hn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "HRV",
+    "iso2": "HR",
+    "iso3": "HRV",
+    "namePtBr": "Croácia",
+    "aliases": [
+      "Croatia",
+      "Croácia",
+      "HR",
+      "Hrvatska",
+      "Republic of Croatia",
+      "Republika Hrvatska"
+    ],
+    "capitals": [
+      "Zagreb"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      15.5,
+      45.16666666
+    ],
+    "mapFeatureIds": [
+      "HRV"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/hr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "HTI",
+    "iso2": "HT",
+    "iso3": "HTI",
+    "namePtBr": "Haiti",
+    "aliases": [
+      "Haiti",
+      "HT",
+      "Republic of Haiti",
+      "République d'Haïti",
+      "Repiblik Ayiti"
+    ],
+    "capitals": [
+      "Port-au-Prince"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -72.41666666,
+      19
+    ],
+    "mapFeatureIds": [
+      "HTI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ht.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "HUN",
+    "iso2": "HU",
+    "iso3": "HUN",
+    "namePtBr": "Hungria",
+    "aliases": [
+      "Hungary",
+      "Hungria",
+      "HU"
+    ],
+    "capitals": [
+      "Budapest"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      20,
+      47
+    ],
+    "mapFeatureIds": [
+      "HUN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/hu.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "IDN",
+    "iso2": "ID",
+    "iso3": "IDN",
+    "namePtBr": "Indonésia",
+    "aliases": [
+      "Indonesia",
+      "Indonésia",
+      "ID",
+      "Republic of Indonesia",
+      "Republik Indonesia"
+    ],
+    "capitals": [
+      "Jakarta"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      120,
+      -5
+    ],
+    "mapFeatureIds": [
+      "IDN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/id.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "IND",
+    "iso2": "IN",
+    "iso3": "IND",
+    "namePtBr": "Índia",
+    "aliases": [
+      "India",
+      "Índia",
+      "IN",
+      "Bhārat",
+      "Republic of India",
+      "Bharat Ganrajya",
+      "இந்தியா"
+    ],
+    "capitals": [
+      "New Delhi"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      77,
+      20
+    ],
+    "mapFeatureIds": [
+      "IND"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/in.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "IRL",
+    "iso2": "IE",
+    "iso3": "IRL",
+    "namePtBr": "Irlanda",
+    "aliases": [
+      "Ireland",
+      "Irlanda",
+      "IE",
+      "Éire",
+      "Republic of Ireland",
+      "Poblacht na hÉireann"
+    ],
+    "capitals": [
+      "Dublin"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -8,
+      53
+    ],
+    "mapFeatureIds": [
+      "IRL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ie.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "IRN",
+    "iso2": "IR",
+    "iso3": "IRN",
+    "namePtBr": "Irão",
+    "aliases": [
+      "Iran",
+      "Irão",
+      "IR",
+      "Islamic Republic of Iran",
+      "Iran, Islamic Republic of",
+      "Jomhuri-ye Eslāmi-ye Irān"
+    ],
+    "capitals": [
+      "Tehran"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      53,
+      32
+    ],
+    "mapFeatureIds": [
+      "IRN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ir.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "IRQ",
+    "iso2": "IQ",
+    "iso3": "IRQ",
+    "namePtBr": "Iraque",
+    "aliases": [
+      "Iraq",
+      "Iraque",
+      "IQ",
+      "Republic of Iraq",
+      "Jumhūriyyat al-‘Irāq"
+    ],
+    "capitals": [
+      "Baghdad"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      44,
+      33
+    ],
+    "mapFeatureIds": [
+      "IRQ"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/iq.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ISL",
+    "iso2": "IS",
+    "iso3": "ISL",
+    "namePtBr": "Islândia",
+    "aliases": [
+      "Iceland",
+      "Islândia",
+      "IS",
+      "Island",
+      "Republic of Iceland",
+      "Lýðveldið Ísland"
+    ],
+    "capitals": [
+      "Reykjavik"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -18,
+      65
+    ],
+    "mapFeatureIds": [
+      "ISL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/is.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ISR",
+    "iso2": "IL",
+    "iso3": "ISR",
+    "namePtBr": "Israel",
+    "aliases": [
+      "Israel",
+      "IL",
+      "State of Israel",
+      "Medīnat Yisrā'el"
+    ],
+    "capitals": [
+      "Jerusalem"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      35.13,
+      31.47
+    ],
+    "mapFeatureIds": [
+      "ISR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/il.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ITA",
+    "iso2": "IT",
+    "iso3": "ITA",
+    "namePtBr": "Itália",
+    "aliases": [
+      "Italy",
+      "Itália",
+      "IT",
+      "Italian Republic",
+      "Repubblica italiana"
+    ],
+    "capitals": [
+      "Rome"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      12.83333333,
+      42.83333333
+    ],
+    "mapFeatureIds": [
+      "ITA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/it.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "JAM",
+    "iso2": "JM",
+    "iso3": "JAM",
+    "namePtBr": "Jamaica",
+    "aliases": [
+      "Jamaica",
+      "JM"
+    ],
+    "capitals": [
+      "Kingston"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -77.5,
+      18.25
+    ],
+    "mapFeatureIds": [
+      "JAM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/jm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "JOR",
+    "iso2": "JO",
+    "iso3": "JOR",
+    "namePtBr": "Jordânia",
+    "aliases": [
+      "Jordan",
+      "Jordânia",
+      "JO",
+      "Hashemite Kingdom of Jordan",
+      "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+    ],
+    "capitals": [
+      "Amman"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      36,
+      31
+    ],
+    "mapFeatureIds": [
+      "JOR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/jo.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "JPN",
+    "iso2": "JP",
+    "iso3": "JPN",
+    "namePtBr": "Japão",
+    "aliases": [
+      "Japan",
+      "Japão",
+      "JP",
+      "Nippon",
+      "Nihon"
+    ],
+    "capitals": [
+      "Tóquio"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      138,
+      36
+    ],
+    "mapFeatureIds": [
+      "JPN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/jp.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "sample-reviewed"
+  },
+  {
+    "id": "KAZ",
+    "iso2": "KZ",
+    "iso3": "KAZ",
+    "namePtBr": "Cazaquistão",
+    "aliases": [
+      "Kazakhstan",
+      "Cazaquistão",
+      "KZ",
+      "Qazaqstan",
+      "Казахстан",
+      "Republic of Kazakhstan",
+      "Қазақстан Республикасы",
+      "Qazaqstan Respublïkası",
+      "Республика Казахстан",
+      "Respublika Kazakhstan"
+    ],
+    "capitals": [
+      "Astana"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      68,
+      48
+    ],
+    "mapFeatureIds": [
+      "KAZ"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/kz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "KEN",
+    "iso2": "KE",
+    "iso3": "KEN",
+    "namePtBr": "Quénia",
+    "aliases": [
+      "Kenya",
+      "Quénia",
+      "KE",
+      "Republic of Kenya",
+      "Jamhuri ya Kenya"
+    ],
+    "capitals": [
+      "Nairobi"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      38,
+      1
+    ],
+    "mapFeatureIds": [
+      "KEN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ke.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "KGZ",
+    "iso2": "KG",
+    "iso3": "KGZ",
+    "namePtBr": "Quirguistão",
+    "aliases": [
+      "Kyrgyzstan",
+      "Quirguistão",
+      "KG",
+      "Киргизия",
+      "Kyrgyz Republic",
+      "Кыргыз Республикасы",
+      "Kyrgyz Respublikasy"
+    ],
+    "capitals": [
+      "Bishkek"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      75,
+      41
+    ],
+    "mapFeatureIds": [
+      "KGZ"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/kg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "KHM",
+    "iso2": "KH",
+    "iso3": "KHM",
+    "namePtBr": "Camboja",
+    "aliases": [
+      "Cambodia",
+      "Camboja",
+      "KH",
+      "Kingdom of Cambodia"
+    ],
+    "capitals": [
+      "Phnom Penh"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      105,
+      13
+    ],
+    "mapFeatureIds": [
+      "KHM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/kh.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "KIR",
+    "iso2": "KI",
+    "iso3": "KIR",
+    "namePtBr": "Kiribati",
+    "aliases": [
+      "Kiribati",
+      "KI",
+      "Republic of Kiribati",
+      "Ribaberiki Kiribati"
+    ],
+    "capitals": [
+      "South Tarawa"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      173,
+      1.41666666
+    ],
+    "mapFeatureIds": [
+      "KIR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ki.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "KNA",
+    "iso2": "KN",
+    "iso3": "KNA",
+    "namePtBr": "São Cristóvão e Nevis",
+    "aliases": [
+      "Saint Kitts and Nevis",
+      "São Cristóvão e Nevis",
+      "KN",
+      "Federation of Saint Christopher and Nevis"
+    ],
+    "capitals": [
+      "Basseterre"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -62.75,
+      17.33333333
+    ],
+    "mapFeatureIds": [
+      "KNA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/kn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "KOR",
+    "iso2": "KR",
+    "iso3": "KOR",
+    "namePtBr": "Coreia do Sul",
+    "aliases": [
+      "South Korea",
+      "Coreia do Sul",
+      "KR",
+      "Korea, Republic of",
+      "Republic of Korea",
+      "남한",
+      "남조선"
+    ],
+    "capitals": [
+      "Seoul"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      127.5,
+      37
+    ],
+    "mapFeatureIds": [
+      "KOR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/kr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "KWT",
+    "iso2": "KW",
+    "iso3": "KWT",
+    "namePtBr": "Kuwait",
+    "aliases": [
+      "Kuwait",
+      "KW",
+      "State of Kuwait",
+      "Dawlat al-Kuwait"
+    ],
+    "capitals": [
+      "Kuwait City"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      45.75,
+      29.5
+    ],
+    "mapFeatureIds": [
+      "KWT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/kw.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LAO",
+    "iso2": "LA",
+    "iso3": "LAO",
+    "namePtBr": "Laos",
+    "aliases": [
+      "Laos",
+      "LA",
+      "Lao",
+      "Lao People's Democratic Republic",
+      "Sathalanalat Paxathipatai Paxaxon Lao"
+    ],
+    "capitals": [
+      "Vientiane"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      105,
+      18
+    ],
+    "mapFeatureIds": [
+      "LAO"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/la.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LBN",
+    "iso2": "LB",
+    "iso3": "LBN",
+    "namePtBr": "Líbano",
+    "aliases": [
+      "Lebanon",
+      "Líbano",
+      "LB",
+      "Lebanese Republic",
+      "Al-Jumhūrīyah Al-Libnānīyah"
+    ],
+    "capitals": [
+      "Beirut"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      35.83333333,
+      33.83333333
+    ],
+    "mapFeatureIds": [
+      "LBN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/lb.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LBR",
+    "iso2": "LR",
+    "iso3": "LBR",
+    "namePtBr": "Libéria",
+    "aliases": [
+      "Liberia",
+      "Libéria",
+      "LR",
+      "Republic of Liberia"
+    ],
+    "capitals": [
+      "Monrovia"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -9.5,
+      6.5
+    ],
+    "mapFeatureIds": [
+      "LBR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/lr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LBY",
+    "iso2": "LY",
+    "iso3": "LBY",
+    "namePtBr": "Líbia",
+    "aliases": [
+      "Libya",
+      "Líbia",
+      "LY",
+      "State of Libya",
+      "Dawlat Libya"
+    ],
+    "capitals": [
+      "Tripoli"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      17,
+      25
+    ],
+    "mapFeatureIds": [
+      "LBY"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ly.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LCA",
+    "iso2": "LC",
+    "iso3": "LCA",
+    "namePtBr": "Santa Lúcia",
+    "aliases": [
+      "Saint Lucia",
+      "Santa Lúcia",
+      "LC"
+    ],
+    "capitals": [
+      "Castries"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -60.96666666,
+      13.88333333
+    ],
+    "mapFeatureIds": [
+      "LCA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/lc.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LIE",
+    "iso2": "LI",
+    "iso3": "LIE",
+    "namePtBr": "Liechtenstein",
+    "aliases": [
+      "Liechtenstein",
+      "LI",
+      "Principality of Liechtenstein",
+      "Fürstentum Liechtenstein"
+    ],
+    "capitals": [
+      "Vaduz"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      9.53333333,
+      47.26666666
+    ],
+    "mapFeatureIds": [
+      "LIE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/li.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LKA",
+    "iso2": "LK",
+    "iso3": "LKA",
+    "namePtBr": "Sri Lanka",
+    "aliases": [
+      "Sri Lanka",
+      "LK",
+      "ilaṅkai",
+      "Democratic Socialist Republic of Sri Lanka"
+    ],
+    "capitals": [
+      "Colombo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      81,
+      7
+    ],
+    "mapFeatureIds": [
+      "LKA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/lk.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LSO",
+    "iso2": "LS",
+    "iso3": "LSO",
+    "namePtBr": "Lesoto",
+    "aliases": [
+      "Lesotho",
+      "Lesoto",
+      "LS",
+      "Kingdom of Lesotho",
+      "Muso oa Lesotho"
+    ],
+    "capitals": [
+      "Maseru"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      28.5,
+      -29.5
+    ],
+    "mapFeatureIds": [
+      "LSO"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ls.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LTU",
+    "iso2": "LT",
+    "iso3": "LTU",
+    "namePtBr": "Lituânia",
+    "aliases": [
+      "Lithuania",
+      "Lituânia",
+      "LT",
+      "Republic of Lithuania",
+      "Lietuvos Respublika"
+    ],
+    "capitals": [
+      "Vilnius"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      24,
+      56
+    ],
+    "mapFeatureIds": [
+      "LTU"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/lt.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LUX",
+    "iso2": "LU",
+    "iso3": "LUX",
+    "namePtBr": "Luxemburgo",
+    "aliases": [
+      "Luxembourg",
+      "Luxemburgo",
+      "LU",
+      "Grand Duchy of Luxembourg",
+      "Grand-Duché de Luxembourg",
+      "Großherzogtum Luxemburg",
+      "Groussherzogtum Lëtzebuerg"
+    ],
+    "capitals": [
+      "Luxembourg"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      6.16666666,
+      49.75
+    ],
+    "mapFeatureIds": [
+      "LUX"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/lu.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "LVA",
+    "iso2": "LV",
+    "iso3": "LVA",
+    "namePtBr": "Letónia",
+    "aliases": [
+      "Latvia",
+      "Letónia",
+      "LV",
+      "Republic of Latvia",
+      "Latvijas Republika"
+    ],
+    "capitals": [
+      "Riga"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      25,
+      57
+    ],
+    "mapFeatureIds": [
+      "LVA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/lv.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MAR",
+    "iso2": "MA",
+    "iso3": "MAR",
+    "namePtBr": "Marrocos",
+    "aliases": [
+      "Morocco",
+      "Marrocos",
+      "MA",
+      "Kingdom of Morocco",
+      "Al-Mamlakah al-Maġribiyah"
+    ],
+    "capitals": [
+      "Rabat"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -5,
+      32
+    ],
+    "mapFeatureIds": [
+      "MAR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ma.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MCO",
+    "iso2": "MC",
+    "iso3": "MCO",
+    "namePtBr": "Mônaco",
+    "aliases": [
+      "Monaco",
+      "Mónaco",
+      "MC",
+      "Principality of Monaco",
+      "Principauté de Monaco"
+    ],
+    "capitals": [
+      "Mônaco"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      7.4,
+      43.73333333
+    ],
+    "mapFeatureIds": [
+      "MCO"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mc.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "sample-reviewed"
+  },
+  {
+    "id": "MDA",
+    "iso2": "MD",
+    "iso3": "MDA",
+    "namePtBr": "Moldávia",
+    "aliases": [
+      "Moldova",
+      "Moldávia",
+      "MD",
+      "Moldova, Republic of",
+      "Republic of Moldova",
+      "Republica Moldova"
+    ],
+    "capitals": [
+      "Chișinău"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      29,
+      47
+    ],
+    "mapFeatureIds": [
+      "MDA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/md.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MDG",
+    "iso2": "MG",
+    "iso3": "MDG",
+    "namePtBr": "Madagáscar",
+    "aliases": [
+      "Madagascar",
+      "Madagáscar",
+      "MG",
+      "Republic of Madagascar",
+      "Repoblikan'i Madagasikara",
+      "République de Madagascar"
+    ],
+    "capitals": [
+      "Antananarivo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      47,
+      -20
+    ],
+    "mapFeatureIds": [
+      "MDG"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MDV",
+    "iso2": "MV",
+    "iso3": "MDV",
+    "namePtBr": "Maldivas",
+    "aliases": [
+      "Maldives",
+      "Maldivas",
+      "MV",
+      "Maldive Islands",
+      "Republic of the Maldives",
+      "Dhivehi Raajjeyge Jumhooriyya"
+    ],
+    "capitals": [
+      "Malé"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      73,
+      3.25
+    ],
+    "mapFeatureIds": [
+      "MDV"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mv.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MEX",
+    "iso2": "MX",
+    "iso3": "MEX",
+    "namePtBr": "México",
+    "aliases": [
+      "Mexico",
+      "México",
+      "MX",
+      "Mexicanos",
+      "United Mexican States",
+      "Estados Unidos Mexicanos"
+    ],
+    "capitals": [
+      "Mexico City"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -102,
+      23
+    ],
+    "mapFeatureIds": [
+      "MEX"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mx.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MHL",
+    "iso2": "MH",
+    "iso3": "MHL",
+    "namePtBr": "Ilhas Marshall",
+    "aliases": [
+      "Marshall Islands",
+      "Ilhas Marshall",
+      "MH",
+      "Republic of the Marshall Islands",
+      "Aolepān Aorōkin M̧ajeļ"
+    ],
+    "capitals": [
+      "Majuro"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      168,
+      9
+    ],
+    "mapFeatureIds": [
+      "MHL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mh.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MKD",
+    "iso2": "MK",
+    "iso3": "MKD",
+    "namePtBr": "Macedónia do Norte",
+    "aliases": [
+      "North Macedonia",
+      "Macedónia do Norte",
+      "MK",
+      "The former Yugoslav Republic of Macedonia",
+      "Republic of North Macedonia",
+      "Macedonia, The Former Yugoslav Republic of",
+      "Република Северна Македонија",
+      "Macedonia"
+    ],
+    "capitals": [
+      "Skopje"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      22,
+      41.83333333
+    ],
+    "mapFeatureIds": [
+      "MKD"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mk.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MLI",
+    "iso2": "ML",
+    "iso3": "MLI",
+    "namePtBr": "Mali",
+    "aliases": [
+      "Mali",
+      "ML",
+      "Republic of Mali",
+      "République du Mali"
+    ],
+    "capitals": [
+      "Bamako"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -4,
+      17
+    ],
+    "mapFeatureIds": [
+      "MLI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ml.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MLT",
+    "iso2": "MT",
+    "iso3": "MLT",
+    "namePtBr": "Malta",
+    "aliases": [
+      "Malta",
+      "MT",
+      "Republic of Malta",
+      "Repubblika ta' Malta"
+    ],
+    "capitals": [
+      "Valletta"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      14.58333333,
+      35.83333333
+    ],
+    "mapFeatureIds": [
+      "MLT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mt.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MMR",
+    "iso2": "MM",
+    "iso3": "MMR",
+    "namePtBr": "Myanmar",
+    "aliases": [
+      "Myanmar",
+      "MM",
+      "Burma",
+      "Republic of the Union of Myanmar",
+      "Pyidaunzu Thanmăda Myăma Nainngandaw"
+    ],
+    "capitals": [
+      "Naypyidaw"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      98,
+      22
+    ],
+    "mapFeatureIds": [
+      "MMR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MNE",
+    "iso2": "ME",
+    "iso3": "MNE",
+    "namePtBr": "Montenegro",
+    "aliases": [
+      "Montenegro",
+      "ME",
+      "Crna Gora"
+    ],
+    "capitals": [
+      "Podgorica"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      19.3,
+      42.5
+    ],
+    "mapFeatureIds": [
+      "MNE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/me.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MNG",
+    "iso2": "MN",
+    "iso3": "MNG",
+    "namePtBr": "Mongólia",
+    "aliases": [
+      "Mongolia",
+      "Mongólia",
+      "MN"
+    ],
+    "capitals": [
+      "Ulan Bator"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      105,
+      46
+    ],
+    "mapFeatureIds": [
+      "MNG"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MOZ",
+    "iso2": "MZ",
+    "iso3": "MOZ",
+    "namePtBr": "Moçambique",
+    "aliases": [
+      "Mozambique",
+      "Moçambique",
+      "MZ",
+      "Republic of Mozambique",
+      "República de Moçambique"
+    ],
+    "capitals": [
+      "Maputo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      35,
+      -18.25
+    ],
+    "mapFeatureIds": [
+      "MOZ"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MRT",
+    "iso2": "MR",
+    "iso3": "MRT",
+    "namePtBr": "Mauritânia",
+    "aliases": [
+      "Mauritania",
+      "Mauritânia",
+      "MR",
+      "Islamic Republic of Mauritania",
+      "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
+    ],
+    "capitals": [
+      "Nouakchott"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -12,
+      20
+    ],
+    "mapFeatureIds": [
+      "MRT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MUS",
+    "iso2": "MU",
+    "iso3": "MUS",
+    "namePtBr": "Maurício",
+    "aliases": [
+      "Mauritius",
+      "Maurício",
+      "MU",
+      "Republic of Mauritius",
+      "République de Maurice"
+    ],
+    "capitals": [
+      "Port Louis"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      57.55,
+      -20.28333333
+    ],
+    "mapFeatureIds": [
+      "MUS"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mu.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MWI",
+    "iso2": "MW",
+    "iso3": "MWI",
+    "namePtBr": "Malawi",
+    "aliases": [
+      "Malawi",
+      "MW",
+      "Republic of Malawi"
+    ],
+    "capitals": [
+      "Lilongwe"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      34,
+      -13.5
+    ],
+    "mapFeatureIds": [
+      "MWI"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/mw.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "MYS",
+    "iso2": "MY",
+    "iso3": "MYS",
+    "namePtBr": "Malásia",
+    "aliases": [
+      "Malaysia",
+      "Malásia",
+      "MY"
+    ],
+    "capitals": [
+      "Kuala Lumpur"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      112.5,
+      2.5
+    ],
+    "mapFeatureIds": [
+      "MYS"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/my.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NAM",
+    "iso2": "NA",
+    "iso3": "NAM",
+    "namePtBr": "Namíbia",
+    "aliases": [
+      "Namibia",
+      "Namíbia",
+      "NA",
+      "Namibië",
+      "Republic of Namibia"
+    ],
+    "capitals": [
+      "Windhoek"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      17,
+      -22
+    ],
+    "mapFeatureIds": [
+      "NAM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/na.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NER",
+    "iso2": "NE",
+    "iso3": "NER",
+    "namePtBr": "Níger",
+    "aliases": [
+      "Niger",
+      "Níger",
+      "NE",
+      "Nijar"
+    ],
+    "capitals": [
+      "Niamey"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      8,
+      16
+    ],
+    "mapFeatureIds": [
+      "NER"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ne.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NGA",
+    "iso2": "NG",
+    "iso3": "NGA",
+    "namePtBr": "Nigéria",
+    "aliases": [
+      "Nigeria",
+      "Nigéria",
+      "NG",
+      "Nijeriya",
+      "Naíjíríà",
+      "Federal Republic of Nigeria"
+    ],
+    "capitals": [
+      "Abuja"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      8,
+      10
+    ],
+    "mapFeatureIds": [
+      "NGA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ng.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NIC",
+    "iso2": "NI",
+    "iso3": "NIC",
+    "namePtBr": "Nicarágua",
+    "aliases": [
+      "Nicaragua",
+      "Nicarágua",
+      "NI",
+      "Republic of Nicaragua",
+      "República de Nicaragua"
+    ],
+    "capitals": [
+      "Managua"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -85,
+      13
+    ],
+    "mapFeatureIds": [
+      "NIC"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ni.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NLD",
+    "iso2": "NL",
+    "iso3": "NLD",
+    "namePtBr": "Holanda",
+    "aliases": [
+      "Netherlands",
+      "Holanda",
+      "NL",
+      "Holland",
+      "Nederland",
+      "The Netherlands"
+    ],
+    "capitals": [
+      "Amsterdam"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      5.75,
+      52.5
+    ],
+    "mapFeatureIds": [
+      "NLD"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/nl.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NOR",
+    "iso2": "NO",
+    "iso3": "NOR",
+    "namePtBr": "Noruega",
+    "aliases": [
+      "Norway",
+      "Noruega",
+      "NO",
+      "Norge",
+      "Noreg",
+      "Kingdom of Norway",
+      "Kongeriket Norge",
+      "Kongeriket Noreg"
+    ],
+    "capitals": [
+      "Oslo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      10,
+      62
+    ],
+    "mapFeatureIds": [
+      "NOR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/no.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NPL",
+    "iso2": "NP",
+    "iso3": "NPL",
+    "namePtBr": "Nepal",
+    "aliases": [
+      "Nepal",
+      "NP",
+      "Federal Democratic Republic of Nepal",
+      "Loktāntrik Ganatantra Nepāl"
+    ],
+    "capitals": [
+      "Kathmandu"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      84,
+      28
+    ],
+    "mapFeatureIds": [
+      "NPL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/np.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NRU",
+    "iso2": "NR",
+    "iso3": "NRU",
+    "namePtBr": "Nauru",
+    "aliases": [
+      "Nauru",
+      "NR",
+      "Naoero",
+      "Pleasant Island",
+      "Republic of Nauru",
+      "Ripublik Naoero"
+    ],
+    "capitals": [
+      "Yaren"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      166.91666666,
+      -0.53333333
+    ],
+    "mapFeatureIds": [
+      "NRU"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/nr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "NZL",
+    "iso2": "NZ",
+    "iso3": "NZL",
+    "namePtBr": "Nova Zelândia",
+    "aliases": [
+      "New Zealand",
+      "Nova Zelândia",
+      "NZ",
+      "Aotearoa"
+    ],
+    "capitals": [
+      "Wellington"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      174,
+      -41
+    ],
+    "mapFeatureIds": [
+      "NZL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/nz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "OMN",
+    "iso2": "OM",
+    "iso3": "OMN",
+    "namePtBr": "Omã",
+    "aliases": [
+      "Oman",
+      "Omã",
+      "OM",
+      "Sultanate of Oman",
+      "Salṭanat ʻUmān"
+    ],
+    "capitals": [
+      "Muscat"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      57,
+      21
+    ],
+    "mapFeatureIds": [
+      "OMN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/om.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PAK",
+    "iso2": "PK",
+    "iso3": "PAK",
+    "namePtBr": "Paquistão",
+    "aliases": [
+      "Pakistan",
+      "Paquistão",
+      "PK",
+      "Pākistān",
+      "Islamic Republic of Pakistan",
+      "Islāmī Jumhūriya'eh Pākistān"
+    ],
+    "capitals": [
+      "Islamabad"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      70,
+      30
+    ],
+    "mapFeatureIds": [
+      "PAK"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/pk.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PAN",
+    "iso2": "PA",
+    "iso3": "PAN",
+    "namePtBr": "Panamá",
+    "aliases": [
+      "Panama",
+      "Panamá",
+      "PA",
+      "Republic of Panama",
+      "República de Panamá"
+    ],
+    "capitals": [
+      "Panama City"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -80,
+      9
+    ],
+    "mapFeatureIds": [
+      "PAN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/pa.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PER",
+    "iso2": "PE",
+    "iso3": "PER",
+    "namePtBr": "Perú",
+    "aliases": [
+      "Peru",
+      "Perú",
+      "PE",
+      "Republic of Peru",
+      "República del Perú"
+    ],
+    "capitals": [
+      "Lima"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -76,
+      -10
+    ],
+    "mapFeatureIds": [
+      "PER"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/pe.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PHL",
+    "iso2": "PH",
+    "iso3": "PHL",
+    "namePtBr": "Filipinas",
+    "aliases": [
+      "Philippines",
+      "Filipinas",
+      "PH",
+      "Republic of the Philippines",
+      "Repúblika ng Pilipinas"
+    ],
+    "capitals": [
+      "Manila"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      122,
+      13
+    ],
+    "mapFeatureIds": [
+      "PHL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ph.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PLW",
+    "iso2": "PW",
+    "iso3": "PLW",
+    "namePtBr": "Palau",
+    "aliases": [
+      "Palau",
+      "PW",
+      "Republic of Palau",
+      "Beluu er a Belau"
+    ],
+    "capitals": [
+      "Ngerulmud"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      134.5,
+      7.5
+    ],
+    "mapFeatureIds": [
+      "PLW"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/pw.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PNG",
+    "iso2": "PG",
+    "iso3": "PNG",
+    "namePtBr": "Papua Nova Guiné",
+    "aliases": [
+      "Papua New Guinea",
+      "Papua Nova Guiné",
+      "PG",
+      "Independent State of Papua New Guinea",
+      "Independen Stet bilong Papua Niugini"
+    ],
+    "capitals": [
+      "Port Moresby"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      147,
+      -6
+    ],
+    "mapFeatureIds": [
+      "PNG"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/pg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "POL",
+    "iso2": "PL",
+    "iso3": "POL",
+    "namePtBr": "Polónia",
+    "aliases": [
+      "Poland",
+      "Polónia",
+      "PL",
+      "Republic of Poland",
+      "Rzeczpospolita Polska"
+    ],
+    "capitals": [
+      "Warsaw"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      20,
+      52
+    ],
+    "mapFeatureIds": [
+      "POL"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/pl.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PRK",
+    "iso2": "KP",
+    "iso3": "PRK",
+    "namePtBr": "Coreia do Norte",
+    "aliases": [
+      "North Korea",
+      "Coreia do Norte",
+      "KP",
+      "Democratic People's Republic of Korea",
+      "DPRK",
+      "조선민주주의인민공화국",
+      "Chosŏn Minjujuŭi Inmin Konghwaguk",
+      "Korea, Democratic People's Republic of",
+      "북한",
+      "북조선"
+    ],
+    "capitals": [
+      "Pyongyang"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      127,
+      40
+    ],
+    "mapFeatureIds": [
+      "PRK"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/kp.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PRT",
+    "iso2": "PT",
+    "iso3": "PRT",
+    "namePtBr": "Portugal",
+    "aliases": [
+      "Portugal",
+      "PT",
+      "Portuguesa",
+      "Portuguese Republic",
+      "República Portuguesa"
+    ],
+    "capitals": [
+      "Lisbon"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -8,
+      39.5
+    ],
+    "mapFeatureIds": [
+      "PRT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/pt.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PRY",
+    "iso2": "PY",
+    "iso3": "PRY",
+    "namePtBr": "Paraguai",
+    "aliases": [
+      "Paraguay",
+      "Paraguai",
+      "PY",
+      "Republic of Paraguay",
+      "República del Paraguay",
+      "Tetã Paraguái"
+    ],
+    "capitals": [
+      "Asunción"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -58,
+      -23
+    ],
+    "mapFeatureIds": [
+      "PRY"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/py.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "PSE",
+    "iso2": "PS",
+    "iso3": "PSE",
+    "namePtBr": "Palestina",
+    "aliases": [
+      "Palestine",
+      "Palestina",
+      "PS",
+      "Palestine, State of",
+      "State of Palestine",
+      "Dawlat Filasṭin"
+    ],
+    "capitals": [
+      "Ramallah"
+    ],
+    "capitalNote": "Ramallah é a sede administrativa; a reivindicação de Jerusalém Oriental será explicada no catálogo final.",
+    "focusPoint": [
+      35.2,
+      31.9
+    ],
+    "mapFeatureIds": [
+      "PSX"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ps.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "QAT",
+    "iso2": "QA",
+    "iso3": "QAT",
+    "namePtBr": "Catar",
+    "aliases": [
+      "Qatar",
+      "Catar",
+      "QA",
+      "State of Qatar",
+      "Dawlat Qaṭar"
+    ],
+    "capitals": [
+      "Doha"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      51.25,
+      25.5
+    ],
+    "mapFeatureIds": [
+      "QAT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/qa.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ROU",
+    "iso2": "RO",
+    "iso3": "ROU",
+    "namePtBr": "Roménia",
+    "aliases": [
+      "Romania",
+      "Roménia",
+      "RO",
+      "Rumania",
+      "Roumania",
+      "România"
+    ],
+    "capitals": [
+      "Bucharest"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      25,
+      46
+    ],
+    "mapFeatureIds": [
+      "ROU"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ro.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "RUS",
+    "iso2": "RU",
+    "iso3": "RUS",
+    "namePtBr": "Rússia",
+    "aliases": [
+      "Russia",
+      "Rússia",
+      "RU",
+      "Russian Federation",
+      "Российская Федерация"
+    ],
+    "capitals": [
+      "Moscow"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      100,
+      60
+    ],
+    "mapFeatureIds": [
+      "RUS"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ru.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "RWA",
+    "iso2": "RW",
+    "iso3": "RWA",
+    "namePtBr": "Ruanda",
+    "aliases": [
+      "Rwanda",
+      "Ruanda",
+      "RW",
+      "Republic of Rwanda",
+      "Repubulika y'u Rwanda",
+      "République du Rwanda"
+    ],
+    "capitals": [
+      "Kigali"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      30,
+      -2
+    ],
+    "mapFeatureIds": [
+      "RWA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/rw.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SAU",
+    "iso2": "SA",
+    "iso3": "SAU",
+    "namePtBr": "Arábia Saudita",
+    "aliases": [
+      "Saudi Arabia",
+      "Arábia Saudita",
+      "Saudi",
+      "SA",
+      "Kingdom of Saudi Arabia",
+      "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+    ],
+    "capitals": [
+      "Riyadh"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      45,
+      25
+    ],
+    "mapFeatureIds": [
+      "SAU"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sa.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SDN",
+    "iso2": "SD",
+    "iso3": "SDN",
+    "namePtBr": "Sudão",
+    "aliases": [
+      "Sudan",
+      "Sudão",
+      "SD",
+      "Republic of the Sudan",
+      "Jumhūrīyat as-Sūdān"
+    ],
+    "capitals": [
+      "Khartoum"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      30,
+      15
+    ],
+    "mapFeatureIds": [
+      "SDN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sd.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SEN",
+    "iso2": "SN",
+    "iso3": "SEN",
+    "namePtBr": "Senegal",
+    "aliases": [
+      "Senegal",
+      "SN",
+      "Republic of Senegal",
+      "République du Sénégal"
+    ],
+    "capitals": [
+      "Dakar"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -14,
+      14
+    ],
+    "mapFeatureIds": [
+      "SEN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SGP",
+    "iso2": "SG",
+    "iso3": "SGP",
+    "namePtBr": "Singapura",
+    "aliases": [
+      "Singapore",
+      "Singapura",
+      "SG",
+      "Republik Singapura",
+      "新加坡共和国"
+    ],
+    "capitals": [
+      "Singapore"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      103.8,
+      1.36666666
+    ],
+    "mapFeatureIds": [
+      "SGP"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SLB",
+    "iso2": "SB",
+    "iso3": "SLB",
+    "namePtBr": "Ilhas Salomão",
+    "aliases": [
+      "Solomon Islands",
+      "Ilhas Salomão",
+      "SB"
+    ],
+    "capitals": [
+      "Honiara"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      159,
+      -8
+    ],
+    "mapFeatureIds": [
+      "SLB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sb.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SLE",
+    "iso2": "SL",
+    "iso3": "SLE",
+    "namePtBr": "Serra Leoa",
+    "aliases": [
+      "Sierra Leone",
+      "Serra Leoa",
+      "SL",
+      "Republic of Sierra Leone"
+    ],
+    "capitals": [
+      "Freetown"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -11.5,
+      8.5
+    ],
+    "mapFeatureIds": [
+      "SLE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sl.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SLV",
+    "iso2": "SV",
+    "iso3": "SLV",
+    "namePtBr": "El Salvador",
+    "aliases": [
+      "El Salvador",
+      "SV",
+      "Republic of El Salvador",
+      "República de El Salvador"
+    ],
+    "capitals": [
+      "San Salvador"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -88.91666666,
+      13.83333333
+    ],
+    "mapFeatureIds": [
+      "SLV"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sv.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SMR",
+    "iso2": "SM",
+    "iso3": "SMR",
+    "namePtBr": "San Marino",
+    "aliases": [
+      "San Marino",
+      "SM",
+      "Republic of San Marino",
+      "Repubblica di San Marino"
+    ],
+    "capitals": [
+      "City of San Marino"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      12.41666666,
+      43.76666666
+    ],
+    "mapFeatureIds": [
+      "SMR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SOM",
+    "iso2": "SO",
+    "iso3": "SOM",
+    "namePtBr": "Somália",
+    "aliases": [
+      "Somalia",
+      "Somália",
+      "SO",
+      "aṣ-Ṣūmāl",
+      "Federal Republic of Somalia",
+      "Jamhuuriyadda Federaalka Soomaaliya",
+      "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+    ],
+    "capitals": [
+      "Mogadishu"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      49,
+      10
+    ],
+    "mapFeatureIds": [
+      "SOM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/so.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SRB",
+    "iso2": "RS",
+    "iso3": "SRB",
+    "namePtBr": "Sérvia",
+    "aliases": [
+      "Serbia",
+      "Sérvia",
+      "RS",
+      "Srbija",
+      "Republika Srbija",
+      "Србија",
+      "Република Србија",
+      "Republic of Serbia"
+    ],
+    "capitals": [
+      "Belgrade"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      21,
+      44
+    ],
+    "mapFeatureIds": [
+      "SRB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/rs.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SSD",
+    "iso2": "SS",
+    "iso3": "SSD",
+    "namePtBr": "Sudão do Sul",
+    "aliases": [
+      "South Sudan",
+      "Sudão do Sul",
+      "SS"
+    ],
+    "capitals": [
+      "Juba"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      30,
+      7
+    ],
+    "mapFeatureIds": [
+      "SDS"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ss.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "STP",
+    "iso2": "ST",
+    "iso3": "STP",
+    "namePtBr": "São Tomé e Príncipe",
+    "aliases": [
+      "São Tomé and Príncipe",
+      "São Tomé e Príncipe",
+      "ST",
+      "Democratic Republic of São Tomé and Príncipe",
+      "Sao Tome and Principe",
+      "República Democrática de São Tomé e Príncipe"
+    ],
+    "capitals": [
+      "São Tomé"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      7,
+      1
+    ],
+    "mapFeatureIds": [
+      "STP"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/st.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SUR",
+    "iso2": "SR",
+    "iso3": "SUR",
+    "namePtBr": "Suriname",
+    "aliases": [
+      "Suriname",
+      "SR",
+      "Sarnam",
+      "Sranangron",
+      "Republic of Suriname",
+      "Republiek Suriname"
+    ],
+    "capitals": [
+      "Paramaribo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -56,
+      4
+    ],
+    "mapFeatureIds": [
+      "SUR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SVK",
+    "iso2": "SK",
+    "iso3": "SVK",
+    "namePtBr": "Eslováquia",
+    "aliases": [
+      "Slovakia",
+      "Eslováquia",
+      "SK",
+      "Slovak Republic",
+      "Slovenská republika"
+    ],
+    "capitals": [
+      "Bratislava"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      19.5,
+      48.66666666
+    ],
+    "mapFeatureIds": [
+      "SVK"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sk.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SVN",
+    "iso2": "SI",
+    "iso3": "SVN",
+    "namePtBr": "Eslovénia",
+    "aliases": [
+      "Slovenia",
+      "Eslovénia",
+      "SI",
+      "Republic of Slovenia",
+      "Republika Slovenija"
+    ],
+    "capitals": [
+      "Ljubljana"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      14.81666666,
+      46.11666666
+    ],
+    "mapFeatureIds": [
+      "SVN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/si.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SWE",
+    "iso2": "SE",
+    "iso3": "SWE",
+    "namePtBr": "Suécia",
+    "aliases": [
+      "Sweden",
+      "Suécia",
+      "SE",
+      "Kingdom of Sweden",
+      "Konungariket Sverige"
+    ],
+    "capitals": [
+      "Stockholm"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      15,
+      62
+    ],
+    "mapFeatureIds": [
+      "SWE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/se.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SWZ",
+    "iso2": "SZ",
+    "iso3": "SWZ",
+    "namePtBr": "Essuatíni",
+    "aliases": [
+      "Eswatini",
+      "Essuatíni",
+      "SZ",
+      "Swaziland",
+      "weSwatini",
+      "Swatini",
+      "Ngwane",
+      "Kingdom of Eswatini",
+      "Umbuso weSwatini"
+    ],
+    "capitals": [
+      "Lobamba"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      31.5,
+      -26.5
+    ],
+    "mapFeatureIds": [
+      "SWZ"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SYC",
+    "iso2": "SC",
+    "iso3": "SYC",
+    "namePtBr": "Seicheles",
+    "aliases": [
+      "Seychelles",
+      "Seicheles",
+      "SC",
+      "Republic of Seychelles",
+      "Repiblik Sesel",
+      "République des Seychelles"
+    ],
+    "capitals": [
+      "Victoria"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      55.66666666,
+      -4.58333333
+    ],
+    "mapFeatureIds": [
+      "SYC"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sc.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "SYR",
+    "iso2": "SY",
+    "iso3": "SYR",
+    "namePtBr": "Síria",
+    "aliases": [
+      "Syria",
+      "Síria",
+      "SY",
+      "Syrian Arab Republic",
+      "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
+    ],
+    "capitals": [
+      "Damascus"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      38,
+      35
+    ],
+    "mapFeatureIds": [
+      "SYR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/sy.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TCD",
+    "iso2": "TD",
+    "iso3": "TCD",
+    "namePtBr": "Chade",
+    "aliases": [
+      "Chad",
+      "Chade",
+      "TD",
+      "Tchad",
+      "Republic of Chad",
+      "République du Tchad"
+    ],
+    "capitals": [
+      "N'Djamena"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      19,
+      15
+    ],
+    "mapFeatureIds": [
+      "TCD"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/td.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TGO",
+    "iso2": "TG",
+    "iso3": "TGO",
+    "namePtBr": "Togo",
+    "aliases": [
+      "Togo",
+      "TG",
+      "Togolese",
+      "Togolese Republic",
+      "République Togolaise"
+    ],
+    "capitals": [
+      "Lomé"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      1.16666666,
+      8
+    ],
+    "mapFeatureIds": [
+      "TGO"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tg.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "THA",
+    "iso2": "TH",
+    "iso3": "THA",
+    "namePtBr": "Tailândia",
+    "aliases": [
+      "Thailand",
+      "Tailândia",
+      "TH",
+      "Prathet",
+      "Thai",
+      "Kingdom of Thailand",
+      "ราชอาณาจักรไทย",
+      "Ratcha Anachak Thai"
+    ],
+    "capitals": [
+      "Bangkok"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      100,
+      15
+    ],
+    "mapFeatureIds": [
+      "THA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/th.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TJK",
+    "iso2": "TJ",
+    "iso3": "TJK",
+    "namePtBr": "Tajiquistão",
+    "aliases": [
+      "Tajikistan",
+      "Tajiquistão",
+      "TJ",
+      "Toçikiston",
+      "Republic of Tajikistan",
+      "Ҷумҳурии Тоҷикистон",
+      "Çumhuriyi Toçikiston"
+    ],
+    "capitals": [
+      "Dushanbe"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      71,
+      39
+    ],
+    "mapFeatureIds": [
+      "TJK"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tj.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TKM",
+    "iso2": "TM",
+    "iso3": "TKM",
+    "namePtBr": "Turquemenistão",
+    "aliases": [
+      "Turkmenistan",
+      "Turquemenistão",
+      "TM"
+    ],
+    "capitals": [
+      "Ashgabat"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      60,
+      40
+    ],
+    "mapFeatureIds": [
+      "TKM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TLS",
+    "iso2": "TL",
+    "iso3": "TLS",
+    "namePtBr": "Timor-Leste",
+    "aliases": [
+      "Timor-Leste",
+      "TL",
+      "East Timor",
+      "Timor",
+      "Democratic Republic of Timor-Leste",
+      "República Democrática de Timor-Leste",
+      "Repúblika Demokrátika Timór-Leste",
+      "Timór Lorosa'e",
+      "Timor Lorosae"
+    ],
+    "capitals": [
+      "Dili"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      125.91666666,
+      -8.83333333
+    ],
+    "mapFeatureIds": [
+      "TLS"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tl.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TON",
+    "iso2": "TO",
+    "iso3": "TON",
+    "namePtBr": "Tonga",
+    "aliases": [
+      "Tonga",
+      "TO"
+    ],
+    "capitals": [
+      "Nuku'alofa"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -175,
+      -20
+    ],
+    "mapFeatureIds": [
+      "TON"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/to.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TTO",
+    "iso2": "TT",
+    "iso3": "TTO",
+    "namePtBr": "Trinidade e Tobago",
+    "aliases": [
+      "Trinidad and Tobago",
+      "Trinidade e Tobago",
+      "TT",
+      "Republic of Trinidad and Tobago"
+    ],
+    "capitals": [
+      "Port of Spain"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -61,
+      11
+    ],
+    "mapFeatureIds": [
+      "TTO"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tt.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TUN",
+    "iso2": "TN",
+    "iso3": "TUN",
+    "namePtBr": "Tunísia",
+    "aliases": [
+      "Tunisia",
+      "Tunísia",
+      "TN",
+      "Republic of Tunisia",
+      "al-Jumhūriyyah at-Tūnisiyyah"
+    ],
+    "capitals": [
+      "Tunis"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      9,
+      34
+    ],
+    "mapFeatureIds": [
+      "TUN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TUR",
+    "iso2": "TR",
+    "iso3": "TUR",
+    "namePtBr": "Turquia",
+    "aliases": [
+      "Türkiye",
+      "Turquia",
+      "TR",
+      "Turkiye",
+      "Republic of Turkey",
+      "Türkiye Cumhuriyeti"
+    ],
+    "capitals": [
+      "Ankara"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      35,
+      39
+    ],
+    "mapFeatureIds": [
+      "TUR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tr.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TUV",
+    "iso2": "TV",
+    "iso3": "TUV",
+    "namePtBr": "Tuvalu",
+    "aliases": [
+      "Tuvalu",
+      "TV"
+    ],
+    "capitals": [
+      "Funafuti"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      178,
+      -8
+    ],
+    "mapFeatureIds": [
+      "TUV"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tv.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "TZA",
+    "iso2": "TZ",
+    "iso3": "TZA",
+    "namePtBr": "Tanzânia",
+    "aliases": [
+      "Tanzania",
+      "Tanzânia",
+      "TZ",
+      "Tanzania, United Republic of",
+      "United Republic of Tanzania",
+      "Jamhuri ya Muungano wa Tanzania"
+    ],
+    "capitals": [
+      "Dodoma"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      35,
+      -6
+    ],
+    "mapFeatureIds": [
+      "TZA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/tz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "UGA",
+    "iso2": "UG",
+    "iso3": "UGA",
+    "namePtBr": "Uganda",
+    "aliases": [
+      "Uganda",
+      "UG",
+      "Republic of Uganda",
+      "Jamhuri ya Uganda"
+    ],
+    "capitals": [
+      "Kampala"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      32,
+      1
+    ],
+    "mapFeatureIds": [
+      "UGA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ug.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "UKR",
+    "iso2": "UA",
+    "iso3": "UKR",
+    "namePtBr": "Ucrânia",
+    "aliases": [
+      "Ukraine",
+      "Ucrânia",
+      "UA",
+      "Ukrayina"
+    ],
+    "capitals": [
+      "Kyiv"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      32,
+      49
+    ],
+    "mapFeatureIds": [
+      "UKR"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ua.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "URY",
+    "iso2": "UY",
+    "iso3": "URY",
+    "namePtBr": "Uruguai",
+    "aliases": [
+      "Uruguay",
+      "Uruguai",
+      "UY",
+      "Oriental Republic of Uruguay",
+      "República Oriental del Uruguay"
+    ],
+    "capitals": [
+      "Montevideo"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -56,
+      -33
+    ],
+    "mapFeatureIds": [
+      "URY"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/uy.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "USA",
+    "iso2": "US",
+    "iso3": "USA",
+    "namePtBr": "Estados Unidos",
+    "aliases": [
+      "United States",
+      "Estados Unidos",
+      "US",
+      "USA",
+      "United States of America"
+    ],
+    "capitals": [
+      "Washington D.C."
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -97,
+      38
+    ],
+    "mapFeatureIds": [
+      "USA"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/us.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "UZB",
+    "iso2": "UZ",
+    "iso3": "UZB",
+    "namePtBr": "Uzbequistão",
+    "aliases": [
+      "Uzbekistan",
+      "Uzbequistão",
+      "UZ",
+      "Republic of Uzbekistan",
+      "O‘zbekiston Respublikasi",
+      "Ўзбекистон Республикаси"
+    ],
+    "capitals": [
+      "Tashkent"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      64,
+      41
+    ],
+    "mapFeatureIds": [
+      "UZB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/uz.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "VAT",
+    "iso2": "VA",
+    "iso3": "VAT",
+    "namePtBr": "Vaticano",
+    "aliases": [
+      "Vatican City",
+      "Cidade do Vaticano",
+      "VA",
+      "Holy See (Vatican City State)",
+      "Vatican City State",
+      "Vatican",
+      "Stato della Città del Vaticano"
+    ],
+    "capitals": [
+      "Cidade do Vaticano"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      12.45,
+      41.9
+    ],
+    "mapFeatureIds": [
+      "VAT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/va.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "VCT",
+    "iso2": "VC",
+    "iso3": "VCT",
+    "namePtBr": "São Vincente e Granadinas",
+    "aliases": [
+      "Saint Vincent and the Grenadines",
+      "São Vincente e Granadinas",
+      "VC"
+    ],
+    "capitals": [
+      "Kingstown"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -61.2,
+      13.25
+    ],
+    "mapFeatureIds": [
+      "VCT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/vc.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "VEN",
+    "iso2": "VE",
+    "iso3": "VEN",
+    "namePtBr": "Venezuela",
+    "aliases": [
+      "Venezuela",
+      "VE",
+      "Bolivarian Republic of Venezuela",
+      "Venezuela, Bolivarian Republic of",
+      "República Bolivariana de Venezuela"
+    ],
+    "capitals": [
+      "Caracas"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -66,
+      8
+    ],
+    "mapFeatureIds": [
+      "VEN"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ve.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "VNM",
+    "iso2": "VN",
+    "iso3": "VNM",
+    "namePtBr": "Vietname",
+    "aliases": [
+      "Vietnam",
+      "Vietname",
+      "VN",
+      "Socialist Republic of Vietnam",
+      "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+      "Viet Nam"
+    ],
+    "capitals": [
+      "Hanoi"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      107.83333333,
+      16.16666666
+    ],
+    "mapFeatureIds": [
+      "VNM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/vn.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "VUT",
+    "iso2": "VU",
+    "iso3": "VUT",
+    "namePtBr": "Vanuatu",
+    "aliases": [
+      "Vanuatu",
+      "VU",
+      "Republic of Vanuatu",
+      "Ripablik blong Vanuatu",
+      "République de Vanuatu"
+    ],
+    "capitals": [
+      "Port Vila"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      167,
+      -16
+    ],
+    "mapFeatureIds": [
+      "VUT"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/vu.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "WSM",
+    "iso2": "WS",
+    "iso3": "WSM",
+    "namePtBr": "Samoa",
+    "aliases": [
+      "Samoa",
+      "WS",
+      "Independent State of Samoa",
+      "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+    ],
+    "capitals": [
+      "Apia"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      -172.33333333,
+      -13.58333333
+    ],
+    "mapFeatureIds": [
+      "WSM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ws.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "YEM",
+    "iso2": "YE",
+    "iso3": "YEM",
+    "namePtBr": "Iémen",
+    "aliases": [
+      "Yemen",
+      "Iémen",
+      "YE",
+      "Yemeni Republic",
+      "al-Jumhūriyyah al-Yamaniyyah"
+    ],
+    "capitals": [
+      "Sana'a"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      48,
+      15
+    ],
+    "mapFeatureIds": [
+      "YEM"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/ye.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ZAF",
+    "iso2": "ZA",
+    "iso3": "ZAF",
+    "namePtBr": "África do Sul",
+    "aliases": [
+      "South Africa",
+      "África do Sul",
+      "ZA",
+      "RSA",
+      "Suid-Afrika",
+      "Republic of South Africa"
+    ],
+    "capitals": [
+      "Pretória",
+      "Bloemfontein",
+      "Cidade do Cabo"
+    ],
+    "capitalNote": "Capitais administrativa, judicial e legislativa, respectivamente.",
+    "focusPoint": [
+      24,
+      -29
+    ],
+    "mapFeatureIds": [
+      "ZAF"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/za.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "sample-reviewed"
+  },
+  {
+    "id": "ZMB",
+    "iso2": "ZM",
+    "iso3": "ZMB",
+    "namePtBr": "Zâmbia",
+    "aliases": [
+      "Zambia",
+      "Zâmbia",
+      "ZM",
+      "Republic of Zambia"
+    ],
+    "capitals": [
+      "Lusaka"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      30,
+      -15
+    ],
+    "mapFeatureIds": [
+      "ZMB"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/zm.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  },
+  {
+    "id": "ZWE",
+    "iso2": "ZW",
+    "iso3": "ZWE",
+    "namePtBr": "Zimbabwe",
+    "aliases": [
+      "Zimbabwe",
+      "ZW",
+      "Republic of Zimbabwe"
+    ],
+    "capitals": [
+      "Harare"
+    ],
+    "capitalNote": null,
+    "focusPoint": [
+      30,
+      -20
+    ],
+    "mapFeatureIds": [
+      "ZWE"
+    ],
+    "flagSourceUrl": "https://flagcdn.com/zw.svg",
+    "anthemAuditStatus": "pending",
+    "metadataReviewStatus": "pending-editorial-review"
+  }
+]
