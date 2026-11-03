@@ -1,6 +1,6 @@
 # Plano técnico — Atlas interativo
 
-Status: fases 0 a 3 e T10/T11 da fase 4 implementadas. T12 concluída com catálogo revisado, 183 hinos e 12 exceções temporárias aceitas pelo usuário em 2026-11-03. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). T16/T17 implementadas; T13–T15 continuam abertas.
+Status: fases 0 a 3 e T10/T11 da fase 4 implementadas. T12 concluída com catálogo revisado, 183 hinos e 12 exceções temporárias aceitas pelo usuário em 2026-11-03. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). T13 e T16/T17 implementadas; T14/T15 continuam abertas. Movimento verificado em [phase-6-motion-validation.md](phase-6-motion-validation.md).
 
 ## Arquitetura proposta
 
@@ -86,7 +86,7 @@ Cartão lateral no desktop com largura de 480 px e altura mínima de 620 px quan
 
 Busca com padrão de combobox/listbox, navegação por setas e Enter, Escape e foco previsível. Países acessíveis pela busca mesmo quando sua área no mapa for pequena. Card como região não modal na proposta inicial; não prender foco sem necessidade. Estados anunciados e botões com nomes acessíveis.
 
-GSAP usa escopo e limpeza via `useGSAP`; movimento reduzido via `matchMedia`. SVG com caminhos calculados quando dados/tamanho mudarem e transformação por referência durante gestos, sem atualização React por frame.
+GSAP usa escopo e limpeza via `useGSAP` de `@gsap/react`; movimento reduzido via `matchMedia`, inclusive ao mudar a preferência com o app aberto. AnimatedPanel anima a superfície interna do cartão (entrada de 260 ms, saída de 140 ms), mantendo o wrapper de medição estável; conteúdo em saída fica inert/aria-hidden. useCountryHighlight faz um único destaque de 280 ms sem deformar geometrias. useMapNavigation interpola comandos em 440 ms pelo D3 e parte da posição atual. O tween de coordenadas usa context.ignore com cancelamento explícito no cleanup para não reaplicar posições antigas durante o revert. Gestos interrompem a câmera e impedem reenquadramento provocado apenas por mudanças no player; comando novo ou viewport podem reenquadrar. SVG com caminhos calculados quando dados/tamanho mudarem e transformação por referência durante gestos, sem atualização React por frame. Não há animação decorativa contínua.
 
 ## Mobile como prioridade
 

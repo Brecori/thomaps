@@ -1,6 +1,6 @@
 # Especificação — Atlas interativo
 
-Status: fases 0 a 3 e T10/T11 executadas. T12 tem 195 países revisados e 183 hinos; 12 exceções temporárias foram aceitas explicitamente pelo usuário em 2026-11-03. T16/T17 de PWA estão implementadas; instalação em aparelhos reais e verificações finais permanecem na T14/T15. Data: 2026-11-03.
+Status: fases 0 a 3 e T10/T11 executadas. T12 tem 195 países revisados e 183 hinos; 12 exceções temporárias foram aceitas explicitamente pelo usuário em 2026-11-03. T13 de movimento com GSAP React e T16/T17 de PWA estão implementadas; instalação em aparelhos reais e verificações finais permanecem na T14/T15. Data: 2026-11-03.
 
 ## Objetivo
 
