@@ -1,7 +1,7 @@
 {
   "source": "https://flagpedia.net/download",
   "license": "Public domain (declared by source)",
-  "reviewedAt": "2026-11-02",
+  "reviewedAt": "2026-11-03",
   "flags": [
     {
       "countryId": "AFG",
@@ -9,7 +9,8 @@
       "path": "public/flags/af.svg",
       "bytes": 222005,
       "sha256": "adebcd50e61dd0e3c83c689f5e3c7f6ca5055ca5f4a54119e27bf9e8df7e5421",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03",
+      "note": "Tricolour from the Flagpedia snapshot retained; differs from the white flag used by de facto authorities. No political recognition is implied."
     },
     {
       "countryId": "AGO",
@@ -17,7 +18,7 @@
       "path": "public/flags/ao.svg",
       "bytes": 2225,
       "sha256": "0f10545c2991c7ad5332dff881c0e176de0a021260e722af7cfdd996ce9b497e",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ALB",
@@ -25,7 +26,7 @@
       "path": "public/flags/al.svg",
       "bytes": 9425,
       "sha256": "173ec6b28100ddbaeb011b73b4776e50fc2545e14c81ad65e25c19b7137788be",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "AND",
@@ -33,7 +34,7 @@
       "path": "public/flags/ad.svg",
       "bytes": 54926,
       "sha256": "e2cf35be958f3b581660085c0d9b768610f476c486a3d23798f62187fffa270f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ARE",
@@ -41,7 +42,7 @@
       "path": "public/flags/ae.svg",
       "bytes": 228,
       "sha256": "8db8bfc3d1a711967e44fbe237a52d75cd03a3dfbcefc9d78febd61c2973915e",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ARG",
@@ -49,7 +50,7 @@
       "path": "public/flags/ar.svg",
       "bytes": 4003,
       "sha256": "0828d651a95f39cea1e5d9d2ee30ec4dbcf55d70bdea39c89ec80c83226ad86d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ARM",
@@ -57,7 +58,7 @@
       "path": "public/flags/am.svg",
       "bytes": 201,
       "sha256": "1eb2190d967efac59bb4f18f699b465f76dc3128593011e59243450cd593f846",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ATG",
@@ -65,7 +66,7 @@
       "path": "public/flags/ag.svg",
       "bytes": 483,
       "sha256": "73f382e91c9e9ba8e786696f20011a04c7e22354e37db61921f2c57645ec7385",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "AUS",
@@ -73,7 +74,7 @@
       "path": "public/flags/au.svg",
       "bytes": 1307,
       "sha256": "b826e039804d5cf313bd7e22a40ea2239e8e22ddba7c19a8787dfaad1dda71aa",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "AUT",
@@ -81,7 +82,7 @@
       "path": "public/flags/at.svg",
       "bytes": 154,
       "sha256": "5c5bded6c58d94069f75d61049773930b8a23aa2a73a17355f622c6ce40090dc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "AZE",
@@ -89,7 +90,7 @@
       "path": "public/flags/az.svg",
       "bytes": 519,
       "sha256": "963c074ace679c88a77f6a5db3bd0f3b98a169dae5ebd12abb6293ecda497280",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BDI",
@@ -97,7 +98,7 @@
       "path": "public/flags/bi.svg",
       "bytes": 633,
       "sha256": "00f86f0400888d0ecf5a2b9bfa66f176af6095f413d53d622b6c061c1723cfd9",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BEL",
@@ -105,7 +106,7 @@
       "path": "public/flags/be.svg",
       "bytes": 182,
       "sha256": "95933c385c9e72479ec7e63f6cbca50d07695fd2e41fab334ea549c20b234fd1",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BEN",
@@ -113,7 +114,7 @@
       "path": "public/flags/bj.svg",
       "bytes": 197,
       "sha256": "03e7fd78282d719338630eaf2301fa9c9dbcbf57a9639a20e8fbb43353409569",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BFA",
@@ -121,7 +122,7 @@
       "path": "public/flags/bf.svg",
       "bytes": 568,
       "sha256": "4c88dba85dcf8f799607e2ce32f5af58741ccd31f15fb917bf89f58a140f91a4",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BGD",
@@ -129,7 +130,7 @@
       "path": "public/flags/bd.svg",
       "bytes": 150,
       "sha256": "b509e5c29b8c32761c273449647d5a35c5301227b27ee786d353be7916bfddaf",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BGR",
@@ -137,7 +138,7 @@
       "path": "public/flags/bg.svg",
       "bytes": 201,
       "sha256": "829c1f5f6f403632fd4710b8b7f3a313408e5285e4540af97950408ff9a5abfe",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BHR",
@@ -145,7 +146,7 @@
       "path": "public/flags/bh.svg",
       "bytes": 218,
       "sha256": "4cb584ef406f6bc57ea9c935db43890b9719ae126fe1ad4fb10890709978162b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BHS",
@@ -153,7 +154,7 @@
       "path": "public/flags/bs.svg",
       "bytes": 195,
       "sha256": "44946f0ba5ad43cabe8bfa6c52e0f7a9562f7ff336d58478577f3b3a19c1ef08",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BIH",
@@ -161,7 +162,7 @@
       "path": "public/flags/ba.svg",
       "bytes": 437,
       "sha256": "1c83a2cf7e8366afb9d724f896902ec46a722739538349d6f41b0953d47f171f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BLR",
@@ -169,7 +170,7 @@
       "path": "public/flags/by.svg",
       "bytes": 1959,
       "sha256": "2af1ac1ecbfda4690e8b1b076def28e384aa69cbf5004ee37cef43665fd6e4f6",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BLZ",
@@ -177,7 +178,7 @@
       "path": "public/flags/bz.svg",
       "bytes": 80883,
       "sha256": "99ff3a88d1493f5e00c8a4dd9f7eb379a004961f4503eb3e5598e388c911b583",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BOL",
@@ -185,7 +186,7 @@
       "path": "public/flags/bo.svg",
       "bytes": 240385,
       "sha256": "7d724dac914eaed951a3e3dd901350b9636cfbba0fc4d78f1fcf193c1f29e67b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BRA",
@@ -193,7 +194,7 @@
       "path": "public/flags/br.svg",
       "bytes": 4160,
       "sha256": "e0215eff9f53b0236db885963ac45d6baea52e10ce33ceafdbe0eb1820d21160",
-      "editorialReview": "sample-reviewed"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BRB",
@@ -201,7 +202,7 @@
       "path": "public/flags/bb.svg",
       "bytes": 606,
       "sha256": "b38fe14e1e967ea658331d386e8028c5a02d2de70c8376b06deda6ea77a4938b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BRN",
@@ -209,7 +210,7 @@
       "path": "public/flags/bn.svg",
       "bytes": 20922,
       "sha256": "cdb37ed23eed4e4a010d3e68db6d66048a7e90b4d465c735f6e6072564b0fa91",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BTN",
@@ -217,7 +218,7 @@
       "path": "public/flags/bt.svg",
       "bytes": 36820,
       "sha256": "39a47be433cda95dab7521aed8609c61f3fe377524e5de397dbb9c75624dd822",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "BWA",
@@ -225,7 +226,7 @@
       "path": "public/flags/bw.svg",
       "bytes": 193,
       "sha256": "e89b9cb27040b2995d2f66fca2492eb19434c0793d80ff70ce6819f2540e40a0",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CAF",
@@ -233,7 +234,7 @@
       "path": "public/flags/cf.svg",
       "bytes": 331,
       "sha256": "f36cc981bf26cff6c9111be3edf29aa565164e713f9704e22d98116ac80816aa",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CAN",
@@ -241,7 +242,7 @@
       "path": "public/flags/ca.svg",
       "bytes": 658,
       "sha256": "3cd6c2b9fe12bc0617ef4374b570ad87920bae757a95b104384fc301352c6942",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CHE",
@@ -249,7 +250,7 @@
       "path": "public/flags/ch.svg",
       "bytes": 183,
       "sha256": "a5ec3bbf0f3e686ea05ae17f51e8f3a287ad332217b679bbd393842b7d427859",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CHL",
@@ -257,7 +258,7 @@
       "path": "public/flags/cl.svg",
       "bytes": 592,
       "sha256": "ca4d50dcf36926c82f02b895975f351a639b0aa1b91bb6ef776f4f07f225cc34",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CHN",
@@ -265,7 +266,7 @@
       "path": "public/flags/cn.svg",
       "bytes": 536,
       "sha256": "ce797608958527808601798df00691aced6120bd600c0624161230020229dc99",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CIV",
@@ -273,7 +274,7 @@
       "path": "public/flags/ci.svg",
       "bytes": 194,
       "sha256": "aaf7093dc7c4b1e65d6cd0a65cf20dc957971205a04985897fb3980bccb3a394",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CMR",
@@ -281,7 +282,7 @@
       "path": "public/flags/cm.svg",
       "bytes": 266,
       "sha256": "e00c6cbb0cb7364bc1b825e145ae6232d611d0e457dfa621b6bfafa3b7c76a7f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "COD",
@@ -289,7 +290,7 @@
       "path": "public/flags/cd.svg",
       "bytes": 307,
       "sha256": "e2e70cf2f16e4ede17ec2a6d0b740c82b622e2cae6b3419d2217092f9c0872f4",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "COG",
@@ -297,7 +298,7 @@
       "path": "public/flags/cg.svg",
       "bytes": 203,
       "sha256": "3bff163be26e1c6877bf6aebdd3115eda88535d32c56b8c6406c998385caaebb",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "COL",
@@ -305,7 +306,7 @@
       "path": "public/flags/co.svg",
       "bytes": 201,
       "sha256": "ec3daa5a284fc6d10104a53fd16ea77eba9ac1044ffa629f953644c1de63dcd3",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "COM",
@@ -313,7 +314,7 @@
       "path": "public/flags/km.svg",
       "bytes": 558,
       "sha256": "21e3ee9de83bf7ac6b57400e92f63d81f1f174624e9a2f408a5dd23d4d8f8f04",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CPV",
@@ -321,7 +322,7 @@
       "path": "public/flags/cv.svg",
       "bytes": 1494,
       "sha256": "bcbf0add799b13377bdf842e1f380ff630650d3b7dba2d8f1273093cfa6ceb0f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CRI",
@@ -329,7 +330,7 @@
       "path": "public/flags/cr.svg",
       "bytes": 63168,
       "sha256": "f7e60b87265310b60217dcd26b24879222a7e5e13fe4c52ae1afdc3c6c737bbf",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CUB",
@@ -337,7 +338,7 @@
       "path": "public/flags/cu.svg",
       "bytes": 282,
       "sha256": "afba6d3e29d510e256c07b23f2afc00a9cea87296765138e5645fe995d24249f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CYP",
@@ -345,7 +346,7 @@
       "path": "public/flags/cy.svg",
       "bytes": 22643,
       "sha256": "4473ff55e82a2872232b71802ecf37784223bffc2f13d2e564489586f94ef691",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "CZE",
@@ -353,7 +354,7 @@
       "path": "public/flags/cz.svg",
       "bytes": 210,
       "sha256": "5f4ba801f6715e2d29f8b88f785bfc77a0dc1455a0f649626ad9a0cc66cd6df2",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "DEU",
@@ -361,7 +362,7 @@
       "path": "public/flags/de.svg",
       "bytes": 186,
       "sha256": "595d7718f6a22e5ea9de0cbbcabd857ac1892f4a6c81beb1ef936050193d9323",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "DJI",
@@ -369,7 +370,7 @@
       "path": "public/flags/dj.svg",
       "bytes": 371,
       "sha256": "072cd869e9430e51fe7d48b0bd33c882b6365386c9987c03cb76f802597af936",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "DMA",
@@ -377,7 +378,7 @@
       "path": "public/flags/dm.svg",
       "bytes": 4810,
       "sha256": "b4371e4737d00b0391dbfc43db8136f9976dfc2d348c6b9cecf598e154319edc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "DNK",
@@ -385,7 +386,7 @@
       "path": "public/flags/dk.svg",
       "bytes": 165,
       "sha256": "eb4ea9929e6491fd0444ea5da5b9a19dda089a2ac758ad63956cfbcc7fa81cc3",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "DOM",
@@ -393,7 +394,7 @@
       "path": "public/flags/do.svg",
       "bytes": 148257,
       "sha256": "ed01134a6d931721c58fc34771e34e1d513e9e06e7241a1e6528172093c77880",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "DZA",
@@ -401,7 +402,7 @@
       "path": "public/flags/dz.svg",
       "bytes": 285,
       "sha256": "51bda9bdc313fa5418550d94d46f31e0c396f4e70c810b629fac0430f4b7e638",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ECU",
@@ -409,7 +410,7 @@
       "path": "public/flags/ec.svg",
       "bytes": 216988,
       "sha256": "59c54050d583084c7ea35fdba8e1afddb99260cc22c4fb2c81abef41144a335c",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "EGY",
@@ -417,7 +418,7 @@
       "path": "public/flags/eg.svg",
       "bytes": 18351,
       "sha256": "07129395f46d9e71844fe9b485e05bf49741bc72a480b567297d6d865f3d8150",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ERI",
@@ -425,7 +426,7 @@
       "path": "public/flags/er.svg",
       "bytes": 3251,
       "sha256": "69f92c176c843d7c899eaa7beaa1f75a0499d49fbb24e2053ed98be77e176498",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ESP",
@@ -433,7 +434,7 @@
       "path": "public/flags/es.svg",
       "bytes": 153035,
       "sha256": "d672868d51fc5b4f2d76f510c9360a4401bdb3ca805349bd04cb4ba277d5b379",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "EST",
@@ -441,7 +442,7 @@
       "path": "public/flags/ee.svg",
       "bytes": 183,
       "sha256": "a880630e92f27af0f8f183023a98ed1e9fcee60a9dbcf721d0630fec5189ed36",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ETH",
@@ -449,7 +450,7 @@
       "path": "public/flags/et.svg",
       "bytes": 809,
       "sha256": "980ec719a0be7227e6769b9bf9198b182b743b9544326f4ef2566ecd3ebfeb94",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "FIN",
@@ -457,7 +458,7 @@
       "path": "public/flags/fi.svg",
       "bytes": 194,
       "sha256": "5d1ab833fc8f13fd2474b99286d063f2bcd4332cf859063841788f908656aa14",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "FJI",
@@ -465,7 +466,7 @@
       "path": "public/flags/fj.svg",
       "bytes": 40121,
       "sha256": "e2c0c872c02b315510c6923a7913d1783accabab0ea1eef103a3f23165af320f",
-      "editorialReview": "sample-reviewed"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "FRA",
@@ -473,7 +474,7 @@
       "path": "public/flags/fr.svg",
       "bytes": 191,
       "sha256": "09645c97a47436337d63cd54625200542c65e0e1c83b774a58c9d28d0555b0e7",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "FSM",
@@ -481,7 +482,7 @@
       "path": "public/flags/fm.svg",
       "bytes": 686,
       "sha256": "d88d4388bd3ecf181378e5f7889b04a5d6ccb10e0b0b73baf8f0149c440ad5af",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GAB",
@@ -489,7 +490,7 @@
       "path": "public/flags/ga.svg",
       "bytes": 201,
       "sha256": "43e2be0bceff86a5e9611d197478256416e2ed1b106b9df24651d553bc87b41f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GBR",
@@ -497,7 +498,7 @@
       "path": "public/flags/gb.svg",
       "bytes": 553,
       "sha256": "42f04826dd7a76e4ecdc9a55fb4a774a26e03a425ca1363628bb1c6f6ea1a87e",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GEO",
@@ -505,7 +506,7 @@
       "path": "public/flags/ge.svg",
       "bytes": 481,
       "sha256": "dfba0d29f581ff00c2e46b69cc90e0e9ff6371ab92fbe300664f6622f7ca0355",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GHA",
@@ -513,7 +514,7 @@
       "path": "public/flags/gh.svg",
       "bytes": 255,
       "sha256": "a8c4320f89adc39f1c43f0100031e6acfce9299aed5bf035732d00d34d44ee88",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GIN",
@@ -521,7 +522,7 @@
       "path": "public/flags/gn.svg",
       "bytes": 205,
       "sha256": "4932e18d832d6a781bc00400b69136cc9406234d3800e1e66ea809550a84b423",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GMB",
@@ -529,7 +530,7 @@
       "path": "public/flags/gm.svg",
       "bytes": 246,
       "sha256": "d4418b31447cb5b7ddfcc3b47f3075795700363cc97132d9ab8b2de417027b98",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GNB",
@@ -537,7 +538,7 @@
       "path": "public/flags/gw.svg",
       "bytes": 583,
       "sha256": "00dd3c3891158fcb6de6afc3f93b8b4afc20f6aea7c344f097350fc8c9c0ffbc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GNQ",
@@ -545,7 +546,7 @@
       "path": "public/flags/gq.svg",
       "bytes": 5658,
       "sha256": "c9127828406765ae4faf593ac240d82be9913bde2664ed462fc31dcae68eef52",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GRC",
@@ -553,7 +554,7 @@
       "path": "public/flags/gr.svg",
       "bytes": 231,
       "sha256": "e8a25b9e3e3cb19c682410411097401626c629152f31b45482c98abea8ab12c7",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GRD",
@@ -561,7 +562,7 @@
       "path": "public/flags/gd.svg",
       "bytes": 1101,
       "sha256": "a2068c160dddaf85e5ac16423100c50d1970990a7468f3e81eed2d11426c689a",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GTM",
@@ -569,7 +570,7 @@
       "path": "public/flags/gt.svg",
       "bytes": 55531,
       "sha256": "d59addea6225e7eeb09efaee9a888aacc2b93651e1306a3de84764c6c729f821",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "GUY",
@@ -577,7 +578,7 @@
       "path": "public/flags/gy.svg",
       "bytes": 447,
       "sha256": "910830b8f1f35c778f37eb37d47eea0ea952d1bf04070f7eaeb697d0f8ead948",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "HND",
@@ -585,7 +586,7 @@
       "path": "public/flags/hn.svg",
       "bytes": 401,
       "sha256": "d2dd47a43f01a52ffff72cc88bd0e4fc9b503dee57250d22f870c36346079c5d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "HRV",
@@ -593,7 +594,7 @@
       "path": "public/flags/hr.svg",
       "bytes": 81475,
       "sha256": "fa44157809f7739aabca54f3e27dfb1d7409ef17afe6ac18dd39294f124e205a",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "HTI",
@@ -601,7 +602,7 @@
       "path": "public/flags/ht.svg",
       "bytes": 101261,
       "sha256": "65839463e163fd812f732f606111c68961e9bb23aa9624c8c448605fe0e086a1",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "HUN",
@@ -609,7 +610,7 @@
       "path": "public/flags/hu.svg",
       "bytes": 195,
       "sha256": "2025b7ca34eac130a257abc189273adb73f5749cb0eb7c5c6d865d433d842e0b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "IDN",
@@ -617,7 +618,7 @@
       "path": "public/flags/id.svg",
       "bytes": 148,
       "sha256": "b9d9dea991a06a1211e93e8fa33adc6035ede25d07dc6e98cf97cc57fd94a340",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "IND",
@@ -625,7 +626,7 @@
       "path": "public/flags/in.svg",
       "bytes": 720,
       "sha256": "ea9966697a16e75d64b4e6a9a468009944bd336e8098a34839033eb641329fcc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "IRL",
@@ -633,7 +634,7 @@
       "path": "public/flags/ie.svg",
       "bytes": 204,
       "sha256": "5a2e2ec73fb75642ce2a9f9237eb472016794fb49e825f72e769d2d10dff3f11",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "IRN",
@@ -641,7 +642,7 @@
       "path": "public/flags/ir.svg",
       "bytes": 1298,
       "sha256": "8e3015ef6405ba9c80a9c93897e3d75f21e4df303f3bcf8e363ea4c96cd06272",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "IRQ",
@@ -649,7 +650,7 @@
       "path": "public/flags/iq.svg",
       "bytes": 1165,
       "sha256": "b0de86ef9c1cfb0067e0989bffa6f15579e0c78b331fc29a9e3469aea3cbec20",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ISL",
@@ -657,7 +658,7 @@
       "path": "public/flags/is.svg",
       "bytes": 249,
       "sha256": "b14a90783cbe55b65c663efb67e1c235389f46d60d9601d28b36773016d520e2",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ISR",
@@ -665,7 +666,7 @@
       "path": "public/flags/il.svg",
       "bytes": 309,
       "sha256": "9e884f0c6d1001f8de2b478d3de9582f93fbbd9badcb31e3f52fefa3974ebc75",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ITA",
@@ -673,7 +674,7 @@
       "path": "public/flags/it.svg",
       "bytes": 202,
       "sha256": "7f818fa8e36ca606a8cbd35106fd7d277f094f10f2aa1f7a0585421a20e37070",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "JAM",
@@ -681,7 +682,7 @@
       "path": "public/flags/jm.svg",
       "bytes": 259,
       "sha256": "44504dda9d5bff31dfbcf5c8cce7acf0bfb9a7b16a697aadca3f9c4e854b62eb",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "JOR",
@@ -689,7 +690,7 @@
       "path": "public/flags/jo.svg",
       "bytes": 371,
       "sha256": "fb2b2896420258e37d2e27a1d07c6488b5ff14a587edfbe7c4153f93042b8424",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "JPN",
@@ -697,7 +698,7 @@
       "path": "public/flags/jp.svg",
       "bytes": 160,
       "sha256": "e8e6f6e75bc02eeb35e5904edc13df9b5990da70ac1ff1daa7a9fcc61c709a03",
-      "editorialReview": "sample-reviewed"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KAZ",
@@ -705,7 +706,7 @@
       "path": "public/flags/kz.svg",
       "bytes": 9636,
       "sha256": "71a7d90e17ae74f6bf9572d9560b83d2d6ca047482fe2a229b770c67338f3848",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KEN",
@@ -713,7 +714,7 @@
       "path": "public/flags/ke.svg",
       "bytes": 1001,
       "sha256": "0c65788e07b97827d85662c06cd74e83ab6027c8915579821df896446b26d4d5",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KGZ",
@@ -721,7 +722,7 @@
       "path": "public/flags/kg.svg",
       "bytes": 8089,
       "sha256": "b6e67c6fce0ab4dcd376abf4b1656bd8bc9a654c8320d4eef45c810921a1c869",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KHM",
@@ -729,7 +730,7 @@
       "path": "public/flags/kh.svg",
       "bytes": 10048,
       "sha256": "bdff20910e6d11f5c5b0a562d1302f4aad792255fcdc2e9a46bce1ed8fe8c56f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KIR",
@@ -737,7 +738,7 @@
       "path": "public/flags/ki.svg",
       "bytes": 3271,
       "sha256": "3c5c18f1a61d1c782f2f313f197b00530b6de5d72b3ed81814d7984d73c4e05d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KNA",
@@ -745,7 +746,7 @@
       "path": "public/flags/kn.svg",
       "bytes": 539,
       "sha256": "5274df62085604bfd3586bc890842e0ea27a1c3dd3069571179e3eed381ed036",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KOR",
@@ -753,7 +754,7 @@
       "path": "public/flags/kr.svg",
       "bytes": 817,
       "sha256": "4e0b6d5fa63e2fc1c3d86fda025a4c2129e52d5fc6551d8355e9385dd2d88f4b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "KWT",
@@ -761,7 +762,7 @@
       "path": "public/flags/kw.svg",
       "bytes": 232,
       "sha256": "ce62298731cb48e5f502af92203342f43bfa9568acfc6d2194c7227760e9184c",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LAO",
@@ -769,7 +770,7 @@
       "path": "public/flags/la.svg",
       "bytes": 233,
       "sha256": "c0cbe90abd407b916c31bc6d2cceb90ff61cf78ce5de00173e993c67f4e4ca15",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LBN",
@@ -777,7 +778,7 @@
       "path": "public/flags/lb.svg",
       "bytes": 14384,
       "sha256": "2c69b33a241e21c003113bae58fda58a08113e265a94262f6d0de39277876462",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LBR",
@@ -785,7 +786,7 @@
       "path": "public/flags/lr.svg",
       "bytes": 675,
       "sha256": "b722560baa4a55e843b78f3a3485ff4ad31e5acd659142add4ba3990be2578cb",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LBY",
@@ -793,7 +794,7 @@
       "path": "public/flags/ly.svg",
       "bytes": 353,
       "sha256": "e2b019746d67350a9dcfc595616d0b73b868c8f3757f9516665e9141d8f0c117",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LCA",
@@ -801,7 +802,7 @@
       "path": "public/flags/lc.svg",
       "bytes": 254,
       "sha256": "13f4f19e5d3a4a590ba7698e0b19df13d1dd817e4928c20fb4ba949ed8737daf",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LIE",
@@ -809,7 +810,7 @@
       "path": "public/flags/li.svg",
       "bytes": 12408,
       "sha256": "308d212c6046d523637598a5034bdc6132706c7c3c33c5d042748226da61e8c3",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LKA",
@@ -817,7 +818,7 @@
       "path": "public/flags/lk.svg",
       "bytes": 19240,
       "sha256": "c6d5351f0c9d5611cdfaf64b6b5324db73b437bc9d4e4bdc8a70a7d66533df93",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LSO",
@@ -825,7 +826,7 @@
       "path": "public/flags/ls.svg",
       "bytes": 1442,
       "sha256": "66002ab481b35579ef88633fea8114d698990afdaf94b0173e9c9d614d126b49",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LTU",
@@ -833,7 +834,7 @@
       "path": "public/flags/lt.svg",
       "bytes": 201,
       "sha256": "9743f780184a60fc75a312b34151ff1a2699e0bf0d456eb91dcbae0472b4d566",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LUX",
@@ -841,7 +842,7 @@
       "path": "public/flags/lu.svg",
       "bytes": 202,
       "sha256": "23c57bfe462e31f5655923c458bc77769dc62679e69750f6bf96371f62287f70",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "LVA",
@@ -849,7 +850,7 @@
       "path": "public/flags/lv.svg",
       "bytes": 155,
       "sha256": "470445d5df6d4ff5e51e0fe120a78ad2e416b86476efdf09cf921d43806fde03",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MAR",
@@ -857,7 +858,7 @@
       "path": "public/flags/ma.svg",
       "bytes": 258,
       "sha256": "1f6f0d1bf2e6d69fc943eb0eb3a96a4e5f8473bfdd1bd6b5a4c903c6c7ee2fe2",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MCO",
@@ -865,7 +866,7 @@
       "path": "public/flags/mc.svg",
       "bytes": 155,
       "sha256": "bb97fd4d27f655e164f59612ad1dfd6d25a2663369ecc38b3777dd88b9c2752b",
-      "editorialReview": "sample-reviewed"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MDA",
@@ -873,7 +874,7 @@
       "path": "public/flags/md.svg",
       "bytes": 33975,
       "sha256": "a61c465c0aebd959715da03389b9aedcb9198ef840f578ef03cc2af0c76bfa31",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MDG",
@@ -881,7 +882,7 @@
       "path": "public/flags/mg.svg",
       "bytes": 194,
       "sha256": "00a570504860576bcb032613cb185013ce9400e05fd9c1fdc274f9664d27f9d6",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MDV",
@@ -889,7 +890,7 @@
       "path": "public/flags/mv.svg",
       "bytes": 247,
       "sha256": "a825c00d340b88c63605d514c9c0e74ef17c0cf10caa0d0e46bb7ebee4788dd5",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MEX",
@@ -897,7 +898,7 @@
       "path": "public/flags/mx.svg",
       "bytes": 143318,
       "sha256": "baa6f7163f307c16a5d3e36c83a09fe46adbe16adfa866d4bb2d750a79d96b92",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MHL",
@@ -905,7 +906,7 @@
       "path": "public/flags/mh.svg",
       "bytes": 796,
       "sha256": "4d9431d294c64f7e972d174778186715be741d5941e23db89a32dcffcfbfa2ab",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MKD",
@@ -913,7 +914,7 @@
       "path": "public/flags/mk.svg",
       "bytes": 366,
       "sha256": "72a37e581f614d791fa6d88831d06c56a0f757e5a596d8fc1189b0d8147cfda6",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MLI",
@@ -921,7 +922,7 @@
       "path": "public/flags/ml.svg",
       "bytes": 197,
       "sha256": "ae9516c41b4bb5385e047fc66da8e0e3e3b9360a5850c36d4b5c21950be3853c",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MLT",
@@ -929,7 +930,7 @@
       "path": "public/flags/mt.svg",
       "bytes": 15284,
       "sha256": "708f8eef0bca92371fd77cdf0f567bb432f292e0fea202b97e181b011bddf3cb",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MMR",
@@ -937,7 +938,7 @@
       "path": "public/flags/mm.svg",
       "bytes": 539,
       "sha256": "2ebf5312f5a4d89646aba2320b3dce9918136bdfd42303819830fcc29e905edb",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MNE",
@@ -945,7 +946,7 @@
       "path": "public/flags/me.svg",
       "bytes": 108343,
       "sha256": "4c5a11bc5fc1b0cdb2f7c10b5fe2f4aa50f44d970c74bf9c408fc58dcebfe66b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MNG",
@@ -953,7 +954,7 @@
       "path": "public/flags/mn.svg",
       "bytes": 1496,
       "sha256": "4f89f928fbfa245916b324dc272363ab12dba689814a9d2112023205e8e69baf",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MOZ",
@@ -961,7 +962,7 @@
       "path": "public/flags/mz.svg",
       "bytes": 2757,
       "sha256": "649e978eea07a70c6e7303a5291476b3f224063070abf4f6a5f4ddcbba7c1cf6",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MRT",
@@ -969,7 +970,7 @@
       "path": "public/flags/mr.svg",
       "bytes": 333,
       "sha256": "1655e7ed2d848678e50138df15f3db7b37ed7a9c4f61cdf7e26cfec12d0e7057",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MUS",
@@ -977,7 +978,7 @@
       "path": "public/flags/mu.svg",
       "bytes": 239,
       "sha256": "c35ef8388abd492cb6ddbb0b46e3be87244ec1088682de208a745c93c4852a80",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MWI",
@@ -985,7 +986,7 @@
       "path": "public/flags/mw.svg",
       "bytes": 787,
       "sha256": "81a7dc8d3f32fcdc7cd98408f9602f53176a7ea3645770e4d852fc3646a2e576",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "MYS",
@@ -993,7 +994,7 @@
       "path": "public/flags/my.svg",
       "bytes": 662,
       "sha256": "1d3284c77094859fb63c1880af4f8f9a3916935a12faae060678c6e3455e956d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NAM",
@@ -1001,7 +1002,7 @@
       "path": "public/flags/na.svg",
       "bytes": 728,
       "sha256": "ddc9fc887177f92e80fed16082c988924fbd19773ea33729fa3f2a1896d13814",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NER",
@@ -1009,7 +1010,7 @@
       "path": "public/flags/ne.svg",
       "bytes": 243,
       "sha256": "286098862efda02108b4a8fe0c7f75b1275685be841c62a283d55412155781d9",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NGA",
@@ -1017,7 +1018,7 @@
       "path": "public/flags/ng.svg",
       "bytes": 163,
       "sha256": "3dbebd9f8e31821d5fa22f976cfe9a338788fda81308f0d573e69fd9dfcce24e",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NIC",
@@ -1025,7 +1026,7 @@
       "path": "public/flags/ni.svg",
       "bytes": 23894,
       "sha256": "ed4fbc934d1bde93634e8904e0c1aec45587c95a2bbfbd024aa729e9adc956d6",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NLD",
@@ -1033,7 +1034,7 @@
       "path": "public/flags/nl.svg",
       "bytes": 200,
       "sha256": "2f7463573cdc3a0f7760c18459a3280d9272d1e6b2060909f12b95644e4fd545",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NOR",
@@ -1041,7 +1042,7 @@
       "path": "public/flags/no.svg",
       "bytes": 223,
       "sha256": "0d4b9a52f0a6bd264258baac791b39910a895bb6ca06f63477fa823a262febdc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NPL",
@@ -1049,7 +1050,7 @@
       "path": "public/flags/np.svg",
       "bytes": 1052,
       "sha256": "f4a65e693806dbb31a5b2808a88d577c72ba0e8c5872fbd1e8600ff63a77c489",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NRU",
@@ -1057,7 +1058,7 @@
       "path": "public/flags/nr.svg",
       "bytes": 545,
       "sha256": "1db6563151cfc25388f8167a967a96b0794cde41f1bcfa3e521bdaa794af2fcc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "NZL",
@@ -1065,7 +1066,7 @@
       "path": "public/flags/nz.svg",
       "bytes": 1746,
       "sha256": "aa29843a365d4eb21d35932172232d7d591a35fc51ac95c040c356f0f16c447e",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "OMN",
@@ -1073,7 +1074,7 @@
       "path": "public/flags/om.svg",
       "bytes": 175888,
       "sha256": "38f39605556392f32fc4aa12e6db9a9c6984acd3cc7f3ccfbca9a014bc44796a",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PAK",
@@ -1081,7 +1082,7 @@
       "path": "public/flags/pk.svg",
       "bytes": 380,
       "sha256": "2011fe01e332cfc8f16c861d4818bacf4ed1b6d9fa657cc246f86ab15a313768",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PAN",
@@ -1089,7 +1090,7 @@
       "path": "public/flags/pa.svg",
       "bytes": 280,
       "sha256": "8e8c7cf854aa3367d9ed9eda6c585540bde6369ef6163f435334216be4536200",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PER",
@@ -1097,7 +1098,7 @@
       "path": "public/flags/pe.svg",
       "bytes": 156,
       "sha256": "a35cf7c9bb6ac08e6d60d9683c78318746edc82284022aef02c9d6a07540045c",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PHL",
@@ -1105,7 +1106,7 @@
       "path": "public/flags/ph.svg",
       "bytes": 808,
       "sha256": "d554297356ab66a5061df4c73c3bb293381875d86175fa0508f7ac4f035eb721",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PLW",
@@ -1113,7 +1114,7 @@
       "path": "public/flags/pw.svg",
       "bytes": 157,
       "sha256": "47fc578c8ad500ed537a46e73859b597f819474e3d0227ccd266cdd793596aa6",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PNG",
@@ -1121,7 +1122,7 @@
       "path": "public/flags/pg.svg",
       "bytes": 2969,
       "sha256": "d98adee3bf8945b389144b04bc49824c85711e1d473236971ac8a48939328064",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "POL",
@@ -1129,7 +1130,7 @@
       "path": "public/flags/pl.svg",
       "bytes": 164,
       "sha256": "da6d9e34f2007194b0082d4caac04d1744b7b27fc40098747d4bc62e0d5a5bb2",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PRK",
@@ -1137,7 +1138,7 @@
       "path": "public/flags/kp.svg",
       "bytes": 334,
       "sha256": "2891274f3603b50b8eb795f50ba361b7b4586ecc1f42f900689decd527fcc386",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PRT",
@@ -1145,7 +1146,7 @@
       "path": "public/flags/pt.svg",
       "bytes": 10853,
       "sha256": "f60337f226fba6b695f54222f63b354920b1ecb4a0ff27f16bd49983f345f4c7",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PRY",
@@ -1153,7 +1154,7 @@
       "path": "public/flags/py.svg",
       "bytes": 23500,
       "sha256": "5bb06bf5b8f3ea2633dcfc0d417400786c69d6b1cb681208072f4658d2838af2",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "PSE",
@@ -1161,7 +1162,7 @@
       "path": "public/flags/ps.svg",
       "bytes": 228,
       "sha256": "6ccd9cbaff9c67f772dfa2154c5e178fdd7a78f07e7177a3cea431116a98afdc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "QAT",
@@ -1169,7 +1170,7 @@
       "path": "public/flags/qa.svg",
       "bytes": 264,
       "sha256": "5332c024cb6bac6d7ca2f96347d2ce8cfc63f5bf2643a1d1e6ed6146e6b75a1d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ROU",
@@ -1177,7 +1178,7 @@
       "path": "public/flags/ro.svg",
       "bytes": 203,
       "sha256": "20c8e69585273d35ba38fe2cae0d0201445a3b410c9589f4f7053316662482e3",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "RUS",
@@ -1185,7 +1186,7 @@
       "path": "public/flags/ru.svg",
       "bytes": 200,
       "sha256": "eb1dbd977fdb824dcae7767ce9ec3a023e41158e81b5f524772609ddcb622025",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "RWA",
@@ -1193,7 +1194,7 @@
       "path": "public/flags/rw.svg",
       "bytes": 894,
       "sha256": "21b67e23f19a1bca9b4ad87ff788b4992cebc00a6deeca1eb9c56c16b63c0de8",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SAU",
@@ -1201,7 +1202,7 @@
       "path": "public/flags/sa.svg",
       "bytes": 24613,
       "sha256": "7176d38f2e39fa7c96608f5ae85bb51ba964f1b9a972b33b0d04796fe4487f71",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SDN",
@@ -1209,7 +1210,7 @@
       "path": "public/flags/sd.svg",
       "bytes": 229,
       "sha256": "305064d3c23eac774752898e1b3e9ff8ab7ecdfa45495be446dc520de8415727",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SEN",
@@ -1217,7 +1218,7 @@
       "path": "public/flags/sn.svg",
       "bytes": 228,
       "sha256": "c0593c9c104142eadae2d76bd739b28a37d2218bf1ef4b37bf8fa9655bfab087",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SGP",
@@ -1225,7 +1226,7 @@
       "path": "public/flags/sg.svg",
       "bytes": 550,
       "sha256": "d8782c5cc56587009a4939e9c0a95402001114eacda264417cd8f1678ff9329d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SLB",
@@ -1233,7 +1234,7 @@
       "path": "public/flags/sb.svg",
       "bytes": 935,
       "sha256": "56e24d58d3912dcd3c89187ee9ec08ea09957055296e823007ad615a4485f751",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SLE",
@@ -1241,7 +1242,7 @@
       "path": "public/flags/sl.svg",
       "bytes": 194,
       "sha256": "21d7e0663d2b8e1d455a0e1456c63dfbb273becdacbf7c1fa0e22d915f136cf4",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SLV",
@@ -1249,7 +1250,7 @@
       "path": "public/flags/sv.svg",
       "bytes": 248937,
       "sha256": "cbd0f1c0170aad674c898a602f0e43fcf330640cbbab0653d6ae4f941f7cd83d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SMR",
@@ -1257,7 +1258,7 @@
       "path": "public/flags/sm.svg",
       "bytes": 95493,
       "sha256": "bb35493ba0a9f7e7a447f8cf4ea17fa50777db06d7266e08edd6c54593aea1c8",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SOM",
@@ -1265,7 +1266,7 @@
       "path": "public/flags/so.svg",
       "bytes": 274,
       "sha256": "3a342342f94f00a74984e10743f4589e7856076df6686f05e3192cd0ee0300e1",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SRB",
@@ -1273,7 +1274,7 @@
       "path": "public/flags/rs.svg",
       "bytes": 28859,
       "sha256": "5bc4c8297033b5b31ca9496dd1ad29232aa14389dc8c93db38f99faa707ebba3",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SSD",
@@ -1281,7 +1282,7 @@
       "path": "public/flags/ss.svg",
       "bytes": 385,
       "sha256": "0f2a925c6daf8945ff257938e04b0609441f698010d80c9717904c71a54a235e",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "STP",
@@ -1289,7 +1290,7 @@
       "path": "public/flags/st.svg",
       "bytes": 355,
       "sha256": "a95075950bff55641b4274439a909c6bda8005b22c397ef6315839ce9d0dec55",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SUR",
@@ -1297,7 +1298,7 @@
       "path": "public/flags/sr.svg",
       "bytes": 307,
       "sha256": "098067b9dd5a6aac668c8883f9b96fe68865dc20a6f88a8859146900e389dd63",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SVK",
@@ -1305,7 +1306,7 @@
       "path": "public/flags/sk.svg",
       "bytes": 1026,
       "sha256": "e684da4cc4c07969475456c69ba6e9e853360d5522dd5273beec02933c5f5767",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SVN",
@@ -1313,7 +1314,7 @@
       "path": "public/flags/si.svg",
       "bytes": 1321,
       "sha256": "31b0d198128163affed8e660033c7a5cbe3ecc726188ab678ddb5521d5e9bb4e",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SWE",
@@ -1321,7 +1322,7 @@
       "path": "public/flags/se.svg",
       "bytes": 172,
       "sha256": "426348d99d9cace2df6eaa6d6766d5a5ac21bb65a504a4ed974486cf96156b8f",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SWZ",
@@ -1329,7 +1330,7 @@
       "path": "public/flags/sz.svg",
       "bytes": 6472,
       "sha256": "3d48fcbb07942d6d590bceb07f8462db36130a625022f12710e53c6cfdc51f77",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SYC",
@@ -1337,7 +1338,7 @@
       "path": "public/flags/sc.svg",
       "bytes": 273,
       "sha256": "b7a1ccdf0b210a2273426eaf334679dba7d3f5a90dddd91882beffa891bf3035",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "SYR",
@@ -1345,7 +1346,7 @@
       "path": "public/flags/sy.svg",
       "bytes": 367,
       "sha256": "114f63ff44c34361216c25e49c65ade53ba07a4607e5e917b089c60a0df6c173",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TCD",
@@ -1353,7 +1354,7 @@
       "path": "public/flags/td.svg",
       "bytes": 197,
       "sha256": "46d9a786225c476c021be32564d43497ec48d654694379969ac86d4aec8cf8a0",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TGO",
@@ -1361,7 +1362,7 @@
       "path": "public/flags/tg.svg",
       "bytes": 423,
       "sha256": "8d50a4818de595d967b3cd0d6b0dc91ce0532b1679813af9eea27a560a7662c1",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "THA",
@@ -1369,7 +1370,7 @@
       "path": "public/flags/th.svg",
       "bytes": 201,
       "sha256": "6b5a7a862ef01de1efd7ca3526655609ef7b05cd2ee6e14eacc0436bb93da555",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TJK",
@@ -1377,7 +1378,7 @@
       "path": "public/flags/tj.svg",
       "bytes": 2217,
       "sha256": "597f154cc4f0bc5b4941c880fd2cd79c2a20a1b1d5845c86e934c4500fab78d8",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TKM",
@@ -1385,7 +1386,7 @@
       "path": "public/flags/tm.svg",
       "bytes": 43457,
       "sha256": "a03b94f68d3eec97f3cdc495ceb98af910087b2623a02dc233820dfcc2ec2085",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TLS",
@@ -1393,7 +1394,7 @@
       "path": "public/flags/tl.svg",
       "bytes": 279,
       "sha256": "1f25223cf5d05c32593ca66f0126a14bd728535a6678edb5ba84df13614c0312",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TON",
@@ -1401,7 +1402,7 @@
       "path": "public/flags/to.svg",
       "bytes": 227,
       "sha256": "aaf4a1b55742a45ae01330347e723ec9d9da9b15e1e9e05cd7d1910de91eef00",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TTO",
@@ -1409,7 +1410,7 @@
       "path": "public/flags/tt.svg",
       "bytes": 225,
       "sha256": "89fa29d1f4a553154be8ae34b5f6a31e4baf6197fee40d9103ada5b80de7e31b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TUN",
@@ -1417,7 +1418,7 @@
       "path": "public/flags/tn.svg",
       "bytes": 278,
       "sha256": "b0d8964ee6ff40309779e0a1ea2780926a85edf9f1715c22ecbd04e14a4be9b4",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TUR",
@@ -1425,7 +1426,7 @@
       "path": "public/flags/tr.svg",
       "bytes": 287,
       "sha256": "f15da84b4e5b23f54b8177126f5711e6fd0db8d26a1b0d3cf7901d0aa8e6b7b1",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TUV",
@@ -1433,7 +1434,7 @@
       "path": "public/flags/tv.svg",
       "bytes": 1120,
       "sha256": "8596575d86d9ca070a2453f8fdfe7a0168d1df078e1e04ebfee804dff04069ef",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "TZA",
@@ -1441,7 +1442,7 @@
       "path": "public/flags/tz.svg",
       "bytes": 383,
       "sha256": "0bdf0b45ec36def31a5ef9e162fe40bbca1d78a522bde23cb4f42d5929affdbc",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "UGA",
@@ -1449,7 +1450,7 @@
       "path": "public/flags/ug.svg",
       "bytes": 3616,
       "sha256": "b0d36274f9eac739b04046783a38c18bebd42587a0b0b1cc3d31a32e1ec05374",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "UKR",
@@ -1457,7 +1458,7 @@
       "path": "public/flags/ua.svg",
       "bytes": 160,
       "sha256": "542eaacd659923163edf3b1100c43bc137cc1ad9f0e394dee94de37d40ce1fca",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "URY",
@@ -1465,7 +1466,7 @@
       "path": "public/flags/uy.svg",
       "bytes": 5764,
       "sha256": "856fc0e14ff877b68a68c89144852808e7a17b213d5f1dba4b9d27435c0b2f54",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "USA",
@@ -1473,7 +1474,7 @@
       "path": "public/flags/us.svg",
       "bytes": 765,
       "sha256": "e1792c011daad918fdbd99a21f7f46fd71018ffd052af5a7d7faf9954d593e31",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "UZB",
@@ -1481,7 +1482,7 @@
       "path": "public/flags/uz.svg",
       "bytes": 1243,
       "sha256": "7ce6e8b7f4dd2a5bc050f9e538d22fde2fd371df15b751e48a29c1c3cb3df00b",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "VAT",
@@ -1489,7 +1490,7 @@
       "path": "public/flags/va.svg",
       "bytes": 106128,
       "sha256": "23174e1d9538ebf371a55e0dbe1ada98b3e5062859b0c0d3b85f7f6f1427fa99",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "VCT",
@@ -1497,7 +1498,7 @@
       "path": "public/flags/vc.svg",
       "bytes": 339,
       "sha256": "c2a36b00c4c8c637b6847ed2dafb6d90b879ea298ab57d062f6ab968027e1766",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "VEN",
@@ -1505,7 +1506,7 @@
       "path": "public/flags/ve.svg",
       "bytes": 1888,
       "sha256": "756f64b7ab11de19928d6ee6235079200ba45477ea150b7fc3ffbd94f4fbebfe",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "VNM",
@@ -1513,7 +1514,7 @@
       "path": "public/flags/vn.svg",
       "bytes": 194,
       "sha256": "bd236e52dc564431ea569bca0a7b81ae8e8663675cb24a7b6da43ff926cc147c",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "VUT",
@@ -1521,7 +1522,7 @@
       "path": "public/flags/vu.svg",
       "bytes": 2615,
       "sha256": "18232f22b21730b4ec64a83c709f6546465c4777c2a3ad759686c3c2dfbc2745",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "WSM",
@@ -1529,7 +1530,7 @@
       "path": "public/flags/ws.svg",
       "bytes": 640,
       "sha256": "acedd8fb18df15e9483cc8c0f30f24b7ff2299ca9006c261040e88677c0df0b3",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "YEM",
@@ -1537,7 +1538,7 @@
       "path": "public/flags/ye.svg",
       "bytes": 179,
       "sha256": "a92f3989182049dc218f7698c45d8cdfc64e6f945c71f20a9d188dd01698df2d",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ZAF",
@@ -1545,7 +1546,7 @@
       "path": "public/flags/za.svg",
       "bytes": 566,
       "sha256": "6fbf0b68db7024ac996c92b1bbc62efe9a3bf12e469efaa29ae4fe0fa5c6da39",
-      "editorialReview": "sample-reviewed"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ZMB",
@@ -1553,7 +1554,7 @@
       "path": "public/flags/zm.svg",
       "bytes": 5225,
       "sha256": "b64a4ec9612720033a3e8de806cfdd112a8ce48f35b2ec66e013d6c5e25e3445",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     },
     {
       "countryId": "ZWE",
@@ -1561,7 +1562,8 @@
       "path": "public/flags/zw.svg",
       "bytes": 1744,
       "sha256": "f0b79e8841f06a4afed5a90142b1c202776dc1d1c82328f310458d7c0ee975d9",
-      "editorialReview": "pending T12"
+      "editorialReview": "reviewed-2026-11-03"
     }
-  ]
+  ],
+  "reviewMethod": "195 SVGs decoded in browser, checked visually in four contact sheets against country/ISO association; file hashes unchanged."
 }

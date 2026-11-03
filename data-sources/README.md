@@ -26,3 +26,13 @@ Hinos: os metadados registram a marcação exibida no Commons, não uma conclus�
 `npm run check:catalog` confere contagem, IDs, joins, coordenadas, estados de auditoria, hashes dos snapshots, dos arquivos gerados e das 195 bandeiras. Não faz chamadas externas nem substitui revisão geográfica/editorial.
 
 Uma atualização das fontes deve produzir nova captura, comparar o catálogo e as correspondências, registrar alterações editoriais e atualizar os hashes do manifesto intencionalmente. Não substituir os snapshots silenciosamente por uma consulta em tempo de execução.
+
+## Atualização T11/T12
+
+`metadata-review.json` documenta a revisão dos 195 nomes/capitais por ISO, fontes e casos especiais. `cldr-pt-territories.json` é o snapshot do Unicode CLDR em português do Brasil; aviso em `public/licenses/unicode-cldr.txt`. Nomes anteriores permanecem como aliases. `phase-2-flags.json` contém a revisão visual e integridade das 195 bandeiras.
+
+`anthems.json` é a auditoria vigente das 195 entradas: 183 gravações locais e 12 lacunas explícitas. Registra autoria/licença individual, original/derivado oficial, hashes, conversão e estado de cobertura. `anthem-audit.json` preserva a análise inicial de cinco candidatos; seu erro de download não descreve mais o estado atual.
+
+`npm run assets:anthems` confere/restaura arquivos disponíveis a partir das URLs e hashes auditados (requer FFmpeg com libmp3lame; ambiente usado: FFmpeg 6.1.1-3ubuntu5). Não descobre fontes automaticamente nem muda licenças/estados. Interrompe em falha ou limitação da fonte, sem repetir downloads em lote. Diferença de hash exige revisão antes de atualizar a auditoria. `npm run assets:map` gera o runtime e `npm run report:catalog` gera o relatório por país e os créditos distribuídos.
+
+A licença individual dos áudios não é substituída pela licença dos metadados ou do código. As cópias MP3 CC BY-SA mantêm a licença declarada; fontes/licenças estão no cartão e em public/audio/credits.json. Cobertura atual e decisão pendente: specs/001-atlas-interativo/coverage.md.

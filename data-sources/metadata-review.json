@@ -1,0 +1,3925 @@
+{
+  "reviewedAt": "2026-11-03",
+  "countries": [
+    {
+      "countryId": "AFG",
+      "namePtBr": "Afeganistão",
+      "capitals": [
+        "Cabul"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q889"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q5838"
+      ],
+      "previousName": "Afeganistão",
+      "previousCapitals": [
+        "Kabul"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "AGO",
+      "namePtBr": "Angola",
+      "capitals": [
+        "Luanda"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q916"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3897"
+      ],
+      "previousName": "Angola",
+      "previousCapitals": [
+        "Luanda"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ALB",
+      "namePtBr": "Albânia",
+      "capitals": [
+        "Tirana"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q222"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q19689"
+      ],
+      "previousName": "Albânia",
+      "previousCapitals": [
+        "Tirana"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "AND",
+      "namePtBr": "Andorra",
+      "capitals": [
+        "Andorra-a-Velha"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q228"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1863"
+      ],
+      "previousName": "Andorra",
+      "previousCapitals": [
+        "Andorra la Vella"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ARE",
+      "namePtBr": "Emirados Árabes Unidos",
+      "capitals": [
+        "Abu Dhabi"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q878"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1519"
+      ],
+      "previousName": "Emirados Árabes Unidos",
+      "previousCapitals": [
+        "Abu Dhabi"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ARG",
+      "namePtBr": "Argentina",
+      "capitals": [
+        "Buenos Aires"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q414"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1486"
+      ],
+      "previousName": "Argentina",
+      "previousCapitals": [
+        "Buenos Aires"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ARM",
+      "namePtBr": "Armênia",
+      "capitals": [
+        "Erevan"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q399"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1953"
+      ],
+      "previousName": "Arménia",
+      "previousCapitals": [
+        "Yerevan"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ATG",
+      "namePtBr": "Antígua e Barbuda",
+      "capitals": [
+        "Saint John's"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q781"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q36262"
+      ],
+      "previousName": "Antígua e Barbuda",
+      "previousCapitals": [
+        "Saint John's"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "AUS",
+      "namePtBr": "Austrália",
+      "capitals": [
+        "Camberra"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q408"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3114"
+      ],
+      "previousName": "Austrália",
+      "previousCapitals": [
+        "Canberra"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "AUT",
+      "namePtBr": "Áustria",
+      "capitals": [
+        "Viena"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q40"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1741"
+      ],
+      "previousName": "Áustria",
+      "previousCapitals": [
+        "Vienna"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "AZE",
+      "namePtBr": "Azerbaijão",
+      "capitals": [
+        "Baku"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q227"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9248"
+      ],
+      "previousName": "Azerbeijão",
+      "previousCapitals": [
+        "Baku"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BDI",
+      "namePtBr": "Burundi",
+      "capitals": [
+        "Guitega"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q967"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q167551"
+      ],
+      "previousName": "Burundi",
+      "previousCapitals": [
+        "Gitega"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BEL",
+      "namePtBr": "Bélgica",
+      "capitals": [
+        "Bruxelas"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q31"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q239"
+      ],
+      "previousName": "Bélgica",
+      "previousCapitals": [
+        "Brussels"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BEN",
+      "namePtBr": "Benin",
+      "capitals": [
+        "Porto Novo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q962"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3799"
+      ],
+      "previousName": "Benin",
+      "previousCapitals": [
+        "Porto-Novo"
+      ],
+      "note": "Porto Novo é a capital; o governo fica em Cotonou.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BFA",
+      "namePtBr": "Burquina Faso",
+      "capitals": [
+        "Uagadugu"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q965"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3777"
+      ],
+      "previousName": "Burkina Faso",
+      "previousCapitals": [
+        "Ouagadougou"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BGD",
+      "namePtBr": "Bangladesh",
+      "capitals": [
+        "Daca"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q902"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1354"
+      ],
+      "previousName": "Bangladesh",
+      "previousCapitals": [
+        "Dhaka"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BGR",
+      "namePtBr": "Bulgária",
+      "capitals": [
+        "Sófia"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q219"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q472"
+      ],
+      "previousName": "Bulgária",
+      "previousCapitals": [
+        "Sofia"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BHR",
+      "namePtBr": "Barein",
+      "capitals": [
+        "Manama"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q398"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3882"
+      ],
+      "previousName": "Bahrein",
+      "previousCapitals": [
+        "Manama"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BHS",
+      "namePtBr": "Bahamas",
+      "capitals": [
+        "Nassau"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q778"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2467"
+      ],
+      "previousName": "Bahamas",
+      "previousCapitals": [
+        "Nassau"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BIH",
+      "namePtBr": "Bósnia e Herzegovina",
+      "capitals": [
+        "Sarajevo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q225"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q11194"
+      ],
+      "previousName": "Bósnia e Herzegovina",
+      "previousCapitals": [
+        "Sarajevo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BLR",
+      "namePtBr": "Bielorrússia",
+      "capitals": [
+        "Minsk"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q184"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2280"
+      ],
+      "previousName": "Bielorússia",
+      "previousCapitals": [
+        "Minsk"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BLZ",
+      "namePtBr": "Belize",
+      "capitals": [
+        "Belmopan"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q242"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3043"
+      ],
+      "previousName": "Belize",
+      "previousCapitals": [
+        "Belmopan"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BOL",
+      "namePtBr": "Bolívia",
+      "capitals": [
+        "Sucre",
+        "La Paz"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q750",
+        "https://bolivianembassy.ca/bolivia/el-pais/datos-generales/"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2907",
+        "https://www.wikidata.org/entity/Q1491"
+      ],
+      "previousName": "Bolívia",
+      "previousCapitals": [
+        "Sucre"
+      ],
+      "note": "Sucre é a capital constitucional; La Paz é a sede do governo.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BRA",
+      "namePtBr": "Brasil",
+      "capitals": [
+        "Brasília"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q155"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2844"
+      ],
+      "previousName": "Brasil",
+      "previousCapitals": [
+        "Brasília"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BRB",
+      "namePtBr": "Barbados",
+      "capitals": [
+        "Bridgetown"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q244"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q36168"
+      ],
+      "previousName": "Barbados",
+      "previousCapitals": [
+        "Bridgetown"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BRN",
+      "namePtBr": "Brunei",
+      "capitals": [
+        "Bandar Seri Begawan"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q921"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9279"
+      ],
+      "previousName": "Brunei",
+      "previousCapitals": [
+        "Bandar Seri Begawan"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BTN",
+      "namePtBr": "Butão",
+      "capitals": [
+        "Thimbu"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q917"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9270"
+      ],
+      "previousName": "Butão",
+      "previousCapitals": [
+        "Thimphu"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "BWA",
+      "namePtBr": "Botsuana",
+      "capitals": [
+        "Gaborone"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q963"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3919"
+      ],
+      "previousName": "Botswana",
+      "previousCapitals": [
+        "Gaborone"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CAF",
+      "namePtBr": "República Centro-Africana",
+      "capitals": [
+        "Bangui"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q929"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3832"
+      ],
+      "previousName": "República Centro-Africana",
+      "previousCapitals": [
+        "Bangui"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CAN",
+      "namePtBr": "Canadá",
+      "capitals": [
+        "Ottawa"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q16"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1930"
+      ],
+      "previousName": "Canadá",
+      "previousCapitals": [
+        "Ottawa"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CHE",
+      "namePtBr": "Suíça",
+      "capitals": [
+        "Berna"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q39"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q70"
+      ],
+      "previousName": "Suíça",
+      "previousCapitals": [
+        "Bern"
+      ],
+      "note": "Berna é a cidade federal, sede do governo.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CHL",
+      "namePtBr": "Chile",
+      "capitals": [
+        "Santiago"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q298"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2887"
+      ],
+      "previousName": "Chile",
+      "previousCapitals": [
+        "Santiago"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CHN",
+      "namePtBr": "China",
+      "capitals": [
+        "Pequim"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q148"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q956"
+      ],
+      "previousName": "China",
+      "previousCapitals": [
+        "Beijing"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CIV",
+      "namePtBr": "Costa do Marfim",
+      "capitals": [
+        "Yamoussoukro"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1008"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3768"
+      ],
+      "previousName": "Costa do Marfim",
+      "previousCapitals": [
+        "Yamoussoukro"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CMR",
+      "namePtBr": "Camarões",
+      "capitals": [
+        "Yaoundé"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1009"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3808"
+      ],
+      "previousName": "Camarões",
+      "previousCapitals": [
+        "Yaoundé"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "COD",
+      "namePtBr": "República Democrática do Congo",
+      "capitals": [
+        "Kinshasa"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q974"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3838"
+      ],
+      "previousName": "República Democrática do Congo",
+      "previousCapitals": [
+        "Kinshasa"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "COG",
+      "namePtBr": "República do Congo",
+      "capitals": [
+        "Brazzaville"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q971"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3844"
+      ],
+      "previousName": "Congo",
+      "previousCapitals": [
+        "Brazzaville"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "COL",
+      "namePtBr": "Colômbia",
+      "capitals": [
+        "Bogotá"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q739"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2841"
+      ],
+      "previousName": "Colômbia",
+      "previousCapitals": [
+        "Bogotá"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "COM",
+      "namePtBr": "Comores",
+      "capitals": [
+        "Moroni"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q970"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3901"
+      ],
+      "previousName": "Comores",
+      "previousCapitals": [
+        "Moroni"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CPV",
+      "namePtBr": "Cabo Verde",
+      "capitals": [
+        "Praia"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1011"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3751"
+      ],
+      "previousName": "Cabo Verde",
+      "previousCapitals": [
+        "Praia"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CRI",
+      "namePtBr": "Costa Rica",
+      "capitals": [
+        "San José"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q800"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3070"
+      ],
+      "previousName": "Costa Rica",
+      "previousCapitals": [
+        "San José"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CUB",
+      "namePtBr": "Cuba",
+      "capitals": [
+        "Havana"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q241"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1563"
+      ],
+      "previousName": "Cuba",
+      "previousCapitals": [
+        "Havana"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CYP",
+      "namePtBr": "Chipre",
+      "capitals": [
+        "Nicósia"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q229",
+        "https://www.wikidata.org/entity/Q644636"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3856"
+      ],
+      "previousName": "Chipre",
+      "previousCapitals": [
+        "Nicosia"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "CZE",
+      "namePtBr": "Tchéquia",
+      "capitals": [
+        "Praga"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q213"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1085"
+      ],
+      "previousName": "Chéquia",
+      "previousCapitals": [
+        "Prague"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "DEU",
+      "namePtBr": "Alemanha",
+      "capitals": [
+        "Berlim"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q183"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q64"
+      ],
+      "previousName": "Alemanha",
+      "previousCapitals": [
+        "Berlin"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "DJI",
+      "namePtBr": "Djibuti",
+      "capitals": [
+        "Djibuti"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q977"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3604"
+      ],
+      "previousName": "Djibouti",
+      "previousCapitals": [
+        "Djibouti"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "DMA",
+      "namePtBr": "Dominica",
+      "capitals": [
+        "Roseau"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q784"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q36281"
+      ],
+      "previousName": "Dominica",
+      "previousCapitals": [
+        "Roseau"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "DNK",
+      "namePtBr": "Dinamarca",
+      "capitals": [
+        "Copenhague"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q35"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1748"
+      ],
+      "previousName": "Dinamarca",
+      "previousCapitals": [
+        "Copenhagen"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "DOM",
+      "namePtBr": "República Dominicana",
+      "capitals": [
+        "São Domingos"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q786"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q34820"
+      ],
+      "previousName": "República Dominicana",
+      "previousCapitals": [
+        "Santo Domingo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "DZA",
+      "namePtBr": "Argélia",
+      "capitals": [
+        "Argel"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q262"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3561"
+      ],
+      "previousName": "Argélia",
+      "previousCapitals": [
+        "Algiers"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ECU",
+      "namePtBr": "Equador",
+      "capitals": [
+        "Quito"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q736"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2900"
+      ],
+      "previousName": "Equador",
+      "previousCapitals": [
+        "Quito"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "EGY",
+      "namePtBr": "Egito",
+      "capitals": [
+        "Cairo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q79"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q85"
+      ],
+      "previousName": "Egito",
+      "previousCapitals": [
+        "Cairo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ERI",
+      "namePtBr": "Eritreia",
+      "capitals": [
+        "Asmara"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q986"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3642"
+      ],
+      "previousName": "Eritreia",
+      "previousCapitals": [
+        "Asmara"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ESP",
+      "namePtBr": "Espanha",
+      "capitals": [
+        "Madri"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q29"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2807"
+      ],
+      "previousName": "Espanha",
+      "previousCapitals": [
+        "Madrid"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "EST",
+      "namePtBr": "Estônia",
+      "capitals": [
+        "Tallinn"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q191"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1770"
+      ],
+      "previousName": "Estónia",
+      "previousCapitals": [
+        "Tallinn"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ETH",
+      "namePtBr": "Etiópia",
+      "capitals": [
+        "Adis Abeba"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q115"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3624"
+      ],
+      "previousName": "Etiópia",
+      "previousCapitals": [
+        "Addis Ababa"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "FIN",
+      "namePtBr": "Finlândia",
+      "capitals": [
+        "Helsinque"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q33"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1757"
+      ],
+      "previousName": "Finlândia",
+      "previousCapitals": [
+        "Helsinki"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "FJI",
+      "namePtBr": "Fiji",
+      "capitals": [
+        "Suva"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q712"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q38807"
+      ],
+      "previousName": "Fiji",
+      "previousCapitals": [
+        "Suva"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "FRA",
+      "namePtBr": "França",
+      "capitals": [
+        "Paris"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q142"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q90"
+      ],
+      "previousName": "França",
+      "previousCapitals": [
+        "Paris"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "FSM",
+      "namePtBr": "Micronésia",
+      "capitals": [
+        "Palikir"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q702"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q42751"
+      ],
+      "previousName": "Micronésia",
+      "previousCapitals": [
+        "Palikir"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GAB",
+      "namePtBr": "Gabão",
+      "capitals": [
+        "Libreville"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1000"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3825"
+      ],
+      "previousName": "Gabão",
+      "previousCapitals": [
+        "Libreville"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GBR",
+      "namePtBr": "Reino Unido",
+      "capitals": [
+        "Londres"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q145"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q84"
+      ],
+      "previousName": "Reino Unido",
+      "previousCapitals": [
+        "London"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GEO",
+      "namePtBr": "Geórgia",
+      "capitals": [
+        "Tbilisi"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q230"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q994"
+      ],
+      "previousName": "Geórgia",
+      "previousCapitals": [
+        "Tbilisi"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GHA",
+      "namePtBr": "Gana",
+      "capitals": [
+        "Acra"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q117"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3761"
+      ],
+      "previousName": "Gana",
+      "previousCapitals": [
+        "Accra"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GIN",
+      "namePtBr": "Guiné",
+      "capitals": [
+        "Conacri"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1006"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3733"
+      ],
+      "previousName": "Guiné",
+      "previousCapitals": [
+        "Conakry"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GMB",
+      "namePtBr": "Gâmbia",
+      "capitals": [
+        "Banjul"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1005"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3726"
+      ],
+      "previousName": "Gâmbia",
+      "previousCapitals": [
+        "Banjul"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GNB",
+      "namePtBr": "Guiné-Bissau",
+      "capitals": [
+        "Bissau"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1007"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3739"
+      ],
+      "previousName": "Guiné-Bissau",
+      "previousCapitals": [
+        "Bissau"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GNQ",
+      "namePtBr": "Guiné Equatorial",
+      "capitals": [
+        "Ciudad de la Paz"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q983",
+        "https://www.guineaecuatorialpress.com/noticias/decreto_ley_por_el_que_se_declara_la_ciudad_de_la_paz_djibloho_capital_de_la_republica_de_guinea_ecuatorial"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1140136"
+      ],
+      "previousName": "Guiné Equatorial",
+      "previousCapitals": [
+        "Ciudad de la Paz"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GRC",
+      "namePtBr": "Grécia",
+      "capitals": [
+        "Atenas"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q41"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1524"
+      ],
+      "previousName": "Grécia",
+      "previousCapitals": [
+        "Athens"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GRD",
+      "namePtBr": "Granada",
+      "capitals": [
+        "Saint George's"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q769"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q41547"
+      ],
+      "previousName": "Granada",
+      "previousCapitals": [
+        "St. George's"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GTM",
+      "namePtBr": "Guatemala",
+      "capitals": [
+        "Cidade da Guatemala"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q774"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1555"
+      ],
+      "previousName": "Guatemala",
+      "previousCapitals": [
+        "Guatemala City"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "GUY",
+      "namePtBr": "Guiana",
+      "capitals": [
+        "Georgetown"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q734"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q10717"
+      ],
+      "previousName": "Guiana",
+      "previousCapitals": [
+        "Georgetown"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "HND",
+      "namePtBr": "Honduras",
+      "capitals": [
+        "Tegucigalpa"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q783"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3238"
+      ],
+      "previousName": "Honduras",
+      "previousCapitals": [
+        "Tegucigalpa"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "HRV",
+      "namePtBr": "Croácia",
+      "capitals": [
+        "Zagreb"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q224"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1435"
+      ],
+      "previousName": "Croácia",
+      "previousCapitals": [
+        "Zagreb"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "HTI",
+      "namePtBr": "Haiti",
+      "capitals": [
+        "Porto Príncipe"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q790"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q34261"
+      ],
+      "previousName": "Haiti",
+      "previousCapitals": [
+        "Port-au-Prince"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "HUN",
+      "namePtBr": "Hungria",
+      "capitals": [
+        "Budapeste"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q28"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1781"
+      ],
+      "previousName": "Hungria",
+      "previousCapitals": [
+        "Budapest"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "IDN",
+      "namePtBr": "Indonésia",
+      "capitals": [
+        "Jacarta"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q252"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3630"
+      ],
+      "previousName": "Indonésia",
+      "previousCapitals": [
+        "Jakarta"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "IND",
+      "namePtBr": "Índia",
+      "capitals": [
+        "Nova Deli"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q668"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q987"
+      ],
+      "previousName": "Índia",
+      "previousCapitals": [
+        "New Delhi"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "IRL",
+      "namePtBr": "Irlanda",
+      "capitals": [
+        "Dublin"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q27"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1761"
+      ],
+      "previousName": "Irlanda",
+      "previousCapitals": [
+        "Dublin"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "IRN",
+      "namePtBr": "Irã",
+      "capitals": [
+        "Teerã"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q794"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3616"
+      ],
+      "previousName": "Irão",
+      "previousCapitals": [
+        "Tehran"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "IRQ",
+      "namePtBr": "Iraque",
+      "capitals": [
+        "Bagdá"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q796"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1530"
+      ],
+      "previousName": "Iraque",
+      "previousCapitals": [
+        "Baghdad"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ISL",
+      "namePtBr": "Islândia",
+      "capitals": [
+        "Reykjavík"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q189"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1764"
+      ],
+      "previousName": "Islândia",
+      "previousCapitals": [
+        "Reykjavik"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ISR",
+      "namePtBr": "Israel",
+      "capitals": [
+        "Jerusalém"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q801"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1218"
+      ],
+      "previousName": "Israel",
+      "previousCapitals": [
+        "Jerusalem"
+      ],
+      "note": "Jerusalém tem estatuto internacional disputado.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ITA",
+      "namePtBr": "Itália",
+      "capitals": [
+        "Roma"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q38"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q220"
+      ],
+      "previousName": "Itália",
+      "previousCapitals": [
+        "Rome"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "JAM",
+      "namePtBr": "Jamaica",
+      "capitals": [
+        "Kingston"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q766"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q34692"
+      ],
+      "previousName": "Jamaica",
+      "previousCapitals": [
+        "Kingston"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "JOR",
+      "namePtBr": "Jordânia",
+      "capitals": [
+        "Amã"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q810"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3805"
+      ],
+      "previousName": "Jordânia",
+      "previousCapitals": [
+        "Amman"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "JPN",
+      "namePtBr": "Japão",
+      "capitals": [
+        "Tóquio"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q17"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1490"
+      ],
+      "previousName": "Japão",
+      "previousCapitals": [
+        "Tóquio"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KAZ",
+      "namePtBr": "Cazaquistão",
+      "capitals": [
+        "Astana"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q232"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1520"
+      ],
+      "previousName": "Cazaquistão",
+      "previousCapitals": [
+        "Astana"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KEN",
+      "namePtBr": "Quênia",
+      "capitals": [
+        "Nairóbi"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q114"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3870"
+      ],
+      "previousName": "Quénia",
+      "previousCapitals": [
+        "Nairobi"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KGZ",
+      "namePtBr": "Quirguistão",
+      "capitals": [
+        "Bishkek"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q813"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9361"
+      ],
+      "previousName": "Quirguistão",
+      "previousCapitals": [
+        "Bishkek"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KHM",
+      "namePtBr": "Camboja",
+      "capitals": [
+        "Phnom Penh"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q424"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1850"
+      ],
+      "previousName": "Camboja",
+      "previousCapitals": [
+        "Phnom Penh"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KIR",
+      "namePtBr": "Quiribati",
+      "capitals": [
+        "Taraua do Sul"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q710"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q131233"
+      ],
+      "previousName": "Kiribati",
+      "previousCapitals": [
+        "South Tarawa"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KNA",
+      "namePtBr": "São Cristóvão e Névis",
+      "capitals": [
+        "Basseterre"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q763"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q41295"
+      ],
+      "previousName": "São Cristóvão e Nevis",
+      "previousCapitals": [
+        "Basseterre"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KOR",
+      "namePtBr": "Coreia do Sul",
+      "capitals": [
+        "Seul"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q884"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q8684"
+      ],
+      "previousName": "Coreia do Sul",
+      "previousCapitals": [
+        "Seoul"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "KWT",
+      "namePtBr": "Kuwait",
+      "capitals": [
+        "Kuwait"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q817"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q35178"
+      ],
+      "previousName": "Kuwait",
+      "previousCapitals": [
+        "Kuwait City"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LAO",
+      "namePtBr": "Laos",
+      "capitals": [
+        "Vientiane"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q819"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9326"
+      ],
+      "previousName": "Laos",
+      "previousCapitals": [
+        "Vientiane"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LBN",
+      "namePtBr": "Líbano",
+      "capitals": [
+        "Beirute"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q822"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3820"
+      ],
+      "previousName": "Líbano",
+      "previousCapitals": [
+        "Beirut"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LBR",
+      "namePtBr": "Libéria",
+      "capitals": [
+        "Monróvia"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1014"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3748"
+      ],
+      "previousName": "Libéria",
+      "previousCapitals": [
+        "Monrovia"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LBY",
+      "namePtBr": "Líbia",
+      "capitals": [
+        "Trípoli"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1016"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3579"
+      ],
+      "previousName": "Líbia",
+      "previousCapitals": [
+        "Tripoli"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LCA",
+      "namePtBr": "Santa Lúcia",
+      "capitals": [
+        "Castries"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q760"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q41699"
+      ],
+      "previousName": "Santa Lúcia",
+      "previousCapitals": [
+        "Castries"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LIE",
+      "namePtBr": "Liechtenstein",
+      "capitals": [
+        "Vaduz"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q347"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1844"
+      ],
+      "previousName": "Liechtenstein",
+      "previousCapitals": [
+        "Vaduz"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LKA",
+      "namePtBr": "Sri Lanka",
+      "capitals": [
+        "Sri Jayewardenepura Kotte"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q854",
+        "https://www.mfa.gov.lk/en/national-profile-and-geography"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q41963",
+        "https://www.wikidata.org/entity/Q35381"
+      ],
+      "previousName": "Sri Lanka",
+      "previousCapitals": [
+        "Colombo"
+      ],
+      "note": "Colombo também concentra funções do governo.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LSO",
+      "namePtBr": "Lesoto",
+      "capitals": [
+        "Maseru"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1013"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3909"
+      ],
+      "previousName": "Lesoto",
+      "previousCapitals": [
+        "Maseru"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LTU",
+      "namePtBr": "Lituânia",
+      "capitals": [
+        "Vilnius"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q37"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q216"
+      ],
+      "previousName": "Lituânia",
+      "previousCapitals": [
+        "Vilnius"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LUX",
+      "namePtBr": "Luxemburgo",
+      "capitals": [
+        "Luxemburgo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q32"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1842"
+      ],
+      "previousName": "Luxemburgo",
+      "previousCapitals": [
+        "Luxembourg"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "LVA",
+      "namePtBr": "Letônia",
+      "capitals": [
+        "Riga"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q211"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1773"
+      ],
+      "previousName": "Letónia",
+      "previousCapitals": [
+        "Riga"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MAR",
+      "namePtBr": "Marrocos",
+      "capitals": [
+        "Rabat"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1028"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3551"
+      ],
+      "previousName": "Marrocos",
+      "previousCapitals": [
+        "Rabat"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MCO",
+      "namePtBr": "Mônaco",
+      "capitals": [
+        "Mônaco"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q235"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q235"
+      ],
+      "previousName": "Mônaco",
+      "previousCapitals": [
+        "Mônaco"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MDA",
+      "namePtBr": "Moldávia",
+      "capitals": [
+        "Chişinău"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q217"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q21197"
+      ],
+      "previousName": "Moldávia",
+      "previousCapitals": [
+        "Chișinău"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MDG",
+      "namePtBr": "Madagascar",
+      "capitals": [
+        "Antananarivo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1019"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3915"
+      ],
+      "previousName": "Madagáscar",
+      "previousCapitals": [
+        "Antananarivo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MDV",
+      "namePtBr": "Maldivas",
+      "capitals": [
+        "Malé"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q826"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9347"
+      ],
+      "previousName": "Maldivas",
+      "previousCapitals": [
+        "Malé"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MEX",
+      "namePtBr": "México",
+      "capitals": [
+        "Cidade do México"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q96"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1489"
+      ],
+      "previousName": "México",
+      "previousCapitals": [
+        "Mexico City"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MHL",
+      "namePtBr": "Ilhas Marshall",
+      "capitals": [
+        "Majuro"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q709"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q12919"
+      ],
+      "previousName": "Ilhas Marshall",
+      "previousCapitals": [
+        "Majuro"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MKD",
+      "namePtBr": "Macedônia do Norte",
+      "capitals": [
+        "Skopje"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q221"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q384"
+      ],
+      "previousName": "Macedónia do Norte",
+      "previousCapitals": [
+        "Skopje"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MLI",
+      "namePtBr": "Mali",
+      "capitals": [
+        "Bamaco"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q912"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3703"
+      ],
+      "previousName": "Mali",
+      "previousCapitals": [
+        "Bamako"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MLT",
+      "namePtBr": "Malta",
+      "capitals": [
+        "Valeta"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q233"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q23800"
+      ],
+      "previousName": "Malta",
+      "previousCapitals": [
+        "Valletta"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MMR",
+      "namePtBr": "Mianmar",
+      "capitals": [
+        "Naypyidaw"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q836"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q37400"
+      ],
+      "previousName": "Myanmar",
+      "previousCapitals": [
+        "Naypyidaw"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MNE",
+      "namePtBr": "Montenegro",
+      "capitals": [
+        "Podgorica"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q236"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q23564"
+      ],
+      "previousName": "Montenegro",
+      "previousCapitals": [
+        "Podgorica"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MNG",
+      "namePtBr": "Mongólia",
+      "capitals": [
+        "Ulan Bator"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q711"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q23430"
+      ],
+      "previousName": "Mongólia",
+      "previousCapitals": [
+        "Ulan Bator"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MOZ",
+      "namePtBr": "Moçambique",
+      "capitals": [
+        "Maputo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1029"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3889"
+      ],
+      "previousName": "Moçambique",
+      "previousCapitals": [
+        "Maputo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MRT",
+      "namePtBr": "Mauritânia",
+      "capitals": [
+        "Nouakchott"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1025"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3688"
+      ],
+      "previousName": "Mauritânia",
+      "previousCapitals": [
+        "Nouakchott"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MUS",
+      "namePtBr": "Maurício",
+      "capitals": [
+        "Port Louis"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1027"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3929"
+      ],
+      "previousName": "Maurício",
+      "previousCapitals": [
+        "Port Louis"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MWI",
+      "namePtBr": "Malaui",
+      "capitals": [
+        "Lilongwe"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1020"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3876"
+      ],
+      "previousName": "Malawi",
+      "previousCapitals": [
+        "Lilongwe"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "MYS",
+      "namePtBr": "Malásia",
+      "capitals": [
+        "Kuala Lumpur"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q833"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1865"
+      ],
+      "previousName": "Malásia",
+      "previousCapitals": [
+        "Kuala Lumpur"
+      ],
+      "note": "Putrajaya é o centro administrativo federal.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NAM",
+      "namePtBr": "Namíbia",
+      "capitals": [
+        "Windhoek"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1030"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3935"
+      ],
+      "previousName": "Namíbia",
+      "previousCapitals": [
+        "Windhoek"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NER",
+      "namePtBr": "Níger",
+      "capitals": [
+        "Niamey"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1032"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3674"
+      ],
+      "previousName": "Níger",
+      "previousCapitals": [
+        "Niamey"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NGA",
+      "namePtBr": "Nigéria",
+      "capitals": [
+        "Abuja"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1033"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3787"
+      ],
+      "previousName": "Nigéria",
+      "previousCapitals": [
+        "Abuja"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NIC",
+      "namePtBr": "Nicarágua",
+      "capitals": [
+        "Managua"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q811"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q131546626"
+      ],
+      "previousName": "Nicarágua",
+      "previousCapitals": [
+        "Managua"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NLD",
+      "namePtBr": "Países Baixos",
+      "capitals": [
+        "Amsterdã"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q29999",
+        "https://www.government.nl/binaries/government/documenten/publications/2017/04/21/culture-at-a-first-glance/CIB2015_ENG_publicatie_v8_DEF.pdf"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q727"
+      ],
+      "previousName": "Holanda",
+      "previousCapitals": [
+        "Amsterdam"
+      ],
+      "note": "A sede do governo fica em Haia.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NOR",
+      "namePtBr": "Noruega",
+      "capitals": [
+        "Oslo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q20"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q585"
+      ],
+      "previousName": "Noruega",
+      "previousCapitals": [
+        "Oslo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NPL",
+      "namePtBr": "Nepal",
+      "capitals": [
+        "Catmandu"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q837"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3037"
+      ],
+      "previousName": "Nepal",
+      "previousCapitals": [
+        "Kathmandu"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NRU",
+      "namePtBr": "Nauru",
+      "capitals": [
+        "Yaren"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q697"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q31026"
+      ],
+      "previousName": "Nauru",
+      "previousCapitals": [
+        "Yaren"
+      ],
+      "note": "Nauru não tem capital oficial; o governo fica no distrito de Yaren.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "NZL",
+      "namePtBr": "Nova Zelândia",
+      "capitals": [
+        "Wellington"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q664"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q23661"
+      ],
+      "previousName": "Nova Zelândia",
+      "previousCapitals": [
+        "Wellington"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "OMN",
+      "namePtBr": "Omã",
+      "capitals": [
+        "Mascate"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q842"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3826"
+      ],
+      "previousName": "Omã",
+      "previousCapitals": [
+        "Muscat"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PAK",
+      "namePtBr": "Paquistão",
+      "capitals": [
+        "Islamabad"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q843"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1362"
+      ],
+      "previousName": "Paquistão",
+      "previousCapitals": [
+        "Islamabad"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PAN",
+      "namePtBr": "Panamá",
+      "capitals": [
+        "Cidade do Panamá"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q804"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3306"
+      ],
+      "previousName": "Panamá",
+      "previousCapitals": [
+        "Panama City"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PER",
+      "namePtBr": "Peru",
+      "capitals": [
+        "Lima"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q419"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2868"
+      ],
+      "previousName": "Perú",
+      "previousCapitals": [
+        "Lima"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PHL",
+      "namePtBr": "Filipinas",
+      "capitals": [
+        "Manila"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q928"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1461"
+      ],
+      "previousName": "Filipinas",
+      "previousCapitals": [
+        "Manila"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PLW",
+      "namePtBr": "Palau",
+      "capitals": [
+        "Ngerulmud"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q695"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q515229"
+      ],
+      "previousName": "Palau",
+      "previousCapitals": [
+        "Ngerulmud"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PNG",
+      "namePtBr": "Papua-Nova Guiné",
+      "capitals": [
+        "Port Moresby"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q691"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q36526"
+      ],
+      "previousName": "Papua Nova Guiné",
+      "previousCapitals": [
+        "Port Moresby"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "POL",
+      "namePtBr": "Polônia",
+      "capitals": [
+        "Varsóvia"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q36"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q270"
+      ],
+      "previousName": "Polónia",
+      "previousCapitals": [
+        "Warsaw"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PRK",
+      "namePtBr": "Coreia do Norte",
+      "capitals": [
+        "Pyongyang"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q423"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q18808"
+      ],
+      "previousName": "Coreia do Norte",
+      "previousCapitals": [
+        "Pyongyang"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PRT",
+      "namePtBr": "Portugal",
+      "capitals": [
+        "Lisboa"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q45"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q597"
+      ],
+      "previousName": "Portugal",
+      "previousCapitals": [
+        "Lisbon"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PRY",
+      "namePtBr": "Paraguai",
+      "capitals": [
+        "Assunção"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q733"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2933"
+      ],
+      "previousName": "Paraguai",
+      "previousCapitals": [
+        "Asunción"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "PSE",
+      "namePtBr": "Palestina",
+      "capitals": [
+        "Ramallah"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q219060"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q212938",
+        "https://www.wikidata.org/entity/Q158119"
+      ],
+      "previousName": "Palestina",
+      "previousCapitals": [
+        "Ramallah"
+      ],
+      "note": "Ramallah é a sede administrativa; Jerusalém Oriental é reivindicada como capital.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "QAT",
+      "namePtBr": "Catar",
+      "capitals": [
+        "Doha"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q846"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3861"
+      ],
+      "previousName": "Catar",
+      "previousCapitals": [
+        "Doha"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ROU",
+      "namePtBr": "Romênia",
+      "capitals": [
+        "Bucareste"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q218"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q19660"
+      ],
+      "previousName": "Roménia",
+      "previousCapitals": [
+        "Bucharest"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "RUS",
+      "namePtBr": "Rússia",
+      "capitals": [
+        "Moscou"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q159"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q649"
+      ],
+      "previousName": "Rússia",
+      "previousCapitals": [
+        "Moscow"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "RWA",
+      "namePtBr": "Ruanda",
+      "capitals": [
+        "Kigali"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1037"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3859"
+      ],
+      "previousName": "Ruanda",
+      "previousCapitals": [
+        "Kigali"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SAU",
+      "namePtBr": "Arábia Saudita",
+      "capitals": [
+        "Riade"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q851"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3692"
+      ],
+      "previousName": "Arábia Saudita",
+      "previousCapitals": [
+        "Riyadh"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SDN",
+      "namePtBr": "Sudão",
+      "capitals": [
+        "Cartum"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1049"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1963"
+      ],
+      "previousName": "Sudão",
+      "previousCapitals": [
+        "Khartoum"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SEN",
+      "namePtBr": "Senegal",
+      "capitals": [
+        "Dacar"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1041"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3718"
+      ],
+      "previousName": "Senegal",
+      "previousCapitals": [
+        "Dakar"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SGP",
+      "namePtBr": "Singapura",
+      "capitals": [
+        "Singapura"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q334"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q334"
+      ],
+      "previousName": "Singapura",
+      "previousCapitals": [
+        "Singapore"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SLB",
+      "namePtBr": "Ilhas Salomão",
+      "capitals": [
+        "Honiara"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q685"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q40921"
+      ],
+      "previousName": "Ilhas Salomão",
+      "previousCapitals": [
+        "Honiara"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SLE",
+      "namePtBr": "Serra Leoa",
+      "capitals": [
+        "Freetown"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1044"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3780"
+      ],
+      "previousName": "Serra Leoa",
+      "previousCapitals": [
+        "Freetown"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SLV",
+      "namePtBr": "El Salvador",
+      "capitals": [
+        "San Salvador"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q792"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3110"
+      ],
+      "previousName": "El Salvador",
+      "previousCapitals": [
+        "San Salvador"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SMR",
+      "namePtBr": "San Marino",
+      "capitals": [
+        "San Marino"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q238"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1848"
+      ],
+      "previousName": "San Marino",
+      "previousCapitals": [
+        "City of San Marino"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SOM",
+      "namePtBr": "Somália",
+      "capitals": [
+        "Mogadíscio"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1045"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q2449"
+      ],
+      "previousName": "Somália",
+      "previousCapitals": [
+        "Mogadishu"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SRB",
+      "namePtBr": "Sérvia",
+      "capitals": [
+        "Belgrado"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q403"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3711"
+      ],
+      "previousName": "Sérvia",
+      "previousCapitals": [
+        "Belgrade"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SSD",
+      "namePtBr": "Sudão do Sul",
+      "capitals": [
+        "Juba"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q958"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1947"
+      ],
+      "previousName": "Sudão do Sul",
+      "previousCapitals": [
+        "Juba"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "STP",
+      "namePtBr": "São Tomé e Príncipe",
+      "capitals": [
+        "São Tomé"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1039"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3932"
+      ],
+      "previousName": "São Tomé e Príncipe",
+      "previousCapitals": [
+        "São Tomé"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SUR",
+      "namePtBr": "Suriname",
+      "capitals": [
+        "Paramaribo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q730"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3001"
+      ],
+      "previousName": "Suriname",
+      "previousCapitals": [
+        "Paramaribo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SVK",
+      "namePtBr": "Eslováquia",
+      "capitals": [
+        "Bratislava"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q214"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1780"
+      ],
+      "previousName": "Eslováquia",
+      "previousCapitals": [
+        "Bratislava"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SVN",
+      "namePtBr": "Eslovênia",
+      "capitals": [
+        "Liubliana"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q215"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q437"
+      ],
+      "previousName": "Eslovénia",
+      "previousCapitals": [
+        "Ljubljana"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SWE",
+      "namePtBr": "Suécia",
+      "capitals": [
+        "Estocolmo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q34"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1754"
+      ],
+      "previousName": "Suécia",
+      "previousCapitals": [
+        "Stockholm"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SWZ",
+      "namePtBr": "Essuatíni",
+      "capitals": [
+        "Mbabane",
+        "Lobamba"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1050",
+        "https://www.comesa.int/eswatini/"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q101418",
+        "https://www.wikidata.org/entity/Q3904"
+      ],
+      "previousName": "Essuatíni",
+      "previousCapitals": [
+        "Lobamba"
+      ],
+      "note": "Mbabane é administrativa; Lobamba, real e legislativa.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SYC",
+      "namePtBr": "Seicheles",
+      "capitals": [
+        "Vitória"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1042"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3940"
+      ],
+      "previousName": "Seicheles",
+      "previousCapitals": [
+        "Victoria"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "SYR",
+      "namePtBr": "Síria",
+      "capitals": [
+        "Damasco"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q858"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3766"
+      ],
+      "previousName": "Síria",
+      "previousCapitals": [
+        "Damascus"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TCD",
+      "namePtBr": "Chade",
+      "capitals": [
+        "N'Djamena"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q657"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3659"
+      ],
+      "previousName": "Chade",
+      "previousCapitals": [
+        "N'Djamena"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TGO",
+      "namePtBr": "Togo",
+      "capitals": [
+        "Lomé"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q945"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3792"
+      ],
+      "previousName": "Togo",
+      "previousCapitals": [
+        "Lomé"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "THA",
+      "namePtBr": "Tailândia",
+      "capitals": [
+        "Bangkok"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q869"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1861"
+      ],
+      "previousName": "Tailândia",
+      "previousCapitals": [
+        "Bangkok"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TJK",
+      "namePtBr": "Tadjiquistão",
+      "capitals": [
+        "Dushanbe"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q863"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9365"
+      ],
+      "previousName": "Tajiquistão",
+      "previousCapitals": [
+        "Dushanbe"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TKM",
+      "namePtBr": "Turcomenistão",
+      "capitals": [
+        "Asgabate"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q874"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q23438"
+      ],
+      "previousName": "Turquemenistão",
+      "previousCapitals": [
+        "Ashgabat"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TLS",
+      "namePtBr": "Timor-Leste",
+      "capitals": [
+        "Díli"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q574"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q9310"
+      ],
+      "previousName": "Timor-Leste",
+      "previousCapitals": [
+        "Dili"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TON",
+      "namePtBr": "Tonga",
+      "capitals": [
+        "Nuku'alofa"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q678"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q38834"
+      ],
+      "previousName": "Tonga",
+      "previousCapitals": [
+        "Nuku'alofa"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TTO",
+      "namePtBr": "Trinidad e Tobago",
+      "capitals": [
+        "Port of Spain"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q754"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q39178"
+      ],
+      "previousName": "Trinidade e Tobago",
+      "previousCapitals": [
+        "Port of Spain"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TUN",
+      "namePtBr": "Tunísia",
+      "capitals": [
+        "Túnis"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q948"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3572"
+      ],
+      "previousName": "Tunísia",
+      "previousCapitals": [
+        "Tunis"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TUR",
+      "namePtBr": "Turquia",
+      "capitals": [
+        "Ancara"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q43"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3640"
+      ],
+      "previousName": "Turquia",
+      "previousCapitals": [
+        "Ankara"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TUV",
+      "namePtBr": "Tuvalu",
+      "capitals": [
+        "Funafuti"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q672"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q34126"
+      ],
+      "previousName": "Tuvalu",
+      "previousCapitals": [
+        "Funafuti"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "TZA",
+      "namePtBr": "Tanzânia",
+      "capitals": [
+        "Dodoma"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q924"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3866"
+      ],
+      "previousName": "Tanzânia",
+      "previousCapitals": [
+        "Dodoma"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "UGA",
+      "namePtBr": "Uganda",
+      "capitals": [
+        "Kampala"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q1036"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3894"
+      ],
+      "previousName": "Uganda",
+      "previousCapitals": [
+        "Kampala"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "UKR",
+      "namePtBr": "Ucrânia",
+      "capitals": [
+        "Kiev"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q212"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1899"
+      ],
+      "previousName": "Ucrânia",
+      "previousCapitals": [
+        "Kyiv"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "URY",
+      "namePtBr": "Uruguai",
+      "capitals": [
+        "Montevidéu"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q77"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1335"
+      ],
+      "previousName": "Uruguai",
+      "previousCapitals": [
+        "Montevideo"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "USA",
+      "namePtBr": "Estados Unidos",
+      "capitals": [
+        "Washington, D.C."
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q30"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q61"
+      ],
+      "previousName": "Estados Unidos",
+      "previousCapitals": [
+        "Washington D.C."
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "UZB",
+      "namePtBr": "Uzbequistão",
+      "capitals": [
+        "Tashkent"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q265"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q269"
+      ],
+      "previousName": "Uzbequistão",
+      "previousCapitals": [
+        "Tashkent"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "VAT",
+      "namePtBr": "Vaticano",
+      "capitals": [
+        "Cidade do Vaticano"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q237"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q237"
+      ],
+      "previousName": "Vaticano",
+      "previousCapitals": [
+        "Cidade do Vaticano"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "VCT",
+      "namePtBr": "São Vicente e Granadinas",
+      "capitals": [
+        "Kingstown"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q757"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q41474"
+      ],
+      "previousName": "São Vincente e Granadinas",
+      "previousCapitals": [
+        "Kingstown"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "VEN",
+      "namePtBr": "Venezuela",
+      "capitals": [
+        "Caracas"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q717"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1533"
+      ],
+      "previousName": "Venezuela",
+      "previousCapitals": [
+        "Caracas"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "VNM",
+      "namePtBr": "Vietnã",
+      "capitals": [
+        "Hanói"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q881"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q1858"
+      ],
+      "previousName": "Vietname",
+      "previousCapitals": [
+        "Hanoi"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "VUT",
+      "namePtBr": "Vanuatu",
+      "capitals": [
+        "Porto Vila"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q686"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q37806"
+      ],
+      "previousName": "Vanuatu",
+      "previousCapitals": [
+        "Port Vila"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "WSM",
+      "namePtBr": "Samoa",
+      "capitals": [
+        "Apia"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q683"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q36260"
+      ],
+      "previousName": "Samoa",
+      "previousCapitals": [
+        "Apia"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "YEM",
+      "namePtBr": "Iêmen",
+      "capitals": [
+        "Sana"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q805"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q131694",
+        "https://www.wikidata.org/entity/Q2471"
+      ],
+      "previousName": "Iémen",
+      "previousCapitals": [
+        "Sana'a"
+      ],
+      "note": "Áden funciona como sede provisória do governo internacionalmente reconhecido.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ZAF",
+      "namePtBr": "África do Sul",
+      "capitals": [
+        "Pretória",
+        "Bloemfontein",
+        "Cidade do Cabo"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q258",
+        "https://www.gov.za/south-africa-glance"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q37701",
+        "https://www.wikidata.org/entity/Q5465",
+        "https://www.wikidata.org/entity/Q3926"
+      ],
+      "previousName": "África do Sul",
+      "previousCapitals": [
+        "Pretória",
+        "Bloemfontein",
+        "Cidade do Cabo"
+      ],
+      "note": "Capitais administrativa, judicial e legislativa, respectivamente.",
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ZMB",
+      "namePtBr": "Zâmbia",
+      "capitals": [
+        "Lusaca"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q953"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3881"
+      ],
+      "previousName": "Zâmbia",
+      "previousCapitals": [
+        "Lusaka"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    },
+    {
+      "countryId": "ZWE",
+      "namePtBr": "Zimbábue",
+      "capitals": [
+        "Harare"
+      ],
+      "nameSource": "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "sources": [
+        "https://www.wikidata.org/entity/Q954"
+      ],
+      "capitalItems": [
+        "https://www.wikidata.org/entity/Q3921"
+      ],
+      "previousName": "Zimbabwe",
+      "previousCapitals": [
+        "Harare"
+      ],
+      "note": null,
+      "review": "Compared source country/ISO and capital entities; pt-BR spelling reviewed with explicit overrides. Not a geopolitical recognition statement."
+    }
+  ]
+}

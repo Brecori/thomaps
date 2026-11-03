@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-02",
+  "reviewedAt": "2026-11-03",
   "catalogScope": "193 UN members + Palestine + Holy See; dependencies excluded from selectable catalog in v1",
   "count": 195,
   "sources": [
@@ -17,7 +17,28 @@
       "license": "ODbL-1.0",
       "sha256Original": "0d92fb23b43ae080bd439f5dc5d61a8845395fdd0af1479b433c59fe079bd6fd",
       "output": "catalog.json",
-      "sha256Output": "33f57a53f315f659c9cbe5154ae7bc3fb8f257ed23e5da55666e9079e3896fd3"
+      "sha256Output": "a3b52cc8992230d12257b835b933d3903edc24faf318f6ea542e8c7e895404c4"
+    },
+    {
+      "id": "cldr-pt",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-localenames-full/main/pt/territories.json",
+      "license": "Unicode-3.0",
+      "output": "cldr-pt-territories.json",
+      "sha256Output": "89604c7cd2eecc83c7a7f65129e7e6fe70a04f2d52263345530d714146f99ee8"
+    },
+    {
+      "id": "editorial-review",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 entity facts; ODbL-derived catalog; Unicode name notices retained",
+      "output": "metadata-review.json",
+      "sha256Output": "2587d8203c3723d0a2a325376f23e00522036a11423ecb7fe21756e55a06e063"
+    },
+    {
+      "id": "anthem-media",
+      "url": "https://commons.wikimedia.org/",
+      "license": "Individual license per recording",
+      "output": "anthems.json",
+      "sha256Output": "ebc16a07d236385320c946c73ba954b35ba448043e8b80015a7fb889a4ac3602"
     }
   ]
 }

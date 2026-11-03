@@ -5,13 +5,13 @@
     "iso3": "AFG",
     "namePtBr": "Afeganistão",
     "aliases": [
-      "Afghanistan",
       "Afeganistão",
+      "Afghanistan",
       "AF",
       "Afġānistān"
     ],
     "capitals": [
-      "Kabul"
+      "Cabul"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -22,8 +22,12 @@
       "AFG"
     ],
     "flagSourceUrl": "https://flagcdn.com/af.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q889"
+    ]
   },
   {
     "id": "AGO",
@@ -48,8 +52,12 @@
       "AGO"
     ],
     "flagSourceUrl": "https://flagcdn.com/ao.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q916"
+    ]
   },
   {
     "id": "ALB",
@@ -57,8 +65,8 @@
     "iso3": "ALB",
     "namePtBr": "Albânia",
     "aliases": [
-      "Albania",
       "Albânia",
+      "Albania",
       "AL",
       "Shqipëri",
       "Shqipëria",
@@ -76,8 +84,12 @@
       "ALB"
     ],
     "flagSourceUrl": "https://flagcdn.com/al.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q222"
+    ]
   },
   {
     "id": "AND",
@@ -91,7 +103,7 @@
       "Principat d'Andorra"
     ],
     "capitals": [
-      "Andorra la Vella"
+      "Andorra-a-Velha"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -102,8 +114,12 @@
       "AND"
     ],
     "flagSourceUrl": "https://flagcdn.com/ad.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q228"
+    ]
   },
   {
     "id": "ARE",
@@ -111,8 +127,8 @@
     "iso3": "ARE",
     "namePtBr": "Emirados Árabes Unidos",
     "aliases": [
-      "United Arab Emirates",
       "Emirados Árabes Unidos",
+      "United Arab Emirates",
       "AE",
       "UAE",
       "Emirates"
@@ -129,8 +145,12 @@
       "ARE"
     ],
     "flagSourceUrl": "https://flagcdn.com/ae.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q878"
+    ]
   },
   {
     "id": "ARG",
@@ -155,24 +175,28 @@
       "ARG"
     ],
     "flagSourceUrl": "https://flagcdn.com/ar.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q414"
+    ]
   },
   {
     "id": "ARM",
     "iso2": "AM",
     "iso3": "ARM",
-    "namePtBr": "Arménia",
+    "namePtBr": "Armênia",
     "aliases": [
-      "Armenia",
       "Arménia",
+      "Armenia",
       "AM",
       "Hayastan",
       "Republic of Armenia",
       "Հայաստանի Հանրապետություն"
     ],
     "capitals": [
-      "Yerevan"
+      "Erevan"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -183,8 +207,12 @@
       "ARM"
     ],
     "flagSourceUrl": "https://flagcdn.com/am.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q399"
+    ]
   },
   {
     "id": "ATG",
@@ -192,8 +220,8 @@
     "iso3": "ATG",
     "namePtBr": "Antígua e Barbuda",
     "aliases": [
-      "Antigua and Barbuda",
       "Antígua e Barbuda",
+      "Antigua and Barbuda",
       "AG"
     ],
     "capitals": [
@@ -208,8 +236,12 @@
       "ATG"
     ],
     "flagSourceUrl": "https://flagcdn.com/ag.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q781"
+    ]
   },
   {
     "id": "AUS",
@@ -217,12 +249,12 @@
     "iso3": "AUS",
     "namePtBr": "Austrália",
     "aliases": [
-      "Australia",
       "Austrália",
+      "Australia",
       "AU"
     ],
     "capitals": [
-      "Canberra"
+      "Camberra"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -233,8 +265,12 @@
       "AUS"
     ],
     "flagSourceUrl": "https://flagcdn.com/au.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q408"
+    ]
   },
   {
     "id": "AUT",
@@ -242,14 +278,14 @@
     "iso3": "AUT",
     "namePtBr": "Áustria",
     "aliases": [
-      "Austria",
       "Áustria",
+      "Austria",
       "AT",
       "Osterreich",
       "Oesterreich"
     ],
     "capitals": [
-      "Vienna"
+      "Viena"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -260,17 +296,21 @@
       "AUT"
     ],
     "flagSourceUrl": "https://flagcdn.com/at.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q40"
+    ]
   },
   {
     "id": "AZE",
     "iso2": "AZ",
     "iso3": "AZE",
-    "namePtBr": "Azerbeijão",
+    "namePtBr": "Azerbaijão",
     "aliases": [
-      "Azerbaijan",
       "Azerbeijão",
+      "Azerbaijan",
       "AZ",
       "Republic of Azerbaijan",
       "Azərbaycan Respublikası"
@@ -287,8 +327,12 @@
       "AZE"
     ],
     "flagSourceUrl": "https://flagcdn.com/az.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q227"
+    ]
   },
   {
     "id": "BDI",
@@ -303,7 +347,7 @@
       "République du Burundi"
     ],
     "capitals": [
-      "Gitega"
+      "Guitega"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -314,8 +358,12 @@
       "BDI"
     ],
     "flagSourceUrl": "https://flagcdn.com/bi.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q967"
+    ]
   },
   {
     "id": "BEL",
@@ -323,8 +371,8 @@
     "iso3": "BEL",
     "namePtBr": "Bélgica",
     "aliases": [
-      "Belgium",
       "Bélgica",
+      "Belgium",
       "BE",
       "België",
       "Belgie",
@@ -336,7 +384,7 @@
       "Königreich Belgien"
     ],
     "capitals": [
-      "Brussels"
+      "Bruxelas"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -347,8 +395,12 @@
       "BEL"
     ],
     "flagSourceUrl": "https://flagcdn.com/be.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q31"
+    ]
   },
   {
     "id": "BEN",
@@ -362,9 +414,9 @@
       "République du Bénin"
     ],
     "capitals": [
-      "Porto-Novo"
+      "Porto Novo"
     ],
-    "capitalNote": null,
+    "capitalNote": "Porto Novo é a capital; o governo fica em Cotonou.",
     "focusPoint": [
       2.25,
       9.5
@@ -373,20 +425,24 @@
       "BEN"
     ],
     "flagSourceUrl": "https://flagcdn.com/bj.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q962"
+    ]
   },
   {
     "id": "BFA",
     "iso2": "BF",
     "iso3": "BFA",
-    "namePtBr": "Burkina Faso",
+    "namePtBr": "Burquina Faso",
     "aliases": [
       "Burkina Faso",
       "BF"
     ],
     "capitals": [
-      "Ouagadougou"
+      "Uagadugu"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -397,8 +453,12 @@
       "BFA"
     ],
     "flagSourceUrl": "https://flagcdn.com/bf.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q965"
+    ]
   },
   {
     "id": "BGD",
@@ -412,7 +472,7 @@
       "Gônôprôjatôntri Bangladesh"
     ],
     "capitals": [
-      "Dhaka"
+      "Daca"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -423,8 +483,12 @@
       "BGD"
     ],
     "flagSourceUrl": "https://flagcdn.com/bd.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q902"
+    ]
   },
   {
     "id": "BGR",
@@ -432,14 +496,14 @@
     "iso3": "BGR",
     "namePtBr": "Bulgária",
     "aliases": [
-      "Bulgaria",
       "Bulgária",
+      "Bulgaria",
       "BG",
       "Republic of Bulgaria",
       "Република България"
     ],
     "capitals": [
-      "Sofia"
+      "Sófia"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -450,17 +514,21 @@
       "BGR"
     ],
     "flagSourceUrl": "https://flagcdn.com/bg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q219"
+    ]
   },
   {
     "id": "BHR",
     "iso2": "BH",
     "iso3": "BHR",
-    "namePtBr": "Bahrein",
+    "namePtBr": "Barein",
     "aliases": [
-      "Bahrain",
       "Bahrein",
+      "Bahrain",
       "BH",
       "Kingdom of Bahrain",
       "Mamlakat al-Baḥrayn"
@@ -477,8 +545,12 @@
       "BHR"
     ],
     "flagSourceUrl": "https://flagcdn.com/bh.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q398"
+    ]
   },
   {
     "id": "BHS",
@@ -502,8 +574,12 @@
       "BHS"
     ],
     "flagSourceUrl": "https://flagcdn.com/bs.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q778"
+    ]
   },
   {
     "id": "BIH",
@@ -511,8 +587,8 @@
     "iso3": "BIH",
     "namePtBr": "Bósnia e Herzegovina",
     "aliases": [
-      "Bosnia and Herzegovina",
       "Bósnia e Herzegovina",
+      "Bosnia and Herzegovina",
       "BA",
       "Bosnia-Herzegovina",
       "Босна и Херцеговина"
@@ -529,17 +605,21 @@
       "BIH"
     ],
     "flagSourceUrl": "https://flagcdn.com/ba.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q225"
+    ]
   },
   {
     "id": "BLR",
     "iso2": "BY",
     "iso3": "BLR",
-    "namePtBr": "Bielorússia",
+    "namePtBr": "Bielorrússia",
     "aliases": [
-      "Belarus",
       "Bielorússia",
+      "Belarus",
       "BY",
       "Bielaruś",
       "Republic of Belarus",
@@ -558,8 +638,12 @@
       "BLR"
     ],
     "flagSourceUrl": "https://flagcdn.com/by.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q184"
+    ]
   },
   {
     "id": "BLZ",
@@ -582,8 +666,12 @@
       "BLZ"
     ],
     "flagSourceUrl": "https://flagcdn.com/bz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q242"
+    ]
   },
   {
     "id": "BOL",
@@ -591,8 +679,8 @@
     "iso3": "BOL",
     "namePtBr": "Bolívia",
     "aliases": [
-      "Bolivia",
       "Bolívia",
+      "Bolivia",
       "BO",
       "Buliwya",
       "Wuliwya",
@@ -604,9 +692,10 @@
       "Tetã Volívia"
     ],
     "capitals": [
-      "Sucre"
+      "Sucre",
+      "La Paz"
     ],
-    "capitalNote": null,
+    "capitalNote": "Sucre é a capital constitucional; La Paz é a sede do governo.",
     "focusPoint": [
       -65,
       -17
@@ -615,8 +704,13 @@
       "BOL"
     ],
     "flagSourceUrl": "https://flagcdn.com/bo.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q750",
+      "https://bolivianembassy.ca/bolivia/el-pais/datos-generales/"
+    ]
   },
   {
     "id": "BRA",
@@ -624,8 +718,8 @@
     "iso3": "BRA",
     "namePtBr": "Brasil",
     "aliases": [
-      "Brazil",
       "Brasil",
+      "Brazil",
       "BR",
       "Federative Republic of Brazil",
       "República Federativa do Brasil"
@@ -642,8 +736,12 @@
       "BRA"
     ],
     "flagSourceUrl": "https://flagcdn.com/br.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "sample-reviewed"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q155"
+    ]
   },
   {
     "id": "BRB",
@@ -666,8 +764,12 @@
       "BRB"
     ],
     "flagSourceUrl": "https://flagcdn.com/bb.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q244"
+    ]
   },
   {
     "id": "BRN",
@@ -693,8 +795,12 @@
       "BRN"
     ],
     "flagSourceUrl": "https://flagcdn.com/bn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q921"
+    ]
   },
   {
     "id": "BTN",
@@ -702,13 +808,13 @@
     "iso3": "BTN",
     "namePtBr": "Butão",
     "aliases": [
-      "Bhutan",
       "Butão",
+      "Bhutan",
       "BT",
       "Kingdom of Bhutan"
     ],
     "capitals": [
-      "Thimphu"
+      "Thimbu"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -719,14 +825,18 @@
       "BTN"
     ],
     "flagSourceUrl": "https://flagcdn.com/bt.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q917"
+    ]
   },
   {
     "id": "BWA",
     "iso2": "BW",
     "iso3": "BWA",
-    "namePtBr": "Botswana",
+    "namePtBr": "Botsuana",
     "aliases": [
       "Botswana",
       "BW",
@@ -745,8 +855,12 @@
       "BWA"
     ],
     "flagSourceUrl": "https://flagcdn.com/bw.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q963"
+    ]
   },
   {
     "id": "CAF",
@@ -754,8 +868,8 @@
     "iso3": "CAF",
     "namePtBr": "República Centro-Africana",
     "aliases": [
-      "Central African Republic",
       "República Centro-Africana",
+      "Central African Republic",
       "CF",
       "République centrafricaine"
     ],
@@ -771,8 +885,12 @@
       "CAF"
     ],
     "flagSourceUrl": "https://flagcdn.com/cf.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q929"
+    ]
   },
   {
     "id": "CAN",
@@ -780,8 +898,8 @@
     "iso3": "CAN",
     "namePtBr": "Canadá",
     "aliases": [
-      "Canada",
       "Canadá",
+      "Canada",
       "CA"
     ],
     "capitals": [
@@ -796,8 +914,12 @@
       "CAN"
     ],
     "flagSourceUrl": "https://flagcdn.com/ca.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q16"
+    ]
   },
   {
     "id": "CHE",
@@ -805,8 +927,8 @@
     "iso3": "CHE",
     "namePtBr": "Suíça",
     "aliases": [
-      "Switzerland",
       "Suíça",
+      "Switzerland",
       "CH",
       "Swiss Confederation",
       "Schweiz",
@@ -815,9 +937,9 @@
       "Svizra"
     ],
     "capitals": [
-      "Bern"
+      "Berna"
     ],
-    "capitalNote": null,
+    "capitalNote": "Berna é a cidade federal, sede do governo.",
     "focusPoint": [
       8,
       47
@@ -826,8 +948,12 @@
       "CHE"
     ],
     "flagSourceUrl": "https://flagcdn.com/ch.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q39"
+    ]
   },
   {
     "id": "CHL",
@@ -852,8 +978,12 @@
       "CHL"
     ],
     "flagSourceUrl": "https://flagcdn.com/cl.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q298"
+    ]
   },
   {
     "id": "CHN",
@@ -871,7 +1001,7 @@
       "Zhōnghuá Rénmín Gònghéguó"
     ],
     "capitals": [
-      "Beijing"
+      "Pequim"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -882,8 +1012,12 @@
       "CHN"
     ],
     "flagSourceUrl": "https://flagcdn.com/cn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q148"
+    ]
   },
   {
     "id": "CIV",
@@ -891,8 +1025,8 @@
     "iso3": "CIV",
     "namePtBr": "Costa do Marfim",
     "aliases": [
-      "Ivory Coast",
       "Costa do Marfim",
+      "Ivory Coast",
       "CI",
       "Côte d'Ivoire",
       "Cote d'Ivoire",
@@ -911,8 +1045,12 @@
       "CIV"
     ],
     "flagSourceUrl": "https://flagcdn.com/ci.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1008"
+    ]
   },
   {
     "id": "CMR",
@@ -920,8 +1058,8 @@
     "iso3": "CMR",
     "namePtBr": "Camarões",
     "aliases": [
-      "Cameroon",
       "Camarões",
+      "Cameroon",
       "CM",
       "Republic of Cameroon",
       "République du Cameroun"
@@ -938,8 +1076,12 @@
       "CMR"
     ],
     "flagSourceUrl": "https://flagcdn.com/cm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1009"
+    ]
   },
   {
     "id": "COD",
@@ -947,8 +1089,8 @@
     "iso3": "COD",
     "namePtBr": "República Democrática do Congo",
     "aliases": [
-      "DR Congo",
       "República Democrática do Congo",
+      "DR Congo",
       "CD",
       "Congo-Kinshasa",
       "Congo, the Democratic Republic of the",
@@ -967,14 +1109,18 @@
       "COD"
     ],
     "flagSourceUrl": "https://flagcdn.com/cd.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q974"
+    ]
   },
   {
     "id": "COG",
     "iso2": "CG",
     "iso3": "COG",
-    "namePtBr": "Congo",
+    "namePtBr": "República do Congo",
     "aliases": [
       "Congo",
       "CG",
@@ -992,8 +1138,12 @@
       "COG"
     ],
     "flagSourceUrl": "https://flagcdn.com/cg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q971"
+    ]
   },
   {
     "id": "COL",
@@ -1001,8 +1151,8 @@
     "iso3": "COL",
     "namePtBr": "Colômbia",
     "aliases": [
-      "Colombia",
       "Colômbia",
+      "Colombia",
       "CO",
       "Republic of Colombia",
       "República de Colombia"
@@ -1019,8 +1169,12 @@
       "COL"
     ],
     "flagSourceUrl": "https://flagcdn.com/co.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q739"
+    ]
   },
   {
     "id": "COM",
@@ -1028,8 +1182,8 @@
     "iso3": "COM",
     "namePtBr": "Comores",
     "aliases": [
-      "Comoros",
       "Comores",
+      "Comoros",
       "KM",
       "Union of the Comoros",
       "Union des Comores",
@@ -1048,8 +1202,12 @@
       "COM"
     ],
     "flagSourceUrl": "https://flagcdn.com/km.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q970"
+    ]
   },
   {
     "id": "CPV",
@@ -1057,8 +1215,8 @@
     "iso3": "CPV",
     "namePtBr": "Cabo Verde",
     "aliases": [
-      "Cape Verde",
       "Cabo Verde",
+      "Cape Verde",
       "CV",
       "Republic of Cabo Verde",
       "República de Cabo Verde"
@@ -1075,8 +1233,12 @@
       "CPV"
     ],
     "flagSourceUrl": "https://flagcdn.com/cv.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1011"
+    ]
   },
   {
     "id": "CRI",
@@ -1101,8 +1263,12 @@
       "CRI"
     ],
     "flagSourceUrl": "https://flagcdn.com/cr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q800"
+    ]
   },
   {
     "id": "CUB",
@@ -1127,8 +1293,12 @@
       "CUB"
     ],
     "flagSourceUrl": "https://flagcdn.com/cu.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q241"
+    ]
   },
   {
     "id": "CYP",
@@ -1136,8 +1306,8 @@
     "iso3": "CYP",
     "namePtBr": "Chipre",
     "aliases": [
-      "Cyprus",
       "Chipre",
+      "Cyprus",
       "CY",
       "Kýpros",
       "Kıbrıs",
@@ -1146,7 +1316,7 @@
       "Kıbrıs Cumhuriyeti"
     ],
     "capitals": [
-      "Nicosia"
+      "Nicósia"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1157,23 +1327,29 @@
       "CYP"
     ],
     "flagSourceUrl": "https://flagcdn.com/cy.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q229",
+      "https://www.wikidata.org/entity/Q644636"
+    ]
   },
   {
     "id": "CZE",
     "iso2": "CZ",
     "iso3": "CZE",
-    "namePtBr": "Chéquia",
+    "namePtBr": "Tchéquia",
     "aliases": [
-      "Czechia",
       "Chéquia",
+      "Czechia",
       "CZ",
       "Česká republika",
-      "Česko"
+      "Česko",
+      "República Tcheca"
     ],
     "capitals": [
-      "Prague"
+      "Praga"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1184,8 +1360,12 @@
       "CZE"
     ],
     "flagSourceUrl": "https://flagcdn.com/cz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q213"
+    ]
   },
   {
     "id": "DEU",
@@ -1193,14 +1373,14 @@
     "iso3": "DEU",
     "namePtBr": "Alemanha",
     "aliases": [
-      "Germany",
       "Alemanha",
+      "Germany",
       "DE",
       "Federal Republic of Germany",
       "Bundesrepublik Deutschland"
     ],
     "capitals": [
-      "Berlin"
+      "Berlim"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1211,14 +1391,18 @@
       "DEU"
     ],
     "flagSourceUrl": "https://flagcdn.com/de.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q183"
+    ]
   },
   {
     "id": "DJI",
     "iso2": "DJ",
     "iso3": "DJI",
-    "namePtBr": "Djibouti",
+    "namePtBr": "Djibuti",
     "aliases": [
       "Djibouti",
       "DJ",
@@ -1230,7 +1414,7 @@
       "Jamhuuriyadda Jabuuti"
     ],
     "capitals": [
-      "Djibouti"
+      "Djibuti"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1241,8 +1425,12 @@
       "DJI"
     ],
     "flagSourceUrl": "https://flagcdn.com/dj.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q977"
+    ]
   },
   {
     "id": "DMA",
@@ -1268,8 +1456,12 @@
       "DMA"
     ],
     "flagSourceUrl": "https://flagcdn.com/dm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q784"
+    ]
   },
   {
     "id": "DNK",
@@ -1277,15 +1469,15 @@
     "iso3": "DNK",
     "namePtBr": "Dinamarca",
     "aliases": [
-      "Denmark",
       "Dinamarca",
+      "Denmark",
       "DK",
       "Danmark",
       "Kingdom of Denmark",
       "Kongeriget Danmark"
     ],
     "capitals": [
-      "Copenhagen"
+      "Copenhague"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1296,8 +1488,12 @@
       "DNK"
     ],
     "flagSourceUrl": "https://flagcdn.com/dk.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q35"
+    ]
   },
   {
     "id": "DOM",
@@ -1305,12 +1501,12 @@
     "iso3": "DOM",
     "namePtBr": "República Dominicana",
     "aliases": [
-      "Dominican Republic",
       "República Dominicana",
+      "Dominican Republic",
       "DO"
     ],
     "capitals": [
-      "Santo Domingo"
+      "São Domingos"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1321,8 +1517,12 @@
       "DOM"
     ],
     "flagSourceUrl": "https://flagcdn.com/do.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q786"
+    ]
   },
   {
     "id": "DZA",
@@ -1330,14 +1530,14 @@
     "iso3": "DZA",
     "namePtBr": "Argélia",
     "aliases": [
-      "Algeria",
       "Argélia",
+      "Algeria",
       "DZ",
       "Dzayer",
       "Algérie"
     ],
     "capitals": [
-      "Algiers"
+      "Argel"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1348,8 +1548,12 @@
       "DZA"
     ],
     "flagSourceUrl": "https://flagcdn.com/dz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q262"
+    ]
   },
   {
     "id": "ECU",
@@ -1357,8 +1561,8 @@
     "iso3": "ECU",
     "namePtBr": "Equador",
     "aliases": [
-      "Ecuador",
       "Equador",
+      "Ecuador",
       "EC",
       "Republic of Ecuador",
       "República del Ecuador"
@@ -1375,8 +1579,12 @@
       "ECU"
     ],
     "flagSourceUrl": "https://flagcdn.com/ec.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q736"
+    ]
   },
   {
     "id": "EGY",
@@ -1384,8 +1592,8 @@
     "iso3": "EGY",
     "namePtBr": "Egito",
     "aliases": [
-      "Egypt",
       "Egito",
+      "Egypt",
       "EG",
       "Arab Republic of Egypt"
     ],
@@ -1401,8 +1609,12 @@
       "EGY"
     ],
     "flagSourceUrl": "https://flagcdn.com/eg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q79"
+    ]
   },
   {
     "id": "ERI",
@@ -1410,8 +1622,8 @@
     "iso3": "ERI",
     "namePtBr": "Eritreia",
     "aliases": [
-      "Eritrea",
       "Eritreia",
+      "Eritrea",
       "ER",
       "State of Eritrea",
       "ሃገረ ኤርትራ",
@@ -1431,8 +1643,12 @@
       "ERI"
     ],
     "flagSourceUrl": "https://flagcdn.com/er.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q986"
+    ]
   },
   {
     "id": "ESP",
@@ -1440,14 +1656,14 @@
     "iso3": "ESP",
     "namePtBr": "Espanha",
     "aliases": [
-      "Spain",
       "Espanha",
+      "Spain",
       "ES",
       "Kingdom of Spain",
       "Reino de España"
     ],
     "capitals": [
-      "Madrid"
+      "Madri"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1458,17 +1674,21 @@
       "ESP"
     ],
     "flagSourceUrl": "https://flagcdn.com/es.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q29"
+    ]
   },
   {
     "id": "EST",
     "iso2": "EE",
     "iso3": "EST",
-    "namePtBr": "Estónia",
+    "namePtBr": "Estônia",
     "aliases": [
-      "Estonia",
       "Estónia",
+      "Estonia",
       "EE",
       "Eesti",
       "Republic of Estonia",
@@ -1486,8 +1706,12 @@
       "EST"
     ],
     "flagSourceUrl": "https://flagcdn.com/ee.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q191"
+    ]
   },
   {
     "id": "ETH",
@@ -1495,15 +1719,15 @@
     "iso3": "ETH",
     "namePtBr": "Etiópia",
     "aliases": [
-      "Ethiopia",
       "Etiópia",
+      "Ethiopia",
       "ET",
       "ʾĪtyōṗṗyā",
       "Federal Democratic Republic of Ethiopia",
       "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
     ],
     "capitals": [
-      "Addis Ababa"
+      "Adis Abeba"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1514,8 +1738,12 @@
       "ETH"
     ],
     "flagSourceUrl": "https://flagcdn.com/et.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q115"
+    ]
   },
   {
     "id": "FIN",
@@ -1523,8 +1751,8 @@
     "iso3": "FIN",
     "namePtBr": "Finlândia",
     "aliases": [
-      "Finland",
       "Finlândia",
+      "Finland",
       "FI",
       "Suomi",
       "Republic of Finland",
@@ -1532,7 +1760,7 @@
       "Republiken Finland"
     ],
     "capitals": [
-      "Helsinki"
+      "Helsinque"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1543,8 +1771,12 @@
       "FIN"
     ],
     "flagSourceUrl": "https://flagcdn.com/fi.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q33"
+    ]
   },
   {
     "id": "FJI",
@@ -1571,8 +1803,12 @@
       "FJI"
     ],
     "flagSourceUrl": "https://flagcdn.com/fj.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "sample-reviewed"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q712"
+    ]
   },
   {
     "id": "FRA",
@@ -1580,8 +1816,8 @@
     "iso3": "FRA",
     "namePtBr": "França",
     "aliases": [
-      "France",
       "França",
+      "France",
       "FR",
       "French Republic",
       "République française"
@@ -1598,8 +1834,12 @@
       "FRA"
     ],
     "flagSourceUrl": "https://flagcdn.com/fr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q142"
+    ]
   },
   {
     "id": "FSM",
@@ -1607,8 +1847,8 @@
     "iso3": "FSM",
     "namePtBr": "Micronésia",
     "aliases": [
-      "Micronesia",
       "Micronésia",
+      "Micronesia",
       "FM",
       "Federated States of Micronesia",
       "Micronesia, Federated States of"
@@ -1625,8 +1865,12 @@
       "FSM"
     ],
     "flagSourceUrl": "https://flagcdn.com/fm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q702"
+    ]
   },
   {
     "id": "GAB",
@@ -1634,8 +1878,8 @@
     "iso3": "GAB",
     "namePtBr": "Gabão",
     "aliases": [
-      "Gabon",
       "Gabão",
+      "Gabon",
       "GA",
       "Gabonese Republic",
       "République Gabonaise"
@@ -1652,8 +1896,12 @@
       "GAB"
     ],
     "flagSourceUrl": "https://flagcdn.com/ga.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1000"
+    ]
   },
   {
     "id": "GBR",
@@ -1661,14 +1909,14 @@
     "iso3": "GBR",
     "namePtBr": "Reino Unido",
     "aliases": [
-      "United Kingdom",
       "Reino Unido",
+      "United Kingdom",
       "GB",
       "UK",
       "Great Britain"
     ],
     "capitals": [
-      "London"
+      "Londres"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1679,8 +1927,12 @@
       "GBR"
     ],
     "flagSourceUrl": "https://flagcdn.com/gb.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q145"
+    ]
   },
   {
     "id": "GEO",
@@ -1688,8 +1940,8 @@
     "iso3": "GEO",
     "namePtBr": "Geórgia",
     "aliases": [
-      "Georgia",
       "Geórgia",
+      "Georgia",
       "GE",
       "Sakartvelo"
     ],
@@ -1705,8 +1957,12 @@
       "GEO"
     ],
     "flagSourceUrl": "https://flagcdn.com/ge.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q230"
+    ]
   },
   {
     "id": "GHA",
@@ -1714,12 +1970,12 @@
     "iso3": "GHA",
     "namePtBr": "Gana",
     "aliases": [
-      "Ghana",
       "Gana",
+      "Ghana",
       "GH"
     ],
     "capitals": [
-      "Accra"
+      "Acra"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1730,8 +1986,12 @@
       "GHA"
     ],
     "flagSourceUrl": "https://flagcdn.com/gh.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q117"
+    ]
   },
   {
     "id": "GIN",
@@ -1739,14 +1999,14 @@
     "iso3": "GIN",
     "namePtBr": "Guiné",
     "aliases": [
-      "Guinea",
       "Guiné",
+      "Guinea",
       "GN",
       "Republic of Guinea",
       "République de Guinée"
     ],
     "capitals": [
-      "Conakry"
+      "Conacri"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1757,8 +2017,12 @@
       "GIN"
     ],
     "flagSourceUrl": "https://flagcdn.com/gn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1006"
+    ]
   },
   {
     "id": "GMB",
@@ -1766,8 +2030,8 @@
     "iso3": "GMB",
     "namePtBr": "Gâmbia",
     "aliases": [
-      "Gambia",
       "Gâmbia",
+      "Gambia",
       "GM",
       "Republic of the Gambia"
     ],
@@ -1783,8 +2047,12 @@
       "GMB"
     ],
     "flagSourceUrl": "https://flagcdn.com/gm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1005"
+    ]
   },
   {
     "id": "GNB",
@@ -1792,8 +2060,8 @@
     "iso3": "GNB",
     "namePtBr": "Guiné-Bissau",
     "aliases": [
-      "Guinea-Bissau",
       "Guiné-Bissau",
+      "Guinea-Bissau",
       "GW",
       "Republic of Guinea-Bissau",
       "República da Guiné-Bissau"
@@ -1810,8 +2078,12 @@
       "GNB"
     ],
     "flagSourceUrl": "https://flagcdn.com/gw.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1007"
+    ]
   },
   {
     "id": "GNQ",
@@ -1819,8 +2091,8 @@
     "iso3": "GNQ",
     "namePtBr": "Guiné Equatorial",
     "aliases": [
-      "Equatorial Guinea",
       "Guiné Equatorial",
+      "Equatorial Guinea",
       "GQ",
       "Republic of Equatorial Guinea",
       "República de Guinea Ecuatorial",
@@ -1839,8 +2111,13 @@
       "GNQ"
     ],
     "flagSourceUrl": "https://flagcdn.com/gq.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q983",
+      "https://www.guineaecuatorialpress.com/noticias/decreto_ley_por_el_que_se_declara_la_ciudad_de_la_paz_djibloho_capital_de_la_republica_de_guinea_ecuatorial"
+    ]
   },
   {
     "id": "GRC",
@@ -1848,15 +2125,15 @@
     "iso3": "GRC",
     "namePtBr": "Grécia",
     "aliases": [
-      "Greece",
       "Grécia",
+      "Greece",
       "GR",
       "Elláda",
       "Hellenic Republic",
       "Ελληνική Δημοκρατία"
     ],
     "capitals": [
-      "Athens"
+      "Atenas"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1867,8 +2144,12 @@
       "GRC"
     ],
     "flagSourceUrl": "https://flagcdn.com/gr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q41"
+    ]
   },
   {
     "id": "GRD",
@@ -1876,12 +2157,12 @@
     "iso3": "GRD",
     "namePtBr": "Granada",
     "aliases": [
-      "Grenada",
       "Granada",
+      "Grenada",
       "GD"
     ],
     "capitals": [
-      "St. George's"
+      "Saint George's"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1892,8 +2173,12 @@
       "GRD"
     ],
     "flagSourceUrl": "https://flagcdn.com/gd.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q769"
+    ]
   },
   {
     "id": "GTM",
@@ -1905,7 +2190,7 @@
       "GT"
     ],
     "capitals": [
-      "Guatemala City"
+      "Cidade da Guatemala"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -1916,8 +2201,12 @@
       "GTM"
     ],
     "flagSourceUrl": "https://flagcdn.com/gt.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q774"
+    ]
   },
   {
     "id": "GUY",
@@ -1925,8 +2214,8 @@
     "iso3": "GUY",
     "namePtBr": "Guiana",
     "aliases": [
-      "Guyana",
       "Guiana",
+      "Guyana",
       "GY",
       "Co-operative Republic of Guyana"
     ],
@@ -1942,8 +2231,12 @@
       "GUY"
     ],
     "flagSourceUrl": "https://flagcdn.com/gy.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q734"
+    ]
   },
   {
     "id": "HND",
@@ -1968,8 +2261,12 @@
       "HND"
     ],
     "flagSourceUrl": "https://flagcdn.com/hn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q783"
+    ]
   },
   {
     "id": "HRV",
@@ -1977,8 +2274,8 @@
     "iso3": "HRV",
     "namePtBr": "Croácia",
     "aliases": [
-      "Croatia",
       "Croácia",
+      "Croatia",
       "HR",
       "Hrvatska",
       "Republic of Croatia",
@@ -1996,8 +2293,12 @@
       "HRV"
     ],
     "flagSourceUrl": "https://flagcdn.com/hr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q224"
+    ]
   },
   {
     "id": "HTI",
@@ -2012,7 +2313,7 @@
       "Repiblik Ayiti"
     ],
     "capitals": [
-      "Port-au-Prince"
+      "Porto Príncipe"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2023,8 +2324,12 @@
       "HTI"
     ],
     "flagSourceUrl": "https://flagcdn.com/ht.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q790"
+    ]
   },
   {
     "id": "HUN",
@@ -2032,12 +2337,12 @@
     "iso3": "HUN",
     "namePtBr": "Hungria",
     "aliases": [
-      "Hungary",
       "Hungria",
+      "Hungary",
       "HU"
     ],
     "capitals": [
-      "Budapest"
+      "Budapeste"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2048,8 +2353,12 @@
       "HUN"
     ],
     "flagSourceUrl": "https://flagcdn.com/hu.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q28"
+    ]
   },
   {
     "id": "IDN",
@@ -2057,14 +2366,14 @@
     "iso3": "IDN",
     "namePtBr": "Indonésia",
     "aliases": [
-      "Indonesia",
       "Indonésia",
+      "Indonesia",
       "ID",
       "Republic of Indonesia",
       "Republik Indonesia"
     ],
     "capitals": [
-      "Jakarta"
+      "Jacarta"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2075,8 +2384,12 @@
       "IDN"
     ],
     "flagSourceUrl": "https://flagcdn.com/id.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q252"
+    ]
   },
   {
     "id": "IND",
@@ -2084,8 +2397,8 @@
     "iso3": "IND",
     "namePtBr": "Índia",
     "aliases": [
-      "India",
       "Índia",
+      "India",
       "IN",
       "Bhārat",
       "Republic of India",
@@ -2093,7 +2406,7 @@
       "இந்தியா"
     ],
     "capitals": [
-      "New Delhi"
+      "Nova Deli"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2104,8 +2417,12 @@
       "IND"
     ],
     "flagSourceUrl": "https://flagcdn.com/in.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q668"
+    ]
   },
   {
     "id": "IRL",
@@ -2113,8 +2430,8 @@
     "iso3": "IRL",
     "namePtBr": "Irlanda",
     "aliases": [
-      "Ireland",
       "Irlanda",
+      "Ireland",
       "IE",
       "Éire",
       "Republic of Ireland",
@@ -2132,24 +2449,28 @@
       "IRL"
     ],
     "flagSourceUrl": "https://flagcdn.com/ie.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q27"
+    ]
   },
   {
     "id": "IRN",
     "iso2": "IR",
     "iso3": "IRN",
-    "namePtBr": "Irão",
+    "namePtBr": "Irã",
     "aliases": [
-      "Iran",
       "Irão",
+      "Iran",
       "IR",
       "Islamic Republic of Iran",
       "Iran, Islamic Republic of",
       "Jomhuri-ye Eslāmi-ye Irān"
     ],
     "capitals": [
-      "Tehran"
+      "Teerã"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2160,8 +2481,12 @@
       "IRN"
     ],
     "flagSourceUrl": "https://flagcdn.com/ir.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q794"
+    ]
   },
   {
     "id": "IRQ",
@@ -2169,14 +2494,14 @@
     "iso3": "IRQ",
     "namePtBr": "Iraque",
     "aliases": [
-      "Iraq",
       "Iraque",
+      "Iraq",
       "IQ",
       "Republic of Iraq",
       "Jumhūriyyat al-‘Irāq"
     ],
     "capitals": [
-      "Baghdad"
+      "Bagdá"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2187,8 +2512,12 @@
       "IRQ"
     ],
     "flagSourceUrl": "https://flagcdn.com/iq.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q796"
+    ]
   },
   {
     "id": "ISL",
@@ -2196,15 +2525,15 @@
     "iso3": "ISL",
     "namePtBr": "Islândia",
     "aliases": [
-      "Iceland",
       "Islândia",
+      "Iceland",
       "IS",
       "Island",
       "Republic of Iceland",
       "Lýðveldið Ísland"
     ],
     "capitals": [
-      "Reykjavik"
+      "Reykjavík"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2215,8 +2544,12 @@
       "ISL"
     ],
     "flagSourceUrl": "https://flagcdn.com/is.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q189"
+    ]
   },
   {
     "id": "ISR",
@@ -2230,9 +2563,9 @@
       "Medīnat Yisrā'el"
     ],
     "capitals": [
-      "Jerusalem"
+      "Jerusalém"
     ],
-    "capitalNote": null,
+    "capitalNote": "Jerusalém tem estatuto internacional disputado.",
     "focusPoint": [
       35.13,
       31.47
@@ -2241,8 +2574,13 @@
       "ISR"
     ],
     "flagSourceUrl": "https://flagcdn.com/il.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "capitalLabel": "Capital declarada",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q801"
+    ]
   },
   {
     "id": "ITA",
@@ -2250,14 +2588,14 @@
     "iso3": "ITA",
     "namePtBr": "Itália",
     "aliases": [
-      "Italy",
       "Itália",
+      "Italy",
       "IT",
       "Italian Republic",
       "Repubblica italiana"
     ],
     "capitals": [
-      "Rome"
+      "Roma"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2268,8 +2606,12 @@
       "ITA"
     ],
     "flagSourceUrl": "https://flagcdn.com/it.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q38"
+    ]
   },
   {
     "id": "JAM",
@@ -2292,8 +2634,12 @@
       "JAM"
     ],
     "flagSourceUrl": "https://flagcdn.com/jm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q766"
+    ]
   },
   {
     "id": "JOR",
@@ -2301,14 +2647,14 @@
     "iso3": "JOR",
     "namePtBr": "Jordânia",
     "aliases": [
-      "Jordan",
       "Jordânia",
+      "Jordan",
       "JO",
       "Hashemite Kingdom of Jordan",
       "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
     ],
     "capitals": [
-      "Amman"
+      "Amã"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2319,8 +2665,12 @@
       "JOR"
     ],
     "flagSourceUrl": "https://flagcdn.com/jo.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q810"
+    ]
   },
   {
     "id": "JPN",
@@ -2328,8 +2678,8 @@
     "iso3": "JPN",
     "namePtBr": "Japão",
     "aliases": [
-      "Japan",
       "Japão",
+      "Japan",
       "JP",
       "Nippon",
       "Nihon"
@@ -2346,8 +2696,12 @@
       "JPN"
     ],
     "flagSourceUrl": "https://flagcdn.com/jp.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "sample-reviewed"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q17"
+    ]
   },
   {
     "id": "KAZ",
@@ -2355,8 +2709,8 @@
     "iso3": "KAZ",
     "namePtBr": "Cazaquistão",
     "aliases": [
-      "Kazakhstan",
       "Cazaquistão",
+      "Kazakhstan",
       "KZ",
       "Qazaqstan",
       "Казахстан",
@@ -2378,23 +2732,27 @@
       "KAZ"
     ],
     "flagSourceUrl": "https://flagcdn.com/kz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q232"
+    ]
   },
   {
     "id": "KEN",
     "iso2": "KE",
     "iso3": "KEN",
-    "namePtBr": "Quénia",
+    "namePtBr": "Quênia",
     "aliases": [
-      "Kenya",
       "Quénia",
+      "Kenya",
       "KE",
       "Republic of Kenya",
       "Jamhuri ya Kenya"
     ],
     "capitals": [
-      "Nairobi"
+      "Nairóbi"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2405,8 +2763,12 @@
       "KEN"
     ],
     "flagSourceUrl": "https://flagcdn.com/ke.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q114"
+    ]
   },
   {
     "id": "KGZ",
@@ -2414,8 +2776,8 @@
     "iso3": "KGZ",
     "namePtBr": "Quirguistão",
     "aliases": [
-      "Kyrgyzstan",
       "Quirguistão",
+      "Kyrgyzstan",
       "KG",
       "Киргизия",
       "Kyrgyz Republic",
@@ -2434,8 +2796,12 @@
       "KGZ"
     ],
     "flagSourceUrl": "https://flagcdn.com/kg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q813"
+    ]
   },
   {
     "id": "KHM",
@@ -2443,8 +2809,8 @@
     "iso3": "KHM",
     "namePtBr": "Camboja",
     "aliases": [
-      "Cambodia",
       "Camboja",
+      "Cambodia",
       "KH",
       "Kingdom of Cambodia"
     ],
@@ -2460,14 +2826,18 @@
       "KHM"
     ],
     "flagSourceUrl": "https://flagcdn.com/kh.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q424"
+    ]
   },
   {
     "id": "KIR",
     "iso2": "KI",
     "iso3": "KIR",
-    "namePtBr": "Kiribati",
+    "namePtBr": "Quiribati",
     "aliases": [
       "Kiribati",
       "KI",
@@ -2475,7 +2845,7 @@
       "Ribaberiki Kiribati"
     ],
     "capitals": [
-      "South Tarawa"
+      "Taraua do Sul"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2486,17 +2856,21 @@
       "KIR"
     ],
     "flagSourceUrl": "https://flagcdn.com/ki.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q710"
+    ]
   },
   {
     "id": "KNA",
     "iso2": "KN",
     "iso3": "KNA",
-    "namePtBr": "São Cristóvão e Nevis",
+    "namePtBr": "São Cristóvão e Névis",
     "aliases": [
-      "Saint Kitts and Nevis",
       "São Cristóvão e Nevis",
+      "Saint Kitts and Nevis",
       "KN",
       "Federation of Saint Christopher and Nevis"
     ],
@@ -2512,8 +2886,12 @@
       "KNA"
     ],
     "flagSourceUrl": "https://flagcdn.com/kn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q763"
+    ]
   },
   {
     "id": "KOR",
@@ -2521,8 +2899,8 @@
     "iso3": "KOR",
     "namePtBr": "Coreia do Sul",
     "aliases": [
-      "South Korea",
       "Coreia do Sul",
+      "South Korea",
       "KR",
       "Korea, Republic of",
       "Republic of Korea",
@@ -2530,7 +2908,7 @@
       "남조선"
     ],
     "capitals": [
-      "Seoul"
+      "Seul"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2541,8 +2919,12 @@
       "KOR"
     ],
     "flagSourceUrl": "https://flagcdn.com/kr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q884"
+    ]
   },
   {
     "id": "KWT",
@@ -2556,7 +2938,7 @@
       "Dawlat al-Kuwait"
     ],
     "capitals": [
-      "Kuwait City"
+      "Kuwait"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2567,8 +2949,12 @@
       "KWT"
     ],
     "flagSourceUrl": "https://flagcdn.com/kw.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q817"
+    ]
   },
   {
     "id": "LAO",
@@ -2594,8 +2980,12 @@
       "LAO"
     ],
     "flagSourceUrl": "https://flagcdn.com/la.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q819"
+    ]
   },
   {
     "id": "LBN",
@@ -2603,14 +2993,14 @@
     "iso3": "LBN",
     "namePtBr": "Líbano",
     "aliases": [
-      "Lebanon",
       "Líbano",
+      "Lebanon",
       "LB",
       "Lebanese Republic",
       "Al-Jumhūrīyah Al-Libnānīyah"
     ],
     "capitals": [
-      "Beirut"
+      "Beirute"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2621,8 +3011,12 @@
       "LBN"
     ],
     "flagSourceUrl": "https://flagcdn.com/lb.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q822"
+    ]
   },
   {
     "id": "LBR",
@@ -2630,13 +3024,13 @@
     "iso3": "LBR",
     "namePtBr": "Libéria",
     "aliases": [
-      "Liberia",
       "Libéria",
+      "Liberia",
       "LR",
       "Republic of Liberia"
     ],
     "capitals": [
-      "Monrovia"
+      "Monróvia"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2647,8 +3041,12 @@
       "LBR"
     ],
     "flagSourceUrl": "https://flagcdn.com/lr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1014"
+    ]
   },
   {
     "id": "LBY",
@@ -2656,14 +3054,14 @@
     "iso3": "LBY",
     "namePtBr": "Líbia",
     "aliases": [
-      "Libya",
       "Líbia",
+      "Libya",
       "LY",
       "State of Libya",
       "Dawlat Libya"
     ],
     "capitals": [
-      "Tripoli"
+      "Trípoli"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2674,8 +3072,12 @@
       "LBY"
     ],
     "flagSourceUrl": "https://flagcdn.com/ly.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1016"
+    ]
   },
   {
     "id": "LCA",
@@ -2683,8 +3085,8 @@
     "iso3": "LCA",
     "namePtBr": "Santa Lúcia",
     "aliases": [
-      "Saint Lucia",
       "Santa Lúcia",
+      "Saint Lucia",
       "LC"
     ],
     "capitals": [
@@ -2699,8 +3101,12 @@
       "LCA"
     ],
     "flagSourceUrl": "https://flagcdn.com/lc.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q760"
+    ]
   },
   {
     "id": "LIE",
@@ -2725,8 +3131,12 @@
       "LIE"
     ],
     "flagSourceUrl": "https://flagcdn.com/li.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q347"
+    ]
   },
   {
     "id": "LKA",
@@ -2740,9 +3150,9 @@
       "Democratic Socialist Republic of Sri Lanka"
     ],
     "capitals": [
-      "Colombo"
+      "Sri Jayewardenepura Kotte"
     ],
-    "capitalNote": null,
+    "capitalNote": "Colombo também concentra funções do governo.",
     "focusPoint": [
       81,
       7
@@ -2751,8 +3161,13 @@
       "LKA"
     ],
     "flagSourceUrl": "https://flagcdn.com/lk.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q854",
+      "https://www.mfa.gov.lk/en/national-profile-and-geography"
+    ]
   },
   {
     "id": "LSO",
@@ -2760,8 +3175,8 @@
     "iso3": "LSO",
     "namePtBr": "Lesoto",
     "aliases": [
-      "Lesotho",
       "Lesoto",
+      "Lesotho",
       "LS",
       "Kingdom of Lesotho",
       "Muso oa Lesotho"
@@ -2778,8 +3193,12 @@
       "LSO"
     ],
     "flagSourceUrl": "https://flagcdn.com/ls.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1013"
+    ]
   },
   {
     "id": "LTU",
@@ -2787,8 +3206,8 @@
     "iso3": "LTU",
     "namePtBr": "Lituânia",
     "aliases": [
-      "Lithuania",
       "Lituânia",
+      "Lithuania",
       "LT",
       "Republic of Lithuania",
       "Lietuvos Respublika"
@@ -2805,8 +3224,12 @@
       "LTU"
     ],
     "flagSourceUrl": "https://flagcdn.com/lt.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q37"
+    ]
   },
   {
     "id": "LUX",
@@ -2814,8 +3237,8 @@
     "iso3": "LUX",
     "namePtBr": "Luxemburgo",
     "aliases": [
-      "Luxembourg",
       "Luxemburgo",
+      "Luxembourg",
       "LU",
       "Grand Duchy of Luxembourg",
       "Grand-Duché de Luxembourg",
@@ -2823,7 +3246,7 @@
       "Groussherzogtum Lëtzebuerg"
     ],
     "capitals": [
-      "Luxembourg"
+      "Luxemburgo"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2834,17 +3257,21 @@
       "LUX"
     ],
     "flagSourceUrl": "https://flagcdn.com/lu.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q32"
+    ]
   },
   {
     "id": "LVA",
     "iso2": "LV",
     "iso3": "LVA",
-    "namePtBr": "Letónia",
+    "namePtBr": "Letônia",
     "aliases": [
-      "Latvia",
       "Letónia",
+      "Latvia",
       "LV",
       "Republic of Latvia",
       "Latvijas Republika"
@@ -2861,8 +3288,12 @@
       "LVA"
     ],
     "flagSourceUrl": "https://flagcdn.com/lv.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q211"
+    ]
   },
   {
     "id": "MAR",
@@ -2870,8 +3301,8 @@
     "iso3": "MAR",
     "namePtBr": "Marrocos",
     "aliases": [
-      "Morocco",
       "Marrocos",
+      "Morocco",
       "MA",
       "Kingdom of Morocco",
       "Al-Mamlakah al-Maġribiyah"
@@ -2888,8 +3319,12 @@
       "MAR"
     ],
     "flagSourceUrl": "https://flagcdn.com/ma.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1028"
+    ]
   },
   {
     "id": "MCO",
@@ -2897,6 +3332,7 @@
     "iso3": "MCO",
     "namePtBr": "Mônaco",
     "aliases": [
+      "Mônaco",
       "Monaco",
       "Mónaco",
       "MC",
@@ -2915,8 +3351,12 @@
       "MCO"
     ],
     "flagSourceUrl": "https://flagcdn.com/mc.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "sample-reviewed"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q235"
+    ]
   },
   {
     "id": "MDA",
@@ -2924,15 +3364,15 @@
     "iso3": "MDA",
     "namePtBr": "Moldávia",
     "aliases": [
-      "Moldova",
       "Moldávia",
+      "Moldova",
       "MD",
       "Moldova, Republic of",
       "Republic of Moldova",
       "Republica Moldova"
     ],
     "capitals": [
-      "Chișinău"
+      "Chişinău"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -2943,17 +3383,21 @@
       "MDA"
     ],
     "flagSourceUrl": "https://flagcdn.com/md.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q217"
+    ]
   },
   {
     "id": "MDG",
     "iso2": "MG",
     "iso3": "MDG",
-    "namePtBr": "Madagáscar",
+    "namePtBr": "Madagascar",
     "aliases": [
-      "Madagascar",
       "Madagáscar",
+      "Madagascar",
       "MG",
       "Republic of Madagascar",
       "Repoblikan'i Madagasikara",
@@ -2971,8 +3415,12 @@
       "MDG"
     ],
     "flagSourceUrl": "https://flagcdn.com/mg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1019"
+    ]
   },
   {
     "id": "MDV",
@@ -2980,8 +3428,8 @@
     "iso3": "MDV",
     "namePtBr": "Maldivas",
     "aliases": [
-      "Maldives",
       "Maldivas",
+      "Maldives",
       "MV",
       "Maldive Islands",
       "Republic of the Maldives",
@@ -2999,8 +3447,12 @@
       "MDV"
     ],
     "flagSourceUrl": "https://flagcdn.com/mv.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q826"
+    ]
   },
   {
     "id": "MEX",
@@ -3008,15 +3460,15 @@
     "iso3": "MEX",
     "namePtBr": "México",
     "aliases": [
-      "Mexico",
       "México",
+      "Mexico",
       "MX",
       "Mexicanos",
       "United Mexican States",
       "Estados Unidos Mexicanos"
     ],
     "capitals": [
-      "Mexico City"
+      "Cidade do México"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3027,8 +3479,12 @@
       "MEX"
     ],
     "flagSourceUrl": "https://flagcdn.com/mx.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q96"
+    ]
   },
   {
     "id": "MHL",
@@ -3036,8 +3492,8 @@
     "iso3": "MHL",
     "namePtBr": "Ilhas Marshall",
     "aliases": [
-      "Marshall Islands",
       "Ilhas Marshall",
+      "Marshall Islands",
       "MH",
       "Republic of the Marshall Islands",
       "Aolepān Aorōkin M̧ajeļ"
@@ -3054,17 +3510,21 @@
       "MHL"
     ],
     "flagSourceUrl": "https://flagcdn.com/mh.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q709"
+    ]
   },
   {
     "id": "MKD",
     "iso2": "MK",
     "iso3": "MKD",
-    "namePtBr": "Macedónia do Norte",
+    "namePtBr": "Macedônia do Norte",
     "aliases": [
-      "North Macedonia",
       "Macedónia do Norte",
+      "North Macedonia",
       "MK",
       "The former Yugoslav Republic of Macedonia",
       "Republic of North Macedonia",
@@ -3084,8 +3544,12 @@
       "MKD"
     ],
     "flagSourceUrl": "https://flagcdn.com/mk.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q221"
+    ]
   },
   {
     "id": "MLI",
@@ -3099,7 +3563,7 @@
       "République du Mali"
     ],
     "capitals": [
-      "Bamako"
+      "Bamaco"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3110,8 +3574,12 @@
       "MLI"
     ],
     "flagSourceUrl": "https://flagcdn.com/ml.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q912"
+    ]
   },
   {
     "id": "MLT",
@@ -3125,7 +3593,7 @@
       "Repubblika ta' Malta"
     ],
     "capitals": [
-      "Valletta"
+      "Valeta"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3136,14 +3604,18 @@
       "MLT"
     ],
     "flagSourceUrl": "https://flagcdn.com/mt.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q233"
+    ]
   },
   {
     "id": "MMR",
     "iso2": "MM",
     "iso3": "MMR",
-    "namePtBr": "Myanmar",
+    "namePtBr": "Mianmar",
     "aliases": [
       "Myanmar",
       "MM",
@@ -3163,8 +3635,12 @@
       "MMR"
     ],
     "flagSourceUrl": "https://flagcdn.com/mm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q836"
+    ]
   },
   {
     "id": "MNE",
@@ -3188,8 +3664,12 @@
       "MNE"
     ],
     "flagSourceUrl": "https://flagcdn.com/me.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q236"
+    ]
   },
   {
     "id": "MNG",
@@ -3197,8 +3677,8 @@
     "iso3": "MNG",
     "namePtBr": "Mongólia",
     "aliases": [
-      "Mongolia",
       "Mongólia",
+      "Mongolia",
       "MN"
     ],
     "capitals": [
@@ -3213,8 +3693,12 @@
       "MNG"
     ],
     "flagSourceUrl": "https://flagcdn.com/mn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q711"
+    ]
   },
   {
     "id": "MOZ",
@@ -3222,8 +3706,8 @@
     "iso3": "MOZ",
     "namePtBr": "Moçambique",
     "aliases": [
-      "Mozambique",
       "Moçambique",
+      "Mozambique",
       "MZ",
       "Republic of Mozambique",
       "República de Moçambique"
@@ -3240,8 +3724,12 @@
       "MOZ"
     ],
     "flagSourceUrl": "https://flagcdn.com/mz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1029"
+    ]
   },
   {
     "id": "MRT",
@@ -3249,8 +3737,8 @@
     "iso3": "MRT",
     "namePtBr": "Mauritânia",
     "aliases": [
-      "Mauritania",
       "Mauritânia",
+      "Mauritania",
       "MR",
       "Islamic Republic of Mauritania",
       "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
@@ -3267,8 +3755,12 @@
       "MRT"
     ],
     "flagSourceUrl": "https://flagcdn.com/mr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1025"
+    ]
   },
   {
     "id": "MUS",
@@ -3276,8 +3768,8 @@
     "iso3": "MUS",
     "namePtBr": "Maurício",
     "aliases": [
-      "Mauritius",
       "Maurício",
+      "Mauritius",
       "MU",
       "Republic of Mauritius",
       "République de Maurice"
@@ -3294,14 +3786,18 @@
       "MUS"
     ],
     "flagSourceUrl": "https://flagcdn.com/mu.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1027"
+    ]
   },
   {
     "id": "MWI",
     "iso2": "MW",
     "iso3": "MWI",
-    "namePtBr": "Malawi",
+    "namePtBr": "Malaui",
     "aliases": [
       "Malawi",
       "MW",
@@ -3319,8 +3815,12 @@
       "MWI"
     ],
     "flagSourceUrl": "https://flagcdn.com/mw.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1020"
+    ]
   },
   {
     "id": "MYS",
@@ -3328,14 +3828,14 @@
     "iso3": "MYS",
     "namePtBr": "Malásia",
     "aliases": [
-      "Malaysia",
       "Malásia",
+      "Malaysia",
       "MY"
     ],
     "capitals": [
       "Kuala Lumpur"
     ],
-    "capitalNote": null,
+    "capitalNote": "Putrajaya é o centro administrativo federal.",
     "focusPoint": [
       112.5,
       2.5
@@ -3344,8 +3844,12 @@
       "MYS"
     ],
     "flagSourceUrl": "https://flagcdn.com/my.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q833"
+    ]
   },
   {
     "id": "NAM",
@@ -3353,8 +3857,8 @@
     "iso3": "NAM",
     "namePtBr": "Namíbia",
     "aliases": [
-      "Namibia",
       "Namíbia",
+      "Namibia",
       "NA",
       "Namibië",
       "Republic of Namibia"
@@ -3371,8 +3875,12 @@
       "NAM"
     ],
     "flagSourceUrl": "https://flagcdn.com/na.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1030"
+    ]
   },
   {
     "id": "NER",
@@ -3380,8 +3888,8 @@
     "iso3": "NER",
     "namePtBr": "Níger",
     "aliases": [
-      "Niger",
       "Níger",
+      "Niger",
       "NE",
       "Nijar"
     ],
@@ -3397,8 +3905,12 @@
       "NER"
     ],
     "flagSourceUrl": "https://flagcdn.com/ne.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1032"
+    ]
   },
   {
     "id": "NGA",
@@ -3406,8 +3918,8 @@
     "iso3": "NGA",
     "namePtBr": "Nigéria",
     "aliases": [
-      "Nigeria",
       "Nigéria",
+      "Nigeria",
       "NG",
       "Nijeriya",
       "Naíjíríà",
@@ -3425,8 +3937,12 @@
       "NGA"
     ],
     "flagSourceUrl": "https://flagcdn.com/ng.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1033"
+    ]
   },
   {
     "id": "NIC",
@@ -3434,8 +3950,8 @@
     "iso3": "NIC",
     "namePtBr": "Nicarágua",
     "aliases": [
-      "Nicaragua",
       "Nicarágua",
+      "Nicaragua",
       "NI",
       "Republic of Nicaragua",
       "República de Nicaragua"
@@ -3452,26 +3968,30 @@
       "NIC"
     ],
     "flagSourceUrl": "https://flagcdn.com/ni.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q811"
+    ]
   },
   {
     "id": "NLD",
     "iso2": "NL",
     "iso3": "NLD",
-    "namePtBr": "Holanda",
+    "namePtBr": "Países Baixos",
     "aliases": [
-      "Netherlands",
       "Holanda",
+      "Netherlands",
       "NL",
       "Holland",
       "Nederland",
       "The Netherlands"
     ],
     "capitals": [
-      "Amsterdam"
+      "Amsterdã"
     ],
-    "capitalNote": null,
+    "capitalNote": "A sede do governo fica em Haia.",
     "focusPoint": [
       5.75,
       52.5
@@ -3480,8 +4000,13 @@
       "NLD"
     ],
     "flagSourceUrl": "https://flagcdn.com/nl.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q29999",
+      "https://www.government.nl/binaries/government/documenten/publications/2017/04/21/culture-at-a-first-glance/CIB2015_ENG_publicatie_v8_DEF.pdf"
+    ]
   },
   {
     "id": "NOR",
@@ -3489,8 +4014,8 @@
     "iso3": "NOR",
     "namePtBr": "Noruega",
     "aliases": [
-      "Norway",
       "Noruega",
+      "Norway",
       "NO",
       "Norge",
       "Noreg",
@@ -3510,8 +4035,12 @@
       "NOR"
     ],
     "flagSourceUrl": "https://flagcdn.com/no.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q20"
+    ]
   },
   {
     "id": "NPL",
@@ -3525,7 +4054,7 @@
       "Loktāntrik Ganatantra Nepāl"
     ],
     "capitals": [
-      "Kathmandu"
+      "Catmandu"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3536,8 +4065,12 @@
       "NPL"
     ],
     "flagSourceUrl": "https://flagcdn.com/np.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q837"
+    ]
   },
   {
     "id": "NRU",
@@ -3555,7 +4088,7 @@
     "capitals": [
       "Yaren"
     ],
-    "capitalNote": null,
+    "capitalNote": "Nauru não tem capital oficial; o governo fica no distrito de Yaren.",
     "focusPoint": [
       166.91666666,
       -0.53333333
@@ -3564,8 +4097,13 @@
       "NRU"
     ],
     "flagSourceUrl": "https://flagcdn.com/nr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "capitalLabel": "Sede do governo",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q697"
+    ]
   },
   {
     "id": "NZL",
@@ -3573,8 +4111,8 @@
     "iso3": "NZL",
     "namePtBr": "Nova Zelândia",
     "aliases": [
-      "New Zealand",
       "Nova Zelândia",
+      "New Zealand",
       "NZ",
       "Aotearoa"
     ],
@@ -3590,8 +4128,12 @@
       "NZL"
     ],
     "flagSourceUrl": "https://flagcdn.com/nz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q664"
+    ]
   },
   {
     "id": "OMN",
@@ -3599,14 +4141,14 @@
     "iso3": "OMN",
     "namePtBr": "Omã",
     "aliases": [
-      "Oman",
       "Omã",
+      "Oman",
       "OM",
       "Sultanate of Oman",
       "Salṭanat ʻUmān"
     ],
     "capitals": [
-      "Muscat"
+      "Mascate"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3617,8 +4159,12 @@
       "OMN"
     ],
     "flagSourceUrl": "https://flagcdn.com/om.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q842"
+    ]
   },
   {
     "id": "PAK",
@@ -3626,8 +4172,8 @@
     "iso3": "PAK",
     "namePtBr": "Paquistão",
     "aliases": [
-      "Pakistan",
       "Paquistão",
+      "Pakistan",
       "PK",
       "Pākistān",
       "Islamic Republic of Pakistan",
@@ -3645,8 +4191,12 @@
       "PAK"
     ],
     "flagSourceUrl": "https://flagcdn.com/pk.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q843"
+    ]
   },
   {
     "id": "PAN",
@@ -3654,14 +4204,14 @@
     "iso3": "PAN",
     "namePtBr": "Panamá",
     "aliases": [
-      "Panama",
       "Panamá",
+      "Panama",
       "PA",
       "Republic of Panama",
       "República de Panamá"
     ],
     "capitals": [
-      "Panama City"
+      "Cidade do Panamá"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3672,17 +4222,21 @@
       "PAN"
     ],
     "flagSourceUrl": "https://flagcdn.com/pa.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q804"
+    ]
   },
   {
     "id": "PER",
     "iso2": "PE",
     "iso3": "PER",
-    "namePtBr": "Perú",
+    "namePtBr": "Peru",
     "aliases": [
-      "Peru",
       "Perú",
+      "Peru",
       "PE",
       "Republic of Peru",
       "República del Perú"
@@ -3699,8 +4253,12 @@
       "PER"
     ],
     "flagSourceUrl": "https://flagcdn.com/pe.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q419"
+    ]
   },
   {
     "id": "PHL",
@@ -3708,8 +4266,8 @@
     "iso3": "PHL",
     "namePtBr": "Filipinas",
     "aliases": [
-      "Philippines",
       "Filipinas",
+      "Philippines",
       "PH",
       "Republic of the Philippines",
       "Repúblika ng Pilipinas"
@@ -3726,8 +4284,12 @@
       "PHL"
     ],
     "flagSourceUrl": "https://flagcdn.com/ph.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q928"
+    ]
   },
   {
     "id": "PLW",
@@ -3752,17 +4314,21 @@
       "PLW"
     ],
     "flagSourceUrl": "https://flagcdn.com/pw.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q695"
+    ]
   },
   {
     "id": "PNG",
     "iso2": "PG",
     "iso3": "PNG",
-    "namePtBr": "Papua Nova Guiné",
+    "namePtBr": "Papua-Nova Guiné",
     "aliases": [
-      "Papua New Guinea",
       "Papua Nova Guiné",
+      "Papua New Guinea",
       "PG",
       "Independent State of Papua New Guinea",
       "Independen Stet bilong Papua Niugini"
@@ -3779,23 +4345,27 @@
       "PNG"
     ],
     "flagSourceUrl": "https://flagcdn.com/pg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q691"
+    ]
   },
   {
     "id": "POL",
     "iso2": "PL",
     "iso3": "POL",
-    "namePtBr": "Polónia",
+    "namePtBr": "Polônia",
     "aliases": [
-      "Poland",
       "Polónia",
+      "Poland",
       "PL",
       "Republic of Poland",
       "Rzeczpospolita Polska"
     ],
     "capitals": [
-      "Warsaw"
+      "Varsóvia"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3806,8 +4376,12 @@
       "POL"
     ],
     "flagSourceUrl": "https://flagcdn.com/pl.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q36"
+    ]
   },
   {
     "id": "PRK",
@@ -3815,8 +4389,8 @@
     "iso3": "PRK",
     "namePtBr": "Coreia do Norte",
     "aliases": [
-      "North Korea",
       "Coreia do Norte",
+      "North Korea",
       "KP",
       "Democratic People's Republic of Korea",
       "DPRK",
@@ -3838,8 +4412,12 @@
       "PRK"
     ],
     "flagSourceUrl": "https://flagcdn.com/kp.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q423"
+    ]
   },
   {
     "id": "PRT",
@@ -3854,7 +4432,7 @@
       "República Portuguesa"
     ],
     "capitals": [
-      "Lisbon"
+      "Lisboa"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3865,8 +4443,12 @@
       "PRT"
     ],
     "flagSourceUrl": "https://flagcdn.com/pt.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q45"
+    ]
   },
   {
     "id": "PRY",
@@ -3874,15 +4456,15 @@
     "iso3": "PRY",
     "namePtBr": "Paraguai",
     "aliases": [
-      "Paraguay",
       "Paraguai",
+      "Paraguay",
       "PY",
       "Republic of Paraguay",
       "República del Paraguay",
       "Tetã Paraguái"
     ],
     "capitals": [
-      "Asunción"
+      "Assunção"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3893,8 +4475,12 @@
       "PRY"
     ],
     "flagSourceUrl": "https://flagcdn.com/py.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q733"
+    ]
   },
   {
     "id": "PSE",
@@ -3902,8 +4488,8 @@
     "iso3": "PSE",
     "namePtBr": "Palestina",
     "aliases": [
-      "Palestine",
       "Palestina",
+      "Palestine",
       "PS",
       "Palestine, State of",
       "State of Palestine",
@@ -3912,7 +4498,7 @@
     "capitals": [
       "Ramallah"
     ],
-    "capitalNote": "Ramallah é a sede administrativa; a reivindicação de Jerusalém Oriental será explicada no catálogo final.",
+    "capitalNote": "Ramallah é a sede administrativa; Jerusalém Oriental é reivindicada como capital.",
     "focusPoint": [
       35.2,
       31.9
@@ -3921,8 +4507,13 @@
       "PSX"
     ],
     "flagSourceUrl": "https://flagcdn.com/ps.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "capitalLabel": "Sede administrativa",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q219060"
+    ]
   },
   {
     "id": "QAT",
@@ -3930,8 +4521,8 @@
     "iso3": "QAT",
     "namePtBr": "Catar",
     "aliases": [
-      "Qatar",
       "Catar",
+      "Qatar",
       "QA",
       "State of Qatar",
       "Dawlat Qaṭar"
@@ -3948,24 +4539,28 @@
       "QAT"
     ],
     "flagSourceUrl": "https://flagcdn.com/qa.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q846"
+    ]
   },
   {
     "id": "ROU",
     "iso2": "RO",
     "iso3": "ROU",
-    "namePtBr": "Roménia",
+    "namePtBr": "Romênia",
     "aliases": [
-      "Romania",
       "Roménia",
+      "Romania",
       "RO",
       "Rumania",
       "Roumania",
       "România"
     ],
     "capitals": [
-      "Bucharest"
+      "Bucareste"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -3976,8 +4571,12 @@
       "ROU"
     ],
     "flagSourceUrl": "https://flagcdn.com/ro.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q218"
+    ]
   },
   {
     "id": "RUS",
@@ -3985,14 +4584,14 @@
     "iso3": "RUS",
     "namePtBr": "Rússia",
     "aliases": [
-      "Russia",
       "Rússia",
+      "Russia",
       "RU",
       "Russian Federation",
       "Российская Федерация"
     ],
     "capitals": [
-      "Moscow"
+      "Moscou"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4003,8 +4602,12 @@
       "RUS"
     ],
     "flagSourceUrl": "https://flagcdn.com/ru.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q159"
+    ]
   },
   {
     "id": "RWA",
@@ -4012,8 +4615,8 @@
     "iso3": "RWA",
     "namePtBr": "Ruanda",
     "aliases": [
-      "Rwanda",
       "Ruanda",
+      "Rwanda",
       "RW",
       "Republic of Rwanda",
       "Repubulika y'u Rwanda",
@@ -4031,8 +4634,12 @@
       "RWA"
     ],
     "flagSourceUrl": "https://flagcdn.com/rw.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1037"
+    ]
   },
   {
     "id": "SAU",
@@ -4040,15 +4647,15 @@
     "iso3": "SAU",
     "namePtBr": "Arábia Saudita",
     "aliases": [
-      "Saudi Arabia",
       "Arábia Saudita",
+      "Saudi Arabia",
       "Saudi",
       "SA",
       "Kingdom of Saudi Arabia",
       "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
     ],
     "capitals": [
-      "Riyadh"
+      "Riade"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4059,8 +4666,12 @@
       "SAU"
     ],
     "flagSourceUrl": "https://flagcdn.com/sa.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q851"
+    ]
   },
   {
     "id": "SDN",
@@ -4068,14 +4679,14 @@
     "iso3": "SDN",
     "namePtBr": "Sudão",
     "aliases": [
-      "Sudan",
       "Sudão",
+      "Sudan",
       "SD",
       "Republic of the Sudan",
       "Jumhūrīyat as-Sūdān"
     ],
     "capitals": [
-      "Khartoum"
+      "Cartum"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4086,8 +4697,12 @@
       "SDN"
     ],
     "flagSourceUrl": "https://flagcdn.com/sd.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1049"
+    ]
   },
   {
     "id": "SEN",
@@ -4101,7 +4716,7 @@
       "République du Sénégal"
     ],
     "capitals": [
-      "Dakar"
+      "Dacar"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4112,8 +4727,12 @@
       "SEN"
     ],
     "flagSourceUrl": "https://flagcdn.com/sn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1041"
+    ]
   },
   {
     "id": "SGP",
@@ -4121,14 +4740,14 @@
     "iso3": "SGP",
     "namePtBr": "Singapura",
     "aliases": [
-      "Singapore",
       "Singapura",
+      "Singapore",
       "SG",
       "Republik Singapura",
       "新加坡共和国"
     ],
     "capitals": [
-      "Singapore"
+      "Singapura"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4139,8 +4758,12 @@
       "SGP"
     ],
     "flagSourceUrl": "https://flagcdn.com/sg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q334"
+    ]
   },
   {
     "id": "SLB",
@@ -4148,8 +4771,8 @@
     "iso3": "SLB",
     "namePtBr": "Ilhas Salomão",
     "aliases": [
-      "Solomon Islands",
       "Ilhas Salomão",
+      "Solomon Islands",
       "SB"
     ],
     "capitals": [
@@ -4164,8 +4787,12 @@
       "SLB"
     ],
     "flagSourceUrl": "https://flagcdn.com/sb.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q685"
+    ]
   },
   {
     "id": "SLE",
@@ -4173,8 +4800,8 @@
     "iso3": "SLE",
     "namePtBr": "Serra Leoa",
     "aliases": [
-      "Sierra Leone",
       "Serra Leoa",
+      "Sierra Leone",
       "SL",
       "Republic of Sierra Leone"
     ],
@@ -4190,8 +4817,12 @@
       "SLE"
     ],
     "flagSourceUrl": "https://flagcdn.com/sl.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1044"
+    ]
   },
   {
     "id": "SLV",
@@ -4216,8 +4847,12 @@
       "SLV"
     ],
     "flagSourceUrl": "https://flagcdn.com/sv.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q792"
+    ]
   },
   {
     "id": "SMR",
@@ -4231,7 +4866,7 @@
       "Repubblica di San Marino"
     ],
     "capitals": [
-      "City of San Marino"
+      "San Marino"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4242,8 +4877,12 @@
       "SMR"
     ],
     "flagSourceUrl": "https://flagcdn.com/sm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q238"
+    ]
   },
   {
     "id": "SOM",
@@ -4251,8 +4890,8 @@
     "iso3": "SOM",
     "namePtBr": "Somália",
     "aliases": [
-      "Somalia",
       "Somália",
+      "Somalia",
       "SO",
       "aṣ-Ṣūmāl",
       "Federal Republic of Somalia",
@@ -4260,7 +4899,7 @@
       "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
     ],
     "capitals": [
-      "Mogadishu"
+      "Mogadíscio"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4271,8 +4910,12 @@
       "SOM"
     ],
     "flagSourceUrl": "https://flagcdn.com/so.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1045"
+    ]
   },
   {
     "id": "SRB",
@@ -4280,8 +4923,8 @@
     "iso3": "SRB",
     "namePtBr": "Sérvia",
     "aliases": [
-      "Serbia",
       "Sérvia",
+      "Serbia",
       "RS",
       "Srbija",
       "Republika Srbija",
@@ -4290,7 +4933,7 @@
       "Republic of Serbia"
     ],
     "capitals": [
-      "Belgrade"
+      "Belgrado"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4301,8 +4944,12 @@
       "SRB"
     ],
     "flagSourceUrl": "https://flagcdn.com/rs.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q403"
+    ]
   },
   {
     "id": "SSD",
@@ -4310,8 +4957,8 @@
     "iso3": "SSD",
     "namePtBr": "Sudão do Sul",
     "aliases": [
-      "South Sudan",
       "Sudão do Sul",
+      "South Sudan",
       "SS"
     ],
     "capitals": [
@@ -4326,8 +4973,12 @@
       "SDS"
     ],
     "flagSourceUrl": "https://flagcdn.com/ss.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q958"
+    ]
   },
   {
     "id": "STP",
@@ -4335,8 +4986,8 @@
     "iso3": "STP",
     "namePtBr": "São Tomé e Príncipe",
     "aliases": [
-      "São Tomé and Príncipe",
       "São Tomé e Príncipe",
+      "São Tomé and Príncipe",
       "ST",
       "Democratic Republic of São Tomé and Príncipe",
       "Sao Tome and Principe",
@@ -4354,8 +5005,12 @@
       "STP"
     ],
     "flagSourceUrl": "https://flagcdn.com/st.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1039"
+    ]
   },
   {
     "id": "SUR",
@@ -4382,8 +5037,12 @@
       "SUR"
     ],
     "flagSourceUrl": "https://flagcdn.com/sr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q730"
+    ]
   },
   {
     "id": "SVK",
@@ -4391,8 +5050,8 @@
     "iso3": "SVK",
     "namePtBr": "Eslováquia",
     "aliases": [
-      "Slovakia",
       "Eslováquia",
+      "Slovakia",
       "SK",
       "Slovak Republic",
       "Slovenská republika"
@@ -4409,23 +5068,27 @@
       "SVK"
     ],
     "flagSourceUrl": "https://flagcdn.com/sk.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q214"
+    ]
   },
   {
     "id": "SVN",
     "iso2": "SI",
     "iso3": "SVN",
-    "namePtBr": "Eslovénia",
+    "namePtBr": "Eslovênia",
     "aliases": [
-      "Slovenia",
       "Eslovénia",
+      "Slovenia",
       "SI",
       "Republic of Slovenia",
       "Republika Slovenija"
     ],
     "capitals": [
-      "Ljubljana"
+      "Liubliana"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4436,8 +5099,12 @@
       "SVN"
     ],
     "flagSourceUrl": "https://flagcdn.com/si.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q215"
+    ]
   },
   {
     "id": "SWE",
@@ -4445,14 +5112,14 @@
     "iso3": "SWE",
     "namePtBr": "Suécia",
     "aliases": [
-      "Sweden",
       "Suécia",
+      "Sweden",
       "SE",
       "Kingdom of Sweden",
       "Konungariket Sverige"
     ],
     "capitals": [
-      "Stockholm"
+      "Estocolmo"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4463,8 +5130,12 @@
       "SWE"
     ],
     "flagSourceUrl": "https://flagcdn.com/se.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q34"
+    ]
   },
   {
     "id": "SWZ",
@@ -4472,8 +5143,8 @@
     "iso3": "SWZ",
     "namePtBr": "Essuatíni",
     "aliases": [
-      "Eswatini",
       "Essuatíni",
+      "Eswatini",
       "SZ",
       "Swaziland",
       "weSwatini",
@@ -4483,9 +5154,10 @@
       "Umbuso weSwatini"
     ],
     "capitals": [
+      "Mbabane",
       "Lobamba"
     ],
-    "capitalNote": null,
+    "capitalNote": "Mbabane é administrativa; Lobamba, real e legislativa.",
     "focusPoint": [
       31.5,
       -26.5
@@ -4494,8 +5166,13 @@
       "SWZ"
     ],
     "flagSourceUrl": "https://flagcdn.com/sz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1050",
+      "https://www.comesa.int/eswatini/"
+    ]
   },
   {
     "id": "SYC",
@@ -4503,15 +5180,15 @@
     "iso3": "SYC",
     "namePtBr": "Seicheles",
     "aliases": [
-      "Seychelles",
       "Seicheles",
+      "Seychelles",
       "SC",
       "Republic of Seychelles",
       "Repiblik Sesel",
       "République des Seychelles"
     ],
     "capitals": [
-      "Victoria"
+      "Vitória"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4522,8 +5199,12 @@
       "SYC"
     ],
     "flagSourceUrl": "https://flagcdn.com/sc.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1042"
+    ]
   },
   {
     "id": "SYR",
@@ -4531,14 +5212,14 @@
     "iso3": "SYR",
     "namePtBr": "Síria",
     "aliases": [
-      "Syria",
       "Síria",
+      "Syria",
       "SY",
       "Syrian Arab Republic",
       "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
     ],
     "capitals": [
-      "Damascus"
+      "Damasco"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4549,8 +5230,12 @@
       "SYR"
     ],
     "flagSourceUrl": "https://flagcdn.com/sy.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q858"
+    ]
   },
   {
     "id": "TCD",
@@ -4558,8 +5243,8 @@
     "iso3": "TCD",
     "namePtBr": "Chade",
     "aliases": [
-      "Chad",
       "Chade",
+      "Chad",
       "TD",
       "Tchad",
       "Republic of Chad",
@@ -4577,8 +5262,12 @@
       "TCD"
     ],
     "flagSourceUrl": "https://flagcdn.com/td.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q657"
+    ]
   },
   {
     "id": "TGO",
@@ -4604,8 +5293,12 @@
       "TGO"
     ],
     "flagSourceUrl": "https://flagcdn.com/tg.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q945"
+    ]
   },
   {
     "id": "THA",
@@ -4613,8 +5306,8 @@
     "iso3": "THA",
     "namePtBr": "Tailândia",
     "aliases": [
-      "Thailand",
       "Tailândia",
+      "Thailand",
       "TH",
       "Prathet",
       "Thai",
@@ -4634,17 +5327,21 @@
       "THA"
     ],
     "flagSourceUrl": "https://flagcdn.com/th.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q869"
+    ]
   },
   {
     "id": "TJK",
     "iso2": "TJ",
     "iso3": "TJK",
-    "namePtBr": "Tajiquistão",
+    "namePtBr": "Tadjiquistão",
     "aliases": [
-      "Tajikistan",
       "Tajiquistão",
+      "Tajikistan",
       "TJ",
       "Toçikiston",
       "Republic of Tajikistan",
@@ -4663,21 +5360,25 @@
       "TJK"
     ],
     "flagSourceUrl": "https://flagcdn.com/tj.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q863"
+    ]
   },
   {
     "id": "TKM",
     "iso2": "TM",
     "iso3": "TKM",
-    "namePtBr": "Turquemenistão",
+    "namePtBr": "Turcomenistão",
     "aliases": [
-      "Turkmenistan",
       "Turquemenistão",
+      "Turkmenistan",
       "TM"
     ],
     "capitals": [
-      "Ashgabat"
+      "Asgabate"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4688,8 +5389,12 @@
       "TKM"
     ],
     "flagSourceUrl": "https://flagcdn.com/tm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q874"
+    ]
   },
   {
     "id": "TLS",
@@ -4708,7 +5413,7 @@
       "Timor Lorosae"
     ],
     "capitals": [
-      "Dili"
+      "Díli"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4719,8 +5424,12 @@
       "TLS"
     ],
     "flagSourceUrl": "https://flagcdn.com/tl.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q574"
+    ]
   },
   {
     "id": "TON",
@@ -4743,17 +5452,21 @@
       "TON"
     ],
     "flagSourceUrl": "https://flagcdn.com/to.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q678"
+    ]
   },
   {
     "id": "TTO",
     "iso2": "TT",
     "iso3": "TTO",
-    "namePtBr": "Trinidade e Tobago",
+    "namePtBr": "Trinidad e Tobago",
     "aliases": [
-      "Trinidad and Tobago",
       "Trinidade e Tobago",
+      "Trinidad and Tobago",
       "TT",
       "Republic of Trinidad and Tobago"
     ],
@@ -4769,8 +5482,12 @@
       "TTO"
     ],
     "flagSourceUrl": "https://flagcdn.com/tt.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q754"
+    ]
   },
   {
     "id": "TUN",
@@ -4778,14 +5495,14 @@
     "iso3": "TUN",
     "namePtBr": "Tunísia",
     "aliases": [
-      "Tunisia",
       "Tunísia",
+      "Tunisia",
       "TN",
       "Republic of Tunisia",
       "al-Jumhūriyyah at-Tūnisiyyah"
     ],
     "capitals": [
-      "Tunis"
+      "Túnis"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4796,8 +5513,12 @@
       "TUN"
     ],
     "flagSourceUrl": "https://flagcdn.com/tn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q948"
+    ]
   },
   {
     "id": "TUR",
@@ -4805,15 +5526,15 @@
     "iso3": "TUR",
     "namePtBr": "Turquia",
     "aliases": [
-      "Türkiye",
       "Turquia",
+      "Türkiye",
       "TR",
       "Turkiye",
       "Republic of Turkey",
       "Türkiye Cumhuriyeti"
     ],
     "capitals": [
-      "Ankara"
+      "Ancara"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4824,8 +5545,12 @@
       "TUR"
     ],
     "flagSourceUrl": "https://flagcdn.com/tr.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q43"
+    ]
   },
   {
     "id": "TUV",
@@ -4848,8 +5573,12 @@
       "TUV"
     ],
     "flagSourceUrl": "https://flagcdn.com/tv.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q672"
+    ]
   },
   {
     "id": "TZA",
@@ -4857,8 +5586,8 @@
     "iso3": "TZA",
     "namePtBr": "Tanzânia",
     "aliases": [
-      "Tanzania",
       "Tanzânia",
+      "Tanzania",
       "TZ",
       "Tanzania, United Republic of",
       "United Republic of Tanzania",
@@ -4876,8 +5605,12 @@
       "TZA"
     ],
     "flagSourceUrl": "https://flagcdn.com/tz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q924"
+    ]
   },
   {
     "id": "UGA",
@@ -4902,8 +5635,12 @@
       "UGA"
     ],
     "flagSourceUrl": "https://flagcdn.com/ug.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q1036"
+    ]
   },
   {
     "id": "UKR",
@@ -4911,13 +5648,13 @@
     "iso3": "UKR",
     "namePtBr": "Ucrânia",
     "aliases": [
-      "Ukraine",
       "Ucrânia",
+      "Ukraine",
       "UA",
       "Ukrayina"
     ],
     "capitals": [
-      "Kyiv"
+      "Kiev"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4928,8 +5665,12 @@
       "UKR"
     ],
     "flagSourceUrl": "https://flagcdn.com/ua.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q212"
+    ]
   },
   {
     "id": "URY",
@@ -4937,14 +5678,14 @@
     "iso3": "URY",
     "namePtBr": "Uruguai",
     "aliases": [
-      "Uruguay",
       "Uruguai",
+      "Uruguay",
       "UY",
       "Oriental Republic of Uruguay",
       "República Oriental del Uruguay"
     ],
     "capitals": [
-      "Montevideo"
+      "Montevidéu"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4955,8 +5696,12 @@
       "URY"
     ],
     "flagSourceUrl": "https://flagcdn.com/uy.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q77"
+    ]
   },
   {
     "id": "USA",
@@ -4964,14 +5709,14 @@
     "iso3": "USA",
     "namePtBr": "Estados Unidos",
     "aliases": [
-      "United States",
       "Estados Unidos",
+      "United States",
       "US",
       "USA",
       "United States of America"
     ],
     "capitals": [
-      "Washington D.C."
+      "Washington, D.C."
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -4982,8 +5727,12 @@
       "USA"
     ],
     "flagSourceUrl": "https://flagcdn.com/us.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q30"
+    ]
   },
   {
     "id": "UZB",
@@ -4991,8 +5740,8 @@
     "iso3": "UZB",
     "namePtBr": "Uzbequistão",
     "aliases": [
-      "Uzbekistan",
       "Uzbequistão",
+      "Uzbekistan",
       "UZ",
       "Republic of Uzbekistan",
       "O‘zbekiston Respublikasi",
@@ -5010,8 +5759,12 @@
       "UZB"
     ],
     "flagSourceUrl": "https://flagcdn.com/uz.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q265"
+    ]
   },
   {
     "id": "VAT",
@@ -5019,6 +5772,7 @@
     "iso3": "VAT",
     "namePtBr": "Vaticano",
     "aliases": [
+      "Vaticano",
       "Vatican City",
       "Cidade do Vaticano",
       "VA",
@@ -5039,17 +5793,21 @@
       "VAT"
     ],
     "flagSourceUrl": "https://flagcdn.com/va.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q237"
+    ]
   },
   {
     "id": "VCT",
     "iso2": "VC",
     "iso3": "VCT",
-    "namePtBr": "São Vincente e Granadinas",
+    "namePtBr": "São Vicente e Granadinas",
     "aliases": [
-      "Saint Vincent and the Grenadines",
       "São Vincente e Granadinas",
+      "Saint Vincent and the Grenadines",
       "VC"
     ],
     "capitals": [
@@ -5064,8 +5822,12 @@
       "VCT"
     ],
     "flagSourceUrl": "https://flagcdn.com/vc.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q757"
+    ]
   },
   {
     "id": "VEN",
@@ -5091,24 +5853,28 @@
       "VEN"
     ],
     "flagSourceUrl": "https://flagcdn.com/ve.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q717"
+    ]
   },
   {
     "id": "VNM",
     "iso2": "VN",
     "iso3": "VNM",
-    "namePtBr": "Vietname",
+    "namePtBr": "Vietnã",
     "aliases": [
-      "Vietnam",
       "Vietname",
+      "Vietnam",
       "VN",
       "Socialist Republic of Vietnam",
       "Cộng hòa Xã hội chủ nghĩa Việt Nam",
       "Viet Nam"
     ],
     "capitals": [
-      "Hanoi"
+      "Hanói"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -5119,8 +5885,12 @@
       "VNM"
     ],
     "flagSourceUrl": "https://flagcdn.com/vn.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q881"
+    ]
   },
   {
     "id": "VUT",
@@ -5135,7 +5905,7 @@
       "République de Vanuatu"
     ],
     "capitals": [
-      "Port Vila"
+      "Porto Vila"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -5146,8 +5916,12 @@
       "VUT"
     ],
     "flagSourceUrl": "https://flagcdn.com/vu.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q686"
+    ]
   },
   {
     "id": "WSM",
@@ -5172,25 +5946,29 @@
       "WSM"
     ],
     "flagSourceUrl": "https://flagcdn.com/ws.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "unavailable",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q683"
+    ]
   },
   {
     "id": "YEM",
     "iso2": "YE",
     "iso3": "YEM",
-    "namePtBr": "Iémen",
+    "namePtBr": "Iêmen",
     "aliases": [
-      "Yemen",
       "Iémen",
+      "Yemen",
       "YE",
       "Yemeni Republic",
       "al-Jumhūriyyah al-Yamaniyyah"
     ],
     "capitals": [
-      "Sana'a"
+      "Sana"
     ],
-    "capitalNote": null,
+    "capitalNote": "Áden funciona como sede provisória do governo internacionalmente reconhecido.",
     "focusPoint": [
       48,
       15
@@ -5199,8 +5977,12 @@
       "YEM"
     ],
     "flagSourceUrl": "https://flagcdn.com/ye.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q805"
+    ]
   },
   {
     "id": "ZAF",
@@ -5208,8 +5990,8 @@
     "iso3": "ZAF",
     "namePtBr": "África do Sul",
     "aliases": [
-      "South Africa",
       "África do Sul",
+      "South Africa",
       "ZA",
       "RSA",
       "Suid-Afrika",
@@ -5229,8 +6011,13 @@
       "ZAF"
     ],
     "flagSourceUrl": "https://flagcdn.com/za.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "sample-reviewed"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q258",
+      "https://www.gov.za/south-africa-glance"
+    ]
   },
   {
     "id": "ZMB",
@@ -5238,13 +6025,13 @@
     "iso3": "ZMB",
     "namePtBr": "Zâmbia",
     "aliases": [
-      "Zambia",
       "Zâmbia",
+      "Zambia",
       "ZM",
       "Republic of Zambia"
     ],
     "capitals": [
-      "Lusaka"
+      "Lusaca"
     ],
     "capitalNote": null,
     "focusPoint": [
@@ -5255,14 +6042,18 @@
       "ZMB"
     ],
     "flagSourceUrl": "https://flagcdn.com/zm.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q953"
+    ]
   },
   {
     "id": "ZWE",
     "iso2": "ZW",
     "iso3": "ZWE",
-    "namePtBr": "Zimbabwe",
+    "namePtBr": "Zimbábue",
     "aliases": [
       "Zimbabwe",
       "ZW",
@@ -5280,7 +6071,11 @@
       "ZWE"
     ],
     "flagSourceUrl": "https://flagcdn.com/zw.svg",
-    "anthemAuditStatus": "pending",
-    "metadataReviewStatus": "pending-editorial-review"
+    "anthemAuditStatus": "available",
+    "metadataReviewStatus": "reviewed",
+    "metadataReviewedAt": "2026-11-03",
+    "metadataSources": [
+      "https://www.wikidata.org/entity/Q954"
+    ]
   }
 ]

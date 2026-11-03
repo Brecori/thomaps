@@ -5,6 +5,7 @@ import { topology } from 'topojson-server'
 const read = async (path) => JSON.parse(await readFile(path, 'utf8'))
 const source = await read('data-sources/natural-earth-50m.geojson')
 const catalog = await read('data-sources/catalog.json')
+const anthems = (await read('data-sources/anthems.json')).records
 // Shared arcs + delta quantization. No islands or rings are removed.
 const world = topology({ countries: source }, 100_000)
 const countries = catalog.map((country) => ({
@@ -13,11 +14,35 @@ const countries = catalog.map((country) => ({
   namePtBr: country.namePtBr,
   aliases: country.aliases,
   capitals: country.capitals,
-  capitalNote: country.id === 'PSE' ? null : country.capitalNote,
-  ...(country.id === 'PSE' ? { capitalLabel: 'Sede administrativa' } : {}),
+  capitalNote: country.capitalNote,
+  ...(country.capitalLabel ? { capitalLabel: country.capitalLabel } : {}),
   focusPoint: country.focusPoint,
   mapFeatureIds: country.mapFeatureIds,
   flagSrc: `/flags/${country.iso2.toLowerCase()}.svg`,
+  anthem: (() => {
+    const recording = anthems.find((item) => item.countryId === country.id)
+    if (!recording) throw new Error(`Hino não auditado: ${country.id}`)
+    if (!['available', 'unavailable'].includes(recording.status))
+      throw new Error(`Auditoria de hino incompleta: ${country.id}`)
+    return recording.status === 'available'
+      ? {
+          status: 'available',
+          src: `/${recording.path.replace(/^public\//, '')}`,
+          title: recording.title,
+          duration: recording.duration,
+          attribution: recording.attribution,
+          sourcePage: recording.sourcePage,
+          license: recording.license,
+          licenseUrl: recording.licenseUrl,
+          notice: recording.notice,
+        }
+      : {
+          status: 'unavailable',
+          reason:
+            recording.reason ??
+            'Este hino ainda não está disponível. Tente outro país.',
+        }
+  })(),
 }))
 await mkdir('public/data', { recursive: true })
 const assets = []
@@ -41,10 +66,15 @@ await writeFile(
       sources: [
         'https://github.com/nvkelso/natural-earth-vector',
         'https://github.com/mledoze/countries',
+        'https://www.wikidata.org/',
+        'https://github.com/unicode-org/cldr-json',
+        'https://commons.wikimedia.org/',
       ],
       attribution:
-        'Made with Natural Earth. Country metadata derived from mledoze/countries (ODbL-1.0).',
+        'Made with Natural Earth. Country metadata derived from mledoze/countries (ODbL-1.0), reviewed with Wikidata (CC0) and Unicode CLDR (Unicode-3.0). Anthem credits and licenses are individual.',
       metadataLicense: '/licenses/countries-ODbL-1.0.txt',
+      nameLicense: '/licenses/unicode-cldr.txt',
+      audioCredits: '/audio/credits.json',
       quantization: 100_000,
       assets,
     },
