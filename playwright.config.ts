@@ -8,7 +8,6 @@ const executablePath =
 
 export default defineConfig({
   testDir: './tests',
-  fullyParallel: false,
   reporter: 'list',
   use: {
     baseURL: 'http://127.0.0.1:4173',

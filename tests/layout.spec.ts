@@ -1,94 +1,232 @@
 import { expect, test } from '@playwright/test'
+import type { RecognitionClient } from '../src/services/speechRecognition'
 
-const viewports = [
-  { width: 360, height: 800 },
-  { width: 390, height: 844 },
-  { width: 844, height: 390 },
-  { width: 768, height: 1024 },
-  { width: 1440, height: 900 },
-]
-
-for (const viewport of viewports) {
-  test(`prévia e cartão permanecem acessíveis em ${viewport.width}×${viewport.height}`, async ({
-    page,
-  }) => {
-    await page.setViewportSize(viewport)
-    const errors: string[] = []
-    page.on('pageerror', (error) => errors.push(error.message))
-    await page.goto('/')
-    await expect(page.locator('.atlas-backdrop__map')).toHaveJSProperty(
-      'complete',
-      true,
-    )
-    await expect(page.locator('.atlas-backdrop__map')).not.toHaveJSProperty(
-      'naturalWidth',
-      0,
-    )
-    await expect(
-      page.getByRole('heading', { name: 'Olá, pequeno explorador!' }),
-    ).toBeVisible()
-    await expect(page.getByRole('searchbox')).toBeInViewport()
-    const overflow = await page.evaluate(() => ({
-      horizontal: document.documentElement.scrollWidth > innerWidth,
-      vertical: document.documentElement.scrollHeight > innerHeight,
-    }))
-    expect(overflow).toEqual({ horizontal: false, vertical: false })
-    const open = page.getByRole('button', { name: 'Conhecer o Brasil' })
-    await open.click()
-    await expect(
-      page.getByRole('heading', { name: 'Brasil', exact: true }),
-    ).toBeVisible()
-    await expect(page.getByText('Brasília', { exact: true })).toBeVisible()
-    await expect(
-      page.getByRole('button', { name: 'Ouvir hino' }),
-    ).toBeDisabled()
-    const close = page.getByRole('button', { name: 'Fechar cartão de exemplo' })
-    await expect(close).toBeInViewport()
-    await expect(page.getByRole('searchbox')).toBeInViewport()
-    await page
-      .getByRole('button', { name: 'Ouvir hino' })
-      .scrollIntoViewIfNeeded()
-    await expect(
-      page.getByRole('button', { name: 'Ouvir hino' }),
-    ).toBeInViewport()
-    await close.scrollIntoViewIfNeeded()
-    const size = await close.boundingBox()
-    expect(size!.width).toBeGreaterThanOrEqual(56)
-    expect(size!.height).toBeGreaterThanOrEqual(56)
-    await close.click()
-    await expect(open).toBeFocused()
-    await page.getByRole('button', { name: 'Sobre esta prévia' }).click()
-    await expect(
-      page.getByRole('heading', { name: 'Um mundo em construção' }),
-    ).toBeVisible()
-    await page.getByRole('button', { name: 'Fechar ajuda' }).click()
-    await expect(
-      page.getByRole('button', { name: 'Sobre esta prévia' }),
-    ).toBeFocused()
-    expect(errors).toEqual([])
-  })
-}
-
-test('busca comunica o escopo e orientação não perde o estado', async ({
-  page,
-}) => {
-  await page.setViewportSize({ width: 390, height: 844 })
-  await page.emulateMedia({ reducedMotion: 'reduce' })
+test.beforeEach(async ({ page }) => {
   await page.goto('/')
-  await page.getByRole('searchbox').fill('Japão')
-  await page.getByRole('searchbox').press('Enter')
-  await expect(page.getByRole('status')).toContainText('próxima etapa')
-  await page.getByRole('button', { name: 'Conhecer o Brasil' }).click()
-  await page.setViewportSize({ width: 844, height: 390 })
+  await expect(
+    page.getByRole('button', { name: 'Brasil', exact: true }),
+  ).toBeVisible()
+})
+
+test('seleciona um país e fecha o cartão', async ({ page }) => {
+  await page.getByRole('button', { name: 'Brasil', exact: true }).click()
   await expect(
     page.getByRole('heading', { name: 'Brasil', exact: true }),
   ).toBeVisible()
-  await expect(page.getByRole('searchbox')).toHaveValue('Japão')
+  await expect(page.getByText('Brasília', { exact: true })).toBeVisible()
   await expect(
-    page.getByRole('button', { name: 'Fechar cartão de exemplo' }),
-  ).toBeInViewport()
-  const transition = await page
-    .getByRole('button', { name: 'Ouvir hino' })
-    .evaluate((el) => getComputedStyle(el).transitionDuration)
-  expect(transition).toBe('0s')
+    page.getByRole('img', { name: 'Bandeira: Brasil' }),
+  ).toBeVisible()
+
+  await page.getByRole('button', { name: 'Fechar país' }).click()
+  await expect(
+    page.getByRole('heading', { name: 'Brasil', exact: true }),
+  ).not.toBeVisible()
+})
+
+test('aproxima o mapa e volta à visão mundial', async ({ page }) => {
+  const afastar = page.getByRole('button', { name: 'Afastar mapa' })
+  await expect(afastar).toBeDisabled()
+  await page.getByRole('button', { name: 'Aproximar mapa' }).click()
+  await expect(afastar).toBeEnabled()
+
+  await afastar.click()
+  await expect(afastar).toBeDisabled()
+  await page.getByRole('button', { name: 'Aproximar mapa' }).click()
+  await expect(afastar).toBeEnabled()
+
+  await page.getByRole('button', { name: 'Ver o mundo' }).click()
+  await expect(afastar).toBeDisabled()
+})
+
+test('clicar no oceano limpa a seleção e fecha o cartão', async ({ page }) => {
+  await page.getByRole('button', { name: 'Brasil', exact: true }).click()
+  await expect(
+    page.getByRole('heading', { name: 'Brasil', exact: true }),
+  ).toBeVisible()
+  await page
+    .getByRole('group', { name: 'Mapa-múndi interativo', exact: true })
+    .click({ position: { x: 640, y: 180 } })
+  await expect(
+    page.getByRole('button', { name: 'Fechar país' }),
+  ).not.toBeVisible()
+  await expect(
+    page.getByRole('button', { name: 'Brasil', exact: true }),
+  ).toHaveAttribute('aria-pressed', 'false')
+})
+
+test('permite tentar novamente quando o mapa não carrega', async ({ page }) => {
+  await page.route('**/data/countries.json', (route) =>
+    route.fulfill({ status: 503, body: '' }),
+  )
+  await page.reload()
+  await expect(page.getByText('O mapa não chegou ainda')).toBeVisible()
+
+  await page.unroute('**/data/countries.json')
+  await page.getByRole('button', { name: 'Tentar novamente' }).click()
+  await expect(
+    page.getByRole('button', { name: 'Brasil', exact: true }),
+  ).toBeVisible()
+})
+
+test('busca por nome, alias e teclado, com até três sugestões', async ({
+  page,
+}) => {
+  const input = page.getByRole('combobox', {
+    name: 'Qual país vamos conhecer?',
+  })
+  await input.fill('JAPAO')
+  await expect(
+    page.getByRole('option', { name: 'Japão', exact: true }),
+  ).toBeVisible()
+  await input.press('ArrowDown')
+  await input.press('Enter')
+  await expect(
+    page.getByRole('heading', { name: 'Japão', exact: true }),
+  ).toBeVisible()
+  await page.getByRole('button', { name: 'Fechar país' }).click()
+  await expect(input).toBeFocused()
+
+  await input.fill('Nippon')
+  await expect(
+    page.getByRole('option', { name: 'Japão', exact: true }),
+  ).toBeVisible()
+  await input.fill('pais-inexistente')
+  await expect(page.getByRole('status')).toContainText(
+    'Não encontrei esse país. Vamos tentar outro nome?',
+  )
+
+  await input.fill('guine')
+  await expect(page.getByRole('option')).toHaveCount(3)
+  const firstPage = await page.getByRole('option').allTextContents()
+  await page.getByRole('button', { name: 'Próximos', exact: true }).click()
+  await expect(page.getByRole('option')).toHaveCount(1)
+  await expect(
+    page.getByRole('button', { name: 'Próximos', exact: true }),
+  ).toBeDisabled()
+  expect(await page.getByRole('option').allTextContents()).not.toEqual(
+    firstPage,
+  )
+  await input.focus()
+  await input.press('Escape')
+  await expect(page.getByRole('listbox')).not.toBeVisible()
+})
+
+test('busca por voz permite erro, cancelamento e seleção da transcrição', async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    class FakeRecognition implements RecognitionClient {
+      lang = ''
+      continuous = false
+      interimResults = false
+      maxAlternatives = 1
+      onstart: RecognitionClient['onstart'] = null
+      onaudioend: RecognitionClient['onaudioend'] = null
+      onresult: RecognitionClient['onresult'] = null
+      onerror: RecognitionClient['onerror'] = null
+      onnomatch: RecognitionClient['onnomatch'] = null
+      onend: RecognitionClient['onend'] = null
+      start() {
+        ;(window as Window & { recognition?: RecognitionClient }).recognition =
+          this
+        this.onstart?.()
+      }
+      abort() {}
+    }
+    Object.defineProperty(window, 'SpeechRecognition', {
+      value: FakeRecognition,
+      configurable: true,
+    })
+  })
+  await page.reload()
+  const microphone = page.getByRole('button', {
+    name: 'Falar o nome de um país',
+  })
+  await microphone.click()
+  await expect(page.getByRole('status')).toContainText(
+    'Estou ouvindo! Fale o nome de um país.',
+  )
+  await page.evaluate(() => {
+    const recognition = (window as Window & { recognition?: RecognitionClient })
+      .recognition
+    recognition?.onerror?.({ error: 'not-allowed' })
+  })
+  await expect(page.getByRole('status')).toContainText(
+    'O microfone não foi permitido',
+  )
+
+  await microphone.click()
+  await page.getByRole('button', { name: 'Cancelar busca por voz' }).click()
+  await expect(page.getByRole('status')).toContainText(
+    'Busca por voz cancelada.',
+  )
+
+  await microphone.click()
+  await page.evaluate(() => {
+    const recognition = (window as Window & { recognition?: RecognitionClient })
+      .recognition
+    recognition?.onresult?.({
+      resultIndex: 0,
+      results: [{ isFinal: true, 0: { transcript: 'Brasil' } }],
+    })
+  })
+  await expect(
+    page.getByRole('combobox', { name: 'Qual país vamos conhecer?' }),
+  ).toHaveValue('Brasil')
+  await page.getByRole('option', { name: 'Brasil', exact: true }).click()
+  await expect(
+    page.getByRole('heading', { name: 'Brasil', exact: true }),
+  ).toBeVisible()
+})
+
+test('mantém busca textual quando a voz não é suportada', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(window, 'SpeechRecognition', { value: undefined })
+    Object.defineProperty(window, 'webkitSpeechRecognition', {
+      value: undefined,
+    })
+  })
+  await page.reload()
+  await page.getByRole('button', { name: 'Busca por voz indisponível' }).click()
+  await expect(page.getByRole('status')).toContainText(
+    'A voz não está disponível neste navegador',
+  )
+  await page
+    .getByRole('combobox', { name: 'Qual país vamos conhecer?' })
+    .fill('Brasil')
+  await page.getByRole('option', { name: 'Brasil', exact: true }).click()
+  await expect(
+    page.getByRole('heading', { name: 'Brasil', exact: true }),
+  ).toBeVisible()
+})
+
+test.describe('celular', () => {
+  test.use({
+    viewport: { width: 390, height: 844 },
+    isMobile: true,
+    hasTouch: true,
+  })
+
+  test('abre e fecha o país por toque', async ({ page }) => {
+    await page.getByRole('button', { name: 'Nigéria', exact: true }).tap()
+    await expect(
+      page.getByRole('heading', { name: 'Nigéria', exact: true }),
+    ).toBeInViewport()
+    await expect(
+      page.getByRole('combobox', { name: 'Qual país vamos conhecer?' }),
+    ).toBeInViewport()
+
+    await page.getByRole('button', { name: 'Fechar país' }).tap()
+    await expect(
+      page.getByRole('heading', { name: 'Nigéria', exact: true }),
+    ).not.toBeVisible()
+    await page
+      .getByRole('combobox', { name: 'Qual país vamos conhecer?' })
+      .fill('Brasil')
+    await page.getByRole('option', { name: 'Brasil', exact: true }).tap()
+    await expect(
+      page.getByRole('heading', { name: 'Brasil', exact: true }),
+    ).toBeInViewport()
+  })
 })
