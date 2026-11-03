@@ -1,0 +1,1 @@
+export { AtlasTemplate } from './AtlasTemplate'
