@@ -1,7 +1,9 @@
-/** Presentation contract for the phase-1 example, independent of React. */
+/** Presentation contract shared by the details card and the validated atlas. */
 export type CountrySummary = {
   id: string
   namePtBr: string
   capitals: string[]
   flagSrc: string
+  capitalNote?: string | null
+  capitalLabel?: string
 }
