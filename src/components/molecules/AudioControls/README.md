@@ -1,26 +1,15 @@
 # AudioControls
 
-Ações de pronúncia e hino apresentadas no cartão.
+Molécula de ações de pronúncia e hino no cartão. Usa Button, Icon e ProgressBar; não cria síntese, captura ou player.
 
 ## Contrato
 
-pronunciationActive, pronunciationAvailable, descriptionId e onPronunciationToggle(). O callback inicia ou interrompe a pronúncia na página; o componente não cria utterance nem captura.
+Recebe `pronunciationActive`, `pronunciationAvailable`, `descriptionId`, `onPronunciationToggle`; `anthemAvailable`, `anthemActive`, `anthemStarted`, `currentTime`, `duration`, `onAnthemToggle` e `onAnthemRestart`.
 
-## Estados e variantes
+## Estados e acessibilidade
 
-Ouvir nome quando ocioso; Parar nome com ícone de X e aria-pressed durante preparação/reprodução. Sem voz adequada ou durante carregamento, a ação fica disabled e a nota do cartão explica o estado. Ouvir hino permanece disabled até T11.
+Ouvir nome/Parar nome; Ouvir hino/Pausar hino; progresso e reinício depois da primeira solicitação. Carregamento permite pausar a intenção de reprodução; erro permite tentar de novo. Indisponibilidade desabilita só a ação correspondente, com explicação no cartão.
 
-## Exemplo
+Grupo “Sons do país”, rótulos curtos, ícones decorativos, área de toque de pelo menos 56 px e progresso nativo com tempo acessível. A coordenação entre fala, escuta e mídia pertence a useAtlasAudio na página.
 
-```tsx
-<AudioControls
-  pronunciationActive={pronunciation.active}
-  pronunciationAvailable={pronunciation.available}
-  descriptionId={noteId}
-  onPronunciationToggle={togglePronunciation}
-/>
-```
-
-## Acessibilidade e responsabilidade
-
-Grupo Sons do país, rótulos curtos e ícones decorativos. A descrição do nome aponta para o status do cartão. Estados recebidos por props; coordenação entre fala/escuta fica em useAtlasAudio, composto pela página.
+Exemplo: CountryDetails passa o estado do coordenador e callbacks que encaminham a gravação do país selecionado.

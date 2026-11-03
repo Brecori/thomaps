@@ -184,6 +184,7 @@ export function AtlasPage() {
             key={selected.id}
             country={selected}
             pronunciation={audio.pronunciation}
+            anthem={audio.anthem}
             onClose={closeCountry}
           />
         ) : undefined

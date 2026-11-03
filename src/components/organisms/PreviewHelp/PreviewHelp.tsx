@@ -35,7 +35,8 @@ export function PreviewHelp({
       <Text>
         Digite ou fale o nome de um país na busca e escolha uma bandeira. Você
         também pode usar a lista aqui embaixo. No cartão, toque em Ouvir nome
-        para escutar em português. Hinos e instalação chegam em outras etapas.
+        para escutar em português. Em Ouvir hino você pode ouvir, pausar e
+        reiniciar a música do país. A instalação chega em outra etapa.
       </Text>
       <Text>
         A pronúncia precisa de uma voz em português do Brasil no aparelho.
@@ -47,8 +48,13 @@ export function PreviewHelp({
         microfone só é solicitado ao tocar em Falar e pode ser cancelado.
       </Text>
       <Text>
-        Fontes: Natural Earth, Flagpedia e mledoze/countries. Gravações
-        candidatas: Wikimedia Commons.
+        Os hinos são carregados ao tocar e podem precisar de conexão. Quando
+        ainda falta uma gravação, o cartão avisa. Os créditos de cada hino ficam
+        no próprio cartão.
+      </Text>
+      <Text>
+        Fontes: Natural Earth, Flagpedia, mledoze/countries, Wikidata e Unicode
+        CLDR. Gravações: Wikimedia Commons, com licença individual.
       </Text>
       {children}
     </section>

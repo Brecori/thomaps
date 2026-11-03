@@ -4,6 +4,7 @@ import { Icon } from '@/components/atoms/Icon'
 import { Text } from '@/components/atoms/Text'
 import { AudioControls } from '@/components/molecules/AudioControls'
 import { CountryHeading } from '@/components/molecules/CountryHeading'
+import { MediaCredits } from '@/components/molecules/MediaCredits'
 import type { CountrySummary } from '@/domain/country'
 import type { useAtlasAudio } from '@/hooks/useAtlasAudio'
 
@@ -11,10 +12,12 @@ export function CountryDetails({
   country,
   onClose,
   pronunciation,
+  anthem,
 }: {
   country: CountrySummary
   onClose: () => void
   pronunciation: ReturnType<typeof useAtlasAudio>['pronunciation']
+  anthem: ReturnType<typeof useAtlasAudio>['anthem']
 }) {
   const headingId = useId()
   const noteId = useId()
@@ -68,6 +71,20 @@ export function CountryDetails({
             ? pronunciation.stop()
             : pronunciation.speak(country.namePtBr)
         }
+        anthemAvailable={country.anthem.status === 'available'}
+        anthemActive={anthem.active}
+        anthemStarted={anthem.status !== 'idle'}
+        currentTime={anthem.currentTime}
+        duration={anthem.duration}
+        onAnthemToggle={() => {
+          if (anthem.active) anthem.pause()
+          else if (country.anthem.status === 'available')
+            anthem.play(country.anthem)
+        }}
+        onAnthemRestart={() => {
+          if (country.anthem.status === 'available')
+            anthem.play(country.anthem, true)
+        }}
       />
       <Text
         id={noteId}
@@ -76,8 +93,18 @@ export function CountryDetails({
         aria-live="polite"
         aria-atomic="true"
       >
-        {pronunciation.message || 'O hino chega em uma próxima etapa.'}
+        {[
+          pronunciation.message,
+          country.anthem.status === 'unavailable'
+            ? country.anthem.reason
+            : anthem.message,
+        ]
+          .filter(Boolean)
+          .join(' ')}
       </Text>
+      {country.anthem.status === 'available' && (
+        <MediaCredits media={country.anthem} />
+      )}
       <div className="country-details__footer">
         <Icon name="heart" size={20} />
         <span>O mundo é cheio de descobertas!</span>

@@ -4,15 +4,15 @@ Cartão não modal do país selecionado: lateral de 480 px e altura mínima de 6
 
 ## Contrato
 
-country: CountrySummary (incluindo capitalNote e capitalLabel opcionais); pronunciation: estado/ações do coordenador useAtlasAudio; onClose().
+country: CountrySummary (incluindo anthem, capitalNote e capitalLabel opcionais); pronunciation e anthem: estado/ações do coordenador useAtlasAudio; onClose().
 
 ## Estados
 
-País, capital/capitais, nota opcional e pronúncia ociosa/preparando/falando/erro/indisponível. Hino permanece indisponível até T11.
+País, capital/capitais, nota opcional e pronúncia ociosa/preparando/falando/erro/indisponível. Hino tem preparação, reprodução, pausa, fim, erro, indisponibilidade, progresso e reinício; MediaCredits apresenta autoria/fonte/licença como informação secundária.
 
 ## Responsabilidade e acessibilidade
 
-Foco na região ao abrir/trocar país; preventScroll evita deslocar a página. Página restaura foco ao fechar pelo botão/Escape; fechamento pelo fundo do mapa não força foco à busca. Wrapper do template controla scroll; botão de fechar continua alcançável no mobile. Compõe AudioControls com callbacks e anuncia a pronúncia em role=status/aria-live; não cria motor de síntese ou player. Página/coordenador interrompem a operação ao fechar ou trocar país, inclusive quando WorldMap solicita fechamento por clique no fundo.
+Foco na região ao abrir/trocar país; preventScroll evita deslocar a página. Página restaura foco ao fechar pelo botão/Escape; fechamento pelo fundo do mapa não força foco à busca. Wrapper do template controla scroll; botão de fechar continua alcançável no mobile. Compõe AudioControls com callbacks e anuncia voz/áudio em role=status/aria-live; não cria motor de síntese ou player. Página/coordenador interrompem a operação ao fechar ou trocar país, inclusive quando WorldMap solicita fechamento por clique no fundo.
 
 ## Exemplo
 
@@ -21,6 +21,7 @@ Foco na região ao abrir/trocar país; preventScroll evita deslocar a página. P
   key={country.id}
   country={country}
   pronunciation={audio.pronunciation}
+  anthem={audio.anthem}
   onClose={closeCountry}
 />
 ```

@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { feature } from 'topojson-client'
+import { anthemSchema } from '../anthem'
 
 const position = z.tuple([z.number().finite(), z.number().finite()])
 const geographicPosition = z.tuple([
@@ -25,6 +26,7 @@ const countrySchema = z.object({
   focusPoint: geographicPosition,
   mapFeatureIds: z.array(z.string().min(1)).min(1),
   flagSrc: z.string().regex(/^\/flags\/[a-z]{2}\.svg$/),
+  anthem: anthemSchema,
 })
 const properties = z.object({
   id: z.string(),
