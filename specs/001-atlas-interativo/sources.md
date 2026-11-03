@@ -2,6 +2,8 @@
 
 Revisão: 2026-11-02. Auditoria documental e de dados concluída para a fase 0; disponibilidade de reprodução dos hinos permanece pendente em T11.
 
+Auditoria inicial preservada abaixo; estado atual em [coverage.md](coverage.md) e na atualização T11/T12 ao final.
+
 ## Escopo inicial do catálogo
 
 195 entradas selecionáveis: os 193 registros com `unMember=true` no snapshot de mledoze/countries, mais Palestina (`PSE`) e Vaticano/Santa Sé (`VAT`). Territórios dependentes e outras entidades não entram como seleções na primeira versão. A lista explícita está em [catalog.json](../../data-sources/catalog.json).
@@ -53,3 +55,15 @@ Os 195 SVGs de bandeiras foram preparados localmente para os cartões; origem e 
 Foi corrigida a correspondência da Austrália para AUS. O join inicial também incluía IOA e ATC pelo campo ISO alternativo da fonte; essas geometrias pertencem ao contexto de territórios dependentes e não devem selecionar a Austrália. O manifesto registra o novo hash do catálogo derivado, sem mudar o hash da captura original.
 
 O runtime usa 242 geometrias, sendo 195 selecionáveis e 47 de contexto. TopoJSON mantém os contornos e as ilhas com arcos compartilhados e quantização, sem simplificação que remova pequenos países. Marcadores e a lista nativa da ajuda oferecem alternativa aos polígonos pequenos. Ramallah é apresentada como sede administrativa no cartão de Palestina; notas internas de revisão do fornecedor não são exibidas.
+
+## Atualização T11/T12 — 2026-11-03
+
+195 nomes/capitais revisados, 195 bandeiras verificadas e joins preservados. Nomes pt-BR vêm do Unicode CLDR (locale pt, com aviso Unicode-3.0); os nomes anteriores continuam como aliases. Entidades Wikidata por ISO servem de comparação de capitais, com referências adicionais e notas nos casos especiais. Ver [metadata-review.json](../../data-sources/metadata-review.json).
+
+183 gravações Commons foram obtidas e convertidas para MP3 local. A consulta imageinfo/extmetadata registra fonte, autoria e licença por arquivo; videoinfo fornece o MP3 oficial. Uma limitação de download dos originais foi respeitada; a preparação passou a usar os derivados oficiais menores, sequencialmente. Hash de origem identifica a versão original; hash do download identifica o derivado; hash local identifica o MP3 de 96 kbit/s. Não foi usado espelho de terceiros como autoridade de mídia/licença.
+
+Foram rejeitados arquivos históricos ou de outro país encontrados nos índices de descoberta. O hino atual da Nigéria (retomado em 2024), o da Mauritânia (2017) e o do Níger (2023) seguem as páginas atuais das gravações. Os hinos são instrumentais quando essa versão foi confirmada; algumas fontes são vocais ou recriações digitais, identificadas nos créditos.
+
+A amostra Brasil/Japão/África do Sul/Mônaco/Fiji decodificou e avançou no HTMLAudioElement nativo do Chrome. Todos os 183 arquivos tiveram decodificação integral por FFmpeg, sem erros. Isso não equivale a escuta humana das gravações ou conferência em aparelhos físicos, que continua na T14.
+
+As 12 lacunas, incluindo candidatos fair use ou composição sem liberação mundial confirmada, estão no [relatório por país](coverage.md). Nenhum arquivo restrito foi copiado e nenhuma exceção foi aceita implicitamente. T12 só fecha após resolver as fontes ou registrar a decisão de escopo exigida na especificação.

@@ -1,6 +1,6 @@
 # Plano técnico — Atlas interativo
 
-Status: fases 0 a 3 e T10 da fase 4 implementadas. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). Demais fases permanecem abertas.
+Status: fases 0 a 3 e T10/T11 da fase 4 implementadas. T12 tem catálogo revisado e 183 hinos; 12 exceções aguardam decisão explícita. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). Demais fases permanecem abertas.
 
 ## Arquitetura proposta
 
@@ -44,43 +44,13 @@ Criar diretórios conforme surgirem arquivos reais. A classificação dos compon
 ## Dados e mídias
 
 - Geometrias: snapshot Natural Earth Admin 0 1:50m em data-sources/, com hash e origem registrados. O gerador de T05 produz TopoJSON quantizado a 100.000, com arcos compartilhados e 242 geometrias, sem remoção de ilhas. 195/195 países possuem join; 47 geometrias ficam como contexto. A ilustração estática da fase 1 foi substituída pelo motor interativo.
-- Catálogo: snapshot local de mledoze/countries, sob ODbL-1.0, filtrado a 195 países. Amostra de cinco entradas revisada em português; a revisão editorial completa fica em T12. Fonte, licença e hashes em data-sources/manifest.json e [sources.md](sources.md). A aplicação não consulta uma API externa a cada seleção.
+- Catálogo: snapshot local de mledoze/countries, sob ODbL-1.0, filtrado a 195 países. 195 entradas revisadas em pt-BR com Unicode CLDR, entidades de capital do Wikidata e notas para casos especiais; auditoria em data-sources/metadata-review.json. Fonte, licença e hashes em data-sources/manifest.json e [sources.md](sources.md). A aplicação não consulta uma API externa a cada seleção.
 - Identidade: ID interno estável, códigos ISO quando existentes e tabela explícita de correspondência com IDs das geometrias. Não ligar dados por nome exibido.
-- Bandeiras: Flagpedia/FlagCDN; 195 SVGs locais com integridade e origem em data-sources/phase-2-flags.json. A amostra original de cinco tem revisão editorial em flag-audit.json; revisão editorial completa fica em T12. Não depende de emoji nem de requisição ao CDN durante uso.
-- Hinos: cinco candidatos do Wikimedia Commons com páginas de origem e metadados auditados. Download retornou 403; decodificação, reprodução, revisão de distribuição e cobertura completa permanecem pendentes em T11/T12. Detalhes em data-sources/anthem-audit.json; nenhum candidato foi marcado como disponível no app.
-- Mídias: avaliar hospedagem local versus armazenamento estático conforme tamanho e distribuição; testar reprodução no navegador e CORS quando remoto. Não depender de links temporários.
+- Bandeiras: Flagpedia/FlagCDN; 195 SVGs locais com integridade e origem em data-sources/phase-2-flags.json. As 195 foram conferidas por ISO, hash, decodificação no navegador e revisão visual em folhas de contato; a amostra original permanece em flag-audit.json. Não depende de emoji nem de requisição ao CDN durante uso.
+- Hinos: 183 MP3s locais, com fonte, autoria/licença individual, hashes e duração em data-sources/anthems.json. As 12 lacunas estão explícitas em coverage.md; nenhuma exceção de cobertura é presumida. O antigo anthem-audit.json preserva a auditoria inicial da amostra.
+- Mídias: hospedagem no mesmo domínio em public/audio/anthems, sem CORS/hotlink em runtime. MP3 a 96 kbit/s, estéreo, 44,1 kHz, sem cortes: 177,13 MiB totais, carregados individualmente por ação, fora do futuro precache. Downloads de preparação usam as versões MP3 oficiais do Commons; assets:anthems restaura apenas arquivos auditados, valida hashes e interrompe em erro/limitação.
 
-Contrato conceitual (ainda não implementado):
-
-```ts
-type AssetSource = {
-  sourceUrl: string;
-  attribution: string;
-  license: string;
-};
-
-type Anthem =
-  | { status: 'available'; title: string;
-      sources: Array<{ src: string; mimeType: string }>;
-      provenance: AssetSource }
-  | { status: 'unavailable'; reason: string };
-
-type Country = {
-  id: string;
-  iso2?: string;
-  iso3?: string;
-  namePtBr: string;
-  aliases: string[];
-  capitals: string[];
-  capitalNote?: string;
-  flag: { src: string; alt: string; provenance: AssetSource };
-  mapFeatureIds: string[];
-  focusPoint: [number, number]; // longitude, latitude
-  anthem: Anthem;
-  metadataSourceUrl: string;
-  reviewedAt: string;
-};
-```
+Contrato implementado e validado com Zod em domain/atlas/schema.ts e domain/anthem.ts. Country tem ID/ISO, nome pt-BR, aliases, capitais/nota/rótulo opcional, bandeira, joins, ponto de foco e anthem. Anthem é uma união discriminada: disponível com src MP3 local, título, duração, autoria, página da fonte, licença/link e aviso de conversão; indisponível com motivo. A auditoria completa permanece fora do payload de runtime. loadAtlas prefixa bandeira e MP3 com BASE_URL e importa o validador em paralelo aos dados para dividir o bundle.
 
 Validar tipos e conteúdo dos arquivos, IDs únicos, referências e cobertura. Geometrias decorativas sem entrada selecionável precisam de tratamento explícito. Enquadramento deve lidar com multipolígonos e antimeridiano; não usar apenas a caixa envolvente bruta de coordenadas.
 
@@ -88,21 +58,21 @@ Implementação de T05–T07: schema.ts valida unknown, incluindo TopoJSON, ané
 
 O enquadramento usa a área medida entre busca, controles e painel. Países com ilhas nos dois lados da borda focam a ilha principal, sem mover o meridiano; países com territórios distantes focam a região principal e próxima ao ponto de foco, preservando o destaque de todas as suas geometrias. Pan/zoom alteram somente o grupo SVG, com zoom máximo de 32 e mínimo calculado para preencher toda a viewport, incluindo sob os overlays. Scroll, pinça e botões usam esse mesmo mínimo; o botão de afastar fica desabilitado no limite. O arraste para nas bordas. A visão inicial usa o zoom mínimo; telas estreitas exigem arraste para explorar o restante do mundo. Redimensionar reenquadra a seleção sem transição para evitar usar coordenadas da viewport anterior.
 
-Nomes no mapa: domain/atlas/labels calcula uma área interna no componente principal de cada país, respeitando o recorte da projeção, ilhas e buracos. useMapLabels mede a caixa real do texto após renderização e carregamento das fontes e guarda proporções reutilizáveis. Nomes usam caixa alta, cinza escuro e nenhum contorno; nomes longos usam até duas linhas. Cada evento de zoom atualiza diretamente tamanho/visibilidade no SVG, com fonte aparente de 14–18 px; texto e margem de respiro precisam caber na área interna. Não há medição de layout ou estado React por frame. A camada é decorativa e não intercepta interação. Referência: [streams geográficos do D3](https://d3js.org/d3-geo/stream).
+Nomes no mapa: domain/atlas/labels calcula uma área interna no componente principal de cada país, respeitando o recorte da projeção, ilhas e buracos. useMapLabels mede a caixa real do texto após renderização e carregamento das fontes e guarda proporções reutilizáveis. Nomes usam caixa alta, cinza médio e nenhum contorno; nomes longos usam até duas linhas. Cada evento de zoom atualiza diretamente tamanho/visibilidade no SVG, com fonte aparente de 10–18 px; texto e margem de respiro precisam caber na área interna. Não há medição de layout ou estado React por frame. A camada é decorativa e não intercepta interação. Referência: [streams geográficos do D3](https://d3js.org/d3-geo/stream).
 
 ## Voz e áudio
 
-Reconhecimento: Web Speech API, detecção de `SpeechRecognition`/alternativa prefixada e idioma pt-BR. Iniciar somente por gesto do usuário, encerrar após resultado ou cancelamento e não manter microfone contínuo. Explicar que alguns navegadores processam o áudio por serviço remoto. Texto é o caminho alternativo para incompatibilidade ou erro. Implementado em T09: services/speechRecognition encapsula suporte e erros; useVoiceSearch mantém uma única sessão, ignora callbacks obsoletos, limita a operação a 20 segundos e cancela em pagehide/visibilitychange. Não há reinício automático nem persistência de áudio/transcrições. A exclusão com a pronúncia foi implementada em T10; o player será integrado em T11.
+Reconhecimento: Web Speech API, detecção de `SpeechRecognition`/alternativa prefixada e idioma pt-BR. Iniciar somente por gesto do usuário, encerrar após resultado ou cancelamento e não manter microfone contínuo. Explicar que alguns navegadores processam o áudio por serviço remoto. Texto é o caminho alternativo para incompatibilidade ou erro. Implementado em T09: services/speechRecognition encapsula suporte e erros; useVoiceSearch mantém uma única sessão, ignora callbacks obsoletos, limita a operação a 20 segundos e cancela em pagehide/visibilitychange. Não há reinício automático nem persistência de áudio/transcrições. A exclusão com a pronúncia foi implementada em T10; o player foi integrado em T11.
 
 Implementado em T08: domain/atlas/search normaliza e ordena nome/aliases; useCountrySearch coordena consulta, abertura e índice ativo. CountrySearch compõe SearchField e CountryOption em combobox/listbox, pagina em grupos de três e preserva foco ao chegar à última página. O cartão de boas-vindas e seu slot/estilos/medição foram removidos. Apenas a área livre entre busca, navegação e detalhes é medida.
 
 Referências da implementação: [SpeechRecognition — MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), [erros de reconhecimento — MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognitionErrorEvent/error) e [combobox — W3C APG](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/).
 
-Pronúncia: `speechSynthesis`, seleção de voz pt-BR e tratamento de carregamento assíncrono das vozes. Não prometer voz pt-BR em todo dispositivo; mostrar indisponibilidade se necessário. Se pronúncia universal for exigida, avaliar arquivos gravados ou serviço dedicado em decisão separada. Implementado em T10: services/speechSynthesis verifica suporte, seleciona exclusivamente pt-BR e prioriza localService; usePronunciation observa voiceschanged, reconsulta após 3 segundos de carregamento e controla uma única utterance com referência, cancelamento, eventos de início/fim/erro e limite de 15 segundos. Carregar vozes nunca dispara áudio. useAtlasAudio compõe reconhecimento e pronúncia na página, aplica exclusão em ambos os sentidos e expõe stopAll para seleção, fechamento, ajuda e retorno. O player de T11 se integrará nesse mesmo ponto.
+Pronúncia: `speechSynthesis`, seleção de voz pt-BR e tratamento de carregamento assíncrono das vozes. Não prometer voz pt-BR em todo dispositivo; mostrar indisponibilidade se necessário. Se pronúncia universal for exigida, avaliar arquivos gravados ou serviço dedicado em decisão separada. Implementado em T10: services/speechSynthesis verifica suporte, seleciona exclusivamente pt-BR e prioriza localService; usePronunciation observa voiceschanged, reconsulta após 3 segundos de carregamento e controla uma única utterance com referência, cancelamento, eventos de início/fim/erro e limite de 15 segundos. Carregar vozes nunca dispara áudio. useAtlasAudio compõe reconhecimento e pronúncia na página, aplica exclusão em ambos os sentidos e expõe stopAll para seleção, fechamento, ajuda e retorno. useAnthem integra o player nesse mesmo ponto.
 
 Referências de síntese: [getVoices — MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices), [cancel — MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/cancel) e [erros de síntese — MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisErrorEvent/error).
 
-Hino: um único elemento/controlador de áudio, carregamento sob demanda, tratamento de rejeição de `play()`, erro de rede e formatos incompatíveis. Estados: idle, loading, playing, paused, ended, error e unavailable. Uma solicitação nova invalida eventos pendentes da seleção anterior.
+Hino implementado em T11: um único elemento/controlador de áudio, carregamento sob demanda, tratamento de rejeição de `play()`, erro de rede e formatos incompatíveis. Estados: idle, loading, playing, paused, ended, error e unavailable. Uma solicitação nova invalida eventos pendentes da seleção anterior. O elemento nasce ao tocar; play() é síncrono no gesto com rejeição tratada. Espera limitada a 20 segundos; cancelamento, fim e erro permitem novas ações. Reiniciar volta a zero e toca por gesto. Pagehide/ocultação/desmontagem liberam a fonte, sem retomada automática. ProgressBar é um átomo nativo e MediaCredits uma molécula secundária.
 
 Coordenar reprodução e escuta em um único fluxo: começar hino cancela fala; começar fala pausa hino; começar escuta interrompe ambos. Trocar país, fechar cartão ou desmontar encerra operações em andamento.
 
@@ -169,8 +139,8 @@ Manter uma suíte pequena, proporcional à aplicação:
 | --- | --- | --- |
 | D01 | Definida em T05 | SVG/D3, projeção equiretangular fixa, dados TopoJSON locais e validação Zod; casos BRA/JPN/ZAF/MCO/FJI e territórios distantes verificados. |
 | D02 | Definida para a primeira versão | 195 países no catálogo, territórios extras como contexto cartográfico; fronteiras da fonte e divergências registradas por ID. Ver sources.md. |
-| D03 | Encaminhada; reprodução e cobertura pendentes | Cinco candidatos Commons auditados documentalmente; download 403. Revisar distribuição e testar reprodução em T11, expandir em T12. |
-| D04 | Distribuição das mídias e publicação | Escolher após medir tamanho e reprodução; destino de deploy ainda não definido. |
+| D03 | Formato/fontes definidos em T11; exceções de cobertura pendentes em T12 | MP3 local, proveniência e licença individual preservadas; amostra real reproduzida no Chrome. 183 gravações disponíveis; 12 lacunas aguardam resolução ou decisão explícita. |
+| D04 | Mídias locais definidas; destino de publicação pendente | public/audio no mesmo domínio; 177,13 MiB sob demanda, sem precache. Publicação HTTPS e cache HTTP dependem do destino, na T15; nenhum deploy executado. |
 | D05 | Base visual definida em T04 | Cartão lateral desktop, painel inferior mobile e scroll interno, conferidos nos cinco tamanhos. Teclado real e áreas seguras em aparelhos ficam em T14. |
 | D06 | Tokens definidos em T04; uso infantil pendente | Oceano claro, países em cores pastel por continente, seleção em verde vivo, texto escuro, ações laranja/roxo e ícones Lucide. Contraste medido; descoberta das ações com responsável fica em T14. |
 | D07 | Orçamento PWA e dispositivos de referência | Medir recursos essenciais e fixar orçamento de transferência/cache na T16; registrar Android/iPhone de referência para a T14. |

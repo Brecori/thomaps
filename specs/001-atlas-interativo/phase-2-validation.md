@@ -84,3 +84,9 @@ Lint, build com tipos e formatação passaram. A suíte tem agora dez testes e p
 Ajuste de 2026-11-03: rótulos em caixa alta, cinza escuro (#444444) e sem contorno, inclusive no país selecionado. Removida a atualização de espessura do contorno durante o zoom; preservada margem de respiro na medição. A caixa real considera as letras maiúsculas, mantendo ocultação quando o nome não cabe e fonte aparente de 14–18 px.
 
 Lint, build com tipos e formatação passaram. Conferidos visualmente desktop/mobile emulado e encaixe das caixas na visão inicial, seleção do Brasil e aproximação adicional; país pequeno continuou sem rótulo. Nenhum teste novo foi adicionado para esta mudança de estilo. O servidor temporário foi encerrado.
+
+## Fonte inicial menor e cinza mais claro
+
+A fonte inicial dos nomes foi reduzida de 14 para 10 px e a cor passou para #707070. A aproximação aumenta gradualmente o tamanho até 18 px, preservando caixa alta, ausência de contorno e ocultação quando o texto não cabe. Especificação, plano e contratos atualizados.
+
+Build com tipos e formatação passaram. A conferência temporária em desktop 1440×900 e celular emulado 390×844 encontrou 14 rótulos elegíveis no mapa inteiro no zoom inicial, contra sete na versão anterior, sem ultrapassar as áreas internas. Capturas revisadas e limites de fonte/encaixe conferidos também na seleção do Brasil e no zoom ampliado; servidor temporário encerrado.

@@ -1,6 +1,6 @@
 # Arquitetura de componentes — Atomic Design
 
-Status: Atomic Design mantido até T10. Busca textual, voz e pronúncia implementadas; hinos e PWA seguem previstos. O inventário atual está ao final.
+Status: Atomic Design mantido até T11, incluindo player e créditos. PWA segue previsto. O inventário atual está ao final.
 
 ## Objetivo
 
@@ -83,20 +83,20 @@ T03 estabelece estrutura e regras; T04 define tokens e componentes básicos; T05
 
 Referência da metodologia: [Atomic Design, de Brad Frost](https://atomicdesign.bradfrost.com/chapter-2/). As regras de diretórios, importação e documentação acima são decisões deste projeto.
 
-## Inventário atual — até T10
+## Inventário atual — até T11
 
-- Átomos: Button, Icon, Text, TextInput e FlagImage.
-- Moléculas: Brand, SearchField, ZoomControls, CountryHeading, AudioControls, CountryPicker e CountryOption.
+- Átomos: Button, Icon, Text, TextInput, FlagImage e ProgressBar.
+- Moléculas: Brand, SearchField, ZoomControls, CountryHeading, AudioControls, CountryPicker, CountryOption e MediaCredits.
 - Organismos: WorldMap, MapFeedback, CountryDetails, PreviewHelp e CountrySearch.
 - Template: AtlasTemplate, com slots e regras responsivas.
-- Página: AtlasPage, com carregamento, seleção, comandos de câmera, busca, coordenação de pronúncia/escuta e ajuda.
+- Página: AtlasPage, com carregamento, seleção, comandos de câmera, busca, coordenação de hino/pronúncia/escuta e ajuda.
 
-São 19 componentes, cada um com implementação, exportação pública e README de contrato/estados/acessibilidade/exemplo. domain/atlas contém Zod, tipos e cálculo geográfico sem React/DOM; services/loadAtlas carrega arquivos com AbortSignal; hooks/ adapta carregamento, área livre, gestos e câmera. pwa/ permanece reservado às fases seguintes. Os arquivos de runtime são gerados em public/data/; a ilustração e os dados fixos do Brasil da fase 1 foram removidos.
+São 21 componentes, cada um com implementação, exportação pública e README de contrato/estados/acessibilidade/exemplo. domain/atlas contém Zod, tipos e cálculo geográfico sem React/DOM; services/loadAtlas carrega arquivos com AbortSignal; hooks/ adapta carregamento, área livre, gestos e câmera. pwa/ permanece reservado às fases seguintes. Os arquivos de runtime são gerados em public/data/; a ilustração e os dados fixos do Brasil da fase 1 foram removidos.
 
 ZoomControls funciona por callbacks da página para o controlador único de WorldMap. D3 controla gestos e todas as transformações; GSAP interpola comandos pelo mesmo caminho, sem atualizar coordenadas em estado React por frame. ResizeObserver mede busca, navegação e painel para enquadramento; mudanças de viewport reenquadram sem transição. Tokens de cores, incluindo países, ficam em styles/index.css; map-palette.ts associa cada continente a um token pastel, inclusive nas geometrias de contexto. América do Norte usa pêssego; América do Sul, verde; Europa, lilás; África, amarelo; Ásia, rosa; Oceania, azul; Antártida, cinza claro. País selecionado usa verde vivo com contorno escuro; hover e marcadores comuns usam um tom neutro suave, preservando foco visível por teclado.
 
 CountryPicker continua como select nativo secundário na ajuda. CountrySearch implementa a busca principal com combobox/listbox; SearchField recebe props do input e callbacks, CountryOption recebe país, índice e estado ativo. useCountrySearch coordena consulta/paginação e useVoiceSearch coordena uma única captura, ambos compostos pela página. O domínio normaliza/rankeia os países; services/speechRecognition concentra o acesso à API. O slot de introdução foi removido do template. Os polígonos selecionáveis têm nome, aria-pressed e Enter/espaço. A sequência de Tab inclui o país selecionado (Brasil inicialmente), evitando 195 paradas; os demais são alcançáveis pela lista. Marcadores de países pequenos mantêm tamanho visual durante o zoom. WorldMap também contém uma camada decorativa de nomes: posições/áreas internas calculadas no domínio; useMapLabels mede texto e fontes uma vez e adapta diretamente fonte/visibilidade durante zoom, sem interceptar eventos ou adicionar paradas de Tab.
 
-CountryDetails recebe o país real, capitais múltiplas, nota e rótulo administrativo opcional. A página restaura foco ao fechar pelo botão/Escape; fechamento pelo fundo do mapa não força foco à busca. AudioControls recebe disponibilidade, atividade e callback de pronúncia; alterna Ouvir nome/Parar nome, enquanto o hino permanece disabled. CountryDetails apresenta estados de pronúncia em região de status. useAtlasAudio é o coordenador único de reprodução/escuta na página; usePronunciation controla a utterance e services/speechSynthesis encapsula vozes/erros. Nenhuma captura ou reprodução é criada nos botões; SearchField participa da busca textual/voz real e não cria sessões dentro dos botões. O polimento adicional de movimento continua em T13.
+CountryDetails recebe o país real, capitais múltiplas, nota e rótulo administrativo opcional. A página restaura foco ao fechar pelo botão/Escape; fechamento pelo fundo do mapa não força foco à busca. AudioControls recebe disponibilidade, atividade, progresso e callbacks de voz/hino; alterna Ouvir nome/Parar nome e Ouvir hino/Pausar hino, com ProgressBar e reinício. MediaCredits é uma molécula de detalhes secundários com autoria, fonte, licença e alterações; não exige um organismo separado de créditos. CountryDetails apresenta estados de voz/áudio em região de status. useAnthem mantém um HTMLAudioElement criado sob demanda, com limpeza, eventos protegidos e tratamento de falha. useAtlasAudio é o coordenador único de reprodução/escuta na página; usePronunciation controla a utterance e services/speechSynthesis encapsula vozes/erros. Nenhuma captura ou reprodução é criada nos botões; SearchField participa da busca textual/voz real e não cria sessões dentro dos botões. O polimento adicional de movimento continua em T13.
 
 ESLint verifica direção de importações pelos aliases dos níveis Atomic Design e impede importação de React/componentes em domain/. A revisão da árvore atual confirmou os contratos; a validação completa de CA14 continua em T14.

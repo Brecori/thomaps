@@ -1,6 +1,6 @@
 # Especificação — Atlas interativo
 
-Status: fases 0 a 3 e T10 da fase 4 executadas por solicitação do usuário. Hinos, cobertura editorial final e PWA permanecem nas próximas tarefas. Data: 2026-11-03.
+Status: fases 0 a 3 e T10/T11 executadas. T12 tem 195 países revisados e 183 hinos; 12 lacunas aguardam fonte ou decisão explícita de escopo. PWA e verificações finais continuam nas próximas tarefas. Data: 2026-11-03.
 
 ## Objetivo
 
@@ -40,7 +40,7 @@ Atualizações são oferecidas discretamente ao responsável e aplicadas em mome
 
 Mapa SVG retangular com projeção equiretangular fixa com 195 países selecionáveis; toque/clique destaca e abre o cartão. Scroll, pinça, arraste e botões compartilham a câmera, com máximo de 32 e mínimo responsivo para preencher a tela sem espaço vazio além das bordas. O arraste para nos limites; scroll, pinça e botões respeitam o mesmo zoom mínimo. Arraste e pinça não disparam seleção. Fechar o cartão, clicar no fundo sem país selecionável ou usar “Ver o mundo” limpa a seleção e restaura a visão inicial no zoom mínimo. No celular em pé, a criança arrasta para explorar as regiões fora da tela.
 
-A ajuda oferece escolha por lista nativa para teclado e países pequenos; polígonos também aceitam Enter/espaço. Pequenos países recebem marcadores. Os nomes são centralizados em uma área interna do território principal, em caixa alta, cinza escuro e sem contorno, com até duas linhas. A fonte aparente varia de 14 a 18 px conforme o zoom; o nome só aparece quando o texto e uma margem de respiro cabem dentro do território. Omitir um rótulo não afeta seleção, busca ou cartão. Países com ilhas nos dois lados da borda focam a ilha principal, mantendo o mapa fixo; territórios distantes mantêm destaque, com enquadramento na região principal. A área livre é medida considerando busca, navegação e painel inferior/lateral. Não há alteração de fronteiras para ampliar alvos.
+A ajuda oferece escolha por lista nativa para teclado e países pequenos; polígonos também aceitam Enter/espaço. Pequenos países recebem marcadores. Os nomes são centralizados em uma área interna do território principal, em caixa alta, cinza médio e sem contorno, com até duas linhas. A fonte aparente varia de 10 a 18 px conforme o zoom; o nome só aparece quando o texto e uma margem de respiro cabem dentro do território. Omitir um rótulo não afeta seleção, busca ou cartão. Países com ilhas nos dois lados da borda focam a ilha principal, mantendo o mapa fixo; territórios distantes mantêm destaque, com enquadramento na região principal. A área livre é medida considerando busca, navegação e painel inferior/lateral. Não há alteração de fronteiras para ampliar alvos.
 
 A busca textual normaliza acentos, caixa e pontuação, consulta nome/aliases e ordena correspondências exatas antes de prefixos e trechos. São exibidas até três sugestões com bandeira/nome, botões Anteriores/Próximos, setas/Enter e Escape. A seleção passa pelo mesmo fluxo do mapa e, ao fechar o cartão, devolve foco à busca. Consulta vazia não abre sugestões.
 
