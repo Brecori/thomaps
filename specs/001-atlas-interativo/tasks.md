@@ -1,0 +1,68 @@
+# Tarefas — Atlas interativo
+
+Status: fases 0 e 1 concluídas (T01–T04). As fases seguintes permanecem abertas.
+
+Marcar uma tarefa apenas após verificar sua entrega; registrar evidência no final deste arquivo. As dependências indicam a ordem necessária, não uma obrigação de concluir toda a fase anterior. Os IDs permanecem estáveis: T16/T17 foram acrescentadas para PWA e aparecem na fase correspondente, antes da verificação final.
+
+## Fase 0 — Refinamento e viabilidade
+
+- [x] **T01 — Consolidar especificação.** Revisar requisitos e critérios com o usuário, incluindo experiência para até 5 anos, contrato de Atomic Design, prioridade mobile e limites offline do PWA; registrar ajustes e o status do escopo. Dependências: nenhuma. Entrega: especificação acordada para iniciar a base.
+- [x] **T02 — Definir catálogo e auditar fontes.** Fechar lista de países/territórios, metadados, mapeamento de geometrias e tratamento de fronteiras. Verificar bandeiras e hinos em amostra com Brasil, Japão, África do Sul, um microestado e um país com geometria descontínua/antimeridiano; registrar lacunas e estratégia de cobertura. Dependências: T01. Entrega: manifesto inicial, fontes, amostra verificada e decisões D02/D03 encaminhadas. Requisitos: RF04, RF09, RF12, RNF07.
+
+## Fase 1 — Base e linguagem visual
+
+- [x] **T03 — Inicializar projeto e Atomic Design.** React/Vite/TypeScript, Tailwind pelo plugin Vite, GSAP/@gsap/react, lint, checagem de tipos e lockfile. Confirmar Node compatível. Estabelecer os cinco níveis da interface, módulos de domínio/hooks/serviços e regras de importação conforme components.md. Dependências: T01. Entrega: projeto inicia e gera build, com instruções no README e estrutura de arquitetura pronta para composição. Requisitos: RNF11–RNF12.
+- [x] **T04 — Definir sistema visual infantil e layout mobile-first.** Criar tokens de cores vivas, tipografia, espaços e movimento, átomos e moléculas iniciais com contratos/estados documentados; compor AtlasTemplate e AtlasPage. Priorizar toque/voz, ícones com rótulos curtos, alvos de 56×56 px, separação de 8 px, texto-base de 18 px e contraste de 4,5:1. Posicionar mapa, busca, controles e cartão lateral/painel inferior, considerando viewport dinâmica, áreas seguras, teclado e paisagem. Dependências: T03. Entrega: layout verificado em 360×800, 390×844, paisagem, tablet 768×1024 e desktop 1440×900; componentes básicos documentados e decisões D05/D06 registradas. Requisitos: RF01, RF04, RNF01–RNF03, RNF09–RNF15. Aceite: CA01, CA12–CA14, CA18 (fundação; fluxos completos na T14).
+
+## Fase 2 — Mapa e seleção
+
+- [ ] **T05 — Preparar dados e renderizar atlas.** Validar contrato de países; converter/otimizar geometrias, reconciliar IDs, validar SVG/D3 e projeção com a amostra. Incluir localização/representação de países pequenos e estados de falha/nova tentativa. Dependências: T02, T03. Entrega: mapa renderizado com joins verificáveis e decisão D01 registrada. Requisitos: RF01, RF11, RNF07. Aceite: CA09, CA11.
+- [ ] **T06 — Implementar navegação.** Scroll, arraste, pinça, limites, botões e restaurar visão mundial; distinguir clique de arraste e isolar scroll de overlays. Restringir captura de gestos ao mapa e preservar ampliação acessível da interface. Recalcular área útil após teclado/orientação sem perder a seleção. Dependências: T04, T05. Entrega: controlador único de transformação, utilizável em mouse/toque. Requisitos: RF02, RNF04, RNF14–RNF15. Aceite: CA02, CA18.
+- [ ] **T07 — Seleção e cartão do país.** Compor WorldMap e CountryDetails com átomos/moléculas; conectar clique/toque ao estado único na página, destaque, enquadramento com espaço para cartão e dados da amostra. Fechar/alternar país e gerenciar foco. Usar bandeira grande, hierarquia curta e ações reconhecíveis por ícones. Dependências: T06. Entrega: seleção completa, inclusive casos geográficos difíceis. Requisitos: RF03–RF05, RNF02, RNF09–RNF12. Aceite: CA03, CA08, CA11–CA12.
+
+## Fase 3 — Busca
+
+- [ ] **T08 — Busca textual acessível.** Compor CountrySearch com SearchField/CountryOption; normalização de acentos/caixa, aliases, sugestões com bandeira e nome, sem resultados, teclado e escolha integrada à seleção. Mostrar até três resultados por vez, com acesso claro aos demais e áreas de toque amplas. Dependências: T07. Entrega: busca e clique abrem o mesmo cartão/destaque. Requisitos: RF06, RNF02, RNF09, RNF11–RNF12. Aceite: CA04, CA11, CA13.
+- [ ] **T09 — Busca por voz.** Detecção de suporte, permissão por ação explícita, escuta/cancelamento, transcrição pt-BR, erros e feedback sobre processamento remoto. Dependências: T08. Entrega: transcrição alimenta a busca; alternativa textual permanece disponível. Requisitos: RF07, RNF05–RNF06, RNF08. Aceite: CA05. Integração de exclusão com mídia é concluída em T10/T11.
+
+## Fase 4 — Pronúncia e hinos
+
+- [ ] **T10 — Pronúncia e coordenação de áudio/voz.** Implementar speechSynthesis pt-BR, carregamento de vozes, indisponibilidade, cancelamento e controle exclusivo entre fala/escuta; preparar integração do player. Dependências: T07, T09. Entrega: nome pronunciável sem fila acumulada e sem conflito com microfone. Requisitos: RF08, RF10, RNF08. Aceite: CA06.
+- [ ] **T11 — Player do hino.** Reproduzir/pausar/reiniciar, andamento, carregamento sob demanda, erros, indisponibilidade, créditos e integração com coordenação de áudio. Verificar formatos e hospedagem na amostra antes de ampliar. Dependências: T02, T10. Entrega: hinos reais da amostra reproduzíveis; decisão técnica D03/D04 sobre mídias registrada. Requisitos: RF09–RF10, RF12, RNF04. Aceite: CA07, CA09, CA10.
+- [ ] **T12 — Completar catálogo mundial.** Expandir dados, bandeiras e gravações para a lista fechada na T02; validar cada join, fonte, capital e estado de mídia. Registrar e resolver lacunas; exceções de hino precisam de decisão de escopo explícita. Dependências: T05, T11. Entrega: relatório de cobertura por país; amostra não conta como catálogo concluído. Requisitos: RF04, RF09, RF12, RNF07. Aceite: CA10, CA11.
+
+## Fase 5 — PWA
+
+- [ ] **T16 — Configurar PWA e instalação.** Integrar vite-plugin-pwa, manifest com identidade/escopo, ícones 192/512/maskable e Apple touch icon; criar fluxo secundário de instalação/ajuda para o responsável, com detecção de suporte e modo instalado. Medir recursos essenciais, definir orçamento de transferência/cache e aparelhos de referência (D07). Dependências: T03, T04, T05. Entrega: build com manifest/service worker inspecionáveis, orientação de instalação por plataforma e orçamento registrado. Requisitos: RF13, RNF13, RNF17. Aceite: CA15, CA19 (configuração; instalação real na T14).
+- [ ] **T17 — Implementar offline e atualizações.** Preparar cache versionado do shell, fontes locais, geometrias, catálogo e bandeiras; excluir hinos/transcrições/gravações do precache. Mostrar prontidão apenas após cache completo, tratar falha de espaço/cache removido e funções dependentes de rede. Implementar atualização por escolha, sem recarga automática, coordenada com voz/áudio. Dependências: T05, T11, T12, T16. Entrega: reabertura offline e atualização entre duas versões verificadas no build de produção, dentro do orçamento definido. Requisitos: RF14–RF15, RNF16–RNF17. Aceite: CA16–CA17, CA19.
+
+## Fase 6 — Movimento, verificação e entrega
+
+- [ ] **T13 — Aplicar GSAP e polimento.** Animar cartão, destaque e enquadramento pelo controlador do mapa com transições breves, acionadas pela interação, sem movimento decorativo contínuo. Interromper animações antigas, limpar efeitos e respeitar movimento reduzido. Dependências: T07, T11. Entrega: transições consistentes em seleção rápida e navegação manual. Requisitos: RF05, RNF03, RNF08–RNF09. Aceite: CA08, CA12.
+- [ ] **T14 — Verificar experiência infantil, mobile, PWA e arquitetura.** Cobrir com verificações focadas a busca, integridade do catálogo, casos geográficos e coordenação de mídia. Exercitar fluxo integrado, teclado, leitor de tela, erros e movimento reduzido. Medir toque, espaçamento, tipografia e contraste; revisar com o responsável a descoberta das ações por ícones para até 5 anos. Validar Chrome/Android e Safari/iPhone em aparelhos reais, no navegador e instalados, com teclado, áreas seguras, retrato/paisagem e suspensão/retorno; encerrar escuta/pausar áudio no segundo plano. Verificar instalação por HTTPS, reabertura offline, cache ausente, rede lenta e atualização entre duas versões. Medir transferência/cache e fluidez no celular de referência. Conferir voz real e limitações por plataforma. Revisar Atomic Design, dependências, props, estados e exemplos. Dependências: T08–T13, T16–T17. Entrega: evidência de CA01–CA19, aparelhos/versões/condições, validação efetiva com o responsável e lacunas registradas; emulação não substitui aparelho real.
+- [ ] **T15 — Preparar entrega.** Rodar lint, tipos, verificações e build; servir build e realizar smoke test. Atualizar README com execução, fontes, cobertura, instalação, limites offline e compatibilidade mobile/PWA. Definir destino HTTPS e configuração de cache HTTP para atualização; executar deploy somente quando incluído no escopo pelo usuário. Dependências: T14. Entrega: build reproduzível, relatório final e decisão D04 concluída para o destino definido.
+
+## Marcos
+
+| Marco | Resultado | Tarefas |
+| --- | --- | --- |
+| M0 | Especificação e fontes encaminhadas | T01–T02 |
+| M1 | Atlas navegável com seleção e cartão | T03–T07 |
+| M2 | Busca textual e por voz | T08–T09 |
+| M3 | Pronúncia e hinos na amostra | T10–T11 |
+| M4 | Catálogo mundial reconciliado | T12 |
+| M5 | PWA com instalação, offline e atualizações | T16–T17 |
+| M6 | Experiência verificada, inclusive mobile, e build pronto | T13–T15 |
+
+## Evidências
+
+Revisão: 2026-11-02. Relatório completo em [phase-1-validation.md](phase-1-validation.md).
+
+| Tarefa | Entrega e evidência |
+| --- | --- |
+| T01 | Escopo das fases 0/1 consolidado pelas decisões da conversa e pela solicitação de implementação; spec.md atualizado, requisitos futuros preservados. |
+| T02 | Catálogo explícito de 195 países, 195 joins para Natural Earth, cinco bandeiras locais e cinco candidatos Commons auditados documentalmente. `npm run check:catalog` passou. D02 definido; D03 encaminhado. Download dos hinos retornou 403, com reprodução/distribuição pendentes em T11; ver sources.md. |
+| T03 | React/Vite/TypeScript, Tailwind, GSAP, lint, lockfile e Atomic Design com contratos e regras de importação. Lint, tipos e build passaram. Node mínimo 24 e execução documentada no README. |
+| T04 | Layout infantil, tokens, quinze componentes, AtlasTemplate/AtlasPage e cartão de exemplo. Seis testes passaram nos cinco tamanhos previstos e em cenário de estado/movimento reduzido; capturas revisadas e contraste dos pares principais medido. D05/D06 definidos na base visual. Validação física e uso com responsável continuam em T14. |
+
+Não marcar como concluídas as funcionalidades das fases 2 em diante pela presença de seus controles na prévia. Zoom e áudio estão disabled; busca/microfone informam o escopo atual; não há seleção geográfica nem PWA ativo.
