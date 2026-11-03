@@ -34,8 +34,8 @@ Seleção, hover e foco usam cópias de contorno sem preenchimento, desenhadas d
 
 ## Nomes dos países
 
-A camada de nomes é decorativa (aria-hidden e pointer-events: none), depois dos contornos e antes dos marcadores. Usa o nome em português do catálogo, exibido em caixa alta, cinza escuro e sem contorno, com até duas linhas para nomes longos. Países de contexto não recebem rótulo.
+A camada de nomes é decorativa (aria-hidden e pointer-events: none), depois dos contornos e antes dos marcadores. Usa o nome em português do catálogo, exibido em caixa alta, cinza médio e sem contorno, com até duas linhas para nomes longos. Países de contexto não recebem rótulo.
 
-domain/atlas/labels escolhe uma área interna no território principal, usando a geometria já recortada pela projeção e respeitando buracos/ilhas. useMapLabels mede a caixa real de cada texto após renderizar e após carregar as fontes. Durante zoom, o controlador atualiza somente atributos/estilos SVG: fonte aparente de 14–18 px. A medição considera a caixa alta e uma margem de respiro. Se o texto não couber na área interna, o nome fica oculto, inclusive em países pequenos. Ao ampliar, nomes passam a aparecer conforme o espaço disponível.
+domain/atlas/labels escolhe uma área interna no território principal, usando a geometria já recortada pela projeção e respeitando buracos/ilhas. useMapLabels mede a caixa real de cada texto após renderizar e após carregar as fontes. Durante zoom, o controlador atualiza somente atributos/estilos SVG: fonte aparente de 10–18 px. A medição considera a caixa alta e uma margem de respiro. Se o texto não couber na área interna, o nome fica oculto, inclusive em países pequenos. Ao ampliar, nomes passam a aparecer conforme o espaço disponível.
 
 Não há medição de layout nem atualização React por frame. Nomes não interceptam clique/toque e não repetem o nome acessível já presente no polígono.

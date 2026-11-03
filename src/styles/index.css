@@ -18,7 +18,7 @@
   --color-country-oceania: #a7c4e0;
   --color-country-antarctica: #cdd9d3;
   --color-country-context: #c6d4cc;
-  --color-country-label: #444444;
+  --color-country-label: #707070;
   --color-country-hover: #799392;
   --color-country-marker-hover: #edf3ef;
   --color-country-selected: #39c98b;
@@ -869,7 +869,7 @@ input {
 .country-label {
   visibility: hidden;
   pointer-events: none;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 800;
   text-transform: uppercase;
   fill: var(--color-country-label);

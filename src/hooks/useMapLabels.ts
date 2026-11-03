@@ -18,10 +18,7 @@ export function useMapLabels(
   const scale = useRef({ k: 1, minimum: 1 })
   const update = useCallback((k: number, minimum: number) => {
     scale.current = { k, minimum }
-    const fontSize = Math.min(
-      18,
-      14 + Math.log2(Math.max(1, k / minimum)) * 1.5,
-    )
+    const fontSize = Math.min(18, 10 + Math.log2(Math.max(1, k / minimum)) * 3)
     for (const label of measured.current) {
       // Keep the complete text rectangle and a little spacing inside the country.
       const neededRadius =
