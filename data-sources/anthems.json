@@ -5797,7 +5797,7 @@
     }
   ],
   "coverageDecision": {
-    "status": "pending-user-decision",
+    "status": "accepted-temporary-exceptions",
     "unavailableCountryIds": [
       "AFG",
       "BIH",
@@ -5812,7 +5812,10 @@
       "TGO",
       "WSM"
     ],
-    "note": "T12 requires an explicit scope decision for anthem coverage exceptions. No exception accepted yet."
+    "note": "Usuário aceitou explicitamente a indisponibilidade temporária do hino nos 12 países listados. Mapa, bandeira, capital e pronúncia permanecem disponíveis. T12 concluída com este escopo; novas exceções exigem nova decisão.",
+    "acceptedOn": "2026-11-03",
+    "acceptedBy": "user",
+    "userDecision": "Aceitar essas 12 exceções temporárias"
   },
   "sourceNote": "Individual Wikimedia Commons file metadata reviewed; license labels describe the source declaration, not a blanket license for all anthems. Original imageinfo SHA1 identifies the source version; downloadSha256 is the downloaded official MP3 derivative; sha256 is the local encoded file."
 }

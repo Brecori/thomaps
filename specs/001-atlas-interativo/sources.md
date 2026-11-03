@@ -66,4 +66,4 @@ Foram rejeitados arquivos históricos ou de outro país encontrados nos índices
 
 A amostra Brasil/Japão/África do Sul/Mônaco/Fiji decodificou e avançou no HTMLAudioElement nativo do Chrome. Todos os 183 arquivos tiveram decodificação integral por FFmpeg, sem erros. Isso não equivale a escuta humana das gravações ou conferência em aparelhos físicos, que continua na T14.
 
-As 12 lacunas, incluindo candidatos fair use ou composição sem liberação mundial confirmada, estão no [relatório por país](coverage.md). Nenhum arquivo restrito foi copiado e nenhuma exceção foi aceita implicitamente. T12 só fecha após resolver as fontes ou registrar a decisão de escopo exigida na especificação.
+As 12 lacunas, incluindo candidatos fair use ou composição sem liberação mundial confirmada, estão no [relatório por país](coverage.md). Nenhum arquivo restrito foi copiado. Em 2026-11-03, o usuário aceitou explicitamente a indisponibilidade temporária dos 12 hinos listados no relatório; decisão registrada em coverageDecision de anthems.json. T12 concluída com essas exceções; novas exceções precisam de decisão própria.

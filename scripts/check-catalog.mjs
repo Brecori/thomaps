@@ -6,7 +6,8 @@ const load = async (path) => JSON.parse(await readFile(path, 'utf8'))
 const catalog = await load('data-sources/catalog.json')
 const geometry = await load('data-sources/natural-earth-50m.geojson')
 const manifest = await load('data-sources/manifest.json')
-const anthems = (await load('data-sources/anthems.json')).records
+const anthemAudit = await load('data-sources/anthems.json')
+const anthems = anthemAudit.records
 const editorial = (await load('data-sources/metadata-review.json')).countries
 const flags = await load('data-sources/flag-audit.json')
 const featureIds = new Set(geometry.features.map((feature) => feature.id))
@@ -133,6 +134,19 @@ assert.equal(
   catalog.length,
 )
 assert.equal(editorial.length, catalog.length)
+if (anthemAudit.coverageDecision.status === 'accepted-temporary-exceptions') {
+  assert.ok(anthemAudit.coverageDecision.acceptedOn)
+  assert.equal(anthemAudit.coverageDecision.acceptedBy, 'user')
+  for (const recording of anthems.filter(
+    (item) => item.status === 'unavailable',
+  ))
+    assert.ok(
+      anthemAudit.coverageDecision.unavailableCountryIds.includes(
+        recording.countryId,
+      ),
+      `Exceção não aceita: ${recording.countryId}`,
+    )
+}
 const credits = (await load('public/audio/credits.json')).recordings
 const playable = anthems.filter((item) => item.status === 'available')
 assert.equal(credits.length, playable.length)

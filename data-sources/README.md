@@ -35,4 +35,4 @@ Uma atualização das fontes deve produzir nova captura, comparar o catálogo e 
 
 `npm run assets:anthems` confere/restaura arquivos disponíveis a partir das URLs e hashes auditados (requer FFmpeg com libmp3lame; ambiente usado: FFmpeg 6.1.1-3ubuntu5). Não descobre fontes automaticamente nem muda licenças/estados. Interrompe em falha ou limitação da fonte, sem repetir downloads em lote. Diferença de hash exige revisão antes de atualizar a auditoria. `npm run assets:map` gera o runtime e `npm run report:catalog` gera o relatório por país e os créditos distribuídos.
 
-A licença individual dos áudios não é substituída pela licença dos metadados ou do código. As cópias MP3 CC BY-SA mantêm a licença declarada; fontes/licenças estão no cartão e em public/audio/credits.json. Cobertura atual e decisão pendente: specs/001-atlas-interativo/coverage.md.
+A licença individual dos áudios não é substituída pela licença dos metadados ou do código. As cópias MP3 CC BY-SA mantêm a licença declarada; fontes/licenças estão no cartão e em public/audio/credits.json. Cobertura atual e 12 exceções temporárias aceitas pelo usuário em 2026-11-03: specs/001-atlas-interativo/coverage.md.

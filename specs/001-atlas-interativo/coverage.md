@@ -4,7 +4,7 @@ Revisão: 2026-11-03. Gerado por `npm run report:catalog`.
 
 - 195/195 países com metadados revisados, bandeira local e join de geometria validável.
 - 183/195 hinos locais MP3 com origem, autoria/licença declarada na fonte, hash e duração registrados.
-- 12/195 hinos indisponíveis. A T12 permanece aberta até resolver as lacunas ou registrar uma decisão explícita de escopo.
+- 12/195 hinos indisponíveis. T12 concluída com exceções temporárias aceitas explicitamente pelo usuário em 2026-11-03.
 - Áudio total: 177.13 MiB; menor 329 KiB, maior 3.09 MiB. Nada é baixado antes de tocar.
 
 ## Como foi revisado
@@ -15,9 +15,9 @@ As gravações foram selecionadas pela página individual do Commons, com compar
 
 FFprobe verifica o formato/duração dos arquivos. A reprodução nativa de navegador foi verificada na amostra de T11, e não declarada para cada gravação nem como escuta auditiva das 183. A qualidade auditiva e aparelhos físicos continuam em T14.
 
-## Lacunas e decisão pendente
+## Lacunas e decisão de cobertura
 
-Estado registrado: `pending-user-decision`. Arquivos de uso não livre da Wikipedia e hinos anteriores não foram usados como substitutos. A pesquisa não comprova inexistência de outras gravações licenciadas. As opções são obter uma fonte reutilizável por país ou aceitar temporariamente a indisponibilidade destes países. Nenhuma exceção é presumida.
+Estado registrado: `accepted-temporary-exceptions`. Arquivos de uso não livre da Wikipedia e hinos anteriores não foram usados como substitutos. A pesquisa não comprova inexistência de outras gravações licenciadas. O usuário aceitou explicitamente estes 12 países com hino temporariamente indisponível em 2026-11-03. Mapa, bandeira, capital e pronúncia continuam disponíveis conforme suporte do aparelho. Novas exceções exigem decisão própria; não foi declarada cobertura de 195 hinos.
 
 - **Afeganistão (AFG)**: Sem gravação reutilizável confirmada para o hino atual; excluído o hino da antiga República Islâmica.
 - **Bósnia e Herzegovina (BIH)**: A gravação atual encontrada na Wikipédia usa fair use; não há licença de reuso confirmada para o aplicativo.

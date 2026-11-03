@@ -1,6 +1,6 @@
 # Plano técnico — Atlas interativo
 
-Status: fases 0 a 3 e T10/T11 da fase 4 implementadas. T12 tem catálogo revisado e 183 hinos; 12 exceções aguardam decisão explícita. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). Demais fases permanecem abertas.
+Status: fases 0 a 3 e T10/T11 da fase 4 implementadas. T12 concluída com catálogo revisado, 183 hinos e 12 exceções temporárias aceitas pelo usuário em 2026-11-03. Evidências em [phase-1-validation.md](phase-1-validation.md), [phase-2-validation.md](phase-2-validation.md), [phase-3-validation.md](phase-3-validation.md) e [phase-4-validation.md](phase-4-validation.md). Demais fases permanecem abertas.
 
 ## Arquitetura proposta
 
@@ -47,7 +47,7 @@ Criar diretórios conforme surgirem arquivos reais. A classificação dos compon
 - Catálogo: snapshot local de mledoze/countries, sob ODbL-1.0, filtrado a 195 países. 195 entradas revisadas em pt-BR com Unicode CLDR, entidades de capital do Wikidata e notas para casos especiais; auditoria em data-sources/metadata-review.json. Fonte, licença e hashes em data-sources/manifest.json e [sources.md](sources.md). A aplicação não consulta uma API externa a cada seleção.
 - Identidade: ID interno estável, códigos ISO quando existentes e tabela explícita de correspondência com IDs das geometrias. Não ligar dados por nome exibido.
 - Bandeiras: Flagpedia/FlagCDN; 195 SVGs locais com integridade e origem em data-sources/phase-2-flags.json. As 195 foram conferidas por ISO, hash, decodificação no navegador e revisão visual em folhas de contato; a amostra original permanece em flag-audit.json. Não depende de emoji nem de requisição ao CDN durante uso.
-- Hinos: 183 MP3s locais, com fonte, autoria/licença individual, hashes e duração em data-sources/anthems.json. As 12 lacunas estão explícitas em coverage.md; nenhuma exceção de cobertura é presumida. O antigo anthem-audit.json preserva a auditoria inicial da amostra.
+- Hinos: 183 MP3s locais, com fonte, autoria/licença individual, hashes e duração em data-sources/anthems.json. As 12 exceções temporárias estão explícitas em coverage.md e foram aceitas pelo usuário em 2026-11-03. O antigo anthem-audit.json preserva a auditoria inicial da amostra.
 - Mídias: hospedagem no mesmo domínio em public/audio/anthems, sem CORS/hotlink em runtime. MP3 a 96 kbit/s, estéreo, 44,1 kHz, sem cortes: 177,13 MiB totais, carregados individualmente por ação, fora do futuro precache. Downloads de preparação usam as versões MP3 oficiais do Commons; assets:anthems restaura apenas arquivos auditados, valida hashes e interrompe em erro/limitação.
 
 Contrato implementado e validado com Zod em domain/atlas/schema.ts e domain/anthem.ts. Country tem ID/ISO, nome pt-BR, aliases, capitais/nota/rótulo opcional, bandeira, joins, ponto de foco e anthem. Anthem é uma união discriminada: disponível com src MP3 local, título, duração, autoria, página da fonte, licença/link e aviso de conversão; indisponível com motivo. A auditoria completa permanece fora do payload de runtime. loadAtlas prefixa bandeira e MP3 com BASE_URL e importa o validador em paralelo aos dados para dividir o bundle.
@@ -139,7 +139,7 @@ Manter uma suíte pequena, proporcional à aplicação:
 | --- | --- | --- |
 | D01 | Definida em T05 | SVG/D3, projeção equiretangular fixa, dados TopoJSON locais e validação Zod; casos BRA/JPN/ZAF/MCO/FJI e territórios distantes verificados. |
 | D02 | Definida para a primeira versão | 195 países no catálogo, territórios extras como contexto cartográfico; fronteiras da fonte e divergências registradas por ID. Ver sources.md. |
-| D03 | Formato/fontes definidos em T11; exceções de cobertura pendentes em T12 | MP3 local, proveniência e licença individual preservadas; amostra real reproduzida no Chrome. 183 gravações disponíveis; 12 lacunas aguardam resolução ou decisão explícita. |
+| D03 | Formato/fontes definidos em T11; exceções aceitas em T12 | MP3 local, proveniência e licença individual preservadas; amostra real reproduzida no Chrome. 183 gravações disponíveis; 12 exceções temporárias aceitas explicitamente pelo usuário em 2026-11-03, registradas no relatório e na auditoria. |
 | D04 | Mídias locais definidas; destino de publicação pendente | public/audio no mesmo domínio; 177,13 MiB sob demanda, sem precache. Publicação HTTPS e cache HTTP dependem do destino, na T15; nenhum deploy executado. |
 | D05 | Base visual definida em T04 | Cartão lateral desktop, painel inferior mobile e scroll interno, conferidos nos cinco tamanhos. Teclado real e áreas seguras em aparelhos ficam em T14. |
 | D06 | Tokens definidos em T04; uso infantil pendente | Oceano claro, países em cores pastel por continente, seleção em verde vivo, texto escuro, ações laranja/roxo e ícones Lucide. Contraste medido; descoberta das ações com responsável fica em T14. |

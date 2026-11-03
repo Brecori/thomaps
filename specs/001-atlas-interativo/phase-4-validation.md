@@ -1,6 +1,6 @@
 # Evidências — fase 4, T10/T11
 
-Data: 2026-11-03. A seção inicial preserva a entrega da T10; a atualização T11/T12 está ao final. O player está implementado, com 183 gravações. A T12 aguarda decisão explícita para 12 lacunas ou novas fontes.
+Data: 2026-11-03. A seção inicial preserva a entrega da T10; a atualização T11/T12 está ao final. O player está implementado, com 183 gravações. A T12 está concluída com 12 exceções temporárias aceitas explicitamente pelo usuário em 2026-11-03.
 
 ## Entrega
 
@@ -59,12 +59,12 @@ Os servidores de preview desta conferência foram encerrados. O servidor de dese
 
 Reprodução nativa/decodificação automática não equivale a escuta humana. A qualidade auditiva das gravações e a experiência em aparelhos físicos continuam na T14. Não foram alegados testes nativos de voz onde o navegador não oferece vozes pt-BR. Espera/timeout e incompatibilidade não receberam uma matriz exaustiva de testes.
 
-## Atualização T12 — cobertura e limite pendente
+## Atualização T12 — cobertura e exceções aceitas
 
 195 países com nomes/capitais revisados, aliases anteriores preservados, notas para capitais/sedes especiais e 195 bandeiras locais conferidas. Metadados e fontes em data-sources/metadata-review.json; auditoria individual e hashes de mídia em data-sources/anthems.json. O manifesto contém hashes dos snapshots/auditorias e dos arquivos gerados.
 
 183 hinos disponíveis, totalizando 177,13 MiB no repositório; cada arquivo só é transferido ao tocar. As outras 12 entradas mantêm todas as funções de país e explicam a indisponibilidade do hino. Fontes históricas, associações erradas e arquivos fair use/domínio público apenas nos EUA não foram usados para preencher lacunas.
 
-O [relatório de cobertura](coverage.md) lista cada país, capital, fonte, bandeira, geometria e estado/licença do hino. A especificação exige decisão explícita para exceções de cobertura; nenhuma exceção foi presumida. T12 permanece aberta até a decisão ou obtenção das gravações faltantes. PWA, polimento final, teste físico e publicação continuam fora desta entrega.
+O [relatório de cobertura](coverage.md) lista cada país, capital, fonte, bandeira, geometria e estado/licença do hino. A especificação exige decisão explícita para exceções de cobertura. Em 2026-11-03, o usuário respondeu “Aceitar essas 12 exceções temporárias” para a lista exata de países do relatório. A decisão está registrada em coverageDecision de data-sources/anthems.json; T12 foi concluída com 183 gravações e essas 12 exceções, sem alterar o estado real das mídias. PWA, polimento final, teste físico e publicação continuam fora desta entrega.
 
 Referências desta implementação: [HTMLMediaElement.play() — MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play), [Imageinfo — MediaWiki](https://www.mediawiki.org/wiki/API:Imageinfo), [TimedMediaHandler — MediaWiki](https://www.mediawiki.org/wiki/Extension:TimedMediaHandler) e páginas individuais ligadas no relatório de cobertura.

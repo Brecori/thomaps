@@ -1,6 +1,6 @@
 # Especificação — Atlas interativo
 
-Status: fases 0 a 3 e T10/T11 executadas. T12 tem 195 países revisados e 183 hinos; 12 lacunas aguardam fonte ou decisão explícita de escopo. PWA e verificações finais continuam nas próximas tarefas. Data: 2026-11-03.
+Status: fases 0 a 3 e T10/T11 executadas. T12 tem 195 países revisados e 183 hinos; 12 exceções temporárias foram aceitas explicitamente pelo usuário em 2026-11-03. PWA e verificações finais continuam nas próximas tarefas. Data: 2026-11-03.
 
 ## Objetivo
 
@@ -134,3 +134,7 @@ O catálogo inicial foi fechado na T02 em 195 países: 193 membros da ONU mais P
 Um protótipo pode validar o fluxo com uma amostra de países, mas não representa a entrega do catálogo mundial. A entrega exige reconciliar cada entrada do catálogo com nome, capital, bandeira, localização/geometria e estado do hino. Ausência de mídia deve ficar explícita; aceitar exceções de cobertura exige decisão registrada, sem substituir silenciosamente o requisito de hino reproduzível.
 
 Ficam fora da primeira versão: login, favoritos, quizzes, rotas entre países, páginas individuais e globo 3D. Backend e serviço próprio de reconhecimento só entram se uma necessidade confirmada exigir.
+
+## Decisão de cobertura T12 — 2026-11-03
+
+O usuário aceitou explicitamente a indisponibilidade temporária do hino em AFG, BIH, BTN, CMR, COD, GNB, MKD, MNG, PRK, SLB, TGO e WSM. A entrega acordada inclui 195 países com mapa, bandeira, capital e pronúncia conforme suporte do aparelho; 183 têm hino local e os 12 listados mostram indisponibilidade. T12 concluída nesse escopo. A aceitação não se estende a novos países sem hino e não autoriza usar gravações sem licença confirmada.
