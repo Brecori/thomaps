@@ -51,6 +51,30 @@ for (const source of manifest.sources) {
     source.sha256Output,
   )
 }
+const liveCountries = await load('public/data/countries.json')
+const liveManifest = await load('public/data/manifest.json')
+const localFlags = (await load('data-sources/phase-2-flags.json')).flags
+assert.equal(localFlags.length, catalog.length)
+assert.equal(
+  new Set(localFlags.map((flag) => flag.countryId)).size,
+  catalog.length,
+)
+assert.equal(liveCountries.length, catalog.length)
+for (const country of catalog) {
+  const live = liveCountries.find((item) => item.id === country.id)
+  assert.ok(live, country.id)
+  assert.deepEqual(live.mapFeatureIds, country.mapFeatureIds)
+  const flag = localFlags.find((item) => item.countryId === country.id)
+  assert.ok(flag, country.id)
+  assert.equal(live.flagSrc, `/flags/${country.iso2.toLowerCase()}.svg`)
+  const bytes = await readFile(flag.path)
+  assert.ok(bytes.toString().includes('<svg'))
+  assert.equal(createHash('sha256').update(bytes).digest('hex'), flag.sha256)
+}
+for (const asset of liveManifest.assets) {
+  const bytes = await readFile(`public/data/${asset.name}`)
+  assert.equal(createHash('sha256').update(bytes).digest('hex'), asset.sha256)
+}
 console.log(
-  `Catálogo íntegro: ${catalog.length} países, ${featureIds.size} geometrias, cinco bandeiras e cinco candidatos a hino. Reprodução ainda pendente.`,
+  `Catálogo íntegro: ${catalog.length} países, ${featureIds.size} geometrias, ${localFlags.length} bandeiras locais e cinco candidatos a hino. Reprodução ainda pendente.`,
 )

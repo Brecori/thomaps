@@ -7,6 +7,11 @@ Data de revisão: 2026-11-02. Estes arquivos são insumos de auditoria, não o c
 - `manifest.json`: origem, licença declarada, data e SHA-256 do original e do snapshot transformado. A data representa a captura, não a data de atualização de cada informação no fornecedor.
 - `flag-audit.json`: origem, licença declarada, tamanho e hash das cinco bandeiras baixadas em `public/flags/`.
 - `anthem-audit.json`: cinco gravações candidatas, descrição da fonte, formato/tamanho/duração informados nas páginas e resultado da tentativa de download. HTTP 403 impediu inspecionar os binários; não se trata de verificação de reprodução.
+- `phase-2-flags.json`: origem, integridade e estado de revisão editorial das 195 bandeiras locais preparadas para os cartões em T07. As demais 190 ainda aguardam revisão editorial em T12.
+
+Na fase 2, o join da Austrália foi corrigido para apenas AUS: IOA e ATC são geometrias de territórios dependentes que permanecem como contexto, conforme o escopo inicial. O hash do catálogo derivado foi atualizado intencionalmente; o hash do arquivo original do fornecedor foi preservado.
+
+`npm run assets:map` deriva os arquivos de runtime em public/data/ com TopoJSON quantizado, mantendo todas as 242 geometrias. O contrato de runtime valida os 195 países e seus joins antes de desenhar. Para Palestina, o cartão rotula Ramallah como sede administrativa, sem expor notas internas de revisão editorial como texto do produto.
 
 ## Licenças e atribuição
 
@@ -18,6 +23,6 @@ Hinos: os metadados registram a marcação exibida no Commons, não uma conclus�
 
 ## Verificação e atualização
 
-`npm run check:catalog` confere contagem, IDs, joins, coordenadas, estados de auditoria e hashes dos snapshots e bandeiras. Não faz chamadas externas nem substitui revisão geográfica/editorial.
+`npm run check:catalog` confere contagem, IDs, joins, coordenadas, estados de auditoria, hashes dos snapshots, dos arquivos gerados e das 195 bandeiras. Não faz chamadas externas nem substitui revisão geográfica/editorial.
 
 Uma atualização das fontes deve produzir nova captura, comparar o catálogo e as correspondências, registrar alterações editoriais e atualizar os hashes do manifesto intencionalmente. Não substituir os snapshots silenciosamente por uma consulta em tempo de execução.

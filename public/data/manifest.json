@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "sources": [
+    "https://github.com/nvkelso/natural-earth-vector",
+    "https://github.com/mledoze/countries"
+  ],
+  "attribution": "Made with Natural Earth. Country metadata derived from mledoze/countries (ODbL-1.0).",
+  "metadataLicense": "/licenses/countries-ODbL-1.0.txt",
+  "quantization": 100000,
+  "assets": [
+    {
+      "name": "countries.json",
+      "bytes": 50322,
+      "sha256": "6464372b81d033764be915c215122fd5b6ce1c28ba6dec059bef11481252e79f"
+    },
+    {
+      "name": "world.topo.json",
+      "bytes": 755610,
+      "sha256": "cb02094fa529a6adf45dfc89149521eecda51b798f15939367d54094f2ec42a8"
+    }
+  ]
+}

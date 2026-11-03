@@ -230,9 +230,7 @@
       -27
     ],
     "mapFeatureIds": [
-      "AUS",
-      "IOA",
-      "ATC"
+      "AUS"
     ],
     "flagSourceUrl": "https://flagcdn.com/au.svg",
     "anthemAuditStatus": "pending",
