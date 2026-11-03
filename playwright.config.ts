@@ -15,6 +15,7 @@ export default defineConfig({
     launchOptions: { executablePath },
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
+    serviceWorkers: 'block',
   },
   webServer: {
     command: 'npm run preview -- --port 4173 --strictPort',
