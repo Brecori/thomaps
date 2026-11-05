@@ -17,6 +17,7 @@ import { useCountryHighlight } from '@/hooks/useCountryHighlight'
 type WorldMapProps = {
   data: AtlasData
   selectedId: string | null
+  preserveView?: boolean
   layout: AtlasLayout
   request: NavigationRequest
   onSelect: (id: string, origin: SVGElement) => void
@@ -27,6 +28,7 @@ type WorldMapProps = {
 export function WorldMap({
   data,
   selectedId,
+  preserveView = false,
   layout,
   request,
   onSelect,
@@ -107,6 +109,7 @@ export function WorldMap({
     target,
     worldBounds,
     request,
+    preserveView,
     onStatus,
     onZoom: updateLabels,
   })

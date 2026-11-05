@@ -15,7 +15,7 @@ export type ViewTransform = { x: number; y: number; k: number }
 export const MIN_ZOOM = 1
 export const MAX_ZOOM = 32
 
-/** The map must cover the viewport, including on a portrait screen. */
+/** The map must cover the full viewport, including under overlays. */
 export function minimumZoom(
   bounds: [[number, number], [number, number]],
   viewport: Frame,
@@ -83,11 +83,12 @@ export function fitBounds(
   bounds: [[number, number], [number, number]],
   frame: Frame,
   maximumZoom = MAX_ZOOM,
+  minimumScale = MIN_ZOOM,
 ): ViewTransform {
   const dx = Math.max(1, bounds[1][0] - bounds[0][0])
   const dy = Math.max(1, bounds[1][1] - bounds[0][1])
   const k = Math.max(
-    MIN_ZOOM,
+    minimumScale,
     Math.min(maximumZoom, Math.min(frame.width / dx, frame.height / dy) * 0.78),
   )
   return {
@@ -105,16 +106,67 @@ export function targetView(
   viewport: Frame,
 ) {
   const path = geoPath(projection)
+  const worldBounds = path.bounds({ type: 'Sphere' })
+  const minimum = minimumZoom(worldBounds, viewport)
   if (!country) {
-    const bounds = path.bounds({ type: 'Sphere' })
-    const k = minimumZoom(bounds, viewport)
     return {
-      k,
-      x: viewport.width / 2 - ((bounds[0][0] + bounds[1][0]) / 2) * k,
-      y: viewport.height / 2 - ((bounds[0][1] + bounds[1][1]) / 2) * k,
+      k: minimum,
+      x:
+        viewport.width / 2 -
+        ((worldBounds[0][0] + worldBounds[1][0]) / 2) * minimum,
+      y:
+        viewport.height / 2 -
+        ((worldBounds[0][1] + worldBounds[1][1]) / 2) * minimum,
     }
   }
-  return fitBounds(path.bounds(focusGeometry(country, features)), frame)
+  const bounds = path.bounds(focusGeometry(country, features))
+  const required = (space: number, distance: number) =>
+    Math.max(0, space) / Math.max(0.000001, distance)
+  // Find the zoom needed to fit a region without moving any map edge inside
+  // the viewport. Raising zoom, rather than relaxing pan, clears the overlays.
+  const requiredZoom = (
+    region: [[number, number], [number, number]],
+    area = frame,
+  ) =>
+    Math.max(
+      minimum,
+      required(area.x - viewport.x, region[0][0] - worldBounds[0][0]),
+      required(
+        viewport.x + viewport.width - area.x - area.width,
+        worldBounds[1][0] - region[1][0],
+      ),
+      required(area.y - viewport.y, region[0][1] - worldBounds[0][1]),
+      required(
+        viewport.y + viewport.height - area.y - area.height,
+        worldBounds[1][1] - region[1][1],
+      ),
+    )
+  const fittingMinimum = requiredZoom(bounds)
+  const fittingMaximum = Math.min(
+    MAX_ZOOM,
+    frame.width / Math.max(1, bounds[1][0] - bounds[0][0]),
+    frame.height / Math.max(1, bounds[1][1] - bounds[0][1]),
+  )
+  const center: [number, number] = [
+    (bounds[0][0] + bounds[1][0]) / 2,
+    (bounds[0][1] + bounds[1][1]) / 2,
+  ]
+  // A large country may not fit at the viewport's minimum zoom. In that case,
+  // prioritize its center while keeping the original map and zoom limits.
+  const focusMinimum =
+    fittingMinimum <= fittingMaximum
+      ? fittingMinimum
+      : requiredZoom([center, center], {
+          x: frame.x + frame.width / 2,
+          y: frame.y + frame.height / 2,
+          width: 0,
+          height: 0,
+        })
+  return constrainView(
+    fitBounds(bounds, frame, MAX_ZOOM, Math.min(MAX_ZOOM, focusMinimum)),
+    worldBounds,
+    viewport,
+  )
 }
 
 /** Stop zoom and pan at the viewport edges without exposing empty space. */

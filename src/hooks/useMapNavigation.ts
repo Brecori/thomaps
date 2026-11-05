@@ -25,6 +25,7 @@ type NavigationOptions = {
   target: ViewTransform
   worldBounds: [[number, number], [number, number]]
   request: NavigationRequest
+  preserveView?: boolean
   onStatus: (status: NavigationStatus) => void
   onZoom: (k: number, minimum: number) => void
 }
@@ -199,6 +200,11 @@ export function useMapNavigation(
       previousSize.current = { width: current.width, height: current.height }
       const newCommand = generation.current !== current.request.id
       generation.current = current.request.id
+      // Closing mobile overlays must not replay the world or country target.
+      if (!newCommand && !resized && current.preserveView) {
+        manualView.current = true
+        return
+      }
       if (newCommand || resized) manualView.current = false
       else if (manualView.current) return
       let destination = current.target

@@ -18,7 +18,7 @@
   --color-country-oceania: #a7c4e0;
   --color-country-antarctica: #cdd9d3;
   --color-country-context: #c6d4cc;
-  --color-country-label: #707070;
+  --color-country-label: #444444;
   --color-country-hover: #799392;
   --color-country-marker-hover: #edf3ef;
   --color-country-selected: #39c98b;
@@ -869,6 +869,7 @@ input {
   stroke: var(--color-country-hover);
   stroke-width: 2px;
   cursor: pointer;
+  outline: none;
 }
 .country-label {
   visibility: hidden;
@@ -883,6 +884,10 @@ input {
   fill: var(--color-country-selected);
   stroke: var(--color-country-outline);
   stroke-width: 3px;
+}
+.country-marker:focus-visible {
+  stroke: var(--color-focus);
+  stroke-width: 4px;
 }
 @media (hover: hover) {
   .country-marker:not(.is-selected):hover {

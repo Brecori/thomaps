@@ -1,6 +1,6 @@
 # WorldMap
 
-Mapa SVG retangular com projeção equiretangular fixa e geometrias validadas. O zoom mínimo acompanha a viewport e impede espaço vazio fora das bordas. O arraste para nos limites da tela; a área livre entre overlays é usada para focar países.
+Mapa SVG retangular com projeção equiretangular fixa e geometrias validadas. Zoom mínimo e arraste respeitam sempre a viewport inteira, com ou sem seleção. A área livre entre controles e cartão orienta o enquadramento: a câmera aproxima o país o necessário para respeitar as bordas do mundo. A escala final é calculada antes da centralização. Se todo o território não cabe no mínimo permitido, o foco prioriza o centro da região principal, mantendo o limite máximo de 32. Nenhum enquadramento libera espaço vazio além das bordas do mapa.
 
 ## Contrato
 
@@ -9,6 +9,8 @@ data: AtlasData; selectedId; layout; request: NavigationRequest; onSelect(id, or
 ## Estados
 
 Normal, hover, seleção, arraste e zoom. Países usam uma cor pastel mais definida por continente; a seleção recebe verde vivo e contorno escuro. Hover e marcadores não selecionados usam um tom neutro suave; o foco por teclado permanece visível. Geometrias de contexto não são controles. Marcadores mantêm raio visual ao ampliar.
+
+O foco dos marcadores usa stroke de 4 px com `vector-effect="non-scaling-stroke"`, sem o outline genérico da interface. Outline em SVG é ampliado pelo transform do mapa e pode virar um contorno gigante ao devolver foco ao marcador depois de fechar o país. O marcador mantém raio visual de 7 px, inclusive no zoom máximo e após a desseleção.
 
 ## Responsabilidade e acessibilidade
 
@@ -36,7 +38,7 @@ Seleção, hover e foco usam cópias de contorno sem preenchimento, desenhadas d
 
 ## Nomes dos países
 
-A camada de nomes é decorativa (aria-hidden e pointer-events: none), depois dos contornos e antes dos marcadores. Usa o nome em português do catálogo, exibido em caixa alta, cinza médio e sem contorno, com até duas linhas para nomes longos. Países de contexto não recebem rótulo.
+A camada de nomes é decorativa (aria-hidden e pointer-events: none), depois dos contornos e antes dos marcadores. Usa o nome em português do catálogo, exibido em caixa alta, cinza #444444 e sem contorno (contraste mínimo medido de 4,59:1 sobre a seleção), com até duas linhas para nomes longos. Países de contexto não recebem rótulo.
 
 domain/atlas/labels escolhe uma área interna no território principal, usando a geometria já recortada pela projeção e respeitando buracos/ilhas. useMapLabels mede a caixa real de cada texto após renderizar e após carregar as fontes. Durante zoom, o controlador atualiza somente atributos/estilos SVG: fonte aparente de 10–18 px. A medição considera a caixa alta e uma margem de respiro. Se o texto não couber na área interna, o nome fica oculto, inclusive em países pequenos. Ao ampliar, nomes passam a aparecer conforme o espaço disponível.
 
@@ -47,3 +49,5 @@ Não há medição de layout nem atualização React por frame. Nomes não inter
 useMapNavigation usa `useGSAP` para interpolar comandos em 440 ms, sempre aplicando coordenadas por `behavior.transform` do D3. A interpolação é excluída do revert automático com `context.ignore` e encerrada explicitamente no cleanup do hook: reverter o objeto de coordenadas não deve mover o mapa para uma posição antiga. Novos comandos partem da posição atual; arraste/pinça/scroll interrompem o tween.
 
 Depois de um gesto, alterações no tamanho do player/mensagem não recuperam um enquadramento antigo. Um novo comando ou mudança da viewport pode reenquadrar. Resize aplica o destino sem transição; ativar movimento reduzido conclui apenas um tween ainda ativo. A desmontagem remove listeners D3 e cancela efeitos.
+
+No mobile, desselecionar pelo cartão, pelo oceano ou por Escape preserva o zoom e a posição atuais, inclusive durante a saída do cartão. `preserveView` impede reenquadramentos causados pelos overlays; comandos explícitos de zoom, seleção de país e “Ver o mundo” continuam movendo a câmera.
