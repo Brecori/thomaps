@@ -38,6 +38,11 @@ test('política HTTP bloqueia script inline e conexão externa sem impedir o atl
 }) => {
   const errors: string[] = []
   page.on('pageerror', (error) => errors.push(error.message))
+  await page.addInitScript(() => {
+    document.addEventListener('securitypolicyviolation', (event) => {
+      document.documentElement.dataset.unexpectedCsp = event.effectiveDirective
+    })
+  })
   const response = await page.goto('/')
   const headers = response!.headers()
   expect(headers['x-content-type-options']).toBe('nosniff')
@@ -51,6 +56,10 @@ test('política HTTP bloqueia script inline e conexão externa sem impedir o atl
   await expect(
     page.getByRole('button', { name: 'Ouvir hino', exact: true }),
   ).toBeEnabled()
+
+  expect(
+    await page.locator('html').getAttribute('data-unexpected-csp'),
+  ).toBeNull()
 
   const result = await page.evaluate(async () => {
     const violations: string[] = []

@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from '../validation'
 import { feature } from 'topojson-client'
 import { anthemSchema } from '../anthem'
 

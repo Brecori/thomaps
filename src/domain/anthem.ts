@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from './validation'
 
 export const anthemSchema = z.discriminatedUnion('status', [
   z.object({
