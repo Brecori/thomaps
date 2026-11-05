@@ -9,7 +9,7 @@ export const anthemSchema = z.discriminatedUnion('status', [
     attribution: z.string().min(1),
     sourcePage: z.url().startsWith('https://commons.wikimedia.org/'),
     license: z.string().min(1),
-    licenseUrl: z.url(),
+    licenseUrl: z.url({ protocol: /^https$/ }),
     notice: z.string().min(1),
   }),
   z.object({

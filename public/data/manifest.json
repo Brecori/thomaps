@@ -15,8 +15,8 @@
   "assets": [
     {
       "name": "countries.json",
-      "bytes": 135676,
-      "sha256": "0786eb35aaabc0d43303a9736962b05fb70206281356639b5a3ff96920151d7e"
+      "bytes": 135678,
+      "sha256": "373aa15fbc2913d9dd706a08217b683f5af8f55dc45dd0f728c687174714a89e"
     },
     {
       "name": "world.topo.json",
