@@ -1,5 +1,6 @@
 import { useId, type RefObject } from 'react'
 import { Button } from '@/components/atoms/Button'
+import { Icon } from '@/components/atoms/Icon'
 import { CountryOption } from '@/components/molecules/CountryOption'
 import { SearchField } from '@/components/molecules/SearchField'
 import type { Country } from '@/domain/atlas/schema'
@@ -15,6 +16,7 @@ type CountrySearchProps = {
   inputRef: RefObject<HTMLInputElement | null>
   disabled: boolean
   onSelect: (id: string, origin: HTMLInputElement | null) => void
+  onClose?: () => void
 }
 
 export function CountrySearch({
@@ -23,6 +25,7 @@ export function CountrySearch({
   inputRef,
   disabled,
   onSelect,
+  onClose,
 }: CountrySearchProps) {
   const id = useId()
   const listId = `${id}-results`
@@ -58,54 +61,62 @@ export function CountrySearch({
           search.setOpen(false)
       }}
     >
-      <SearchField
-        inputRef={inputRef}
-        disabled={disabled}
-        inputProps={{
-          id: `${id}-input`,
-          role: 'combobox',
-          value: search.query,
-          'aria-autocomplete': 'list',
-          'aria-expanded': showResults && search.results.length > 0,
-          'aria-controls':
-            showResults && search.results.length ? listId : undefined,
-          'aria-activedescendant':
-            showResults && active ? optionId(active) : undefined,
-          'aria-describedby': showPanel ? feedbackId : undefined,
-          onChange: (event) => {
-            voice.cancel()
-            search.setQuery(event.target.value)
-          },
-          onFocus: () => {
-            if (!search.open) search.setOpen(true)
-          },
-          onKeyDown: (event) => {
-            if (event.nativeEvent.isComposing) return
-            if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
-              event.preventDefault()
-              search.move(event.key === 'ArrowDown' ? 1 : -1)
-            } else if (
-              event.key === 'Escape' &&
-              (search.open || voice.active || voice.message)
-            ) {
-              event.preventDefault()
-              event.stopPropagation()
+      <div className="country-search__bar">
+        <SearchField
+          inputRef={inputRef}
+          disabled={disabled}
+          inputProps={{
+            id: `${id}-input`,
+            role: 'combobox',
+            value: search.query,
+            'aria-autocomplete': 'list',
+            'aria-expanded': showResults && search.results.length > 0,
+            'aria-controls':
+              showResults && search.results.length ? listId : undefined,
+            'aria-activedescendant':
+              showResults && active ? optionId(active) : undefined,
+            'aria-describedby': showPanel ? feedbackId : undefined,
+            onChange: (event) => {
               voice.cancel()
+              search.setQuery(event.target.value)
+            },
+            onFocus: () => {
+              if (!search.open) search.setOpen(true)
+            },
+            onKeyDown: (event) => {
+              if (event.nativeEvent.isComposing) return
+              if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+                event.preventDefault()
+                search.move(event.key === 'ArrowDown' ? 1 : -1)
+              } else if (
+                event.key === 'Escape' &&
+                (search.open || voice.active || voice.message)
+              ) {
+                event.preventDefault()
+                event.stopPropagation()
+                voice.cancel()
+                search.setOpen(false)
+                onClose?.()
+              }
+            },
+          }}
+          voiceActive={voice.active}
+          voiceUnavailable={voice.status === 'unavailable'}
+          onVoiceToggle={() => {
+            if (voice.active) voice.cancel('Busca por voz cancelada.')
+            else {
               search.setOpen(false)
+              voice.start()
             }
-          },
-        }}
-        voiceActive={voice.active}
-        voiceUnavailable={voice.status === 'unavailable'}
-        onVoiceToggle={() => {
-          if (voice.active) voice.cancel('Busca por voz cancelada.')
-          else {
-            search.setOpen(false)
-            voice.start()
-          }
-        }}
-        onSubmit={submit}
-      />
+          }}
+          onSubmit={submit}
+        />
+        {onClose && (
+          <Button onClick={onClose} aria-label="Fechar pesquisa">
+            <Icon name="close" />
+          </Button>
+        )}
+      </div>
       <p
         className="sr-only"
         role="status"

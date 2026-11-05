@@ -17,21 +17,31 @@ export function useAtlasLayout(
   useEffect(() => {
     const root = rootRef.current
     if (!root) return
+    const map = root.querySelector<HTMLElement>('.atlas-shell__map')
     const measure = () => {
       const rootBox = root.getBoundingClientRect()
-      const width = rootBox.width,
-        height = rootBox.height
-      const box = (name: string) =>
-        root
+      const mapBox = map?.getBoundingClientRect() ?? rootBox
+      const width = mapBox.width,
+        height = mapBox.height
+      const box = (name: string) => {
+        const measured = root
           .querySelector<HTMLElement>(`.atlas-shell__${name}`)
           ?.getBoundingClientRect()
-      const search = box('search'),
+        return measured?.width && measured.height ? measured : undefined
+      }
+      const actions = box('actions'),
+        search = actions ? undefined : box('search'),
         details = detailsOpen ? box('details') : undefined
-      const navigation = box('navigation')
+      root.style.setProperty('--details-height', `${details?.height ?? 0}px`)
+      const navigation = box('navigation'),
+        brand = box('brand')
       const left = Math.max(16, window.visualViewport?.offsetLeft ?? 0)
-      const top = Math.max(24, (search?.bottom ?? 100) - rootBox.top + 16)
-      let bottom = height - 40,
-        right = width - 16
+      const top = Math.max(
+        24,
+        (search?.bottom ?? brand?.bottom ?? rootBox.top) - rootBox.top + 16,
+      )
+      let bottom = Math.min(height, rootBox.height) - 40,
+        right = Math.min(width, rootBox.width) - 16
       if (details) {
         if (details.width >= width * 0.7)
           bottom = Math.min(bottom, details.top - rootBox.top - 16)
@@ -59,7 +69,14 @@ export function useAtlasLayout(
     }
     const observer = new ResizeObserver(measure)
     observer.observe(root)
-    for (const name of ['search', 'details', 'navigation']) {
+    if (map) observer.observe(map)
+    for (const name of [
+      'search',
+      'details',
+      'navigation',
+      'brand',
+      'actions',
+    ]) {
       const element = root.querySelector(`.atlas-shell__${name}`)
       if (element) observer.observe(element)
     }

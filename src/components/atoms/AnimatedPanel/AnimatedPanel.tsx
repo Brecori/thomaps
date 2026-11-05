@@ -10,6 +10,7 @@ type AnimatedPanelProps = HTMLAttributes<HTMLDivElement> & {
 export function AnimatedPanel({
   children,
   contentKey,
+  inert,
   ...props
 }: AnimatedPanelProps) {
   const present = children != null
@@ -82,7 +83,7 @@ export function AnimatedPanel({
   return hasContent ? (
     <div
       {...props}
-      inert={!present}
+      inert={inert || !present}
       aria-hidden={!present || undefined}
       data-exiting={!present || undefined}
     >

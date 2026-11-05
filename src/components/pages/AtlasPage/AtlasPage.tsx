@@ -17,6 +17,9 @@ import { useCountrySearch } from '@/hooks/useCountrySearch'
 import { useAtlasAudio } from '@/hooks/useAtlasAudio'
 import { usePwa } from '@/hooks/usePwa'
 import { AppOptions } from '@/components/organisms/AppOptions'
+import { CountryAudio } from '@/components/organisms/CountryAudio'
+import { FloatingSearch } from '@/components/molecules/FloatingSearch'
+import { useCompactLayout } from '@/hooks/useCompactLayout'
 import type { Country } from '@/domain/atlas/schema'
 import type {
   NavigationRequest,
@@ -38,6 +41,11 @@ export function AtlasPage() {
   const { state, retry } = useAtlasData()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [helpOpen, setHelpOpen] = useState(false)
+  const compact = useCompactLayout()
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false)
+  const searchButton = useRef<HTMLButtonElement>(null)
+  const focusSearch = useRef(false)
+  const returnSearchFocus = useRef(false)
   const searchInput = useRef<HTMLInputElement>(null)
   const search = useCountrySearch(
     state.status === 'ready' ? state.data.countries : emptyCountries,
@@ -47,6 +55,10 @@ export function AtlasPage() {
     setHelpOpen(false)
   })
   const voice = audio.voice
+  const searchOpen =
+    !compact ||
+    mobileSearchOpen ||
+    (search.open && Boolean(search.query.trim()))
   const [request, setRequest] = useState<NavigationRequest>({
     id: 0,
     action: 'world',
@@ -65,6 +77,16 @@ export function AtlasPage() {
       ? state.data.countries.find((country) => country.id === selectedId)
       : undefined
   const ready = state.status === 'ready' && layout.width > 0
+
+  useLayoutEffect(() => {
+    if (compact && searchOpen && focusSearch.current) {
+      focusSearch.current = false
+      searchInput.current?.focus({ preventScroll: true })
+    } else if (compact && !searchOpen && returnSearchFocus.current) {
+      returnSearchFocus.current = false
+      searchButton.current?.focus({ preventScroll: true })
+    }
+  }, [compact, searchOpen])
 
   useLayoutEffect(() => {
     const pending = returnFocus.current
@@ -91,11 +113,16 @@ export function AtlasPage() {
     element: HTMLElement | SVGElement | null,
     kind: FocusOrigin['kind'] = 'map',
   ) => {
-    origin.current = { element, countryId: id, kind }
+    origin.current = {
+      element: compact && kind === 'search' ? searchButton.current : element,
+      countryId: id,
+      kind,
+    }
     audio.stopAll()
     search.clear()
     setSelectedId(id)
     setHelpOpen(false)
+    setMobileSearchOpen(false)
     command('focus')
   }
   const closeCountry = () => {
@@ -103,7 +130,8 @@ export function AtlasPage() {
     search.clear()
     returnFocus.current = origin.current
     setSelectedId(null)
-    command('world')
+    setMobileSearchOpen(false)
+    if (!compact) command('world')
   }
   const closeHelp = () => {
     returnFocus.current = 'help'
@@ -114,15 +142,25 @@ export function AtlasPage() {
     search.clear()
     returnFocus.current = null
     setSelectedId(null)
+    setMobileSearchOpen(false)
     command('world')
+  }
+  const closeSearch = () => {
+    returnSearchFocus.current = true
+    voice.cancel()
+    search.clear()
+    setMobileSearchOpen(false)
   }
 
   return (
     <AtlasTemplate
       containerRef={container}
+      searchOpen={searchOpen}
+      onCloseSearch={compact ? closeSearch : undefined}
       detailsKey={selected?.id}
       onEscape={() => {
         if (voice.active || voice.message) voice.cancel()
+        else if (compact && searchOpen) closeSearch()
         else if (search.open) search.setOpen(false)
         else if (helpOpen) closeHelp()
         else if (selected) closeCountry()
@@ -132,10 +170,11 @@ export function AtlasPage() {
           <WorldMap
             data={state.data}
             selectedId={selectedId}
+            preserveView={compact && (searchOpen || selectedId === null)}
             layout={layout}
             request={request}
             onSelect={(id, element) => selectCountry(id, element)}
-            onDeselect={reset}
+            onDeselect={compact ? closeCountry : reset}
             onStatus={setNavigation}
           />
         ) : (
@@ -146,12 +185,31 @@ export function AtlasPage() {
         )
       }
       brand={<Brand />}
+      actions={
+        compact ? (
+          <FloatingSearch
+            buttonRef={searchButton}
+            open={searchOpen}
+            disabled={!ready}
+            onToggle={() => {
+              if (searchOpen) closeSearch()
+              else {
+                audio.stopAll()
+                setHelpOpen(false)
+                focusSearch.current = true
+                setMobileSearchOpen(true)
+              }
+            }}
+          />
+        ) : undefined
+      }
       search={
         <CountrySearch
           search={search}
           voice={voice}
           inputRef={searchInput}
           disabled={!ready}
+          onClose={compact ? closeSearch : undefined}
           onSelect={(id, element) => selectCountry(id, element, 'search')}
         />
       }
@@ -174,6 +232,7 @@ export function AtlasPage() {
             onClick={() => {
               audio.stopAll()
               search.clear()
+              setMobileSearchOpen(false)
               setHelpOpen(true)
               if (pwa.available) void pwa.auditOffline()
             }}
@@ -189,8 +248,13 @@ export function AtlasPage() {
           <CountryDetails
             key={selected.id}
             country={selected}
-            pronunciation={audio.pronunciation}
-            anthem={audio.anthem}
+            audio={
+              <CountryAudio
+                country={selected}
+                pronunciation={audio.pronunciation}
+                anthem={audio.anthem}
+              />
+            }
             onClose={closeCountry}
           />
         ) : undefined

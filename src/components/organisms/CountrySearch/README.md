@@ -4,7 +4,7 @@ Busca por texto e voz, composta de SearchField e CountryOption. A página fornec
 
 ## Contrato
 
-search: retorno de useCountrySearch; voice: retorno de useVoiceSearch; inputRef; disabled; onSelect(id, origin).
+search: retorno de useCountrySearch; voice: retorno de useVoiceSearch; inputRef; disabled; onSelect(id, origin); onClose opcional para a caixa mobile.
 
 ## Estados e responsabilidade
 
@@ -12,7 +12,9 @@ Consulta vazia, sugestões abertas/fechadas, sem resultados, página de até tr�
 
 ## Acessibilidade
 
-Combobox/listbox com IDs locais, label, anúncio persistente de estados, aria-activedescendant, setas, Enter e Escape. Anteriores/Próximos dão acesso aos demais países. Esses botões usam aria-disabled e guardas de ação para manter o foco quando o botão atingido passa a estar indisponível. Fechar o cartão restaura foco à busca. Sem suporte de voz, tocar no microfone explica a limitação; a digitação permanece disponível.
+Combobox/listbox com IDs locais, label, anúncio persistente de estados, aria-activedescendant, setas, Enter e Escape. Anteriores/Próximos dão acesso aos demais países. Esses botões usam aria-disabled e guardas de ação para manter o foco quando o botão atingido passa a estar indisponível. No mobile, a lupa abre a caixa com foco no campo; X/Escape a fecham e a escolha de país a recolhe. Fechar o cartão restaura foco à lupa no mobile ou ao campo no desktop. Sem suporte de voz, tocar no microfone explica a limitação; a digitação permanece disponível.
+
+No mobile, o template apresenta a busca sobre um backdrop leve, com semântica de diálogo e foco contido. Tocar no fundo, X ou Escape fecha a pesquisa e devolve o foco à lupa, preservando seleção e câmera. O backdrop não aparece na busca permanente do desktop.
 
 ## Exemplo
 
