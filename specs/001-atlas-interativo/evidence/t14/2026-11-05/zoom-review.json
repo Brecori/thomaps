@@ -1,0 +1,115 @@
+{
+  "cases": 12,
+  "passed": 12,
+  "results": [
+    {
+      "viewport": "390x844",
+      "country": "Canadá",
+      "zoom": 8.751092183230655,
+      "minimum": 4.328205128205128,
+      "status": "passed"
+    },
+    {
+      "viewport": "390x844",
+      "country": "Argentina",
+      "zoom": 10.564162750758873,
+      "minimum": 4.328205128205128,
+      "status": "passed"
+    },
+    {
+      "viewport": "390x844",
+      "country": "Noruega",
+      "zoom": 5.816658425038444,
+      "minimum": 4.328205128205128,
+      "status": "passed"
+    },
+    {
+      "viewport": "390x844",
+      "country": "Brasil",
+      "zoom": 6.566248209779189,
+      "minimum": 4.328205128205128,
+      "status": "passed"
+    },
+    {
+      "viewport": "390x844",
+      "country": "Chile",
+      "zoom": 10.064259184789579,
+      "minimum": 4.328205128205128,
+      "status": "passed"
+    },
+    {
+      "viewport": "390x844",
+      "country": "Fiji",
+      "zoom": 32,
+      "minimum": 4.328205128205128,
+      "status": "passed"
+    },
+    {
+      "viewport": "844x390",
+      "country": "Noruega",
+      "zoom": 3.594500359453629,
+      "minimum": 1.082051282051282,
+      "status": "passed"
+    },
+    {
+      "viewport": "844x390",
+      "country": "Argentina",
+      "zoom": 3.0550188790308375,
+      "minimum": 1.082051282051282,
+      "status": "passed"
+    },
+    {
+      "viewport": "1440x900",
+      "country": "Canadá",
+      "zoom": 4.419521866811174,
+      "minimum": 1.25,
+      "status": "passed"
+    },
+    {
+      "viewport": "1440x900",
+      "country": "Noruega",
+      "zoom": 3.952452686915887,
+      "minimum": 1.25,
+      "status": "passed"
+    },
+    {
+      "viewport": "360x800",
+      "country": "Argentina",
+      "zoom": 10.862061465202752,
+      "minimum": 4.444444444444445,
+      "status": "passed"
+    },
+    {
+      "viewport": "768x1024",
+      "country": "Canadá",
+      "zoom": 9.339409682682426,
+      "minimum": 2.6666666666666665,
+      "status": "passed"
+    }
+  ],
+  "date": "2026-11-05",
+  "environment": "Linux, Chrome 156.0.8078.79, build de produção; mobile emulado",
+  "automatedSuite": {
+    "command": "npm run test:layout",
+    "passed": 18,
+    "failed": 0,
+    "durationSeconds": 39.7
+  },
+  "domainInvariants": {
+    "countries": 195,
+    "viewports": 5,
+    "cases": 975,
+    "passed": 975,
+    "checks": [
+      "coordenadas finitas",
+      "zoom dentro do mínimo da viewport e máximo 32",
+      "mapa cobrindo todas as bordas da viewport"
+    ]
+  },
+  "manualChecks": [
+    "seleção respeita o mínimo global e máximo 32",
+    "bordas do mapa cobrem a viewport",
+    "afastar com seleção para no mínimo inicial",
+    "capturas mobile de Canadá, Noruega e Argentina inspecionadas"
+  ]
+}

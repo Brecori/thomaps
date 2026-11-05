@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-05",
+  "environment": "Linux, Chrome 156.0.8078.79, build local de produção; mobile emulado",
+  "corrections": [
+    {
+      "issue": "Abrir pesquisa não interrompia o hino",
+      "status": "resolved",
+      "implementation": "src/components/pages/AtlasPage/AtlasPage.tsx:192",
+      "validation": "audio.stopAll() ao abrir pesquisa; MP3 avança antes da abertura e reprodução/progresso encerram depois, preservando seleção e sem retomar ao fechar"
+    },
+    {
+      "issue": "Teste e contratos esperavam botões de sons ausentes",
+      "status": "resolved",
+      "test": "tests/layout.spec.ts:254",
+      "validation": "Teste, README, spec, plano e contratos alinhados ao áudio diretamente no cartão e à lupa inferior esquerda"
+    }
+  ],
+  "automatedSuite": {
+    "command": "npm run test:layout",
+    "passed": 18,
+    "failed": 0,
+    "durationSeconds": 38.9
+  },
+  "technicalChecks": [
+    { "command": "npm run build", "status": "passed" },
+    { "command": "npm run lint", "status": "passed" },
+    { "command": "npm run format:check", "status": "passed" },
+    { "command": "npm run check:catalog", "status": "passed" },
+    { "command": "git diff --check", "status": "passed" }
+  ],
+  "pwaBudget": {
+    "files": 213,
+    "flags": 195,
+    "bytes": 4420782,
+    "totalTransferGzipBytes": 1599953,
+    "budgetBytes": 6291456,
+    "budgetGzipBytes": 3145728
+  },
+  "remaining": [
+    "Interface atual em Android físico identificado e iPhone/Safari",
+    "Instalação e uso offline do PWA por HTTPS em telefone",
+    "Voz pt-BR, reconhecimento e permissão nativos",
+    "Descoberta das ações com criança e responsável"
+  ]
+}

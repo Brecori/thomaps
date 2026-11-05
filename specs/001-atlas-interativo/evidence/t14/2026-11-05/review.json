@@ -1,0 +1,545 @@
+{
+  "date": "2026-11-05",
+  "browser": "156.0.8078.79",
+  "environment": "Linux, Chrome headless, build local de produção; mobile emulado",
+  "checks": [
+    {
+      "name": "360x800: sem overflow e controles >=56px",
+      "status": "passed"
+    },
+    {
+      "name": "360x800: scroll do cartão não move mapa e fechar permanece alcançável",
+      "status": "passed"
+    },
+    {
+      "name": "360x800: busca focada, seleção por teclado e retorno de foco",
+      "status": "passed"
+    },
+    {
+      "name": "390x844: sem overflow e controles >=56px",
+      "status": "passed"
+    },
+    {
+      "name": "390x844: scroll do cartão não move mapa e fechar permanece alcançável",
+      "status": "passed"
+    },
+    {
+      "name": "390x844: busca focada, seleção por teclado e retorno de foco",
+      "status": "passed"
+    },
+    {
+      "name": "390x844: Canadá e Argentina dentro da área livre",
+      "status": "passed"
+    },
+    {
+      "name": "390x844: arraste e pinça CDP alteram a câmera e preservam seleção",
+      "status": "passed"
+    },
+    {
+      "name": "844x390: sem overflow e controles >=56px",
+      "status": "passed"
+    },
+    {
+      "name": "844x390: scroll do cartão não move mapa e fechar permanece alcançável",
+      "status": "passed"
+    },
+    {
+      "name": "844x390: busca focada, seleção por teclado e retorno de foco",
+      "status": "passed"
+    },
+    {
+      "name": "768x1024: sem overflow e controles >=56px",
+      "status": "passed"
+    },
+    {
+      "name": "768x1024: scroll do cartão não move mapa e fechar permanece alcançável",
+      "status": "passed"
+    },
+    {
+      "name": "768x1024: busca focada, seleção por teclado e retorno de foco",
+      "status": "passed"
+    },
+    {
+      "name": "1440x900: sem overflow e controles >=56px",
+      "status": "passed"
+    },
+    {
+      "name": "1440x900: scroll do cartão não move mapa e fechar permanece alcançável",
+      "status": "passed"
+    },
+    {
+      "name": "1440x900: busca focada, seleção por teclado e retorno de foco",
+      "status": "passed"
+    },
+    {
+      "name": "1440x900: hover, scroll/arraste e interrupção da câmera",
+      "status": "passed"
+    },
+    {
+      "name": "Atomic Design: cinco níveis com contrato e exportação",
+      "status": "passed",
+      "details": {
+        "levels": 5,
+        "components": 26
+      }
+    },
+    {
+      "name": "Desktop: hover de país vizinho destaca contorno sem alterar seleção",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile: MP3 nativo por toque, pausa e reinício",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile: abrir pesquisa interrompe reprodução conforme spec.md",
+      "status": "failed",
+      "error": "expect(locator).not.toBeVisible() failed\n\nLocator:  getByRole('button', { name: 'Pausar hino', exact: true })\nExpected: not visible\nReceived: visible\nTimeout:  5000ms\n\nCall log:\n  - Expect \"not toBeVisible\" getByRole('button', { name: 'Pausar hino', exact: true }) with timeout 5000ms\n  - waiting for getByRole('button', { name: 'Pausar hino', exact: true })\n    14 × locator resolved to <button type=\"button\" aria-pressed=\"true\" aria-describedby=\"_r_1_\" class=\"button button--primary \">…</button>\n       - unexpected value \"visible\"\n"
+    }
+  ],
+  "viewports": [
+    {
+      "viewport": "360x800",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "scrollHeight": 800,
+      "baseFont": "18px",
+      "card": {
+        "x": 0,
+        "y": 415.8125,
+        "width": 360,
+        "height": 384.1875
+      },
+      "navigation": {
+        "x": 288,
+        "y": 215.8125,
+        "width": 56,
+        "height": 184
+      },
+      "searchVisible": null,
+      "audioVisible": true,
+      "buttons": [
+        {
+          "name": "Pesquisar país",
+          "x": 220,
+          "y": 0,
+          "width": 60,
+          "height": 56
+        },
+        {
+          "name": "Ajuda do mapa",
+          "x": 292,
+          "y": 0,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Aproximar mapa",
+          "x": 288,
+          "y": 215.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Afastar mapa",
+          "x": 288,
+          "y": 279.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ver o mundo",
+          "x": 288,
+          "y": 343.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Fechar país",
+          "x": 294,
+          "y": 425.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ouvir nome",
+          "x": 22,
+          "y": 614.8125,
+          "width": 154,
+          "height": 56
+        },
+        {
+          "name": "Ouvir hino",
+          "x": 184,
+          "y": 614.8125,
+          "width": 154,
+          "height": 56
+        }
+      ],
+      "floatingSoundButton": false
+    },
+    {
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "baseFont": "18px",
+      "card": {
+        "x": 0,
+        "y": 459.8125,
+        "width": 390,
+        "height": 384.1875
+      },
+      "navigation": {
+        "x": 318,
+        "y": 259.8125,
+        "width": 56,
+        "height": 184
+      },
+      "searchVisible": null,
+      "audioVisible": true,
+      "buttons": [
+        {
+          "name": "Pesquisar país",
+          "x": 250,
+          "y": 0,
+          "width": 60,
+          "height": 56
+        },
+        {
+          "name": "Ajuda do mapa",
+          "x": 322,
+          "y": 0,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Aproximar mapa",
+          "x": 318,
+          "y": 259.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Afastar mapa",
+          "x": 318,
+          "y": 323.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ver o mundo",
+          "x": 318,
+          "y": 387.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Fechar país",
+          "x": 324,
+          "y": 469.8125,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ouvir nome",
+          "x": 22,
+          "y": 658.8125,
+          "width": 169,
+          "height": 56
+        },
+        {
+          "name": "Ouvir hino",
+          "x": 199,
+          "y": 658.8125,
+          "width": 169,
+          "height": 56
+        }
+      ],
+      "floatingSoundButton": false
+    },
+    {
+      "viewport": "844x390",
+      "width": 844,
+      "height": 390,
+      "scrollWidth": 844,
+      "scrollHeight": 390,
+      "baseFont": "18px",
+      "card": {
+        "x": 436,
+        "y": 90,
+        "width": 320,
+        "height": 290
+      },
+      "navigation": {
+        "x": 772,
+        "y": 158,
+        "width": 56,
+        "height": 184
+      },
+      "searchVisible": null,
+      "audioVisible": true,
+      "buttons": [
+        {
+          "name": "Pesquisar país",
+          "x": 704,
+          "y": 0,
+          "width": 60,
+          "height": 56
+        },
+        {
+          "name": "Ajuda do mapa",
+          "x": 772,
+          "y": 8,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Aproximar mapa",
+          "x": 772,
+          "y": 158,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Afastar mapa",
+          "x": 772,
+          "y": 222,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ver o mundo",
+          "x": 772,
+          "y": 286,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Fechar país",
+          "x": 686,
+          "y": 108,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ouvir nome",
+          "x": 462,
+          "y": 309,
+          "width": 268,
+          "height": 56
+        },
+        {
+          "name": "Ouvir hino",
+          "x": 462,
+          "y": 377,
+          "width": 268,
+          "height": 56
+        }
+      ],
+      "floatingSoundButton": false
+    },
+    {
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "scrollHeight": 1024,
+      "baseFont": "18px",
+      "card": {
+        "x": 284,
+        "y": 289,
+        "width": 380,
+        "height": 635
+      },
+      "navigation": {
+        "x": 680,
+        "y": 730,
+        "width": 56,
+        "height": 184
+      },
+      "searchVisible": true,
+      "audioVisible": true,
+      "buttons": [
+        {
+          "name": "Falar o nome de um país",
+          "x": 548.3828125,
+          "y": 34,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ajuda do mapa",
+          "x": 676,
+          "y": 24,
+          "width": 60,
+          "height": 56
+        },
+        {
+          "name": "Aproximar mapa",
+          "x": 680,
+          "y": 730,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Afastar mapa",
+          "x": 680,
+          "y": 794,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ver o mundo",
+          "x": 680,
+          "y": 858,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Fechar país",
+          "x": 586,
+          "y": 315,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ouvir nome",
+          "x": 318,
+          "y": 586,
+          "width": 312,
+          "height": 56
+        },
+        {
+          "name": "Ouvir hino",
+          "x": 318,
+          "y": 654,
+          "width": 312,
+          "height": 56
+        }
+      ],
+      "floatingSoundButton": false
+    },
+    {
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "baseFont": "18px",
+      "card": {
+        "x": 848,
+        "y": 145,
+        "width": 480,
+        "height": 655
+      },
+      "navigation": {
+        "x": 1352,
+        "y": 606,
+        "width": 56,
+        "height": 184
+      },
+      "searchVisible": true,
+      "audioVisible": true,
+      "buttons": [
+        {
+          "name": "Falar o nome de um país",
+          "x": 956.3984375,
+          "y": 34,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ajuda do mapa",
+          "x": 1348,
+          "y": 24,
+          "width": 60,
+          "height": 56
+        },
+        {
+          "name": "Aproximar mapa",
+          "x": 1352,
+          "y": 606,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Afastar mapa",
+          "x": 1352,
+          "y": 670,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ver o mundo",
+          "x": 1352,
+          "y": 734,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Fechar país",
+          "x": 1250,
+          "y": 171,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "name": "Ouvir nome",
+          "x": 882,
+          "y": 462,
+          "width": 412,
+          "height": 56
+        },
+        {
+          "name": "Ouvir hino",
+          "x": 882,
+          "y": 530,
+          "width": 412,
+          "height": 56
+        }
+      ],
+      "floatingSoundButton": false
+    }
+  ],
+  "pageErrors": [],
+  "passed": 21,
+  "failed": 1,
+  "automatedSuite": {
+    "command": "npm run test:layout",
+    "passed": 17,
+    "failed": 1,
+    "durationSeconds": 44.5,
+    "failingTest": "celular › abre e fecha o país por toque",
+    "location": "tests/layout.spec.ts:261",
+    "reason": "Botão Sons do país ausente na implementação atual"
+  },
+  "technicalChecks": [
+    {
+      "command": "npm run build",
+      "status": "passed"
+    },
+    {
+      "command": "npm run lint",
+      "status": "passed"
+    },
+    {
+      "command": "npm run format:check",
+      "status": "passed"
+    },
+    {
+      "command": "npm run check:catalog",
+      "status": "passed"
+    }
+  ],
+  "pwaBudget": {
+    "files": 213,
+    "flags": 195,
+    "bytes": 4420541,
+    "totalTransferGzipBytes": 1599936,
+    "budgetBytes": 6291456,
+    "budgetGzipBytes": 3145728
+  }
+}

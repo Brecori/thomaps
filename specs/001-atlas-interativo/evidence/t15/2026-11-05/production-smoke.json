@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-05T20:52:48.743Z",
+  "url": "https://thomaps.vercel.app/",
+  "browser": "156.0.8078.79",
+  "viewport": "390x844 mobile emulado",
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "125",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-disposition": "inline",
+    "content-length": "942",
+    "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; base-uri 'none'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'none'; upgrade-insecure-requests",
+    "content-type": "text/html; charset=utf-8",
+    "cross-origin-opener-policy": "same-origin",
+    "cross-origin-resource-policy": "same-origin",
+    "date": "Thu, 05 Nov 2026 20:52:33 GMT",
+    "etag": "\"cc39bf4595bc7a27407d5d66d44dd92b\"",
+    "last-modified": "Thu, 05 Nov 2026 20:50:28 GMT",
+    "permissions-policy": "camera=(), geolocation=(), microphone=(self), payment=(), usb=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server": "Vercel",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-vercel-cache": "HIT",
+    "x-vercel-id": "gru1::svjw6-1793911953882-0dee02e622af"
+  },
+  "flows": [
+    "pesquisa mobile",
+    "seleção Brasil",
+    "MP3 nativo com avanço",
+    "fechamento",
+    "SW/cache real",
+    "reabertura offline",
+    "busca Japão/Tóquio offline"
+  ],
+  "offlineCache": [
+    {
+      "name": "thomaps-92b0faad-essential-b1eff7e4",
+      "count": 213
+    }
+  ],
+  "errors": [],
+  "violations": [],
+  "camera": "translate(-857.42401,-3044.43982) scale(7.484966)"
+}

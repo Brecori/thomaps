@@ -1,0 +1,83 @@
+[
+  {
+    "path": "/",
+    "status": "HTTP/2 200 ",
+    "cache": "public, max-age=0, must-revalidate",
+    "csp": true,
+    "type": "text/html; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/index.html",
+    "status": "HTTP/2 200 ",
+    "cache": "no-cache",
+    "csp": true,
+    "type": "text/html; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/sw.js",
+    "status": "HTTP/2 200 ",
+    "cache": "no-cache",
+    "csp": true,
+    "type": "application/javascript; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/manifest.webmanifest",
+    "status": "HTTP/2 200 ",
+    "cache": "no-cache",
+    "csp": true,
+    "type": "application/manifest+json; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/assets/index-bPD2JVQw.js",
+    "status": "HTTP/2 200 ",
+    "cache": "public, max-age=31536000, immutable",
+    "csp": true,
+    "type": "application/javascript; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/data/countries.json",
+    "status": "HTTP/2 200 ",
+    "cache": "public, max-age=0, must-revalidate",
+    "csp": true,
+    "type": "application/json; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/flags/br.svg",
+    "status": "HTTP/2 200 ",
+    "cache": "public, max-age=0, must-revalidate",
+    "csp": true,
+    "type": "image/svg+xml",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/data/missing-security-review.json",
+    "status": "HTTP/2 404 ",
+    "cache": "public, max-age=0, must-revalidate",
+    "csp": true,
+    "type": "text/plain; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  },
+  {
+    "path": "/audio/anthems/zz.mp3",
+    "status": "HTTP/2 404 ",
+    "cache": "public, max-age=0, must-revalidate",
+    "csp": true,
+    "type": "text/plain; charset=utf-8",
+    "nosniff": "nosniff",
+    "frame": "DENY"
+  }
+]

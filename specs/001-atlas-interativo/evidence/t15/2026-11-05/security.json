@@ -1,0 +1,39 @@
+{
+  "reviewedAt": "2026-11-05",
+  "before": {
+    "info": 0,
+    "low": 2,
+    "moderate": 13,
+    "high": 0,
+    "critical": 0,
+    "total": 15
+  },
+  "after": {
+    "info": 0,
+    "low": 4,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 4
+  },
+  "runtime": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "residualBuildPackages": [
+    "@rollup/plugin-node-resolve",
+    "deepmerge",
+    "vite-plugin-pwa",
+    "workbox-build"
+  ],
+  "residualAdvisory": "https://github.com/advisories/GHSA-gcqx-w48m-w2h4",
+  "pwa": {
+    "bytes": 4422982,
+    "gzipBytes": 1580467,
+    "essentialAssets": 213
+  }
+}

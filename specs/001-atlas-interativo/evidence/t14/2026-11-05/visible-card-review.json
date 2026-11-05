@@ -1,0 +1,123 @@
+{
+  "cases": 3,
+  "results": [
+    {
+      "viewport": "390x844",
+      "visibleHeight": 744,
+      "status": "passed",
+      "geometry": {
+        "shell": {
+          "top": 0,
+          "bottom": 744,
+          "height": 744
+        },
+        "map": {
+          "top": 0,
+          "bottom": 844,
+          "height": 844
+        },
+        "card": {
+          "top": 379.40625,
+          "bottom": 744,
+          "height": 364.59375
+        },
+        "search": {
+          "top": 291.40625,
+          "bottom": 347.40625,
+          "height": 56
+        },
+        "navigation": {
+          "top": 163.40625,
+          "bottom": 347.40625,
+          "height": 184
+        }
+      }
+    },
+    {
+      "viewport": "412x915",
+      "visibleHeight": 795,
+      "status": "passed",
+      "geometry": {
+        "shell": {
+          "top": 0,
+          "bottom": 795,
+          "height": 795
+        },
+        "map": {
+          "top": 0,
+          "bottom": 915,
+          "height": 915
+        },
+        "card": {
+          "top": 430.40625,
+          "bottom": 795,
+          "height": 364.59375
+        },
+        "search": {
+          "top": 342.40625,
+          "bottom": 398.40625,
+          "height": 56
+        },
+        "navigation": {
+          "top": 214.40625,
+          "bottom": 398.40625,
+          "height": 184
+        }
+      }
+    },
+    {
+      "viewport": "915x412",
+      "visibleHeight": 332,
+      "status": "passed",
+      "geometry": {
+        "shell": {
+          "top": 0,
+          "bottom": 332,
+          "height": 332
+        },
+        "map": {
+          "top": 0,
+          "bottom": 412,
+          "height": 412
+        },
+        "card": {
+          "top": 90,
+          "bottom": 322,
+          "height": 232
+        },
+        "search": {
+          "top": 212,
+          "bottom": 268,
+          "height": 56
+        },
+        "navigation": {
+          "top": 84,
+          "bottom": 268,
+          "height": 184
+        }
+      }
+    }
+  ],
+  "date": "2026-11-05",
+  "reportedDevice": {
+    "model": "Samsung Galaxy S25+",
+    "browser": "Chrome",
+    "osVersion": null,
+    "browserVersion": null,
+    "physicalRetestAfterFix": false
+  },
+  "environment": "Chrome local/Linux com mobile emulado; redução artificial de VisualViewport.height; dimensões não medidas no aparelho físico",
+  "beforeFix": {
+    "mapHeight": 844,
+    "visibleHeight": 744,
+    "actualCardBottom": 844,
+    "clippedPixels": 100,
+    "regression": "failed as expected"
+  },
+  "automatedSuite": {
+    "command": "npm run test:layout",
+    "passed": 22,
+    "failed": 0,
+    "durationSeconds": 53.6
+  }
+}
